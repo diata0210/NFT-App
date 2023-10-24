@@ -1,8 +1,7 @@
-// package models;
+package models;
 
-// import java.util.Map;
+import java.util.Map;
 
-// public interface CustomModel {
-//     public String Url();
-//     Map<String,Object> MapDescription();
-// }
+public interface CustomModel {
+    Map<String,Object> MapDescription();
+}
