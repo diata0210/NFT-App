@@ -1,0 +1,3889 @@
+[
+    {
+        "id": "0xc9d8f15803c645e98b17710a0b6593f097064bef",
+        "name": "Flyfish Club",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/Pwco5y9LTuP32Mw2iOUHNzegjh7m6quzTTqFkIE-Z6AVOqzC1H2L7QxNwVaZp58V5f_uGZSWLCV70oOUIsNwN6hbUP-Yfe-kJBy4=s2500",
+            "description": "Flyfish Club (FFC) is the world's first member's only private dining club where membership is purchased on the blockchain as a Non-Fungible-Token (NFT) and owned by the token-holder to gain access to our restaurant and various culinary, cultural and social experiences. FFC members will have unlimited access to a private dining room that will span across 10,000+ square feet in an iconic, New York City location. The space will consist of a bustling cocktail lounge, upscale restaurant, intimate omakase room, and an outdoor space.\n\nCreated by VCR Group (Gary Vaynerchuk, David Rodolitz, Josh Capon, and Conor Hanlon), a team of passionate operators behind several celebrated culinary concepts, FFC will provide unmatched hospitality in a uniquely curated environment.\n\nAfter purchasing on Rarible, please create a member profile at Flyfishclub.com and connect your wallet to verify ownership of your token.",
+            "editors": [
+                "0xffd1317950140bb2142dbdf8d0d104f27007ae18"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "SECONDARY_SALE_FEES"
+            ],
+            "id": "0xc9d8f15803c645e98b17710a0b6593f097064bef",
+            "name": "Flyfish Club",
+            "owner": "0xbd843e344924bce9659760d8edd0358b9e7f3d2a",
+            "pic": "ipfs://ipfs/QmP2W5NBGgwBwoHXwr3UfKHAHStpF7knbTxgN1JNcJ9Wt4",
+            "shortUrl": "flyfishclub",
+            "links": {
+                "WEB_SITE_URL": "https://www.flyfishclub.com/",
+                "TWITTER": "thevcrgroup",
+                "INSTAGRAM": "vcrgroup"
+            },
+            "standard": "ERC721",
+            "symbol": "FfC",
+            "tags": [
+                {
+                    "name": "games",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/Pwco5y9LTuP32Mw2iOUHNzegjh7m6quzTTqFkIE-Z6AVOqzC1H2L7QxNwVaZp58V5f_uGZSWLCV70oOUIsNwN6hbUP-Yfe-kJBy4=s2500",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1B3Y281eTlMVHVQMzJNdzJpT1VITnplZ2poN202cXV6VFRxRmtJRS1aNkFWT3F6QzFIMkw3UXhOd1ZhWnA1OFY1Zl91R1pTV0xDVjcwb09VSXNOd042aGJVUC1ZZmUta0pCeTQ9czI1MDA=",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1B3Y281eTlMVHVQMzJNdzJpT1VITnplZ2poN202cXV6VFRxRmtJRS1aNkFWT3F6QzFIMkw3UXhOd1ZhWnA1OFY1Zl91R1pTV0xDVjcwb09VSXNOd042aGJVUC1ZZmUta0pCeTQ9czI1MDA=",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1B3Y281eTlMVHVQMzJNdzJpT1VITnplZ2poN202cXV6VFRxRmtJRS1aNkFWT3F6QzFIMkw3UXhOd1ZhWnA1OFY1Zl91R1pTV0xDVjcwb09VSXNOd042aGJVUC1ZZmUta0pCeTQ9czI1MDA=",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmP2W5NBGgwBwoHXwr3UfKHAHStpF7knbTxgN1JNcJ9Wt4",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1QMlc1TkJHZ3dCd29IWHdyM1VmS0hBSFN0cEY3a25iVHhnTjFKTmNKOVd0NA==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1QMlc1TkJHZ3dCd29IWHdyM1VmS0hBSFN0cEY3a25iVHhnTjFKTmNKOVd0NA==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 3035,
+            "onSaleSize": 19,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "3035",
+                "ownerCountTotal": "1335",
+                "totalVolume": {
+                    "value": 10488.9324923946,
+                    "valueUsd": 29199216.1146963282
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.22,
+                            "valueUsd": 2312.2189986642
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.22,
+                            "valueUsd": 2312.2189986642
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.22,
+                            "valueUsd": 2312.2189986642
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.4349,
+                            "valueUsd": 12161.439904412
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 13.5515622026,
+                            "valueUsd": 25107.9146638474
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 46.8777970969,
+                            "valueUsd": 80537.6250842998
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 10254.8403923946,
+                            "valueUsd": 28664716.9974376387
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 1.4879,
+                "currency": "ETH",
+                "changePercent": 22.47098527
+            },
+            "amount": {
+                "value": 6.4349,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 12161.439904412,
+                "currency": "USD"
+            },
+            "owners": 1331,
+            "items": 3035
+        }
+    },
+    {
+        "id": "0x8428cbdc4100fc7e1b14c2e4765a9a8133587f28",
+        "name": "Nexus Gaming Lifetime Pass",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/04ca068c4528f5a8fd2cdd39fdd8eb8d.jpg?w=1440&auto=format",
+            "description": "Welcome to the Future of Web3 SaaS. The all in one hub for all things Crypto Gaming, Trading, NFTs, DeFi and more. A collection of tools designed to give you a cutting-edge advantage, from complete project research to early access opportunities, Nexus delivers. Holders enjoy a lifetime of access to the Nexus Software, combining analytics, project discovery, portfolio tracking, launchpad, AI and gaming excellence.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x8428cbdc4100fc7e1b14c2e4765a9a8133587f28",
+            "name": "Nexus Gaming Lifetime Pass",
+            "pic": "https://i.seadn.io/gcs/files/2b4c2cf520f3bfa9e71ec1169eca0f54.jpg?w=500&auto=format",
+            "shortUrl": "nexus-gaming-lifetime-pass",
+            "links": {
+                "TWITTER": "NexusGaming_io"
+            },
+            "standard": "ERC721",
+            "symbol": "NEXUS",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/04ca068c4528f5a8fd2cdd39fdd8eb8d.jpg?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8wNGNhMDY4YzQ1MjhmNWE4ZmQyY2RkMzlmZGQ4ZWI4ZC5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8wNGNhMDY4YzQ1MjhmNWE4ZmQyY2RkMzlmZGQ4ZWI4ZC5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8wNGNhMDY4YzQ1MjhmNWE4ZmQyY2RkMzlmZGQ4ZWI4ZC5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/2b4c2cf520f3bfa9e71ec1169eca0f54.jpg?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8yYjRjMmNmNTIwZjNiZmE5ZTcxZWMxMTY5ZWNhMGY1NC5qcGc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8yYjRjMmNmNTIwZjNiZmE5ZTcxZWMxMTY5ZWNhMGY1NC5qcGc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 2100,
+            "onSaleSize": 20,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "2100",
+                "ownerCountTotal": "366",
+                "totalVolume": {
+                    "value": 42.7286459218,
+                    "valueUsd": 73790.5095442158
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 2.7735628406,
+                            "valueUsd": 5265.999883056
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.3740839555,
+                            "valueUsd": 12052.8585636465
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 11.4395352577,
+                            "valueUsd": 21384.9332950816
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 21.7439301683,
+                            "valueUsd": 39536.9822616364
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 42.7286459218,
+                            "valueUsd": 73790.5095442158
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.4929,
+                "currency": "ETH",
+                "changePercent": 29.71052632
+            },
+            "amount": {
+                "value": 6.3740839555,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 12052.8585636465,
+                "currency": "USD",
+                "changePercent": 390.2335516
+            },
+            "owners": 399,
+            "items": 2100
+        }
+    },
+    {
+        "id": "0xa6b37067252a222e19067a92490edba11933964c",
+        "name": "Gotta Get Gurt",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/1760868b14f1cb3c0ef20304dd9d5efb.png?w=1440&auto=format",
+            "description": "�Gotta Get Gurt� is the landmark first project by once in a lifetime innovators Gurt Corp. \n\nThe incredibly original collectible card collection features Gurt sporting his many job uniforms following his unfair dismissal from VHS store, �Shiftie�s Rentals�.",
+            "editors": [],
+            "features": [
+                "SECONDARY_SALE_FEES",
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0xa6b37067252a222e19067a92490edba11933964c",
+            "name": "Gotta Get Gurt",
+            "owner": "0xa9667649bfc340a149809667c8457f3c42dabf17",
+            "pic": "https://i.seadn.io/gcs/files/d49fd8be3e6ab07155c5c4792096d9f6.png?w=500&auto=format",
+            "shortUrl": "gotta-get-gurt",
+            "links": {},
+            "standard": "ERC721",
+            "symbol": "GURT",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/1760868b14f1cb3c0ef20304dd9d5efb.png?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8xNzYwODY4YjE0ZjFjYjNjMGVmMjAzMDRkZDlkNWVmYi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8xNzYwODY4YjE0ZjFjYjNjMGVmMjAzMDRkZDlkNWVmYi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8xNzYwODY4YjE0ZjFjYjNjMGVmMjAzMDRkZDlkNWVmYi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/d49fd8be3e6ab07155c5c4792096d9f6.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kNDlmZDhiZTNlNmFiMDcxNTVjNWM0NzkyMDk2ZDlmNi5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kNDlmZDhiZTNlNmFiMDcxNTVjNWM0NzkyMDk2ZDlmNi5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 1000,
+            "onSaleSize": 57,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "1000",
+                "ownerCountTotal": "440",
+                "totalVolume": {
+                    "value": 129.527493227,
+                    "valueUsd": 242548.2987205928
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.9399173884,
+                            "valueUsd": 1781.3892157755
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.3279510925,
+                            "valueUsd": 2520.2938123101
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.2860378926,
+                            "valueUsd": 11972.2563126395
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.3593128926,
+                            "valueUsd": 12111.2697798016
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.5971920208,
+                            "valueUsd": 12554.0942239273
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 7.3321577596,
+                            "valueUsd": 13756.2435666861
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 129.527493227,
+                            "valueUsd": 242548.2987205928
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.099,
+                "currency": "ETH",
+                "changePercent": 170.21863144
+            },
+            "amount": {
+                "value": 6.3593128926,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 12111.2697798016,
+                "currency": "USD",
+                "changePercent": 3717.02266318
+            },
+            "owners": 446,
+            "items": 1000
+        }
+    },
+    {
+        "id": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+        "name": "Sandbox's LANDs",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/dWE6dwUUm-tBfpOhvCjYK3JbR5b7ljD5MxMaw0n_l-z_6JzYNVIv0E1LxlyKDxOJYDZ__dgAaVgHFURCJUWn422ClM6KfhJhlp_ykQ=s2500",
+            "description": "Sandbox LAND is currently undergoing a migration to a new contract. In order to benefit from all future LAND features, please migrate to the new contract. How to do it and to learn more, please visit: https://www.sandbox.game/en/me/migration/\n\nThe Sandbox is a community-driven platform where creators can monetize voxel assets and gaming experiences on the blockchain. The Sandbox metaverse comprises a map made up of 166,464 LANDS. LAND owners can host contests and events, stake SAND to earn and customize assets, monetize assets and experiences, vote in the metaverse governance, play games that you or others create, and more! Trade the collection and keep your eyes peeled for future drops.",
+            "editors": [
+                "0xffd1317950140bb2142dbdf8d0d104f27007ae18"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+            "name": "Sandbox's LANDs",
+            "pic": "ipfs://ipfs/QmWSu76RE2jsun8Ch8f3Kzz3MuXr7ZhcbbVL1EKxDKsQ8V",
+            "shortUrl": "sandboxslandscollection",
+            "links": {
+                "WEB_SITE_URL": "https://www.sandbox.game/",
+                "DISCORD": "vAe4zvY",
+                "TWITTER": "thesandboxgame"
+            },
+            "standard": "ERC721",
+            "symbol": "LAND",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                },
+                {
+                    "name": "games",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/dWE6dwUUm-tBfpOhvCjYK3JbR5b7ljD5MxMaw0n_l-z_6JzYNVIv0E1LxlyKDxOJYDZ__dgAaVgHFURCJUWn422ClM6KfhJhlp_ykQ=s2500",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RXRTZkd1VVbS10QmZwT2h2Q2pZSzNKYlI1YjdsakQ1TXhNYXcwbl9sLXpfNkp6WU5WSXYwRTFMeGx5S0R4T0pZRFpfX2RnQWFWZ0hGVVJDSlVXbjQyMkNsTTZLZmhKaGxwX3lrUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RXRTZkd1VVbS10QmZwT2h2Q2pZSzNKYlI1YjdsakQ1TXhNYXcwbl9sLXpfNkp6WU5WSXYwRTFMeGx5S0R4T0pZRFpfX2RnQWFWZ0hGVVJDSlVXbjQyMkNsTTZLZmhKaGxwX3lrUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RXRTZkd1VVbS10QmZwT2h2Q2pZSzNKYlI1YjdsakQ1TXhNYXcwbl9sLXpfNkp6WU5WSXYwRTFMeGx5S0R4T0pZRFpfX2RnQWFWZ0hGVVJDSlVXbjQyMkNsTTZLZmhKaGxwX3lrUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmWSu76RE2jsun8Ch8f3Kzz3MuXr7ZhcbbVL1EKxDKsQ8V",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1XU3U3NlJFMmpzdW44Q2g4ZjNLenozTXVYcjdaaGNiYlZMMUVLeERLc1E4Vg==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1XU3U3NlJFMmpzdW44Q2g4ZjNLenozTXVYcjdaaGNiYlZMMUVLeERLc1E4Vg==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 117889,
+            "onSaleSize": 345,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "117078",
+                "ownerCountTotal": "16175",
+                "totalVolume": {
+                    "value": 34082.2557163795,
+                    "valueUsd": 76088685.1308618963
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.325,
+                            "valueUsd": 615.9599791524
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 3.287,
+                            "valueUsd": 6251.8197069295
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 6.21659878,
+                            "valueUsd": 11770.6638398333
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 43.429181638,
+                            "valueUsd": 79561.2863876922
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 183.4998134184,
+                            "valueUsd": 311645.7213593542
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 32180.9561609096,
+                            "valueUsd": 72381295.5564268976
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.325,
+                "currency": "ETH",
+                "changePercent": -1.48529858
+            },
+            "amount": {
+                "value": 6.21659878,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 11770.6638398333,
+                "currency": "USD",
+                "changePercent": 20.59996224
+            },
+            "owners": 16323,
+            "items": 118013
+        }
+    },
+    {
+        "id": "0x7d8820fa92eb1584636f4f5b8515b5476b75171a",
+        "name": "Murakami.Flowers",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/VygySCMTVm1LmXdZbbmgpuoJ7L55UgNsoeJd9dJE9DZKBYDQliQeyGa_PX0FIes60COYnzuS9QuDnTzZGZT8kXpeiLRajD7udaZbNT8=s2500",
+            "description": "Murakami.Flowers is a work in which artist Takashi Murakami�s representative artwork, flowers, are expressed as dot art evocative of Japanese TV games created in the 1970s. The work is being developed with the number 108 as the keyword; a combination of 108 backgrounds and flower colors make up a field, and there are 108 fields. Each field has 108 flower images, resulting in 11,664 flower images in total. The number 108 is a reference to bonn?, or earthly temptations.\n\nMurakami.Flowers NFTs are subject to the Collector Terms available here: https://murakamiflowers.kaikaikiki.com/collector.html. If you buy a Murakami.Flowers NFT, you do not receive commercial rights in the corresponding artwork.\n\n�Takashi Murakami/Kaikai Kiki Co., Ltd. All Rights Reserved.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x7d8820fa92eb1584636f4f5b8515b5476b75171a",
+            "name": "Murakami.Flowers",
+            "owner": "0xf50fbf46fd6ec8609c1219bbabf00539836f1a34",
+            "pic": "https://lh3.googleusercontent.com/8g0poMCQ5J9SZHMsBrefrXbwzFmOQ-333l5OtbqqPW8TSGO9Stm2Rhd7kwHKsKIZPLxDjzISeeDTZ1H35t7GswPRoIfzTnNPsLs7rxw=s120",
+            "shortUrl": "murakami-flowers-2022-official",
+            "links": {
+                "WEB_SITE_URL": "https://murakamiflowers.kaikaikiki.com/",
+                "INSTAGRAM": "murakami.flower2022"
+            },
+            "standard": "ERC721",
+            "symbol": "M.F",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/VygySCMTVm1LmXdZbbmgpuoJ7L55UgNsoeJd9dJE9DZKBYDQliQeyGa_PX0FIes60COYnzuS9QuDnTzZGZT8kXpeiLRajD7udaZbNT8=s2500",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1Z5Z3lTQ01UVm0xTG1YZFpiYm1ncHVvSjdMNTVVZ05zb2VKZDlkSkU5RFpLQllEUWxpUWV5R2FfUFgwRkllczYwQ09Zbnp1UzlRdURuVHpaR1pUOGtYcGVpTFJhakQ3dWRhWmJOVDg9czI1MDA=",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1Z5Z3lTQ01UVm0xTG1YZFpiYm1ncHVvSjdMNTVVZ05zb2VKZDlkSkU5RFpLQllEUWxpUWV5R2FfUFgwRkllczYwQ09Zbnp1UzlRdURuVHpaR1pUOGtYcGVpTFJhakQ3dWRhWmJOVDg9czI1MDA=",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL1Z5Z3lTQ01UVm0xTG1YZFpiYm1ncHVvSjdMNTVVZ05zb2VKZDlkSkU5RFpLQllEUWxpUWV5R2FfUFgwRkllczYwQ09Zbnp1UzlRdURuVHpaR1pUOGtYcGVpTFJhakQ3dWRhWmJOVDg9czI1MDA=",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/8g0poMCQ5J9SZHMsBrefrXbwzFmOQ-333l5OtbqqPW8TSGO9Stm2Rhd7kwHKsKIZPLxDjzISeeDTZ1H35t7GswPRoIfzTnNPsLs7rxw=s120",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzhnMHBvTUNRNUo5U1pITXNCcmVmclhid3pGbU9RLTMzM2w1T3RicXFQVzhUU0dPOVN0bTJSaGQ3a3dIS3NLSVpQTHhEanpJU2VlRFRaMUgzNXQ3R3N3UFJvSWZ6VG5OUHNMczdyeHc9czEyMA==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzhnMHBvTUNRNUo5U1pITXNCcmVmclhid3pGbU9RLTMzM2w1T3RicXFQVzhUU0dPOVN0bTJSaGQ3a3dIS3NLSVpQTHhEanpJU2VlRFRaMUgzNXQ3R3N3UFJvSWZ6VG5OUHNMczdyeHc9czEyMA==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 10127,
+            "onSaleSize": 219,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "10129",
+                "ownerCountTotal": "5620",
+                "totalVolume": {
+                    "value": 34285.184198188,
+                    "valueUsd": 68945910.7810788214
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.95167205,
+                            "valueUsd": 11197.3418471532
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 29.5727928845,
+                            "valueUsd": 54135.5723643098
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 106.7401887128,
+                            "valueUsd": 181654.1221012558
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 31068.5778083732,
+                            "valueUsd": 63004121.9103139501
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.33,
+                "currency": "ETH",
+                "changePercent": -5.6870697
+            },
+            "amount": {
+                "value": 5.95167205,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 11197.3418471532,
+                "currency": "USD",
+                "changePercent": 244.74017915
+            },
+            "owners": 5608,
+            "items": 10138
+        }
+    },
+    {
+        "id": "0x4481507cc228fa19d203bd42110d679571f7912e",
+        "name": "Neo Tokyo Outer Citizen V2",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/7a4df10ce3a19486ab4454641a09cbcc.png?w=1440&auto=format",
+            "description": "Upload complete. You fought hard, Outer Citizen. Now let�s make the future ours.\r\n\r\nNeo Tokyo is a collection of VCs, developers, token founders, and highly proficient builders all gathered in one exclusive area of web3. \r\nOur calling at Neo Tokyo is to prepare and be well positioned at the forefront of the metaverse revolution, once it inevitably arrives. https://neotokyo.codes",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x4481507cc228fa19d203bd42110d679571f7912e",
+            "name": "Neo Tokyo Outer Citizen V2",
+            "owner": "0xa8da6166cbd2876ccde424ee2a717c355be4702b",
+            "pic": "https://i.seadn.io/gcs/files/827bae7c89a17abddfd7b831461a3213.png?w=500&auto=format",
+            "links": {
+                "WEB_SITE_URL": "https://neotokyo.codes/",
+                "DISCORD": "invite/neotokyocitadel"
+            },
+            "standard": "ERC721",
+            "symbol": "NTOCTZN",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/7a4df10ce3a19486ab4454641a09cbcc.png?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83YTRkZjEwY2UzYTE5NDg2YWI0NDU0NjQxYTA5Y2JjYy5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83YTRkZjEwY2UzYTE5NDg2YWI0NDU0NjQxYTA5Y2JjYy5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83YTRkZjEwY2UzYTE5NDg2YWI0NDU0NjQxYTA5Y2JjYy5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/827bae7c89a17abddfd7b831461a3213.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy84MjdiYWU3Yzg5YTE3YWJkZGZkN2I4MzE0NjFhMzIxMy5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy84MjdiYWU3Yzg5YTE3YWJkZGZkN2I4MzE0NjFhMzIxMy5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 2573,
+            "onSaleSize": 38,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "2347",
+                "ownerCountTotal": "900",
+                "totalVolume": {
+                    "value": 402.2922819324,
+                    "valueUsd": 690336.8540102127
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.92,
+                            "valueUsd": 1751.8896465912
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.7109025089,
+                            "valueUsd": 10800.9356340584
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 24.5565694515,
+                            "valueUsd": 45018.4021213639
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 57.7779444437,
+                            "valueUsd": 101482.0603538532
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 398.9022819324,
+                            "valueUsd": 684379.7633041732
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.9385,
+                "currency": "ETH",
+                "changePercent": 0.914087
+            },
+            "amount": {
+                "value": 5.7109025089,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 10800.9356340584,
+                "currency": "USD",
+                "changePercent": 472.48034547
+            },
+            "owners": 958,
+            "items": 2573
+        }
+    },
+    {
+        "id": "0x036721e5a769cc48b3189efbb9cce4471e8a48b1",
+        "name": "Checks � Originals",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://openseauserdata.com/files/b9cf93809ad3d77a3f7b1bd501aee26b.svg",
+            "description": "This artwork may or may not be notable.",
+            "editors": [
+                "0xf1f70e7c196e19c414fb17762e4dc13f6aa6d846"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "BURN"
+            ],
+            "id": "0x036721e5a769cc48b3189efbb9cce4471e8a48b1",
+            "name": "Checks � Originals",
+            "pic": "https://i.seadn.io/gcs/files/86ce94827a5e991b18f382577fd00281.png?w=500&auto=format",
+            "shortUrl": "vv-checks-originals",
+            "links": {
+                "WEB_SITE_URL": "http://checks.art",
+                "TWITTER": "jackbutcher"
+            },
+            "standard": "ERC721",
+            "symbol": "CHECKS",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://openseauserdata.com/files/b9cf93809ad3d77a3f7b1bd501aee26b.svg",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9vcGVuc2VhdXNlcmRhdGEuY29tL2ZpbGVzL2I5Y2Y5MzgwOWFkM2Q3N2EzZjdiMWJkNTAxYWVlMjZiLnN2Zw==",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9vcGVuc2VhdXNlcmRhdGEuY29tL2ZpbGVzL2I5Y2Y5MzgwOWFkM2Q3N2EzZjdiMWJkNTAxYWVlMjZiLnN2Zw==",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9vcGVuc2VhdXNlcmRhdGEuY29tL2ZpbGVzL2I5Y2Y5MzgwOWFkM2Q3N2EzZjdiMWJkNTAxYWVlMjZiLnN2Zw==",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/86ce94827a5e991b18f382577fd00281.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy84NmNlOTQ4MjdhNWU5OTFiMThmMzgyNTc3ZmQwMDI4MS5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy84NmNlOTQ4MjdhNWU5OTFiMThmMzgyNTc3ZmQwMDI4MS5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 5733,
+            "onSaleSize": 256,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "5772",
+                "ownerCountTotal": "1877",
+                "totalVolume": {
+                    "value": 27827.6123608345,
+                    "valueUsd": 46647242.2818825825
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.5757230576,
+                            "valueUsd": 10551.9298376689
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 55.7377304781,
+                            "valueUsd": 101947.7548493926
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 261.308433873,
+                            "valueUsd": 440838.6570998711
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 27705.2638864414,
+                            "valueUsd": 46441466.97244713
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.196099,
+                "currency": "ETH",
+                "changePercent": -0.65906788
+            },
+            "amount": {
+                "value": 5.5757230576,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 10551.9298376689,
+                "currency": "USD",
+                "changePercent": 7.86892026
+            },
+            "owners": 1890,
+            "items": 5733
+        }
+    },
+    {
+        "id": "0xb4e570232d3e55d2ee850047639dc74da83c7067",
+        "name": "Band Bears",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/dXdUuys0ZA1bk-KWW0Sk9ND0gaFN0I8QpgM9s_Z4OedqQSLYrNmD31QkVPwFCNONtFN2nsN07ODZ2yWOo5l6Ur7CdtRXCKiN5W7_=s2500",
+            "description": "1175 ooga booga banda beras jamming out on the chain",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0xb4e570232d3e55d2ee850047639dc74da83c7067",
+            "name": "Band Bears",
+            "pic": "https://lh3.googleusercontent.com/lbYcf2A7bOB23A_12j07LOnrtxlKj8lAcAFK1X2jIp19GU2FEhJM96FI7r2DCpF6SOyBlAAyhQqz-BAKl4L96669pdr5nCmtdk6W3w=s120",
+            "shortUrl": "the-band-bears",
+            "links": {
+                "WEB_SITE_URL": "http://bongbears.com",
+                "DISCORD": "bongbears"
+            },
+            "standard": "ERC721",
+            "symbol": "BANDB",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/dXdUuys0ZA1bk-KWW0Sk9ND0gaFN0I8QpgM9s_Z4OedqQSLYrNmD31QkVPwFCNONtFN2nsN07ODZ2yWOo5l6Ur7CdtRXCKiN5W7_=s2500",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RYZFV1eXMwWkExYmstS1dXMFNrOU5EMGdhRk4wSThRcGdNOXNfWjRPZWRxUVNMWXJObUQzMVFrVlB3RkNOT050Rk4ybnNOMDdPRFoyeVdPbzVsNlVyN0NkdFJYQ0tpTjVXN189czI1MDA=",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RYZFV1eXMwWkExYmstS1dXMFNrOU5EMGdhRk4wSThRcGdNOXNfWjRPZWRxUVNMWXJObUQzMVFrVlB3RkNOT050Rk4ybnNOMDdPRFoyeVdPbzVsNlVyN0NkdFJYQ0tpTjVXN189czI1MDA=",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RYZFV1eXMwWkExYmstS1dXMFNrOU5EMGdhRk4wSThRcGdNOXNfWjRPZWRxUVNMWXJObUQzMVFrVlB3RkNOT050Rk4ybnNOMDdPRFoyeVdPbzVsNlVyN0NkdFJYQ0tpTjVXN189czI1MDA=",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/lbYcf2A7bOB23A_12j07LOnrtxlKj8lAcAFK1X2jIp19GU2FEhJM96FI7r2DCpF6SOyBlAAyhQqz-BAKl4L96669pdr5nCmtdk6W3w=s120",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2xiWWNmMkE3Yk9CMjNBXzEyajA3TE9ucnR4bEtqOGxBY0FGSzFYMmpJcDE5R1UyRkVoSk05NkZJN3IyRENwRjZTT3lCbEFBeWhRcXotQkFLbDRMOTY2NjlwZHI1bkNtdGRrNlczdz1zMTIw",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2xiWWNmMkE3Yk9CMjNBXzEyajA3TE9ucnR4bEtqOGxBY0FGSzFYMmpJcDE5R1UyRkVoSk05NkZJN3IyRENwRjZTT3lCbEFBeWhRcXotQkFLbDRMOTY2NjlwZHI1bkNtdGRrNlczdz1zMTIw",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 1155,
+            "onSaleSize": 33,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "1155",
+                "ownerCountTotal": "422",
+                "totalVolume": {
+                    "value": 2490.4155624884,
+                    "valueUsd": 3474634.8173803829
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.55,
+                            "valueUsd": 10471.9438244826
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 12.7095058733,
+                            "valueUsd": 23643.9326418097
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 44.2540547055,
+                            "valueUsd": 75125.8861143157
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 2434.0370818521,
+                            "valueUsd": 3389119.3813455822
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 2.2,
+                "currency": "ETH",
+                "changePercent": 0
+            },
+            "amount": {
+                "value": 5.55,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 10471.9438244826,
+                "currency": "USD",
+                "changePercent": 55.69600199
+            },
+            "owners": 425,
+            "items": 1155
+        }
+    },
+    {
+        "id": "0x76cc4742f7eaa89a93576505dec37c2c66a76ab7",
+        "name": "Keungz Genesis",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/6b53dae370d2c9fc2396004375690c02.png?w=1440&auto=format",
+            "description": "#KeungzTogetherStrong",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x76cc4742f7eaa89a93576505dec37c2c66a76ab7",
+            "name": "Keungz Genesis",
+            "owner": "0x6c8ee01f1f8b62e987b3d18f6f28b22a0ada755f",
+            "pic": "https://i.seadn.io/gcs/files/240a9ba521483bdd7cc8e8a2e8fa4aca.gif?w=500&auto=format",
+            "shortUrl": "keungz-genesis",
+            "links": {
+                "WEB_SITE_URL": "http://keungz.com",
+                "DISCORD": "yogapetz",
+                "TWITTER": "keung"
+            },
+            "standard": "ERC721",
+            "symbol": "KZG",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/6b53dae370d2c9fc2396004375690c02.png?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy82YjUzZGFlMzcwZDJjOWZjMjM5NjAwNDM3NTY5MGMwMi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy82YjUzZGFlMzcwZDJjOWZjMjM5NjAwNDM3NTY5MGMwMi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy82YjUzZGFlMzcwZDJjOWZjMjM5NjAwNDM3NTY5MGMwMi5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/240a9ba521483bdd7cc8e8a2e8fa4aca.gif?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8yNDBhOWJhNTIxNDgzYmRkN2NjOGU4YTJlOGZhNGFjYS5naWY/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8yNDBhOWJhNTIxNDgzYmRkN2NjOGU4YTJlOGZhNGFjYS5naWY/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 432,
+            "onSaleSize": 2,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "432",
+                "ownerCountTotal": "297",
+                "totalVolume": {
+                    "value": 4186.1125659669,
+                    "valueUsd": 6404375.2058775014
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.5,
+                            "valueUsd": 10481.3423804112
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.5,
+                            "valueUsd": 10481.3423804112
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 17.6071391802,
+                            "valueUsd": 30426.3691798919
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 2177.1217960669,
+                            "valueUsd": 3161602.2610701386
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 6.49,
+                "currency": "ETH",
+                "changePercent": 18
+            },
+            "amount": {
+                "value": 5.5,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 10481.3423804112,
+                "currency": "USD"
+            },
+            "owners": 292,
+            "items": 432
+        }
+    },
+    {
+        "id": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+        "name": "VeeFriends",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "ipfs://ipfs/QmYxQSxSYjfP8vydUStJTrmnaboCfdFAN9pnTxJb38RwHf",
+            "description": "A Gary Vaynerchuk NFT project around meaningful intellectual property and an extraordinary community.",
+            "editors": [
+                "0x6c1aac9ead0a2c0d328309fbb2cf940f49d26126"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "SECONDARY_SALE_FEES"
+            ],
+            "id": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+            "name": "VeeFriends",
+            "pic": "ipfs://ipfs/QmcovA4JWpAM5pre8FL8GMBXVzoiEJ9A3wT2MFPa7HPt4Q",
+            "links": {
+                "WEB_SITE_URL": "https://veefriends.com/",
+                "TWITTER": "veefriends",
+                "INSTAGRAM": "veefriends"
+            },
+            "standard": "ERC721",
+            "symbol": "VFT",
+            "tags": [
+                {
+                    "name": "art",
+                    "source": "ADMIN"
+                },
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmYxQSxSYjfP8vydUStJTrmnaboCfdFAN9pnTxJb38RwHf",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ZeFFTeFNZamZQOHZ5ZFVTdEpUcm1uYWJvQ2ZkRkFOOXBuVHhKYjM4UndIZg==",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ZeFFTeFNZamZQOHZ5ZFVTdEpUcm1uYWJvQ2ZkRkFOOXBuVHhKYjM4UndIZg==",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ZeFFTeFNZamZQOHZ5ZFVTdEpUcm1uYWJvQ2ZkRkFOOXBuVHhKYjM4UndIZg==",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmcovA4JWpAM5pre8FL8GMBXVzoiEJ9A3wT2MFPa7HPt4Q",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1jb3ZBNEpXcEFNNXByZThGTDhHTUJYVnpvaUVKOUEzd1QyTUZQYTdIUHQ0UQ==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1jb3ZBNEpXcEFNNXByZThGTDhHTUJYVnpvaUVKOUEzd1QyTUZQYTdIUHQ0UQ==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 10255,
+            "onSaleSize": 203,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "10255",
+                "ownerCountTotal": "5126",
+                "totalVolume": {
+                    "value": 71829.0406709291,
+                    "valueUsd": 225435984.1027773761
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.694,
+                            "valueUsd": 3225.7620231798
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.694,
+                            "valueUsd": 3225.7620231798
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.3176263222,
+                            "valueUsd": 10074.9820584445
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 35.6985397755,
+                            "valueUsd": 65573.4868607383
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 198.3003642342,
+                            "valueUsd": 331504.1079654879
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 70255.6699247156,
+                            "valueUsd": 222136338.2605348262
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 1.86,
+                "currency": "ETH",
+                "changePercent": 0
+            },
+            "amount": {
+                "value": 5.3176263222,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 10074.9820584445,
+                "currency": "USD",
+                "changePercent": -4.30609065
+            },
+            "owners": 5093,
+            "items": 10255
+        }
+    },
+    {
+        "id": "0x4b15a9c28034dc83db40cd810001427d3bd7163d",
+        "name": "HV-MTL",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "ipfs://ipfs/bafybeics7emxwe5k35nb24v4nn2akljqazfxjsocd56mvdf3dx72sqvo2i",
+            "description": "The HV-MTL (Heavy Metal) collection is made up of 30,000 Mechs derived from 8 different Power Source types. Beginning March 15, 2023, eligible Sewer Passes can be burned to summon a Power Source that will reveal an Evo 1 Mech. Evo 1 holders can participate in future minigame sets with their Evo 1s to unlock additional HV-MTL evolution stages.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "BURN"
+            ],
+            "id": "0x4b15a9c28034dc83db40cd810001427d3bd7163d",
+            "name": "HV-MTL",
+            "keywords": "HV-MTL,Yuga,Yuga Labs,HVMTL",
+            "owner": "0xda7a4a45ce9c5b42102fcb456ae2532bed252a24",
+            "pic": "ipfs://ipfs/bafkreihsbyerejxik7qxfquxadzxllhzvwmwlsunlp2ardcvxpfq3xhvmm",
+            "shortUrl": "hv-mtl",
+            "links": {},
+            "standard": "ERC721",
+            "symbol": "HV-MTL",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/bafybeics7emxwe5k35nb24v4nn2akljqazfxjsocd56mvdf3dx72sqvo2i",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWNzN2VteHdlNWszNW5iMjR2NG5uMmFrbGpxYXpmeGpzb2NkNTZtdmRmM2R4NzJzcXZvMmk=",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWNzN2VteHdlNWszNW5iMjR2NG5uMmFrbGpxYXpmeGpzb2NkNTZtdmRmM2R4NzJzcXZvMmk=",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWNzN2VteHdlNWszNW5iMjR2NG5uMmFrbGpxYXpmeGpzb2NkNTZtdmRmM2R4NzJzcXZvMmk=",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/bafkreihsbyerejxik7qxfquxadzxllhzvwmwlsunlp2ardcvxpfq3xhvmm",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFma3JlaWhzYnllcmVqeGlrN3F4ZnF1eGFkenhsbGh6dndtd2xzdW5scDJhcmRjdnhwZnEzeGh2bW0=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFma3JlaWhzYnllcmVqeGlrN3F4ZnF1eGFkenhsbGh6dndtd2xzdW5scDJhcmRjdnhwZnEzeGh2bW0=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 28262,
+            "onSaleSize": 387,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "28146",
+                "ownerCountTotal": "9667",
+                "totalVolume": {
+                    "value": 66741.6508112544,
+                    "valueUsd": 117453287.3576524321
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.1959573958,
+                            "valueUsd": 371.3905027919
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.1959573958,
+                            "valueUsd": 371.3905027919
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 2.398027085,
+                            "valueUsd": 4559.2893347951
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.1475970332,
+                            "valueUsd": 9740.6126224444
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 66.3769171544,
+                            "valueUsd": 120786.888424851
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 303.0337117837,
+                            "valueUsd": 510514.58089129
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 63780.0452322354,
+                            "valueUsd": 112107132.1475714412
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.2199,
+                "currency": "ETH",
+                "changePercent": -7.95273316
+            },
+            "amount": {
+                "value": 5.1475970332,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 9740.6126224444,
+                "currency": "USD",
+                "changePercent": 283.21178623
+            },
+            "owners": 9428,
+            "items": 28267
+        }
+    },
+    {
+        "id": "0x448ed3ccf45d0bd5dcfddedd6f70bcef3d151adf",
+        "name": "1990 SUPERCOLOR",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/d10490b21d5e81c0cb0fff44463c4f63.jpg?w=1440&auto=format",
+            "description": "This series of 999 explores the playful relationship between color, shape, line and harmony. Each artwork is a combination of 9 zones (3 rows of 3). Displayed within each of the 9 zones is 1 of 59 possible smaller pieces, which put together makes one large artwork. The zones are programmed in such a way that you will not see any duplicated pieces within any of the zones, thus making each artwork unique and one of a kind.\n\nCreated by Toronto artist DAN1EL",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x448ed3ccf45d0bd5dcfddedd6f70bcef3d151adf",
+            "name": "1990 SUPERCOLOR",
+            "owner": "0x0a3e4ab69e6e0ce87f984960ec2748486153b767",
+            "pic": "https://i.seadn.io/gcs/files/00a76f99e548c270b887426d2fabaa00.png?w=500&auto=format",
+            "shortUrl": "9-zones",
+            "links": {
+                "WEB_SITE_URL": "https://nft.bueno.art/mint/tvUmvA6tNpn8OXAkA3-ww",
+                "TWITTER": "dan1el_d1g1tal"
+            },
+            "standard": "ERC721",
+            "symbol": "SUPC",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/d10490b21d5e81c0cb0fff44463c4f63.jpg?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kMTA0OTBiMjFkNWU4MWMwY2IwZmZmNDQ0NjNjNGY2My5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kMTA0OTBiMjFkNWU4MWMwY2IwZmZmNDQ0NjNjNGY2My5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kMTA0OTBiMjFkNWU4MWMwY2IwZmZmNDQ0NjNjNGY2My5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/00a76f99e548c270b887426d2fabaa00.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8wMGE3NmY5OWU1NDhjMjcwYjg4NzQyNmQyZmFiYWEwMC5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8wMGE3NmY5OWU1NDhjMjcwYjg4NzQyNmQyZmFiYWEwMC5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 999,
+            "onSaleSize": 46,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "999",
+                "ownerCountTotal": "603",
+                "totalVolume": {
+                    "value": 326.4053363482,
+                    "valueUsd": 537630.4773366669
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.2340282975,
+                            "valueUsd": 443.1350138048
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.9958506694,
+                            "valueUsd": 9419.3753933202
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 9.9544398903,
+                            "valueUsd": 18403.0383244229
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 12.0933603495,
+                            "valueUsd": 21889.7653039048
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 303.4979637282,
+                            "valueUsd": 500037.6835900174
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.076,
+                "currency": "ETH",
+                "changePercent": 31.03900134
+            },
+            "amount": {
+                "value": 4.9958506694,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 9419.3753933202,
+                "currency": "USD",
+                "changePercent": 2510.45022469
+            },
+            "owners": 724,
+            "items": 999
+        }
+    },
+    {
+        "id": "0x57d473a2854c0e225730081d18dcda6da41e1fd7",
+        "name": "NAMI",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/s/raw/files/152bd9ff2469398f582a0aa5e98c52a8.jpg?w=1440&auto=format",
+            "description": "NAMI is a short-form generative AI collection developed using a multi-modal approach. Each wave flows from natural language to image to animation through a process that integrates two generative AI models.\n\nnami is a noun meaning �wave(s)� in Japanese.\n\nThe idea for NAMI arose during a late-night creative exploration while tinkering with various generative AI outputs. Geometric waves were the focus.\n\nHowever, a spontaneous output appeared that was naturally depicted and composed with a feeling of familiarity.\n\nIt resembled The Great Wave of Kanagawa, a woodblock print by Japanese ukiyo-e artist Katsushika Hokusai, created in late 1831.\n\nThe print depicts three boats navigating through a storm-tossed sea, with a large wave in the center and Mount Fuji visible in the background.\n\nThrough this spontaneous output, with inspiration from Hokusai, NAMI was born and constructed over a three month period using generative AI image and animation tools.",
+            "editors": [],
+            "features": [
+                "SECONDARY_SALE_FEES",
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x57d473a2854c0e225730081d18dcda6da41e1fd7",
+            "name": "NAMI",
+            "owner": "0xf434bc9bb782fc1b12a08979ca4816fdac6cd95e",
+            "pic": "https://i.seadn.io/s/raw/files/37305c1b51f1c6b327b6a12c8fb295c8.jpg?w=500&auto=format",
+            "shortUrl": "nami-by-milk",
+            "links": {
+                "WEB_SITE_URL": "https://milk.art/",
+                "TWITTER": "satoshimilk"
+            },
+            "standard": "ERC1155",
+            "symbol": "NAMI",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/s/raw/files/152bd9ff2469398f582a0aa5e98c52a8.jpg?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL3MvcmF3L2ZpbGVzLzE1MmJkOWZmMjQ2OTM5OGY1ODJhMGFhNWU5OGM1MmE4LmpwZz93PTE0NDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL3MvcmF3L2ZpbGVzLzE1MmJkOWZmMjQ2OTM5OGY1ODJhMGFhNWU5OGM1MmE4LmpwZz93PTE0NDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL3MvcmF3L2ZpbGVzLzE1MmJkOWZmMjQ2OTM5OGY1ODJhMGFhNWU5OGM1MmE4LmpwZz93PTE0NDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/s/raw/files/37305c1b51f1c6b327b6a12c8fb295c8.jpg?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL3MvcmF3L2ZpbGVzLzM3MzA1YzFiNTFmMWM2YjMyN2I2YTEyYzhmYjI5NWM4LmpwZz93PTUwMCZhdXRvPWZvcm1hdA==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL3MvcmF3L2ZpbGVzLzM3MzA1YzFiNTFmMWM2YjMyN2I2YTEyYzhmYjI5NWM4LmpwZz93PTUwMCZhdXRvPWZvcm1hdA==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 100,
+            "onSaleSize": 85,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "0",
+                "ownerCountTotal": "0",
+                "totalVolume": {
+                    "value": 292.7678581415,
+                    "valueUsd": 495192.890026225
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 2.2221058534,
+                            "valueUsd": 4220.6081528008
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.9830941388,
+                            "valueUsd": 9431.5823326966
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 48.4167346088,
+                            "valueUsd": 88347.1959798311
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 292.7678581415,
+                            "valueUsd": 495192.8900262251
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 292.7678581415,
+                            "valueUsd": 495192.890026225
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.1899,
+                "currency": "ETH",
+                "changePercent": -19.19148936
+            },
+            "amount": {
+                "value": 4.9830941388,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 9431.5823326966,
+                "currency": "USD",
+                "changePercent": 28.1644653
+            },
+            "owners": 409,
+            "items": 100
+        }
+    },
+    {
+        "id": "0x3c6fbc94288f5af5201085948ddb18aded2e6879",
+        "name": "DeFiApes",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/387e42acafdd8e7b21b6c85581598c13.jpg?w=1440&auto=format",
+            "description": "DeFi Apes is a collection of 10,000 unique, non-fungible tokens (NFTs) featuring illustrations of apes. Each NFT is a digital collectible that can be stored in a digital wallet, and can be used as an avatar to represent yourself. The collection offers a way to engage with the growing DeFi ecosystem and to be part of the movement. By owning one of these NFTs, you will become a member of the ApeFi community and have the opportunity to participate and shape the future of decentralized finance.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x3c6fbc94288f5af5201085948ddb18aded2e6879",
+            "name": "DeFiApes",
+            "owner": "0x056a8152c8ea78ef73eed50ce3b643b35d953379",
+            "pic": "https://i.seadn.io/gcs/files/3c4bb1784aa153b0405f61a679a0a15f.jpg?w=500&auto=format",
+            "shortUrl": "defiapes",
+            "links": {
+                "WEB_SITE_URL": "http://ape.fi",
+                "TWITTER": "apefinfts"
+            },
+            "standard": "ERC721",
+            "symbol": "DEFIAPES",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/387e42acafdd8e7b21b6c85581598c13.jpg?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8zODdlNDJhY2FmZGQ4ZTdiMjFiNmM4NTU4MTU5OGMxMy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8zODdlNDJhY2FmZGQ4ZTdiMjFiNmM4NTU4MTU5OGMxMy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8zODdlNDJhY2FmZGQ4ZTdiMjFiNmM4NTU4MTU5OGMxMy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/3c4bb1784aa153b0405f61a679a0a15f.jpg?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8zYzRiYjE3ODRhYTE1M2IwNDA1ZjYxYTY3OWEwYTE1Zi5qcGc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy8zYzRiYjE3ODRhYTE1M2IwNDA1ZjYxYTY3OWEwYTE1Zi5qcGc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 10000,
+            "onSaleSize": 43,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "10000",
+                "ownerCountTotal": "755",
+                "totalVolume": {
+                    "value": 8869.3908368868,
+                    "valueUsd": 14930248.0016691166
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.2682860353,
+                            "valueUsd": 511.9988085312
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.9602850353,
+                            "valueUsd": 9414.4320581276
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 8.3126684281,
+                            "valueUsd": 15522.3184007777
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 35.5500287637,
+                            "valueUsd": 59379.7803893619
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 8866.8308368868,
+                            "valueUsd": 14926303.9220661438
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.399999,
+                "currency": "ETH",
+                "changePercent": 21.21181818
+            },
+            "amount": {
+                "value": 4.9602850353,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 9414.4320581276,
+                "currency": "USD",
+                "changePercent": 1750.12419975
+            },
+            "owners": 638,
+            "items": 10000
+        }
+    },
+    {
+        "id": "0xc589770757cd0d372c54568bf7e5e1d56b958015",
+        "name": "Ordinal Kubz",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/e6a072c3a1574e05a366cbf5484fd4f9.png?w=1440&auto=format",
+            "description": "Ordinal Kubz are a 10,000 Ordinal NFT collection by Keungz.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0xc589770757cd0d372c54568bf7e5e1d56b958015",
+            "name": "Ordinal Kubz",
+            "owner": "0x6c8ee01f1f8b62e987b3d18f6f28b22a0ada755f",
+            "pic": "https://i.seadn.io/gcs/files/f1273e4adc887cec40bb92952ca047d2.gif?w=500&auto=format",
+            "shortUrl": "ordinal-kubz",
+            "links": {
+                "WEB_SITE_URL": "https://keungz.com",
+                "DISCORD": "yogapetz",
+                "TWITTER": "keung"
+            },
+            "standard": "ERC721",
+            "symbol": "Ordinal Kubz",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/e6a072c3a1574e05a366cbf5484fd4f9.png?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9lNmEwNzJjM2ExNTc0ZTA1YTM2NmNiZjU0ODRmZDRmOS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9lNmEwNzJjM2ExNTc0ZTA1YTM2NmNiZjU0ODRmZDRmOS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9lNmEwNzJjM2ExNTc0ZTA1YTM2NmNiZjU0ODRmZDRmOS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/f1273e4adc887cec40bb92952ca047d2.gif?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9mMTI3M2U0YWRjODg3Y2VjNDBiYjkyOTUyY2EwNDdkMi5naWY/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9mMTI3M2U0YWRjODg3Y2VjNDBiYjkyOTUyY2EwNDdkMi5naWY/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 10000,
+            "onSaleSize": 66,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "10000",
+                "ownerCountTotal": "1269",
+                "totalVolume": {
+                    "value": 3962.5206161522,
+                    "valueUsd": 6905814.6204014842
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.8872335211,
+                            "valueUsd": 9217.3097170074
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 16.6528577621,
+                            "valueUsd": 30631.7076889295
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 34.5578998332,
+                            "valueUsd": 60332.2256123463
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 3901.1530901836,
+                            "valueUsd": 6806337.8429297428
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.133,
+                "currency": "ETH",
+                "changePercent": 6.4
+            },
+            "amount": {
+                "value": 4.8872335211,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 9217.3097170074,
+                "currency": "USD",
+                "changePercent": 199.15305301
+            },
+            "owners": 1156,
+            "items": 10000
+        }
+    },
+    {
+        "id": "0x412039ff52f96d18570395c4ddcaa2cac5707381",
+        "name": "Blips",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/71dc3e2d0b5fa789d71573eea71fbb51.png?w=1440&auto=format",
+            "description": "uuuhhmmm jpegs?",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x412039ff52f96d18570395c4ddcaa2cac5707381",
+            "name": "Blips",
+            "owner": "0xe9ef47a66d693bbd335091dfae30ec7f8015e3a7",
+            "pic": "https://i.seadn.io/gcs/files/d8a155671eea6515038db93ed9f98c68.png?w=500&auto=format",
+            "shortUrl": "blips-official",
+            "links": {
+                "WEB_SITE_URL": "https://hpop8i.com/",
+                "TWITTER": "Blips_xrp"
+            },
+            "standard": "ERC721",
+            "symbol": "Blips",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/71dc3e2d0b5fa789d71573eea71fbb51.png?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83MWRjM2UyZDBiNWZhNzg5ZDcxNTczZWVhNzFmYmI1MS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83MWRjM2UyZDBiNWZhNzg5ZDcxNTczZWVhNzFmYmI1MS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83MWRjM2UyZDBiNWZhNzg5ZDcxNTczZWVhNzFmYmI1MS5wbmc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/d8a155671eea6515038db93ed9f98c68.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kOGExNTU2NzFlZWE2NTE1MDM4ZGI5M2VkOWY5OGM2OC5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9kOGExNTU2NzFlZWE2NTE1MDM4ZGI5M2VkOWY5OGM2OC5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 1887,
+            "onSaleSize": 136,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "0",
+                "ownerCountTotal": "0",
+                "totalVolume": {
+                    "value": 1149.0456341183,
+                    "valueUsd": 1905679.7550096176
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.1499673947,
+                            "valueUsd": 284.227425606
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.6361163057,
+                            "valueUsd": 1209.9657342117
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.1264857933,
+                            "valueUsd": 2140.7002151253
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.754780577,
+                            "valueUsd": 8977.7380560255
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 62.7540068624,
+                            "valueUsd": 115239.7331825343
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 167.6185909901,
+                            "valueUsd": 285248.3390956421
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1148.3289781186,
+                            "valueUsd": 1904470.7625417214
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.102,
+                "currency": "ETH",
+                "changePercent": -11.22715405
+            },
+            "amount": {
+                "value": 4.754780577,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 8977.7380560255,
+                "currency": "USD",
+                "changePercent": -33.66276975
+            },
+            "owners": 540,
+            "items": 1887
+        }
+    },
+    {
+        "id": "0x39d3230c84efcb5559d22f499151934476b5c16d",
+        "name": "Kitaro World",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://i.seadn.io/gcs/files/b1fe87d0ae23fd32ed79f623e7818fa7.jpg?w=1440&auto=format",
+            "description": "Kitaro World is a collaborative community storytelling experience.\r\n\r\nAs a web2 centric brand, Kitaro is staged for a global adventure - beginning with books, merch and more and seen across your everyday stores.\r\n\r\nOur ecosystem will act as a launchpad for holders to utilize their IP.  Additionally, holders will have exclusive access to future drops, experiences and more!  \r\n\r\nView our scenes collection: [Kitaro World Scenes](https://opensea.io/collection/kitaroworldscenes)\r\n\r\nResources:\r\n[Website](https://kitaro.world) | [Twitter](https://twitter.com/kitaronft) | [Discord](https://discord.gg/kitaro) | [Litepaper](https://kitaro.gitbook.io/kitaro/)",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x39d3230c84efcb5559d22f499151934476b5c16d",
+            "name": "Kitaro World",
+            "owner": "0x65f4867439651a6a28b7ba562181da1e4fef48bc",
+            "pic": "https://i.seadn.io/gcs/files/7919f70acdddbd6847c96a02e5b6ab69.png?w=500&auto=format",
+            "shortUrl": "kitaroworld",
+            "links": {
+                "WEB_SITE_URL": "https://kitaro.world",
+                "TWITTER": "KitaroNFT"
+            },
+            "standard": "ERC721",
+            "symbol": "Kitaro",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [],
+            "coverMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/b1fe87d0ae23fd32ed79f623e7818fa7.jpg?w=1440&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9iMWZlODdkMGFlMjNmZDMyZWQ3OWY2MjNlNzgxOGZhNy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9iMWZlODdkMGFlMjNmZDMyZWQ3OWY2MjNlNzgxOGZhNy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy9iMWZlODdkMGFlMjNmZDMyZWQ3OWY2MjNlNzgxOGZhNy5qcGc/dz0xNDQwJmF1dG89Zm9ybWF0",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://i.seadn.io/gcs/files/7919f70acdddbd6847c96a02e5b6ab69.png?w=500&auto=format",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83OTE5ZjcwYWNkZGRiZDY4NDdjOTZhMDJlNWI2YWI2OS5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pLnNlYWRuLmlvL2djcy9maWxlcy83OTE5ZjcwYWNkZGRiZDY4NDdjOTZhMDJlNWI2YWI2OS5wbmc/dz01MDAmYXV0bz1mb3JtYXQ=",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 7773,
+            "onSaleSize": 616,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "7777",
+                "ownerCountTotal": "2320",
+                "totalVolume": {
+                    "value": 215.6252312294,
+                    "valueUsd": 353367.2911521412
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.5425125741,
+                            "valueUsd": 1028.9960806188
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.64396933,
+                            "valueUsd": 8744.6943121298
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 17.9197569169,
+                            "valueUsd": 32959.2994825532
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 92.0732260731,
+                            "valueUsd": 156017.7358307654
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 215.3252312291,
+                            "valueUsd": 352807.3163264769
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.099199,
+                "currency": "ETH",
+                "changePercent": 4.42
+            },
+            "amount": {
+                "value": 4.64396933,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 8744.6943121298,
+                "currency": "USD",
+                "changePercent": 72.02625343
+            },
+            "owners": 2254,
+            "items": 7777
+        }
+    },
+    {
+        "id": "0x42069abfe407c60cf4ae4112bedead391dba1cdb",
+        "name": "CryptoDickbutts S3",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "ipfs://ipfs/QmWP3SWydk4u6BZAm6r1jMynoUyXB8CFyPHgnTq7SnHYTu",
+            "description": "Once a utopia, Gooch Island has fallen and CryptoDickbutts have been evacuated. Series 3 features 5200 all new CryptoDickbutts, each with a set of randomly generated traits.\r\n\r\nKeep away from children.\r\n\r\nJoin the Discord: https://discord.gg/uhRmzP7Uuu\r\nTwitter: https://twitter.com/CryptoDickbutts",
+            "editors": [
+                "0x81b21031915374a7d078014c63c4b501b4fb9ac5"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "BURN"
+            ],
+            "id": "0x42069abfe407c60cf4ae4112bedead391dba1cdb",
+            "name": "CryptoDickbutts S3",
+            "owner": "0x088b0bcab1f819e9440bc681ecfbc2c123acd246",
+            "pic": "ipfs://ipfs/QmQxKb9NexEyeX1nvEL7niztGqWzEg4FHBNexEhVkHZ8Pc",
+            "shortUrl": "cryptodickbutts",
+            "links": {
+                "WEB_SITE_URL": "https://cryptodickbutts.com/",
+                "DISCORD": "uhRmzP7Uuu",
+                "TWITTER": "CryptoDickbutts"
+            },
+            "standard": "ERC721",
+            "symbol": "CDB",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmWP3SWydk4u6BZAm6r1jMynoUyXB8CFyPHgnTq7SnHYTu",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1XUDNTV3lkazR1NkJaQW02cjFqTXlub1V5WEI4Q0Z5UEhnblRxN1NuSFlUdQ==",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1XUDNTV3lkazR1NkJaQW02cjFqTXlub1V5WEI4Q0Z5UEhnblRxN1NuSFlUdQ==",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1XUDNTV3lkazR1NkJaQW02cjFqTXlub1V5WEI4Q0Z5UEhnblRxN1NuSFlUdQ==",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmQxKb9NexEyeX1nvEL7niztGqWzEg4FHBNexEhVkHZ8Pc",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ReEtiOU5leEV5ZVgxbnZFTDduaXp0R3FXekVnNEZIQk5leEVoVmtIWjhQYw==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ReEtiOU5leEV5ZVgxbnZFTDduaXp0R3FXekVnNEZIQk5leEVoVmtIWjhQYw==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 5200,
+            "onSaleSize": 201,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "5200",
+                "ownerCountTotal": "1911",
+                "totalVolume": {
+                    "value": 18751.7645945956,
+                    "valueUsd": 42741405.2283071528
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.585,
+                            "valueUsd": 8597.6841971135
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 20.6749451326,
+                            "valueUsd": 38003.2802795544
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 107.4288410254,
+                            "valueUsd": 178999.4280767091
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 18145.513202454,
+                            "valueUsd": 41596713.2168365769
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.6899,
+                "currency": "ETH",
+                "changePercent": 6.72957921
+            },
+            "amount": {
+                "value": 4.585,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 8597.6841971135,
+                "currency": "USD",
+                "changePercent": 49.55751287
+            },
+            "owners": 1896,
+            "items": 5200
+        }
+    },
+    {
+        "id": "0x8404fa48902847eb0efe345e359a084d2623882a",
+        "name": "Tide Predictor by LoVid",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+            "id": "0x8404fa48902847eb0efe345e359a084d2623882a",
+            "name": "Tide Predictor by LoVid",
+            "owner": "0x18b18cf97a3d8bcc43f8d1df282ceba85f717c82",
+            "pic": "https://lh3.googleusercontent.com/M8Q1ZtywjWEpViFyhWyzUUQ7yp64v5buczyTvk4PpKYCHulfALQBc_xKJQFx-uq7jKNDFifExMa5N3X-Uzt-G4Qt98XGpF0-fCg",
+            "links": {},
+            "standard": "ERC721",
+            "symbol": "BLOCKS",
+            "tags": [
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": false,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [],
+            "imageMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/M8Q1ZtywjWEpViFyhWyzUUQ7yp64v5buczyTvk4PpKYCHulfALQBc_xKJQFx-uq7jKNDFifExMa5N3X-Uzt-G4Qt98XGpF0-fCg",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL004UTFadHl3aldFcFZpRnloV3l6VVVRN3lwNjR2NWJ1Y3p5VHZrNFBwS1lDSHVsZkFMUUJjX3hLSlFGeC11cTdqS05ERmlmRXhNYTVOM1gtVXp0LUc0UXQ5OFhHcEYwLWZDZw==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL004UTFadHl3aldFcFZpRnloV3l6VVVRN3lwNjR2NWJ1Y3p5VHZrNFBwS1lDSHVsZkFMUUJjX3hLSlFGeC11cTdqS05ERmlmRXhNYTVOM1gtVXp0LUc0UXQ5OFhHcEYwLWZDZw==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 400,
+            "onSaleSize": 22,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "400",
+                "ownerCountTotal": "251",
+                "totalVolume": {
+                    "value": 93.0965565467,
+                    "valueUsd": 140695.507234013
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0,
+                            "valueUsd": 0
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.5299,
+                            "valueUsd": 8587.158482312
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.5299,
+                            "valueUsd": 8587.158482312
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 5.0097068386,
+                            "valueUsd": 9388.8623137725
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 93.0965565467,
+                            "valueUsd": 140695.5072340129
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.34,
+                "currency": "ETH",
+                "changePercent": 94.28571429
+            },
+            "amount": {
+                "value": 4.5299,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 8587.158482312,
+                "currency": "USD"
+            },
+            "owners": 247,
+            "items": 400
+        }
+    },
+    {
+        "id": "0x892848074ddea461a15f337250da3ce55580ca85",
+        "name": "CyberBrokers",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/dEXZvqGDm-z6CYOb2wwfo745JweYTyBX1KflGDs6IahTWGaUufcTcCGPgT8KPrA2sb8FEzGBIv-S4jZl5JAz62uO2-jHOXHo_k8W-Q=s2500",
+            "description": "The artist, Josie Bellini, presents CyberBrokers, a first-of-its-kind art collectibles ecosystem centered around 10,001 unique and on-chain CyberBroker NFTs.",
+            "editors": [
+                "0x3b3d2af5fb4b370d77864ae1bdde2a8b4baf945b",
+                "0xffd1317950140bb2142dbdf8d0d104f27007ae18"
+            ],
+            "features": [
+                "APPROVE_FOR_ALL",
+                "BURN"
+            ],
+            "id": "0x892848074ddea461a15f337250da3ce55580ca85",
+            "name": "CyberBrokers",
+            "owner": "0x070cbef6414f8f0070a98051658bef840bcd86de",
+            "pic": "ipfs://ipfs/QmX6BHiHLibTwPV2rDAhLapnsxLHsVjg2wzT5etsw7mW71",
+            "shortUrl": "cyberbrokers",
+            "links": {
+                "WEB_SITE_URL": "https://cyberbrokers.io/",
+                "DISCORD": "josie"
+            },
+            "standard": "ERC721",
+            "symbol": "CYBERBROKERS",
+            "tags": [
+                {
+                    "name": "art",
+                    "source": "ADMIN"
+                },
+                {
+                    "name": "pfp",
+                    "source": "ADMIN"
+                }
+            ],
+            "shared": false,
+            "blacklisted": false,
+            "itemsWithRarity": true,
+            "badges": [
+                "VERIFIED"
+            ],
+            "coverMedia": [
+                {
+                    "url": "https://lh3.googleusercontent.com/dEXZvqGDm-z6CYOb2wwfo745JweYTyBX1KflGDs6IahTWGaUufcTcCGPgT8KPrA2sb8FEzGBIv-S4jZl5JAz62uO2-jHOXHo_k8W-Q=s2500",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RFWFp2cUdEbS16NkNZT2Iyd3dmbzc0NUp3ZVlUeUJYMUtmbEdEczZJYWhUV0dhVXVmY1RjQ0dQZ1Q4S1ByQTJzYjhGRXpHQkl2LVM0alpsNUpBejYydU8yLWpIT1hIb19rOFctUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 1000,
+                        "height": 200
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RFWFp2cUdEbS16NkNZT2Iyd3dmbzc0NUp3ZVlUeUJYMUtmbEdEczZJYWhUV0dhVXVmY1RjQ0dQZ1Q4S1ByQTJzYjhGRXpHQkl2LVM0alpsNUpBejYydU8yLWpIT1hIb19rOFctUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 2200,
+                        "height": 400
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2RFWFp2cUdEbS16NkNZT2Iyd3dmbzc0NUp3ZVlUeUJYMUtmbEdEczZJYWhUV0dhVXVmY1RjQ0dQZ1Q4S1ByQTJzYjhGRXpHQkl2LVM0alpsNUpBejYydU8yLWpIT1hIb19rOFctUT1zMjUwMA==",
+                    "dimension": {
+                        "width": 55,
+                        "height": 10
+                    },
+                    "sizeType": "PLACEHOLDER",
+                    "contentType": "IMAGE",
+                    "cropMode": "CROP"
+                }
+            ],
+            "imageMedia": [
+                {
+                    "url": "https://ipfs.io/ipfs/QmX6BHiHLibTwPV2rDAhLapnsxLHsVjg2wzT5etsw7mW71",
+                    "sizeType": "ORIGINAL",
+                    "contentType": "IMAGE"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1YNkJIaUhMaWJUd1BWMnJEQWhMYXBuc3hMSHNWamcyd3pUNWV0c3c3bVc3MQ==",
+                    "dimension": {
+                        "width": 30,
+                        "height": 30
+                    },
+                    "sizeType": "PREVIEW",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                },
+                {
+                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1YNkJIaUhMaWJUd1BWMnJEQWhMYXBuc3hMSHNWamcyd3pUNWV0c3c3bVc3MQ==",
+                    "dimension": {
+                        "width": 240,
+                        "height": 240
+                    },
+                    "sizeType": "BIG",
+                    "contentType": "IMAGE",
+                    "cropMode": "THUMB"
+                }
+            ],
+            "size": 9989,
+            "onSaleSize": 205,
+            "hasTraits": true,
+            "hasRewards": false,
+            "statistics": {
+                "itemCountTotal": "10000",
+                "ownerCountTotal": "3059",
+                "totalVolume": {
+                    "value": 44519.8503712485,
+                    "valueUsd": 117766035.8952267319
+                },
+                "volumes": [
+                    {
+                        "value": {
+                            "value": 0.249999,
+                            "valueUsd": 473.8134733173
+                        },
+                        "period": "M5",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.8179511789,
+                            "valueUsd": 1550.2313572678
+                        },
+                        "period": "M30",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 0.8179511789,
+                            "valueUsd": 1550.2313572678
+                        },
+                        "period": "H1",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 1.3077501789,
+                            "valueUsd": 2479.5788398751
+                        },
+                        "period": "H6",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 4.4051970743,
+                            "valueUsd": 8320.7394618228
+                        },
+                        "period": "DAY",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 16.8788082484,
+                            "valueUsd": 31135.9364351882
+                        },
+                        "period": "WEEK",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 35.4809278812,
+                            "valueUsd": 62163.8592701862
+                        },
+                        "period": "MONTH",
+                        "changePercent": 0
+                    },
+                    {
+                        "value": {
+                            "value": 41953.0107469125,
+                            "valueUsd": 111172159.3493127619
+                        },
+                        "period": "TOTAL",
+                        "changePercent": 0
+                    }
+                ]
+            }
+        },
+        "statistics": {
+            "floorPrice": {
+                "value": 0.249799,
+                "currency": "ETH",
+                "changePercent": 4.08335035
+            },
+            "amount": {
+                "value": 4.4051970743,
+                "currency": "ETH"
+            },
+            "usdAmount": {
+                "value": 8320.7394618228,
+                "currency": "USD",
+                "changePercent": 44.3982749
+            },
+            "owners": 3034,
+            "items": 10000
+        }
+    }
+]
