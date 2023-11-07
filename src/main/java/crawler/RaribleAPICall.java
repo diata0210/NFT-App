@@ -4,10 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
@@ -15,7 +11,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class RaribleAPICall implements ApiDataProvider {
+public class RaribleApiCall implements ApiDataProvider {
 
     public void fetchData() {
         OkHttpClient client = new OkHttpClient().newBuilder()
@@ -67,7 +63,7 @@ public class RaribleAPICall implements ApiDataProvider {
     }
 
     public static void main(String[] args) {
-        RaribleAPICall model = new RaribleAPICall();
+        RaribleApiCall model = new RaribleApiCall();
         model.fetchData();
     }
 }

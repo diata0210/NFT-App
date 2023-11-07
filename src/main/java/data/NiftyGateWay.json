@@ -1,0 +1,1442 @@
+{
+    "didSucceed": true,
+    "errorType": "none",
+    "message": "Requested task executed successfully.",
+    "data": {
+        "meta": {
+            "page": 1,
+            "total_pages": 525,
+            "size": 52,
+            "total_results": 27298
+        },
+        "results": [
+            {
+                "id": 131529,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 30,
+                "niftyTitle": "Slimesunday holders criteria token November 7th",
+                "niftyContractAddress": "0x3be16d2f66465a758406af5666e965ff1253eea0",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1699047950/publishers/niftygateway_curated/105733/125698/Criteria%20Token%20SS.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "EKAITZA",
+                "creators": [
+                    {
+                        "id": 4096,
+                        "name": "Nifty Gateway",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1590071528/nifty-builder-images/wycc4s6kh8avkn2wvzqb.png",
+                        "profile_url": "niftygateway"
+                    }
+                ],
+                "listingType": null,
+                "likes": 0,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130341,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Invisible Jumpers - Malik",
+                "niftyContractAddress": "0x7189fb70434932b75f74f038c75f8145b0334f7a",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1691769571/publishers/joseph-ford/90917/110652/246_Knitting_wall_Joseph_Ford_01_30s.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1691770142/publishers/joseph-ford/90917/110652/thumbnail/Poster_246_Knitting_wall_Joseph_Ford_motion.jpg",
+                "creatorName": "Joseph Ford",
+                "creators": [
+                    {
+                        "id": 1149734,
+                        "name": "Joseph Ford",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1691763213/in7jj73eswilgxw3bt2k.jpg",
+                        "profile_url": "josephford"
+                    }
+                ],
+                "listingType": null,
+                "likes": 0,
+                "baseChain": "ethereum",
+                "publisher": "Joseph Ford",
+                "is_live": true,
+                "tokenId": "1"
+            },
+            {
+                "id": 131430,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 99999999,
+                "niftyTitle": "Synth City 02",
+                "niftyContractAddress": "0x591b61654e8c0dbc7c8f2a31a13eed1deb69cd3d",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698847259/publishers/hachimi/105239/125467/SynthCity2.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698847325/publishers/hachimi/105239/125467/thumbnail/Sequence%2001.00_00_44_11.Still007.png",
+                "creatorName": "Hachimi Hamitji",
+                "creators": [
+                    {
+                        "id": 1273816,
+                        "name": "Hachimi Hamitji",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1677802018/d2wjmvfxgmhmaa4irbvk.jpg",
+                        "profile_url": "hachimihamitji"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Hachimi Hamitji",
+                "is_live": true,
+                "tokenId": ""
+            },
+            {
+                "id": 131463,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 99999999,
+                "niftyTitle": "Synth City Rooftop",
+                "niftyContractAddress": "0x591b61654e8c0dbc7c8f2a31a13eed1deb69cd3d",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1699011942/publishers/hachimi/105239/125600/SynthCity3.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1699012129/publishers/hachimi/105239/125600/thumbnail/Sequence%2001.00_00_19_23.Still007.png",
+                "creatorName": "Hachimi Hamitji",
+                "creators": [
+                    {
+                        "id": 1273816,
+                        "name": "Hachimi Hamitji",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1677802018/d2wjmvfxgmhmaa4irbvk.jpg",
+                        "profile_url": "hachimihamitji"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Hachimi Hamitji",
+                "is_live": true,
+                "tokenId": ""
+            },
+            {
+                "id": 131464,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 99999999,
+                "niftyTitle": "Synth City 01",
+                "niftyContractAddress": "0x591b61654e8c0dbc7c8f2a31a13eed1deb69cd3d",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698761246/publishers/hachimi/105239/125304/SynthCity1.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698761469/publishers/hachimi/105239/125304/thumbnail/Sequence%2001.00_00_05_14.Still008.png",
+                "creatorName": "Hachimi Hamitji",
+                "creators": [
+                    {
+                        "id": 1273816,
+                        "name": "Hachimi Hamitji",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1677802018/d2wjmvfxgmhmaa4irbvk.jpg",
+                        "profile_url": "hachimihamitji"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Hachimi Hamitji",
+                "is_live": true,
+                "tokenId": ""
+            },
+            {
+                "id": 131034,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 5,
+                "niftyTitle": "??????",
+                "niftyContractAddress": "0x2cc7cb1683cda5ce508a4c7fbf5c6fe5481cc26b",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698460691/publishers/grams/103853/125009/MOSHTRO.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    },
+                    {
+                        "id": 1079025,
+                        "name": "trizzy trunk",
+                        "profile_pic_url": "https://nftgimagebucket.s3-us-west-1.amazonaws.com/nifty_default_pic3.jpg",
+                        "profile_url": "trizzytrunk3443"
+                    }
+                ],
+                "listingType": null,
+                "likes": 7,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131040,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 99999,
+                "niftyTitle": "FLUORIDER",
+                "niftyContractAddress": "0xc37f1a8739ccb5b4da89fcd167bdc17fd9d0a670",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698504313/publishers/grams/105073/125073/R0004719-Edit.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131041,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 99999,
+                "niftyTitle": "METROPE",
+                "niftyContractAddress": "0xc37f1a8739ccb5b4da89fcd167bdc17fd9d0a670",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698425936/publishers/grams/105073/125011/R0004651-Edit.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131042,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 99999,
+                "niftyTitle": "GINZAPPED",
+                "niftyContractAddress": "0xc37f1a8739ccb5b4da89fcd167bdc17fd9d0a670",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698504130/publishers/grams/105073/125071/R0004713-Edit.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131043,
+                "niftyType": 4,
+                "niftyTotalNumOfEditions": 99999,
+                "niftyTitle": "PSTREEKING",
+                "niftyContractAddress": "0xc37f1a8739ccb5b4da89fcd167bdc17fd9d0a670",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698504247/publishers/grams/105073/125072/R0004807-Edit.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131044,
+                "niftyType": 5,
+                "niftyTotalNumOfEditions": 99999,
+                "niftyTitle": "OUTKASTE",
+                "niftyContractAddress": "0xc37f1a8739ccb5b4da89fcd167bdc17fd9d0a670",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698504370/publishers/grams/105073/125074/R0004760-Edit.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "GRAMS",
+                "creators": [
+                    {
+                        "id": 793377,
+                        "name": "GRAMS",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1673965129/frt7lybrodgbrxhrgn6b.gif",
+                        "profile_url": "gramsdidit"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "GRAMS SOLUTIONS INC",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131100,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 13,
+                "niftyTitle": "Goblinator_Serious_Investor_Claim",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698621705/publishers/artyiststudio/104611/125104/Goblinator_Serious_Investor.mp4",
+                "floorPrice": {
+                    "amount": 50.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 5000,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698622104/publishers/artyiststudio/104611/125104/thumbnail/Goblinator_Still.jpg",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 9484,
+                        "name": "REM�",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1663881123/gahka0srwpthlfldhfwf.jpg",
+                        "profile_url": "remo"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131101,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 3,
+                "niftyTitle": "Whispers In Ash",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698170281/publishers/artyiststudio/104611/124610/IntuitiveGob_Kyt.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 1140120,
+                        "name": "Fraydikyt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1667583911/nbdymxirxskynbufsy52.png",
+                        "profile_url": "fraydikyt"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131102,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 114,
+                "niftyTitle": "GOBlab",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698171364/publishers/artyiststudio/104611/124614/Untitled.jpg",
+                "floorPrice": {
+                    "amount": 4.75,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 475,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 994482,
+                        "name": "THE MAINE MARINER",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1668124441/yeiadaikquj6fz1lkb7f.jpg",
+                        "profile_url": "themainemariner"
+                    }
+                ],
+                "listingType": null,
+                "likes": 8,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131103,
+                "niftyType": 4,
+                "niftyTotalNumOfEditions": 2,
+                "niftyTitle": "GobMudra",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698170505/publishers/artyiststudio/104611/124611/GobMudra.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 1140102,
+                        "name": "Mariah E",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1680218428/gnp4jwxpqzratrwg5nx1.jpg",
+                        "profile_url": "mariahe3010"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131104,
+                "niftyType": 5,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "GOBlins-Hideout Panel",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698247725/publishers/artyiststudio/104611/124609/GOBlins%20Hideout%20Panel.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 931376,
+                        "name": "Digital Footprints",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698445455/pakk0okdldrqmhujwm2y.jpg",
+                        "profile_url": "th3runner"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": "133"
+            },
+            {
+                "id": 131105,
+                "niftyType": 6,
+                "niftyTotalNumOfEditions": 6,
+                "niftyTitle": "Gobillow Portal",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698170745/publishers/artyiststudio/104611/124612/Gobillow_Revel.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 1140120,
+                        "name": "Fraydikyt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1667583911/nbdymxirxskynbufsy52.png",
+                        "profile_url": "fraydikyt"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131106,
+                "niftyType": 7,
+                "niftyTotalNumOfEditions": 3,
+                "niftyTitle": "GOBlinLand",
+                "niftyContractAddress": "0xc77161452b62d00950f22984d477874702738fa2",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698170899/publishers/artyiststudio/104611/124613/Mariahehenry_Mari0837.GOBLand.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Fraydikyt",
+                "creators": [
+                    {
+                        "id": 1140102,
+                        "name": "Mariah E",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1680218428/gnp4jwxpqzratrwg5nx1.jpg",
+                        "profile_url": "mariahe3010"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ARTYIST STUDIO - Kamp Kilmer",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131067,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 10,
+                "niftyTitle": "Partners in Crime",
+                "niftyContractAddress": "0x7ce903fa1953d3f39471a5ddf09c54b3f9563d80",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698693634/publishers/niftygateway_curated/105040/124973/Partners%20In%20Crime.jpg",
+                "floorPrice": {
+                    "amount": 1500.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 150000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mike Egan",
+                "creators": [
+                    {
+                        "id": 1555117,
+                        "name": "Mike Egan",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698959040/ei4tfljeow6b2omncumx.png",
+                        "profile_url": "mikeegan"
+                    }
+                ],
+                "listingType": null,
+                "likes": 6,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131068,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Cry for the Cross",
+                "niftyContractAddress": "0x7ce903fa1953d3f39471a5ddf09c54b3f9563d80",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698417663/publishers/niftygateway_curated/105040/124972/Cry%20For%20The%20Cross.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mike Egan",
+                "creators": [
+                    {
+                        "id": 1555117,
+                        "name": "Mike Egan",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698959040/ei4tfljeow6b2omncumx.png",
+                        "profile_url": "mikeegan"
+                    }
+                ],
+                "listingType": null,
+                "likes": 5,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": "11"
+            },
+            {
+                "id": 131069,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 47,
+                "niftyTitle": "The Colors of Death",
+                "niftyContractAddress": "0xa18abed06410810b2314d0fd8e3f0a9fec58d146",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698709890/publishers/niftygateway_curated/105139/125137/The%20Colors%20Of%20Death.jpg",
+                "floorPrice": {
+                    "amount": 69.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 6900,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mike Egan",
+                "creators": [
+                    {
+                        "id": 1555117,
+                        "name": "Mike Egan",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698959040/ei4tfljeow6b2omncumx.png",
+                        "profile_url": "mikeegan"
+                    }
+                ],
+                "listingType": null,
+                "likes": 9,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131397,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Spectrum Lux Sushi #89",
+                "niftyContractAddress": "0xe2cdd4efc5771abb6b63864fb6ce345f65cb0b73",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698923590/publishers/cryptosushis/105568/125602/89_CryptoSushis_Spectrum%20Lux%20Sushi.mp4",
+                "floorPrice": {
+                    "amount": 4000.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 400000,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698923604/publishers/cryptosushis/105568/125602/thumbnail/89_CryptoSushis_Spectrum-Lux-Sushi.jpg",
+                "creatorName": "CryptoSushis",
+                "creators": [
+                    {
+                        "id": 1277571,
+                        "name": "CryptoSushis",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1678631113/r7b2v6zf85lvmvlzucul.gif",
+                        "profile_url": "cryptosushis"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "CryptoSushis",
+                "is_live": false,
+                "tokenId": "1"
+            },
+            {
+                "id": 130902,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 25,
+                "niftyTitle": "Do Cats Dream Of Electric Mice?",
+                "niftyContractAddress": "0xc19d7aba7fce267e57a0e9e8ac4072f603d04316",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1697989958/publishers/gordon-zuchhold/104380/124345/DoCatsDreamOfElectricMice_01.mp4",
+                "floorPrice": {
+                    "amount": 111.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 11100,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1697990086/publishers/gordon-zuchhold/104380/124345/thumbnail/DCDOEM_gif_02.gif",
+                "creatorName": "Gordon Zuchhold",
+                "creators": [
+                    {
+                        "id": 1332524,
+                        "name": "Gordon Zuchhold",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1683563402/rbtlnobwy8wbmoogw6xe.gif",
+                        "profile_url": "gordonzuchhold"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "Gordon Zuchhold",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130737,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 35,
+                "niftyTitle": "COURAGE AND FEAR",
+                "niftyContractAddress": "0x7892f43aefdc10277a81e53a0efe8348c7ba2564",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698241814/publishers/niftygateway_curated/104809/124722/COURAGE%20AND%20FEAR.png",
+                "floorPrice": {
+                    "amount": 50.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 5000,
+                "staticThumbnailUrl": "",
+                "creatorName": "fabio la fauci",
+                "creators": [
+                    {
+                        "id": 1091030,
+                        "name": "fabio la fauci",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1689270743/es9ucapscdz6y4vtdptz.png",
+                        "profile_url": "fabiolafauci7932"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130738,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 31,
+                "niftyTitle": "SATISFACTION AND REGRET",
+                "niftyContractAddress": "0x7892f43aefdc10277a81e53a0efe8348c7ba2564",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698241983/publishers/niftygateway_curated/104809/124723/SATISFACTION%20AND%20REGRET.png",
+                "floorPrice": {
+                    "amount": 169.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 16900,
+                "staticThumbnailUrl": "",
+                "creatorName": "fabio la fauci",
+                "creators": [
+                    {
+                        "id": 1091030,
+                        "name": "fabio la fauci",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1689270743/es9ucapscdz6y4vtdptz.png",
+                        "profile_url": "fabiolafauci7932"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130739,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 42,
+                "niftyTitle": "CONFIDENCE AND DOUBT",
+                "niftyContractAddress": "0x7892f43aefdc10277a81e53a0efe8348c7ba2564",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698242009/publishers/niftygateway_curated/104809/124724/CONFIDENCE%20AND%20DOUBT.png",
+                "floorPrice": {
+                    "amount": 185.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 18500,
+                "staticThumbnailUrl": "",
+                "creatorName": "fabio la fauci",
+                "creators": [
+                    {
+                        "id": 1091030,
+                        "name": "fabio la fauci",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1689270743/es9ucapscdz6y4vtdptz.png",
+                        "profile_url": "fabiolafauci7932"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "Nifty Gateway Curated",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131133,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Mictl�n-The Waiting",
+                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698740588/publishers/ferdebuenart/105106/125170/Mictl%C3%A1n%20Card-The%20Waiting.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698740624/publishers/ferdebuenart/105106/125170/thumbnail/Mictl%C3%A1n%20Card-The%20Waiting-fr.jpg",
+                "creatorName": "ferdebuenArt",
+                "creators": [
+                    {
+                        "id": 1149796,
+                        "name": "ferdebuenArt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670301776/sa4o1h2kal1ljp1moqp4.jpg",
+                        "profile_url": "ferdebuenart"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ferdebuenArt",
+                "is_live": false,
+                "tokenId": "1"
+            },
+            {
+                "id": 131134,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Mictl�n-Chicanohuapan",
+                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742511/publishers/ferdebuenart/105106/125203/Mictlan%20Card-02-Chiconahuapan.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698742567/publishers/ferdebuenart/105106/125203/thumbnail/Mictlan%20Card-02-Chiconahuapan-fr.jpg",
+                "creatorName": "ferdebuenArt",
+                "creators": [
+                    {
+                        "id": 1149796,
+                        "name": "ferdebuenArt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670301776/sa4o1h2kal1ljp1moqp4.jpg",
+                        "profile_url": "ferdebuenart"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ferdebuenArt",
+                "is_live": false,
+                "tokenId": "2"
+            },
+            {
+                "id": 131135,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Mictl�n-Cycle of Dead",
+                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742872/publishers/ferdebuenart/105106/125204/Mictlan%20Card-Cycle%20of%20Dead.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698742901/publishers/ferdebuenart/105106/125204/thumbnail/Mictlan%20Card-Cycle%20of%20Dead-fr.jpg",
+                "creatorName": "ferdebuenArt",
+                "creators": [
+                    {
+                        "id": 1149796,
+                        "name": "ferdebuenArt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670301776/sa4o1h2kal1ljp1moqp4.jpg",
+                        "profile_url": "ferdebuenart"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ferdebuenArt",
+                "is_live": false,
+                "tokenId": "3"
+            },
+            {
+                "id": 131136,
+                "niftyType": 4,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "Mictl�n-Resurrection",
+                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698743222/publishers/ferdebuenart/105106/125236/Mictlan%20Card-Resurrection.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698743279/publishers/ferdebuenart/105106/125236/thumbnail/Mictlan%20Card-Resurrection-fr.jpg",
+                "creatorName": "ferdebuenArt",
+                "creators": [
+                    {
+                        "id": 1149796,
+                        "name": "ferdebuenArt",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670301776/sa4o1h2kal1ljp1moqp4.jpg",
+                        "profile_url": "ferdebuenart"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "ferdebuenArt",
+                "is_live": false,
+                "tokenId": "4"
+            },
+            {
+                "id": 131166,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 2,
+                "niftyTitle": "Arcana",
+                "niftyContractAddress": "0x74c0c7a6efe8e73c60949faf21d13ae7b684f8c5",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698761017/publishers/j_sky/105238/125302/Arcana.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "JSKY",
+                "creators": [
+                    {
+                        "id": 1353559,
+                        "name": "CreepyPipo",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1686609507/rycpampyrfwdtsjjeean.jpg",
+                        "profile_url": "creepypipo"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "JSKY GALLERY",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131167,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 2,
+                "niftyTitle": "Selene",
+                "niftyContractAddress": "0x74c0c7a6efe8e73c60949faf21d13ae7b684f8c5",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698761217/publishers/j_sky/105238/125303/Seleneshadow_.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "JSKY",
+                "creators": [
+                    {
+                        "id": 1353559,
+                        "name": "CreepyPipo",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1686609507/rycpampyrfwdtsjjeean.jpg",
+                        "profile_url": "creepypipo"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "JSKY GALLERY",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131364,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 99999999,
+                "niftyTitle": "MetaCat - Gold",
+                "niftyContractAddress": "0xdcd1902d37968e12d6cac7c9bed891cb44dfaae4",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698832124/publishers/metawhat/105403/125434/MetaCat_NFT%20-%20Gold.mp4",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698832170/publishers/metawhat/105403/125434/thumbnail/gold.png",
+                "creatorName": "MORROW collective",
+                "creators": [
+                    {
+                        "id": 1391938,
+                        "name": "Meta What?",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1689729385/sf0ndes23zii9r202wy3.jpg",
+                        "profile_url": "metawhat"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "MetaWhat?",
+                "is_live": true,
+                "tokenId": ""
+            },
+            {
+                "id": 131199,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 115,
+                "niftyTitle": "THE MUMMY",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698817158/publishers/metaflare/105370/125402/Pepe1.png",
+                "floorPrice": {
+                    "amount": 6.5,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 650,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 6,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131200,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 106,
+                "niftyTitle": "THE GHOUL",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698816693/publishers/metaflare/105370/125401/pepe3.png",
+                "floorPrice": {
+                    "amount": 5.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 500,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131201,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 101,
+                "niftyTitle": "THE VAMPIRE",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698817847/publishers/metaflare/105370/125406/PEPE6.jpg",
+                "floorPrice": {
+                    "amount": 5.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 500,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131202,
+                "niftyType": 4,
+                "niftyTotalNumOfEditions": 106,
+                "niftyTitle": "THE SKELETON",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698817713/publishers/metaflare/105370/125405/PEPE5.jpg",
+                "floorPrice": {
+                    "amount": 5.95,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 595,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131203,
+                "niftyType": 5,
+                "niftyTotalNumOfEditions": 103,
+                "niftyTitle": "THE GHOST",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698817388/publishers/metaflare/105370/125403/Pepe2.png",
+                "floorPrice": {
+                    "amount": 5.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 500,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 131204,
+                "niftyType": 6,
+                "niftyTotalNumOfEditions": 128,
+                "niftyTitle": "THE WITCH",
+                "niftyContractAddress": "0xc9c7a3a24b1de25c16a6d6b3e0c6038c913623e3",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698817560/publishers/metaflare/105370/125404/Pepe4.jpg",
+                "floorPrice": {
+                    "amount": 9.65,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 965,
+                "staticThumbnailUrl": "",
+                "creatorName": "METAFLARE",
+                "creators": [
+                    {
+                        "id": 333341,
+                        "name": "METAFLARE",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1660957130/flzxff9jcpvyrqpp5qph.png",
+                        "profile_url": "metaflare"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "MetaFlare",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130770,
+                "niftyType": 1,
+                "niftyTotalNumOfEditions": 8,
+                "niftyTitle": "Chloe and Creator",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698227933/publishers/Saucebook/104777/124708/Chloe%20And%20Creator.jpg",
+                "floorPrice": {
+                    "amount": 350.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 35000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 784689,
+                        "name": "Chauvet",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1634720240/zx2nrxfo2kcmogp9mfk0.jpg",
+                        "profile_url": "chauvetart"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130771,
+                "niftyType": 2,
+                "niftyTotalNumOfEditions": 6,
+                "niftyTitle": "Time Travel",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698227673/publishers/Saucebook/104777/124676/TIME%20TRAVEL.jpg",
+                "floorPrice": {
+                    "amount": 1950000.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 195000000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 533588,
+                        "name": "Alejandro Peters",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1680466154/xrtrzwjzfw8yjkkbrkrk.png",
+                        "profile_url": "alejandropeters"
+                    }
+                ],
+                "listingType": null,
+                "likes": 6,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130772,
+                "niftyType": 3,
+                "niftyTotalNumOfEditions": 4,
+                "niftyTitle": "Witch Queen",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698228303/publishers/Saucebook/104777/124709/Witch%20queen.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1154493,
+                        "name": "Asya Keles",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698795387/x4tiwgfby1dvorauz3cr.jpg",
+                        "profile_url": "asyakeles"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130773,
+                "niftyType": 4,
+                "niftyTotalNumOfEditions": 4,
+                "niftyTitle": "Puppet",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698228646/publishers/Saucebook/104777/124710/Puppet.png",
+                "floorPrice": {
+                    "amount": 1950000.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 195000000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1146661,
+                        "name": "ACIDQUEEN",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1672792359/euphenu9bg0pm9qeiy94.jpg",
+                        "profile_url": "acidqueen"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130774,
+                "niftyType": 5,
+                "niftyTotalNumOfEditions": 1,
+                "niftyTitle": "WHO",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698228928/publishers/Saucebook/104777/124711/WHO.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1142023,
+                        "name": "Celil Bezeng",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1679840529/geklresbcqce7l7cort4.jpg",
+                        "profile_url": "celilbezeng6060"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": "23"
+            },
+            {
+                "id": 130775,
+                "niftyType": 6,
+                "niftyTotalNumOfEditions": 3,
+                "niftyTitle": "Rebirth",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698235649/publishers/Saucebook/104777/124715/rebirth.png",
+                "floorPrice": {
+                    "amount": 350.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 35000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1150070,
+                        "name": "esmotella",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1684733700/jloh5hpgnlgvxi83op6m.jpg",
+                        "profile_url": "esmotella"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130776,
+                "niftyType": 7,
+                "niftyTotalNumOfEditions": 2,
+                "niftyTitle": "Halloween Scream",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698235908/publishers/Saucebook/104777/124716/Halloween%20Scream.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1161691,
+                        "name": "JaaDasss",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1671106240/dqhct8nyc4l5wpy3ha5y.jpg",
+                        "profile_url": "jaadasss"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130777,
+                "niftyType": 8,
+                "niftyTotalNumOfEditions": 5,
+                "niftyTitle": "Not Your Money Edition 1 (Out of Service)",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698236197/publishers/Saucebook/104777/124717/Not%20Your%20Money%20%20Edition%201%20%28Out%20of%20Service%29.jpg",
+                "floorPrice": {
+                    "amount": 199.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 19900,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 935519,
+                        "name": "MackStokes",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698733287/mh004plg0zhdj8q01gl3.jpg",
+                        "profile_url": "mackstokes"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130778,
+                "niftyType": 9,
+                "niftyTotalNumOfEditions": 3,
+                "niftyTitle": "ROBO CYBORG",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698236822/publishers/Saucebook/104777/124718/Picsart_22-12-07_11-52-30-974.jpg",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1161551,
+                        "name": "SAHIL",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1688661000/ga2f8ei5locwtlkv1rgv.jpg",
+                        "profile_url": "sahileditx"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130779,
+                "niftyType": 10,
+                "niftyTotalNumOfEditions": 4,
+                "niftyTitle": "Bhimpetka",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698237106/publishers/Saucebook/104777/124719/bhimpetka.mp4",
+                "floorPrice": {
+                    "amount": 1950000.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 195000000,
+                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1698237184/publishers/Saucebook/104777/124719/thumbnail/can.png",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 495618,
+                        "name": "unrealistic",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1696371704/dvlwmene0johbu5w3md7.png",
+                        "profile_url": "unrealistic"
+                    }
+                ],
+                "listingType": null,
+                "likes": 3,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130780,
+                "niftyType": 11,
+                "niftyTotalNumOfEditions": 3,
+                "niftyTitle": "Electric Night",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698237550/publishers/Saucebook/104777/124720/Electric%20Night.png",
+                "floorPrice": null,
+                "lowestSalePrice": 0,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1146420,
+                        "name": "Salman",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1671452575/dzkekfq6fqsgnhaxglaz.jpg",
+                        "profile_url": "thesalmanpathan"
+                    }
+                ],
+                "listingType": null,
+                "likes": 1,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130781,
+                "niftyType": 12,
+                "niftyTotalNumOfEditions": 8,
+                "niftyTitle": "City of Luminescence",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698230772/publishers/Saucebook/104777/124713/street%20girl.jpg",
+                "floorPrice": {
+                    "amount": 149.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 14900,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1150323,
+                        "name": "DM Designs",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1668501601/pqb5cinuxvr5rexs80ce.jpg",
+                        "profile_url": "dmdesigns"
+                    }
+                ],
+                "listingType": null,
+                "likes": 2,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            },
+            {
+                "id": 130782,
+                "niftyType": 13,
+                "niftyTotalNumOfEditions": 2,
+                "niftyTitle": "Blood",
+                "niftyContractAddress": "0xdb4e9d7b076ebc058ae3764a0c6a51b6bbf54e35",
+                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1698258414/publishers/Saucebook/104777/124728/blood.jpg",
+                "floorPrice": {
+                    "amount": 2500000.0,
+                    "currency": "USD"
+                },
+                "lowestSalePrice": 250000000,
+                "staticThumbnailUrl": "",
+                "creatorName": "Mark Kelly",
+                "creators": [
+                    {
+                        "id": 1150667,
+                        "name": "Legendsofanatolia",
+                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1668639907/y29angdfwolae39w8z13.png",
+                        "profile_url": "ironeva66"
+                    }
+                ],
+                "listingType": null,
+                "likes": 4,
+                "baseChain": "ethereum",
+                "publisher": "Saucebook",
+                "is_live": false,
+                "tokenId": ""
+            }
+        ]
+    }
+}
