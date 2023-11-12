@@ -58,12 +58,10 @@ public class UpyoBlogCrawl implements BaseCrawler {
                     Element authorElement2 = authorElement.select("a").first();
                     String author = authorElement2.text();
 
-                    Element dateElement = doc.select("div.article_articleProps__JsEXX.article_light__UWgo_ ").first();
-                    Element dateElement2 = dateElement.select("span").get(1);
-                    String date = dateElement2.text();
+                    String date = doc.select("span:contains(2023)").first().text(); 
 
 
-                    Elements content = doc.select("ol#myHeader > li[id^=li_tContent_] > a");
+                    Elements content = doc.select("h2");
                     List<String> listContent = new ArrayList<String>();
 
                     for(Element list : content){
