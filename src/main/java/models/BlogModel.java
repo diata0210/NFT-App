@@ -48,6 +48,4 @@ public abstract class BlogModel {
     public void setRelatedTags(List<String> relatedTags) {
         this.relatedTags = relatedTags;
     }
-
-
 }
