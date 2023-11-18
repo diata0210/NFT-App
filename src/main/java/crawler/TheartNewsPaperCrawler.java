@@ -14,6 +14,7 @@ import org.jsoup.select.Elements;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import models.CoinDeskBlogModel;
+import models.TheartNewPaperBlogModel;
 
 public class TheartNewsPaperCrawler implements BaseCrawler {
 
@@ -64,7 +65,7 @@ public class TheartNewsPaperCrawler implements BaseCrawler {
             String tagText = tag.text();
             relatedTags.add(tagText);
           }
-          CoinDeskBlogModel model = new CoinDeskBlogModel(title, desc, author, date, relatedTags);
+          TheartNewPaperBlogModel model = new TheartNewPaperBlogModel(title, desc, author, date, relatedTags);
           ObjectMapper mapper = new ObjectMapper();
           writer.write(mapper.writeValueAsString(model));
           if (count < listUrls.size())
