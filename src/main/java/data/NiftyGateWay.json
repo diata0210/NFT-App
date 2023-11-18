@@ -319,7 +319,7 @@
                 "creators": [
                     {
                         "id": 9484,
-                        "name": "REM�",
+                        "name": "REM锟�",
                         "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1663881123/gahka0srwpthlfldhfwf.jpg",
                         "profile_url": "remo"
                     }
@@ -723,8 +723,7 @@
                 "id": 131133,
                 "niftyType": 1,
                 "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl�n-The Waiting",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+                "niftyTitle": "Mictl锟絥-The Waiting",
                 "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698740588/publishers/ferdebuenart/105106/125170/Mictl%C3%A1n%20Card-The%20Waiting.mp4",
                 "floorPrice": null,
                 "lowestSalePrice": 0,
@@ -775,7 +774,7 @@
                 "id": 131135,
                 "niftyType": 3,
                 "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl�n-Cycle of Dead",
+                "niftyTitle": "Mictl锟絥-Cycle of Dead",
                 "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
                 "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742872/publishers/ferdebuenart/105106/125204/Mictlan%20Card-Cycle%20of%20Dead.mp4",
                 "floorPrice": null,
@@ -802,7 +801,6 @@
                 "niftyType": 4,
                 "niftyTotalNumOfEditions": 1,
                 "niftyTitle": "Mictl�n-Resurrection",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
                 "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698743222/publishers/ferdebuenart/105106/125236/Mictlan%20Card-Resurrection.mp4",
                 "floorPrice": null,
                 "lowestSalePrice": 0,
