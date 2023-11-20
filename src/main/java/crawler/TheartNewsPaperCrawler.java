@@ -3,6 +3,8 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +43,7 @@ public class TheartNewsPaperCrawler implements BaseCrawler {
 
   public void crawlData() {
     List<String> listUrls = getUrls();
-    try (Writer writer = new FileWriter("src/main/java/data/TheartNewsPaper.json")) {
+    try (Writer writer = new FileWriter("project/src/main/java/data/TheartNewsPaper.json")) {
       writer.write('[');
       int count = 0;
       for (String url : listUrls) {
@@ -52,11 +54,19 @@ public class TheartNewsPaperCrawler implements BaseCrawler {
           Element descElement = doc
               .select("h2.font-sans-regular.text-lg.leading-tighter.tracking-wider.max-w-col-3.print-max-w-full")
               .first();
+
           String desc = (descElement != null) ? descElement.text() : "N/A";
+
           Element authorElement = doc.select("a.font-sans-bold.shadow-link.transition-all.duration-default").first();
           String author = (authorElement != null) ? authorElement.text() : "N/A";
-          Element dateElement = doc.select("div.font-sans-regular.text-base.leading-tight.inline-block").first();
-          String date = (dateElement != null) ? dateElement.text() : "N/A";
+
+          Element dateElement = doc.select("meta[property=article:published_time]").first();
+          String date = dateElement.attr("content");
+          DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss[.SSS]X");
+          LocalDateTime dateTime = LocalDateTime.parse(date, inputFormatter);
+          DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+          date = dateTime.format(outputFormatter);
+
           Elements tags = doc.select(
               "a.font-sans-regular.text-base.leading-none.tracking-wide.text-red-900.px-md.py-xs.mb-base.whitespace-no-wrap.bg-gray-50.transition-colors.duration-default");
           List<String> relatedTags = new ArrayList<String>();

@@ -3,6 +3,8 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +44,7 @@ public class CryptoNewsBlogCrawler implements BaseCrawler {
   @Override
   public void crawlData() {
     List<String> listUrls = getUrls();
-    try (Writer writer = new FileWriter("src/main/java/data/CrytoNewsBlog.json")) {
+    try (Writer writer = new FileWriter("project/src/main/java/data/CrytoNewsBlog.json")) {
       writer.write('[');
       int count = 0;
       for (String url : listUrls) {
@@ -61,10 +63,16 @@ public class CryptoNewsBlogCrawler implements BaseCrawler {
             author = authorElement.text();
           }
 
-          String date = "";
-          Element dateElement = document.select("div.fs-12 time").first();
-          if (dateElement != null) {
-            date = dateElement.text();
+          Element dateElement = document.select("meta[property=article:published_time]").first();
+          String date = (dateElement != null) ? dateElement.attr("content") : "";
+          DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
+          LocalDateTime dateTime = null;
+              if (date != null && !date.isEmpty()) {
+                  dateTime = LocalDateTime.parse(date, inputFormatter);
+              }
+          DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+          if (dateTime != null) {
+            date = dateTime.format(outputFormatter);
           }
 
           List<String> relatedTags = new ArrayList<>();
