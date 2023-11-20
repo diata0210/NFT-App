@@ -13,7 +13,6 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import models.CoinDeskBlogModel;
 import models.TheartNewPaperBlogModel;
 
 public class TheartNewsPaperCrawler implements BaseCrawler {
