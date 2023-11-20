@@ -3,6 +3,10 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +31,8 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
             for (int i = 1; i <= NUM_OF_PAGE; i++) {
                 Document document = Jsoup.connect(SEARCH_URL + "/tag/" + BASE_URL + "/" + Integer.toString(i) + "/")
                         .userAgent("Jsoup client").timeout(20000).get();
-                Elements divs = document.select("div.article-cardstyles__StyledWrapper-sc-q1x8lc-0.eJFoEa.article-card.default");
+                Elements divs = document
+                        .select("div.article-cardstyles__StyledWrapper-sc-q1x8lc-0.eJFoEa.article-card.default");
 
                 for (Element aTag : divs) {
                     Element secondATag = aTag.select("a").get(1);
@@ -55,21 +60,19 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
             int count = 0;
             for (String url : listUrls) {
                 try {
-                    count ++;
+                    count++;
                     Document doc = Jsoup.connect(SEARCH_URL + url).userAgent("Jsoup client").timeout(30000).get();
-                    Element titleElement = doc.select("h1.typography__StyledTypography-sc-owin6q-0.bSOJsQ").first();
-                    String title = "";
-                    if(titleElement != null){
-                        title = titleElement.text();
-                    }
 
+                    Element titleElement = doc.select("meta[property=og:title]").first();
+                    String title = titleElement.attr("content");
                     String desc = doc.select("h2.typography__StyledTypography-sc-owin6q-0.irVmAp").text();
                     String author = doc.select("a.typography__StyledTypography-sc-owin6q-0.fqtDyG").text();
-                    Element dateElement = doc.select("span.typography__StyledTypography-sc-owin6q-0.hcIsFR").first();
-                    String date = "unknow";
-                    if (dateElement != null) {
-                       date = dateElement.text();
-                    }                 
+                    Element dateElement = doc.select("meta[property=article:published_time]").first();
+                    String date = dateElement.attr("content");
+                    DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss[.SSS]X");
+                    LocalDateTime dateTime = LocalDateTime.parse(date, inputFormatter);
+                    DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+                    date = dateTime.format(outputFormatter);
                     Elements tags = doc.select("a.article-tagsstyles__TagPill-sc-17t0gri-0.eJTFpe.light");
                     List<String> relatedTags = new ArrayList<String>();
 
@@ -92,7 +95,6 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
             e.printStackTrace();
         }
     }
-
     public static void main(String[] args) {
         CoinDeskBlogCrawler crawler = new CoinDeskBlogCrawler();
         crawler.crawlData();
