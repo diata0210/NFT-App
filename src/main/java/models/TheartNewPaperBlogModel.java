@@ -4,15 +4,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BlogNFTicallyModel extends BlogModel implements CustomModel {
-    public BlogNFTicallyModel(String title, String author, String date, List<String> relatedTags) {
+public class TheartNewPaperBlogModel extends BlogModel implements CustomModel {
+    public TheartNewPaperBlogModel(String title, String desc, String author, String date, List<String> relatedTags) {
         super.title = title;
+        super.desc = desc;
         super.author = author;
         super.date = date;
         super.relatedTags = relatedTags;
     }
 
-    public BlogNFTicallyModel() {
+    public TheartNewPaperBlogModel() {
         super.title = null;
         super.desc = null;
         super.author = null;
