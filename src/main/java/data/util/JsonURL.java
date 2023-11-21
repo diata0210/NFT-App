@@ -6,5 +6,6 @@ public class JsonURL {
     public static String CRYTONEWS = "src/main/java/data/CtytoNews.json";
     public static String NIFTYGATEWAY = "src/main/java/data/NiftyGateWay.json";
     public static String RARIBLE = "src/main/java/data/Rarible.json";
+    public static String ARTPAPER = "src/main/java/data/TheartNewsPaper.json";
 }
 
