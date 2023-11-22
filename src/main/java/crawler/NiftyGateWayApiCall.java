@@ -3,6 +3,7 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import data.util.JsonURL;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -42,7 +43,7 @@ public class NiftyGateWayApiCall implements ApiDataProvider {
                     String responseData = response.body().string();
                     System.out.println(responseData);
                     try {
-                        FileWriter file = new FileWriter("src/main/java/data/NiftyGateWay.json");
+                        FileWriter file = new FileWriter(JsonURL.NIFTYGATEWAY);
                         file.write(responseData);
                         file.flush();
                         file.close();

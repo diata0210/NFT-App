@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.json.JSONException;
 
+import data.util.JsonURL;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -46,7 +47,7 @@ public class RaribleApiCall implements ApiDataProvider {
                 String responseData = response.body().string();
                 System.out.println(responseData);
                 try {
-                    FileWriter file = new FileWriter("src/main/java/data/Rarible.json");
+                    FileWriter file = new FileWriter(JsonURL.RARIBLE);
                     file.write(responseData);
                     file.flush();
                     file.close();

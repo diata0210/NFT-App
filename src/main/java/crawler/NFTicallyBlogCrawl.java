@@ -15,6 +15,7 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import data.util.JsonURL;
 import models.BlogNFTicallyModel;
 
 public class NFTicallyBlogCrawl implements BaseCrawler {
@@ -46,13 +47,17 @@ public class NFTicallyBlogCrawl implements BaseCrawler {
   @Override
   public void crawlData() {
     List<String> listUrls = getUrls();
-    try (Writer writer = new FileWriter("src/main/java/data/BlogNFTically.json")) {
+    try (Writer writer = new FileWriter(JsonURL.NFTICALLY)) {
       writer.write('[');
       int count = 0;
       for (String url : listUrls) {
         try {
-          Document document = Jsoup.connect(url).userAgent("Jsoup Client").timeout(30000).get();
+          Document document = Jsoup.connect(url).userAgent("Jsoup Client").timeout(60000).get();
           String title = document.title();
+
+          Element descElement = document.select("meta[name=description]").first();
+          String desc = (descElement != null) ? descElement.attr("content") : "";
+
           Element metaTag = document.select("meta[name=author]").first();
           String author = (metaTag != null) ? metaTag.attr("content") : "";
           
@@ -77,7 +82,7 @@ public class NFTicallyBlogCrawl implements BaseCrawler {
               relatedTags.add(tagText);
             }
           }
-          BlogNFTicallyModel model = new BlogNFTicallyModel(title, author, date, relatedTags);
+          BlogNFTicallyModel model = new BlogNFTicallyModel(title, desc, author, date, relatedTags);
           ObjectMapper mapper = new ObjectMapper();
           writer.write(mapper.writeValueAsString(model));
           count++;
