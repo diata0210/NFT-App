@@ -3,6 +3,8 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,7 +55,19 @@ public class NFTicallyBlogCrawl implements BaseCrawler {
           String title = document.title();
           Element metaTag = document.select("meta[name=author]").first();
           String author = (metaTag != null) ? metaTag.attr("content") : "";
-          String date = document.select("div.blog-date").first().text();
+          
+          Element dateElement = document.select("meta[property=article:published_time]").first();
+          String date = (dateElement != null) ? dateElement.attr("content") : "";
+          DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
+          LocalDateTime dateTime = null;
+          if (date != null && !date.isEmpty()) {
+              dateTime = LocalDateTime.parse(date, inputFormatter);
+          }
+          DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+          if (dateTime != null) {
+            date = dateTime.format(outputFormatter);
+          }
+
           Element tagElements = document.select("div.blog-tags").first();
           List<String> relatedTags = new ArrayList<>();
           if (tagElements != null) {
