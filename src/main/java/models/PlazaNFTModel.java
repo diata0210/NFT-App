@@ -4,8 +4,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BlogNFTicallyModel extends BlogModel implements CustomModel {
-    public BlogNFTicallyModel(String title, String desc, String author, String date, List<String> relatedTags) {
+public class PlazaNFTModel extends BlogModel implements CustomModel {
+
+    public PlazaNFTModel(String title, String desc, String author, String date, List<String> relatedTags) {
         super.title = title;
         super.desc = desc;
         super.author = author;
@@ -13,7 +14,7 @@ public class BlogNFTicallyModel extends BlogModel implements CustomModel {
         super.relatedTags = relatedTags;
     }
 
-    public BlogNFTicallyModel() {
+    public PlazaNFTModel() {
         super.title = null;
         super.desc = null;
         super.author = null;
@@ -23,7 +24,7 @@ public class BlogNFTicallyModel extends BlogModel implements CustomModel {
 
     @Override
     public Map<String, Object> MapDescription() {
-        Map<String, Object> res = new HashMap<>();
+       Map<String, Object> res = new HashMap<>();
         res.put("title", title);
         res.put("author", author);
         res.put("desc", desc);
@@ -31,4 +32,5 @@ public class BlogNFTicallyModel extends BlogModel implements CustomModel {
         res.put("date", date);
         return res;
     }
+    
 }

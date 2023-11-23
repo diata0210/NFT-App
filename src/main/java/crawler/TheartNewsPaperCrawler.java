@@ -15,6 +15,7 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import data.util.JsonURL;
 import models.TheartNewPaperBlogModel;
 
 public class TheartNewsPaperCrawler implements BaseCrawler {
@@ -43,7 +44,7 @@ public class TheartNewsPaperCrawler implements BaseCrawler {
 
   public void crawlData() {
     List<String> listUrls = getUrls();
-    try (Writer writer = new FileWriter("src/main/java/data/TheartNewsPaper.json")) {
+    try (Writer writer = new FileWriter(JsonURL.ARTNEWSPAPER)) {
       writer.write('[');
       int count = 0;
       for (String url : listUrls) {

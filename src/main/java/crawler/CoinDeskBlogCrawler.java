@@ -17,6 +17,7 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import data.util.JsonURL;
 import models.CoinDeskBlogModel;
 
 public class CoinDeskBlogCrawler implements BaseCrawler {
@@ -55,7 +56,7 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
     @Override
     public void crawlData() {
         List<String> listUrls = getUrls();
-        try (Writer writer = new FileWriter("src/main/java/data/CoinDeskBlog.json")) {
+        try (Writer writer = new FileWriter(JsonURL.COINDESK)) {
             writer.write('[');
             int count = 0;
             for (String url : listUrls) {

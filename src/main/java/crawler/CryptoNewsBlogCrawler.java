@@ -15,6 +15,7 @@ import org.jsoup.select.Elements;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import data.util.JsonURL;
 import models.CtytoNewsBlogModel;
 
 public class CryptoNewsBlogCrawler implements BaseCrawler {
@@ -44,7 +45,7 @@ public class CryptoNewsBlogCrawler implements BaseCrawler {
   @Override
   public void crawlData() {
     List<String> listUrls = getUrls();
-    try (Writer writer = new FileWriter("src/main/java/data/CrytoNewsBlog.json")) {
+    try (Writer writer = new FileWriter(JsonURL.CRYTONEWS)) {
       writer.write('[');
       int count = 0;
       for (String url : listUrls) {
