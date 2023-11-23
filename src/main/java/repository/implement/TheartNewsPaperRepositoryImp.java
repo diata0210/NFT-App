@@ -71,7 +71,7 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
     public static void main(String[] args) {
        TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
         mod.loadData();
-        for (String md : mod.getArticleByTags("NFTS")) {
+        for (String md : mod.getArticleByTags("NFT")) {
             System.out.println(md);
         }
     }

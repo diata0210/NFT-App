@@ -69,7 +69,6 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
-
     public static void main(String[] args) {
        CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
         mod.loadData();
