@@ -12,16 +12,18 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import data.util.JsonURL;
 import models.BlogNFTicallyModel;
 import models.CoinDeskBlogModel;
+import models.CtytoNewsBlogModel;
 import repository.CoinDeskRepository;
+import repository.CrytoNewsBlogRepository;
 import repository.Repository;
 
-public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
-    public static CoinDeskRepositoryImp instance;
-    private List<CoinDeskBlogModel> models = new ArrayList<>();
+public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repository {
+    public static CrytoNewsBlogRepositoryImp instance;
+    private List<CtytoNewsBlogModel> models = new ArrayList<>();
 
-    public static CoinDeskRepositoryImp getInstance() {
+    public static CrytoNewsBlogRepositoryImp getInstance() {
         if (instance == null)
-            instance = new CoinDeskRepositoryImp();
+            instance = new CrytoNewsBlogRepositoryImp();
         return instance;
     }
 
@@ -29,8 +31,8 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public void loadData() {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            CoinDeskBlogModel[] sites = mapper.readValue(new File(JsonURL.COINDESK), CoinDeskBlogModel[].class);
-            for (CoinDeskBlogModel site : sites)
+            CtytoNewsBlogModel[] sites = mapper.readValue(new File(JsonURL.CRYTONEWS), CtytoNewsBlogModel[].class);
+            for (CtytoNewsBlogModel site : sites)
                 models.add(site);
         } catch (Exception e) {
             e.printStackTrace();
@@ -39,7 +41,7 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     }
 
     @Override
-    public List<CoinDeskBlogModel> getAllCoin() {
+    public List<CtytoNewsBlogModel> getAllModels() {
         return models;
     }
 
@@ -47,7 +49,7 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public List<String> getArticleByTags(String tag) {
         List<String> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase(); 
-        for (CoinDeskBlogModel model : models) {
+        for (CtytoNewsBlogModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
@@ -70,9 +72,10 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
- public Map<String, Integer> getTagFrequencyByMonth(String month) {
+    @Override
+    public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CoinDeskBlogModel model : models) {
+        for (CtytoNewsBlogModel model : models) {
             String date = model.getDate();
             // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
             if (date != null && date.length() == 10) {
@@ -86,9 +89,10 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         }
         return tagFrequency;
     }
-     public Map<String, Integer> getTagFrequencyByDay(String day) {
+@Override
+public Map<String, Integer> getTagFrequencyByDay(String day) {
         Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CoinDeskBlogModel model : models) {
+        for (CtytoNewsBlogModel model : models) {
             String date = model.getDate();
             // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
             if (date != null && date.length() == 10) {
@@ -103,7 +107,7 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         return tagFrequency;
     }
     public static void main(String[] args) {
-        CoinDeskRepositoryImp mod = new CoinDeskRepositoryImp();
+       CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
         mod.loadData();
         for (String md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);
