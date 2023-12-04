@@ -47,7 +47,7 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     @Override
     public List<String> getArticleByTags(String tag) {
         List<String> allArticles = new ArrayList<>();
-        String lowercaseTag = tag.toLowerCase(); 
+        String lowercaseTag = tag.toLowerCase();
         for (BlogNFTicallyModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
@@ -59,6 +59,7 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         }
         return allArticles;
     }
+
     @Override
     public List<String> getTagsArticleByDay(String date) {
         return null;
@@ -71,7 +72,8 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
- public Map<String, Integer> getTagFrequencyByMonth(String month) {
+
+    public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (BlogNFTicallyModel model : models) {
             String date = model.getDate();
@@ -87,7 +89,8 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         }
         return tagFrequency;
     }
-     public Map<String, Integer> getTagFrequencyByDay(String day) {
+
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (BlogNFTicallyModel model : models) {
             String date = model.getDate();
@@ -103,8 +106,9 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         }
         return tagFrequency;
     }
+
     public static void main(String[] args) {
-       BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
+        BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
         mod.loadData();
         for (String md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);

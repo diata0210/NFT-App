@@ -29,7 +29,8 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
     public void loadData() {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            TheartNewPaperBlogModel[] sites = mapper.readValue(new File(JsonURL.ARTNEWSPAPER),TheartNewPaperBlogModel[].class);
+            TheartNewPaperBlogModel[] sites = mapper.readValue(new File(JsonURL.ARTNEWSPAPER),
+                    TheartNewPaperBlogModel[].class);
             for (TheartNewPaperBlogModel site : sites)
                 models.add(site);
         } catch (Exception e) {
@@ -46,7 +47,7 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
     @Override
     public List<String> getArticleByTags(String tag) {
         List<String> allArticles = new ArrayList<>();
-        String lowercaseTag = tag.toLowerCase(); 
+        String lowercaseTag = tag.toLowerCase();
         for (TheartNewPaperBlogModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
@@ -58,6 +59,7 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
         }
         return allArticles;
     }
+
     @Override
     public List<String> getTagsArticleByDay(String date) {
         return null;
@@ -70,7 +72,8 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
- @Override
+
+    @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (TheartNewPaperBlogModel model : models) {
@@ -87,8 +90,9 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
         }
         return tagFrequency;
     }
-@Override
-public Map<String, Integer> getTagFrequencyByDay(String day) {
+
+    @Override
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (TheartNewPaperBlogModel model : models) {
             String date = model.getDate();
@@ -104,8 +108,9 @@ public Map<String, Integer> getTagFrequencyByDay(String day) {
         }
         return tagFrequency;
     }
+
     public static void main(String[] args) {
-       TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
+        TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
         mod.loadData();
         for (String md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);

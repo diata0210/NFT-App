@@ -48,7 +48,7 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
     @Override
     public List<String> getArticleByTags(String tag) {
         List<String> allArticles = new ArrayList<>();
-        String lowercaseTag = tag.toLowerCase(); 
+        String lowercaseTag = tag.toLowerCase();
         for (CtytoNewsBlogModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
@@ -60,6 +60,7 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return allArticles;
     }
+
     @Override
     public List<String> getTagsArticleByDay(String date) {
         return null;
@@ -72,6 +73,7 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
+
     @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
@@ -89,8 +91,9 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return tagFrequency;
     }
-@Override
-public Map<String, Integer> getTagFrequencyByDay(String day) {
+
+    @Override
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (CtytoNewsBlogModel model : models) {
             String date = model.getDate();
@@ -106,8 +109,9 @@ public Map<String, Integer> getTagFrequencyByDay(String day) {
         }
         return tagFrequency;
     }
+
     public static void main(String[] args) {
-       CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
+        CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
         mod.loadData();
         for (String md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);

@@ -11,8 +11,9 @@ public class CoinDeskServiceImp implements CoinDeskService {
     public static CoinDeskServiceImp instance;
     private CoinDeskRepository coinDeskRepository = CoinDeskRepositoryImp.getInstance();
 
-    public static CoinDeskServiceImp getInstance(){
-        if(instance == null) instance = new CoinDeskServiceImp();
+    public static CoinDeskServiceImp getInstance() {
+        if (instance == null)
+            instance = new CoinDeskServiceImp();
         return instance;
     }
 
@@ -30,7 +31,7 @@ public class CoinDeskServiceImp implements CoinDeskService {
     public List<String> getTagsArticleByDay(String date) {
         return null;
     }
-    
+
     @Override
     public List<String> getTagsArticleByWeek(String startDate) {
         return null;
