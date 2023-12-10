@@ -9,6 +9,7 @@ import models.CtytoNewsBlogModel;
  * CoinDeskRepository
  */
 public interface CrytoNewsBlogRepository {
+    void loadData();
     List<CtytoNewsBlogModel> getAllModels();
 
     List<String> getArticleByTags(String tag);

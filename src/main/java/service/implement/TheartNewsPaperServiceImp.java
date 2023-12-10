@@ -1,6 +1,7 @@
 package service.implement;
 
 import java.util.List;
+import java.util.Map;
 
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
@@ -17,7 +18,9 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
             instance = new TheartNewsPaperServiceImp();
         return instance;
     }
-
+    private TheartNewsPaperServiceImp() {
+        theartNewsPaperRepository.loadData(); // Gọi loadData ở đây
+    }
     @Override
     public List<TheartNewPaperBlogModel> getAllModels() {
         return theartNewsPaperRepository.getAllModels();
@@ -28,21 +31,13 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
         return theartNewsPaperRepository.getArticleByTags(tag);
     }
 
-    @Override
-    public List<String> getArticlesByDay(String date) {
-        return theartNewsPaperRepository.getTagsArticleByDay(date);
+@Override
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
+        return theartNewsPaperRepository.getTagFrequencyByDay(day);
     }
-
-    @Override
-    public List<String> getArticlesByWeek(String startDate) {
-        return theartNewsPaperRepository.getTagsArticleByWeek(startDate);
+    public Map<String, Integer> getTagFrequencyByMonth(String day) {
+        return theartNewsPaperRepository.getTagFrequencyByMonth(day);
     }
-
-    @Override
-    public List<String> getArticlesByMonth(String month) {
-        return theartNewsPaperRepository.getTagsArticleByMonth(month);
-    }
-
     public static void main(String[] args) {
 
     }

@@ -1,6 +1,7 @@
 package service.implement;
 
 import java.util.List;
+import java.util.Map;
 
 import models.CtytoNewsBlogModel;
 import repository.CrytoNewsBlogRepository;
@@ -17,7 +18,9 @@ public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
             instance = new CrytoNewsBlogServiceImp();
         return instance;
     }
-
+    private CrytoNewsBlogServiceImp() {
+        crytoNewsBlogRepository.loadData(); // Gọi loadData ở đây
+    }
     @Override
     public List<CtytoNewsBlogModel> getAllModels() {
         return crytoNewsBlogRepository.getAllModels();
@@ -28,21 +31,14 @@ public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
         return crytoNewsBlogRepository.getArticleByTags(tag);
     }
 
-    @Override
-    public List<String> getArticlesByDay(String date) {
-        return crytoNewsBlogRepository.getTagsArticleByDay(date);
+  
+@Override
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
+        return crytoNewsBlogRepository.getTagFrequencyByDay(day);
     }
-
-    @Override
-    public List<String> getArticlesByWeek(String startDate) {
-        return crytoNewsBlogRepository.getTagsArticleByWeek(startDate);
+    public Map<String, Integer> getTagFrequencyByMonth(String day) {
+        return crytoNewsBlogRepository.getTagFrequencyByMonth(day);
     }
-
-    @Override
-    public List<String> getArticlesByMonth(String month) {
-        return crytoNewsBlogRepository.getTagsArticleByMonth(month);
-    }
-
     public static void main(String[] args) {
 
     }

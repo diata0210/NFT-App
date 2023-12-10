@@ -9,6 +9,7 @@ import models.CoinDeskBlogModel;
  * CoinDeskRepository
  */
 public interface CoinDeskRepository {
+    void loadData();
     List<CoinDeskBlogModel> getAllCoin();
 
     List<String> getArticleByTags(String tag);

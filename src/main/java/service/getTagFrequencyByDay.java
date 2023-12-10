@@ -1,44 +1,53 @@
 package service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.LinkedHashMap;
 
-import crawler.TheartNewsPaperCrawler;
-import repository.implement.BlogNFTicallyRepositoryImp;
-import repository.implement.CoinDeskRepositoryImp;
-import repository.implement.CrytoNewsBlogRepositoryImp;
-import repository.implement.TheartNewsPaperRepositoryImp;
+import service.implement.BlogNFTicallyServiceImp;
+import service.implement.CoinDeskServiceImp;
+import service.implement.CrytoNewsBlogServiceImp;
+import service.implement.TheartNewsPaperServiceImp;
 
 public class getTagFrequencyByDay {
-    public static void main(String[] args) {
-        BlogNFTicallyRepositoryImp blogRepo = new BlogNFTicallyRepositoryImp();
-        CoinDeskRepositoryImp coinDeskRepo = new CoinDeskRepositoryImp();
-        CrytoNewsBlogRepositoryImp cryptoNewsRepo = new CrytoNewsBlogRepositoryImp();
-        TheartNewsPaperRepositoryImp artNewsRepo = new TheartNewsPaperRepositoryImp();
-        blogRepo.loadData();
-        coinDeskRepo.loadData();
-        cryptoNewsRepo.loadData();
-        artNewsRepo.loadData();
+    
+    public static Map<String, Integer> getTagFrequencyByDay(String day) {
+        BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
+        CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
+        CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
+        TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
 
-        // Lấy tần suất tags từ các nguồn cho một ngày cụ thể
-        String day = "05-31";
         Map<String, Integer> overallTagFrequency = new HashMap<>();
-        mergeTagFrequency(overallTagFrequency, blogRepo.getTagFrequencyByDay(day));
-        mergeTagFrequency(overallTagFrequency, coinDeskRepo.getTagFrequencyByDay(day));
-        mergeTagFrequency(overallTagFrequency, cryptoNewsRepo.getTagFrequencyByDay(day));
-        mergeTagFrequency(overallTagFrequency, artNewsRepo.getTagFrequencyByDay(day));
+        mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByDay(day));
+        mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByDay(day));
+        mergeTagFrequency(overallTagFrequency, cryptoNewsService.getTagFrequencyByDay(day));
+        mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByDay(day));
 
-        // Sắp xếp và in ra top tags
-        overallTagFrequency.entrySet().stream()
-                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-                .limit(10) // Giới hạn 10 tags hàng đầu
-                .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+        return getTopTags(overallTagFrequency, 10); // Trả về top 10 tags
     }
 
     private static void mergeTagFrequency(Map<String, Integer> overallTagFrequency, Map<String, Integer> tagFrequency) {
         for (Map.Entry<String, Integer> entry : tagFrequency.entrySet()) {
             overallTagFrequency.merge(entry.getKey(), entry.getValue(), Integer::sum);
         }
+    }
+
+    private static Map<String, Integer> getTopTags(Map<String, Integer> tagFrequency, int limit) {
+        return tagFrequency.entrySet().stream()
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                .limit(limit)
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey, 
+                        Map.Entry::getValue, 
+                        (e1, e2) -> e1, 
+                        LinkedHashMap::new));
+    }
+
+    public static void main(String[] args) {
+        String day = "08-01";
+        Map<String, Integer> topTags = getTagFrequencyByDay(day);
+        topTags.forEach((key, value) -> System.out.println(key + ": " + value));
     }
 }

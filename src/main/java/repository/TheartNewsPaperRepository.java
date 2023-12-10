@@ -10,6 +10,7 @@ import models.TheartNewPaperBlogModel;
  * CoinDeskRepository
  */
 public interface TheartNewsPaperRepository {
+    void loadData();
     List<TheartNewPaperBlogModel> getAllModels();
 
     List<String> getArticleByTags(String tag);

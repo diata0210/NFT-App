@@ -1,6 +1,8 @@
 package service.implement;
 
 import java.util.List;
+import java.util.Map;
+
 import models.PlazaNFTModel;
 import repository.PlazaNFTRepository;
 import repository.implement.PlazaNFTRepositoryImp;
@@ -26,21 +28,11 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
         return plazaNFTRepository.getNFTsByTags(tag);
     }
 
-    @Override
-    public List<String> getTagsByDate(String date) {
-        return plazaNFTRepository.getTagsByDate(date);
+   
+  
+ public Map<String, Integer> getTagFrequencyByMonth(String day) {
+        return plazaNFTRepository.getTagFrequencyByMonth(day);
     }
-
-    @Override
-    public List<String> getTagsByWeek(String startDate) {
-        return plazaNFTRepository.getTagsByWeek(startDate);
-    }
-
-    @Override
-    public List<String> getTagsByMonth(String month) {
-        return plazaNFTRepository.getTagsByMonth(month);
-    }
-
     public static void main(String[] args) {
 
     }
