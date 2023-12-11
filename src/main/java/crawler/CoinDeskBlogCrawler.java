@@ -25,7 +25,6 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
     private final String BASE_URL = "nfts";
     private final int NUM_OF_PAGE = 9;
 
-    @Override
     public List<String> getUrls() {
         List<String> listUrls = new ArrayList<String>();
         try {
