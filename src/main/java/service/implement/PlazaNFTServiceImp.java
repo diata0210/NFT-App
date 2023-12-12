@@ -28,10 +28,14 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
         return plazaNFTRepository.getNFTsByTags(tag);
     }
 
-   
-  
- public Map<String, Integer> getTagFrequencyByMonth(String day) {
-        return plazaNFTRepository.getTagFrequencyByMonth(day);
+ public Map<String, Integer> getTagFrequencyByMonth(String month) {
+        return plazaNFTRepository.getTagFrequencyByMonth(month);
+    }
+    public Map<String, Integer> getTagFrequencyByDay(String day) {
+        return plazaNFTRepository.getTagFrequencyByDay(day);
+    }
+    public List<String> getArticleByTitle(String title) {
+        return plazaNFTRepository.getArticleByTitle(title);
     }
     public static void main(String[] args) {
 

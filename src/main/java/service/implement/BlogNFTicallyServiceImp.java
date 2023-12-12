@@ -18,9 +18,11 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
             instance = new BlogNFTicallyServiceImp();
         return instance;
     }
+
     private BlogNFTicallyServiceImp() {
         blogNFTicallyRepository.loadData(); // Gọi loadData ở đây
     }
+
     @Override
     public List<BlogNFTicallyModel> getAllModels() {
         return blogNFTicallyRepository.getAllModels();
@@ -31,15 +33,19 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
         return blogNFTicallyRepository.getArticleByTags(tag);
     }
 
-
- @Override
+    @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return blogNFTicallyRepository.getTagFrequencyByDay(day);
     }
-    public Map<String, Integer> getTagFrequencyByMonth(String day) {
-        return blogNFTicallyRepository.getTagFrequencyByMonth(day);
-    }
-    public static void main(String[] args) {
 
+    public Map<String, Integer> getTagFrequencyByMonth(String month) {
+        return blogNFTicallyRepository.getTagFrequencyByMonth(month);
+    }
+
+    public List<String> getArticleByTitle(String title){
+         return blogNFTicallyRepository.getArticleByTitle(title);
+    }
+
+    public static void main(String[] args) {
     }
 }

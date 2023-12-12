@@ -18,9 +18,11 @@ public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
             instance = new CrytoNewsBlogServiceImp();
         return instance;
     }
+
     private CrytoNewsBlogServiceImp() {
         crytoNewsBlogRepository.loadData(); // Gọi loadData ở đây
     }
+
     @Override
     public List<CtytoNewsBlogModel> getAllModels() {
         return crytoNewsBlogRepository.getAllModels();
@@ -31,13 +33,16 @@ public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
         return crytoNewsBlogRepository.getArticleByTags(tag);
     }
 
-  
-@Override
+    @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return crytoNewsBlogRepository.getTagFrequencyByDay(day);
     }
-    public Map<String, Integer> getTagFrequencyByMonth(String day) {
-        return crytoNewsBlogRepository.getTagFrequencyByMonth(day);
+
+    public Map<String, Integer> getTagFrequencyByMonth(String month) {
+        return crytoNewsBlogRepository.getTagFrequencyByMonth(month);
+    }
+    public List<String> getArticleByTitle(String title) {
+        return crytoNewsBlogRepository.getArticleByTitle(title);
     }
     public static void main(String[] args) {
 

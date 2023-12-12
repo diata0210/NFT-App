@@ -11,4 +11,5 @@ public interface BlogNFTicallyService {
     List<String> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByMonth(String month);
      Map<String, Integer> getTagFrequencyByDay(String day);
+     List<String> getArticleByTitle(String title);
 }

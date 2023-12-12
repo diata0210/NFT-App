@@ -19,7 +19,7 @@ public interface CoinDeskRepository {
     List<String> getTagsArticleByWeek(String startDate);
 
     List<String> getTagsArticleByMonth(String month);
-
+    List<String> getArticleByTitle(String title);
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);

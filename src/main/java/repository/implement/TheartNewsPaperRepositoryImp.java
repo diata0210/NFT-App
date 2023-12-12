@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.CoinDeskBlogModel;
 import models.CtytoNewsBlogModel;
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
@@ -108,7 +109,15 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
         }
         return tagFrequency;
     }
-
+public List<String> getArticleByTitle(String title) {
+        List<String> matchingArticles = new ArrayList<>();
+        for (TheartNewPaperBlogModel model : models) {
+            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
+                matchingArticles.add(model.getTitle());
+            }
+        }
+        return matchingArticles;
+    }
     public static void main(String[] args) {
         TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
         mod.loadData();

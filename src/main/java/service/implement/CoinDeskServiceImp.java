@@ -18,6 +18,7 @@ public class CoinDeskServiceImp implements CoinDeskService {
 
         return instance;
     }
+
     private CoinDeskServiceImp() {
         coinDeskRepository.loadData(); // Gọi loadData ở đây
     }
@@ -32,20 +33,25 @@ public class CoinDeskServiceImp implements CoinDeskService {
         return coinDeskRepository.getArticleByTags(tag);
     }
 
-
-
     @Override
     public List<String> getTagsArticleByMonth(String month) {
         return null;
     }
-    public Map<String, Integer> getTagFrequencyByMonth(String day) {
-        return coinDeskRepository.getTagFrequencyByMonth(day);
+
+    public Map<String, Integer> getTagFrequencyByMonth(String month) {
+        return coinDeskRepository.getTagFrequencyByMonth(month);
     }
-@Override
+
+    @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return coinDeskRepository.getTagFrequencyByDay(day);
     }
+
+    public List<String> getArticleByTitle(String title) {
+        return coinDeskRepository.getArticleByTitle(title);
+    }
+
     public static void main(String[] args) {
-       
+
     }
 }

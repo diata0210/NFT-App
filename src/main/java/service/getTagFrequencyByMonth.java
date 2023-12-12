@@ -8,22 +8,23 @@ import java.util.LinkedHashMap;
 import service.implement.BlogNFTicallyServiceImp;
 import service.implement.CoinDeskServiceImp;
 import service.implement.CrytoNewsBlogServiceImp;
+import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 
 public class getTagFrequencyByMonth {
-    
+
     public static Map<String, Integer> getTagFrequencyByMonth(String month) {
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-
+        PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByMonth(month));
         mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByMonth(month));
         mergeTagFrequency(overallTagFrequency, cryptoNewsService.getTagFrequencyByMonth(month));
         mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByMonth(month));
-
+        mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByMonth(month));
         return getTopTags(overallTagFrequency, 10); // Trả về top 10 tags
     }
 
@@ -38,9 +39,9 @@ public class getTagFrequencyByMonth {
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                 .limit(limit)
                 .collect(Collectors.toMap(
-                        Map.Entry::getKey, 
-                        Map.Entry::getValue, 
-                        (e1, e2) -> e1, 
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (e1, e2) -> e1,
                         LinkedHashMap::new));
     }
 

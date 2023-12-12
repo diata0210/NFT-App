@@ -109,7 +109,16 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return tagFrequency;
     }
-
+    public List<String> getArticleByTitle(String title) {
+        List<String> matchingArticles = new ArrayList<>();
+        for (CtytoNewsBlogModel model : models) {
+            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
+                matchingArticles.add(model.getTitle());
+            }
+        }
+        return matchingArticles;
+    }
+    
     public static void main(String[] args) {
         CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
         mod.loadData();

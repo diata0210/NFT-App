@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.BlogNFTicallyModel;
 import models.PlazaNFTModel;
 import repository.PlazaNFTRepository;
 import repository.Repository;
@@ -86,7 +87,15 @@ public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
         // Implementation for tag frequency by day
         return null;
     }
-
+public List<String> getArticleByTitle(String title) {
+        List<String> matchingArticles = new ArrayList<>();
+        for (PlazaNFTModel model : models) {
+            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
+                matchingArticles.add(model.getTitle());
+            }
+        }
+        return matchingArticles;
+    }
     public static void main(String[] args) {
         PlazaNFTRepositoryImp mod = new PlazaNFTRepositoryImp();
         mod.loadData();
