@@ -55,11 +55,11 @@ import repository.Repository;
             }
             return nftsByAuthor;
         }
-        public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+        public List<NiftyGateWayApiCallModel> getArticlesByTitle(String title) {
+        List<NiftyGateWayApiCallModel> matchingArticles = new ArrayList<>();
         for (NiftyGateWayApiCallModel model : models) {
             if (model.getNiftyTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getNiftyTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;

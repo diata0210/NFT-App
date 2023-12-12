@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import models.BlogNFTicallyModel;
+import models.TheartNewPaperBlogModel;
 
 public interface BlogNFTicallyService {
     List<BlogNFTicallyModel> getAllModels();
@@ -11,5 +12,5 @@ public interface BlogNFTicallyService {
     List<String> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByMonth(String month);
      Map<String, Integer> getTagFrequencyByDay(String day);
-     List<String> getArticleByTitle(String title);
+     List<BlogNFTicallyModel> getArticlesByTitle(String title);
 }

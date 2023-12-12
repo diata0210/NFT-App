@@ -109,11 +109,11 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return tagFrequency;
     }
-    public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+    public List<CtytoNewsBlogModel> getArticlesByTitle(String title) {
+        List<CtytoNewsBlogModel> matchingArticles = new ArrayList<>();
         for (CtytoNewsBlogModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;

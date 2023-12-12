@@ -11,5 +11,5 @@ public interface NiftyGateWayApiCallRepository{
     List<NiftyGateWayApiCallModel> getAllModels();
 
     List<String> getNFTsByAuthor(String author);
-    List<String> getArticleByTitle(String title);
+    List<NiftyGateWayApiCallModel> getArticlesByTitle(String title);
 }

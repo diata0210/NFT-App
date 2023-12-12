@@ -14,5 +14,5 @@ public interface CoinDeskService {
     List<String> getTagsArticleByMonth(String month);
     Map<String, Integer> getTagFrequencyByDay(String day);
     Map<String, Integer> getTagFrequencyByMonth(String month);
-    List<String> getArticleByTitle(String title);
+    List<CoinDeskBlogModel> getArticlesByTitle(String title);
 }

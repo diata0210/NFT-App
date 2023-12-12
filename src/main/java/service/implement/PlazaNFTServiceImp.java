@@ -34,8 +34,8 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return plazaNFTRepository.getTagFrequencyByDay(day);
     }
-    public List<String> getArticleByTitle(String title) {
-        return plazaNFTRepository.getArticleByTitle(title);
+    public List<PlazaNFTModel> getArticlesByTitle(String title) {
+        return plazaNFTRepository.getArticlesByTitle(title);
     }
     public static void main(String[] args) {
 

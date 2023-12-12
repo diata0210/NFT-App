@@ -87,11 +87,11 @@ public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
         // Implementation for tag frequency by day
         return null;
     }
-public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+public List<PlazaNFTModel> getArticlesByTitle(String title) {
+        List<PlazaNFTModel> matchingArticles = new ArrayList<>();
         for (PlazaNFTModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;

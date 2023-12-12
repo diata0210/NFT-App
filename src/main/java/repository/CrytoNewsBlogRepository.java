@@ -23,5 +23,5 @@ public interface CrytoNewsBlogRepository {
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);
-    List<String> getArticleByTitle(String title);
+    List<CtytoNewsBlogModel> getArticlesByTitle(String title);
 }

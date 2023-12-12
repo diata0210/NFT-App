@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import models.BlogNFTicallyModel;
+import models.NiftyGateWayApiCallModel;
 import repository.BlogNFTicallyRepository;
 import repository.NiftyGateWayApiCallRepository;
 import repository.implement.BlogNFTicallyRepositoryImp;
@@ -27,8 +28,8 @@ public class NiftyGateWayApicallServiceImp implements NiftyGateWayAplicallServic
     }
 
    
-    public List<String> getArticleByTitle(String title){
-         return niftyGateWayApiCallRepository.getArticleByTitle(title);
+    public List<NiftyGateWayApiCallModel> getArticlesByTitle(String title){
+         return niftyGateWayApiCallRepository.getArticlesByTitle(title);
     }
 
     public static void main(String[] args) {

@@ -42,8 +42,8 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
         return blogNFTicallyRepository.getTagFrequencyByMonth(month);
     }
 
-    public List<String> getArticleByTitle(String title){
-         return blogNFTicallyRepository.getArticleByTitle(title);
+    public List<BlogNFTicallyModel> getArticlesByTitle(String title){
+         return blogNFTicallyRepository.getArticlesByTitle(title);
     }
 
     public static void main(String[] args) {

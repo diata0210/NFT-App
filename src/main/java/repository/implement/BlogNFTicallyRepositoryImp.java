@@ -106,11 +106,11 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         }
         return tagFrequency;
     }
-    public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+    public List<BlogNFTicallyModel>getArticlesByTitle(String title) {
+        List<BlogNFTicallyModel> matchingArticles = new ArrayList<>();
         for (BlogNFTicallyModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;

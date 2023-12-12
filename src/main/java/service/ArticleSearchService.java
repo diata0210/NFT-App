@@ -12,25 +12,27 @@ import service.implement.TheartNewsPaperServiceImp;
 
 public class ArticleSearchService {
     
-    public static List<String> searchArticlesByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+    public static List<Object> searchArticlesByTitle(String title) {
+        List<Object> matchingArticles = new ArrayList<>();
         
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-        NiftyGateWayApicallServiceImp niftyNewsService=NiftyGateWayApicallServiceImp.getInstance();
-        matchingArticles.addAll(blogService.getArticleByTitle(title));
-        matchingArticles.addAll(coinDeskService.getArticleByTitle(title));
-        matchingArticles.addAll(cryptoNewsService.getArticleByTitle(title));
-        matchingArticles.addAll(artNewsService.getArticleByTitle(title));
-        matchingArticles.addAll(niftyNewsService.getArticleByTitle(title));
+        NiftyGateWayApicallServiceImp niftyNewsService = NiftyGateWayApicallServiceImp.getInstance();
+        
+        matchingArticles.addAll(blogService.getArticlesByTitle(title));
+        matchingArticles.addAll(coinDeskService.getArticlesByTitle(title));
+        matchingArticles.addAll(cryptoNewsService.getArticlesByTitle(title));
+        matchingArticles.addAll(artNewsService.getArticlesByTitle(title));
+        matchingArticles.addAll(niftyNewsService.getArticlesByTitle(title));
+        
         return matchingArticles;
     }
-
+    
     public static void main(String[] args) {
-        String title = "The End of an Era"; // Điều chỉnh tiêu đề  muốn tìm kiếm
-        List<String> matchingArticles = searchArticlesByTitle(title);
+        String title = "AFRODITE"; // Điều chỉnh tiêu đề  muốn tìm kiếm
+        List<Object> matchingArticles = searchArticlesByTitle(title);
         if (!matchingArticles.isEmpty()) {
             System.out.println("Matching articles:");
             matchingArticles.forEach(System.out::println);

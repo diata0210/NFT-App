@@ -21,5 +21,5 @@ public interface PlazaNFTRepository {
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);
-    List<String> getArticleByTitle(String title);
+    List<PlazaNFTModel> getArticlesByTitle(String title);
 }

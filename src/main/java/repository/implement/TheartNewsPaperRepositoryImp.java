@@ -12,6 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import data.util.JsonURL;
 import models.CoinDeskBlogModel;
 import models.CtytoNewsBlogModel;
+import models.PlazaNFTModel;
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
 import repository.Repository;
@@ -109,11 +110,11 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
         }
         return tagFrequency;
     }
-public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
+        List<TheartNewPaperBlogModel> matchingArticles = new ArrayList<>();
         for (TheartNewPaperBlogModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;

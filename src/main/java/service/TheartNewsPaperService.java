@@ -10,5 +10,5 @@ public interface TheartNewsPaperService {
     List<String> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByDay(String day);
     Map<String, Integer> getTagFrequencyByMonth(String month);
-    List<String> getArticleByTitle(String title);
+    List<TheartNewPaperBlogModel> getArticlesByTitle(String title);
 }

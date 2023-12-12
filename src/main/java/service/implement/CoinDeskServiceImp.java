@@ -47,8 +47,8 @@ public class CoinDeskServiceImp implements CoinDeskService {
         return coinDeskRepository.getTagFrequencyByDay(day);
     }
 
-    public List<String> getArticleByTitle(String title) {
-        return coinDeskRepository.getArticleByTitle(title);
+    public List<CoinDeskBlogModel> getArticlesByTitle(String title) {
+        return coinDeskRepository.getArticlesByTitle(title);
     }
 
     public static void main(String[] args) {

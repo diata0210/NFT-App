@@ -38,8 +38,8 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return theartNewsPaperRepository.getTagFrequencyByMonth(month);
     }
-    public List<String> getArticleByTitle(String title) {
-        return theartNewsPaperRepository.getArticleByTitle(title);
+    public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
+        return theartNewsPaperRepository.getArticlesByTitle(title);
     }    
 
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ package repository;
 import java.util.List;
 import java.util.Map;
 
+import models.BlogNFTicallyModel;
 import models.CoinDeskBlogModel;
 
 /**
@@ -10,6 +11,7 @@ import models.CoinDeskBlogModel;
  */
 public interface CoinDeskRepository {
     void loadData();
+
     List<CoinDeskBlogModel> getAllCoin();
 
     List<String> getArticleByTags(String tag);
@@ -18,9 +20,11 @@ public interface CoinDeskRepository {
 
     List<String> getTagsArticleByWeek(String startDate);
 
-    List<String> getTagsArticleByMonth(String month);
-    List<String> getArticleByTitle(String title);
+    List<String> getTagsArticleByMonth(String month);;
+
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);
+
+    List<CoinDeskBlogModel> getArticlesByTitle(String title);
 }

@@ -3,6 +3,7 @@ package service;
 import java.util.List;
 import java.util.Map;
 
+import models.NiftyGateWayApiCallModel;
 import models.PlazaNFTModel;
 
 public interface PlazaNFTService {
@@ -10,5 +11,5 @@ public interface PlazaNFTService {
     List<String> getNFTsByTags(String tag);    
     Map<String, Integer> getTagFrequencyByMonth(String month);
     Map<String, Integer> getTagFrequencyByDay(String day);
-    List<String> getArticleByTitle(String title);
+ List<PlazaNFTModel> getArticlesByTitle(String title);
 }

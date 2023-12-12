@@ -100,11 +100,11 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         }
         return tagFrequency;
     }
-    public List<String> getArticleByTitle(String title) {
-        List<String> matchingArticles = new ArrayList<>();
+    public List<CoinDeskBlogModel>getArticlesByTitle(String title) {
+        List<CoinDeskBlogModel> matchingArticles = new ArrayList<>();
         for (CoinDeskBlogModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model.getTitle());
+                matchingArticles.add(model);
             }
         }
         return matchingArticles;
