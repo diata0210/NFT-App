@@ -11,8 +11,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
 import models.BlogNFTicallyModel;
-import models.CoinDeskBlogModel;
-import repository.CoinDeskRepository;
 import repository.BlogNFTicallyRepository;
 import repository.Repository;
 

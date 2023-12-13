@@ -9,7 +9,6 @@ import java.io.File;
     import java.util.ArrayList;
     import java.util.List;
     import models.NiftyGateWayApiCallModel;
-import models.PlazaNFTModel;
 import repository.NiftyGateWayApiCallRepository;
 import repository.Repository;
     public class NiftyGateWayApiCallRepositoryImp  implements NiftyGateWayApiCallRepository,Repository{

@@ -3,12 +3,8 @@ package repository;
 import java.util.List;
 import java.util.Map;
 
-import models.CtytoNewsBlogModel;
 import models.TheartNewPaperBlogModel;
 
-/**
- * CoinDeskRepository
- */
 public interface TheartNewsPaperRepository {
     void loadData();
     List<TheartNewPaperBlogModel> getAllModels();

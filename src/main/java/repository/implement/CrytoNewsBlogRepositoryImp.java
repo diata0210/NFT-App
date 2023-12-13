@@ -10,10 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
-import models.BlogNFTicallyModel;
-import models.CoinDeskBlogModel;
 import models.CtytoNewsBlogModel;
-import repository.CoinDeskRepository;
 import repository.CrytoNewsBlogRepository;
 import repository.Repository;
 

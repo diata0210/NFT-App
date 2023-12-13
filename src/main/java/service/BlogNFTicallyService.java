@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import models.BlogNFTicallyModel;
-import models.TheartNewPaperBlogModel;
 
 public interface BlogNFTicallyService {
     List<BlogNFTicallyModel> getAllModels();

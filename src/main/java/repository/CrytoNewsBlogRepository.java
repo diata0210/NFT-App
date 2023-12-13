@@ -5,9 +5,6 @@ import java.util.Map;
 
 import models.CtytoNewsBlogModel;
 
-/**
- * CoinDeskRepository
- */
 public interface CrytoNewsBlogRepository {
     void loadData();
     List<CtytoNewsBlogModel> getAllModels();

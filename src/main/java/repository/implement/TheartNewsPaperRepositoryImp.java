@@ -10,9 +10,6 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
-import models.CoinDeskBlogModel;
-import models.CtytoNewsBlogModel;
-import models.PlazaNFTModel;
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
 import repository.Repository;

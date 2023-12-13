@@ -3,12 +3,8 @@ package repository;
 import java.util.List;
 import java.util.Map;
 
-import models.BlogNFTicallyModel;
 import models.CoinDeskBlogModel;
 
-/**
- * CoinDeskRepository
- */
 public interface CoinDeskRepository {
     void loadData();
 

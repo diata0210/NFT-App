@@ -4,10 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import models.CoinDeskBlogModel;
-
-/**
- * CoinDeskService
- */
 public interface CoinDeskService {
     List<CoinDeskBlogModel> getAllCoin();
     List<CoinDeskBlogModel> getArticlesByTag(String tag);

@@ -16,6 +16,7 @@ public class NiftyGateWayApiCallModel extends ApiModel implements CustomModel {
         super.niftyTitle = null;
     }
 
+    
     @Override
     public Map<String, Object> MapDescription() {
         Map<String, Object> res = new HashMap<>();

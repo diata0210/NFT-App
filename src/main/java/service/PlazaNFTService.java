@@ -2,10 +2,7 @@ package service;
 
 import java.util.List;
 import java.util.Map;
-
-import models.NiftyGateWayApiCallModel;
 import models.PlazaNFTModel;
-
 public interface PlazaNFTService {
     List<PlazaNFTModel> getAllModels();
     List<PlazaNFTModel> getNFTsByTags(String tag);    

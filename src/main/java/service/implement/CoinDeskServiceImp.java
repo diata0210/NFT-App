@@ -33,8 +33,6 @@ public class CoinDeskServiceImp implements CoinDeskService {
         return coinDeskRepository.getArticlesByTag(tag);
     }
 
- 
-
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return coinDeskRepository.getTagFrequencyByMonth(month);
     }
@@ -43,8 +41,6 @@ public class CoinDeskServiceImp implements CoinDeskService {
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return coinDeskRepository.getTagFrequencyByDay(day);
     }
-
-   
 
     public static void main(String[] args) {
 
