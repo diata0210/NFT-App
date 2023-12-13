@@ -10,9 +10,7 @@ import models.CoinDeskBlogModel;
  */
 public interface CoinDeskService {
     List<CoinDeskBlogModel> getAllCoin();
-    List<String> getArticleByTags(String tag);
-    List<String> getTagsArticleByMonth(String month);
+    List<CoinDeskBlogModel> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByDay(String day);
     Map<String, Integer> getTagFrequencyByMonth(String month);
-    List<CoinDeskBlogModel> getArticlesByTitle(String title);
 }

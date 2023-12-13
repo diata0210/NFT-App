@@ -1,7 +1,10 @@
     package repository.implement;
     import com.fasterxml.jackson.databind.JsonNode;
     import com.fasterxml.jackson.databind.ObjectMapper;
-    import java.io.File;
+
+import data.util.JsonURL;
+
+import java.io.File;
     import java.io.IOException;
     import java.util.ArrayList;
     import java.util.List;
@@ -22,7 +25,7 @@ import repository.Repository;
         public void loadData() {
             try {
                 ObjectMapper mapper = new ObjectMapper();
-                File jsonFile = new File("src/main/java/data/NiftyGateWay.json"); // Đổi đường dẫn tới tệp JSON cục bộ của bạn
+                File jsonFile = new File(JsonURL.NIFTYGATEWAY); // Đổi đường dẫn tới tệp JSON cục bộ của bạn
                 JsonNode rootNode = mapper.readTree(jsonFile);
                 JsonNode dataNode = rootNode.get("data");
                 JsonNode resultsNode = dataNode.get("results");

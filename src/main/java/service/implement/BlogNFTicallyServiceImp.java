@@ -29,7 +29,7 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
     }
 
     @Override
-    public List<String> getArticlesByTag(String tag) {
+    public List<BlogNFTicallyModel> getArticlesByTag(String tag) {
         return blogNFTicallyRepository.getArticleByTags(tag);
     }
 
@@ -40,10 +40,6 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
 
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return blogNFTicallyRepository.getTagFrequencyByMonth(month);
-    }
-
-    public List<BlogNFTicallyModel> getArticlesByTitle(String title){
-         return blogNFTicallyRepository.getArticlesByTitle(title);
     }
 
     public static void main(String[] args) {

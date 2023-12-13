@@ -29,14 +29,11 @@ public class CoinDeskServiceImp implements CoinDeskService {
     }
 
     @Override
-    public List<String> getArticleByTags(String tag) {
-        return coinDeskRepository.getArticleByTags(tag);
+    public List<CoinDeskBlogModel> getArticlesByTag(String tag) {
+        return coinDeskRepository.getArticlesByTag(tag);
     }
 
-    @Override
-    public List<String> getTagsArticleByMonth(String month) {
-        return null;
-    }
+ 
 
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return coinDeskRepository.getTagFrequencyByMonth(month);
@@ -47,9 +44,7 @@ public class CoinDeskServiceImp implements CoinDeskService {
         return coinDeskRepository.getTagFrequencyByDay(day);
     }
 
-    public List<CoinDeskBlogModel> getArticlesByTitle(String title) {
-        return coinDeskRepository.getArticlesByTitle(title);
-    }
+   
 
     public static void main(String[] args) {
 

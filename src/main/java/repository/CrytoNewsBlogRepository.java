@@ -12,16 +12,10 @@ public interface CrytoNewsBlogRepository {
     void loadData();
     List<CtytoNewsBlogModel> getAllModels();
 
-    List<String> getArticleByTags(String tag);
-
-    List<String> getTagsArticleByDay(String date);
-
-    List<String> getTagsArticleByWeek(String startDate);
-
-    List<String> getTagsArticleByMonth(String month);
+    List<CtytoNewsBlogModel> getArticleByTags(String tag);
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);
-    List<CtytoNewsBlogModel> getArticlesByTitle(String title);
+
 }

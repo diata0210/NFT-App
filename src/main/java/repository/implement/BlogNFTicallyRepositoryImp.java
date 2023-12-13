@@ -45,33 +45,21 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     }
 
     @Override
-    public List<String> getArticleByTags(String tag) {
-        List<String> allArticles = new ArrayList<>();
+    public List<BlogNFTicallyModel> getArticleByTags(String tag) {
+        List<BlogNFTicallyModel> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase();
         for (BlogNFTicallyModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
             if (lowercaseTags.contains(lowercaseTag)) {
-                allArticles.add(model.getTitle());
+                allArticles.add(model);
                 System.out.println(model.getTitle());
             }
         }
         return allArticles;
     }
 
-    @Override
-    public List<String> getTagsArticleByDay(String date) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByWeek(String startDate) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByMonth(String month) {
-        return null;
-    }
 
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
@@ -106,20 +94,12 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         }
         return tagFrequency;
     }
-    public List<BlogNFTicallyModel>getArticlesByTitle(String title) {
-        List<BlogNFTicallyModel> matchingArticles = new ArrayList<>();
-        for (BlogNFTicallyModel model : models) {
-            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model);
-            }
-        }
-        return matchingArticles;
-    }
+
     
     public static void main(String[] args) {
         BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
         mod.loadData();
-        for (String md : mod.getArticleByTags("NFTS")) {
+        for (BlogNFTicallyModel md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);
         }
     }

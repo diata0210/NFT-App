@@ -8,8 +8,7 @@ import models.PlazaNFTModel;
 
 public interface PlazaNFTService {
     List<PlazaNFTModel> getAllModels();
-    List<String> getNFTsByTags(String tag);    
+    List<PlazaNFTModel> getNFTsByTags(String tag);    
     Map<String, Integer> getTagFrequencyByMonth(String month);
     Map<String, Integer> getTagFrequencyByDay(String day);
- List<PlazaNFTModel> getArticlesByTitle(String title);
 }

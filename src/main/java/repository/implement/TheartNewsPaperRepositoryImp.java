@@ -47,32 +47,19 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
     }
 
     @Override
-    public List<String> getArticleByTags(String tag) {
-        List<String> allArticles = new ArrayList<>();
+    public List<TheartNewPaperBlogModel> getArticleByTags(String tag) {
+        List<TheartNewPaperBlogModel> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase();
         for (TheartNewPaperBlogModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
             if (lowercaseTags.contains(lowercaseTag)) {
-                allArticles.add(model.getTitle());
+                allArticles.add(model);
                 System.out.println(model.getTitle());
             }
         }
         return allArticles;
-    }
-
-    @Override
-    public List<String> getTagsArticleByDay(String date) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByWeek(String startDate) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByMonth(String month) {
-        return null;
     }
 
     @Override
@@ -122,7 +109,7 @@ public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
     public static void main(String[] args) {
         TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
         mod.loadData();
-        for (String md : mod.getArticleByTags("NFTS")) {
+        for (TheartNewPaperBlogModel md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);
         }
     }

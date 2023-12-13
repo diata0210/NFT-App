@@ -5,7 +5,6 @@ import java.util.Map;
 import models.NiftyGateWayApiCallModel;
 public interface NiftyGateWayAplicallService {
 
-    List<NiftyGateWayApiCallModel> getArticlesByTitle(String title);
    
 }
 

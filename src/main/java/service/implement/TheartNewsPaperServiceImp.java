@@ -27,7 +27,7 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
     }
 
     @Override
-    public List<String> getArticlesByTag(String tag) {
+    public List<TheartNewPaperBlogModel> getArticlesByTag(String tag) {
         return theartNewsPaperRepository.getArticleByTags(tag);
     }
 
@@ -35,12 +35,11 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return theartNewsPaperRepository.getTagFrequencyByDay(day);
     }
+    @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return theartNewsPaperRepository.getTagFrequencyByMonth(month);
     }
-    public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
-        return theartNewsPaperRepository.getArticlesByTitle(title);
-    }    
+
 
     public static void main(String[] args) {
 

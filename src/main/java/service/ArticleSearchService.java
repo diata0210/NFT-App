@@ -12,7 +12,7 @@ import service.implement.TheartNewsPaperServiceImp;
 
 public class ArticleSearchService {
     
-    public static List<Object> searchArticlesByTitle(String title) {
+    public static List<Object> searchArticlesByTag(String tag) {
         List<Object> matchingArticles = new ArrayList<>();
         
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
@@ -21,18 +21,18 @@ public class ArticleSearchService {
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
         NiftyGateWayApicallServiceImp niftyNewsService = NiftyGateWayApicallServiceImp.getInstance();
         
-        matchingArticles.addAll(blogService.getArticlesByTitle(title));
-        matchingArticles.addAll(coinDeskService.getArticlesByTitle(title));
-        matchingArticles.addAll(cryptoNewsService.getArticlesByTitle(title));
-        matchingArticles.addAll(artNewsService.getArticlesByTitle(title));
-        matchingArticles.addAll(niftyNewsService.getArticlesByTitle(title));
+        matchingArticles.addAll(blogService.getArticlesByTag(tag));
+        matchingArticles.addAll(coinDeskService.getArticlesByTag(tag));
+        matchingArticles.addAll(cryptoNewsService.getArticlesByTag(tag));
+        matchingArticles.addAll(artNewsService.getArticlesByTag(tag));
+        // matchingArticles.addAll(niftyNewsService.getArticlesByTag(tag));
         
         return matchingArticles;
     }
     
     public static void main(String[] args) {
-        String title = "AFRODITE"; // Điều chỉnh tiêu đề  muốn tìm kiếm
-        List<Object> matchingArticles = searchArticlesByTitle(title);
+        String tag = "NFT"; // Điều chỉnh tiêu đề  muốn tìm kiếm
+        List<Object> matchingArticles = searchArticlesByTag(tag);
         if (!matchingArticles.isEmpty()) {
             System.out.println("Matching articles:");
             matchingArticles.forEach(System.out::println);

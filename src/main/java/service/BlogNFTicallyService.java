@@ -9,8 +9,7 @@ import models.TheartNewPaperBlogModel;
 public interface BlogNFTicallyService {
     List<BlogNFTicallyModel> getAllModels();
 
-    List<String> getArticlesByTag(String tag);
+    List<BlogNFTicallyModel> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByMonth(String month);
      Map<String, Integer> getTagFrequencyByDay(String day);
-     List<BlogNFTicallyModel> getArticlesByTitle(String title);
 }

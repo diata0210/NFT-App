@@ -39,34 +39,22 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         return models;
     }
     @Override
-    public List<String> getArticleByTags(String tag) {
-        List<String> allArticles = new ArrayList<>();
+    public List<CoinDeskBlogModel> getArticlesByTag(String tag) {
+        List<CoinDeskBlogModel> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase();
         for (CoinDeskBlogModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
             if (lowercaseTags.contains(lowercaseTag)) {
-                allArticles.add(model.getTitle());
+                allArticles.add(model);
                 System.out.println(model.getTitle());
             }
         }
         return allArticles;
     }
 
-    @Override
-    public List<String> getTagsArticleByDay(String date) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByWeek(String startDate) {
-        return null;
-    }
-
-    public List<String> getTagsArticleByMonth(String month) {
-        return null;
-    }
-
+   
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (CoinDeskBlogModel model : models) {
@@ -113,7 +101,7 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public static void main(String[] args) {
         CoinDeskRepositoryImp mod = new CoinDeskRepositoryImp();
         mod.loadData();
-        for (String md : mod.getArticleByTags("NFTS")) {
+        for (CoinDeskBlogModel md : mod.getArticlesByTag("NFTS")) {
             System.out.println(md);
         }
     }

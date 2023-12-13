@@ -24,7 +24,7 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
     }
 
     @Override
-    public List<String> getNFTsByTags(String tag) {
+    public List<PlazaNFTModel> getNFTsByTags(String tag) {
         return plazaNFTRepository.getNFTsByTags(tag);
     }
 
@@ -33,9 +33,6 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
     }
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return plazaNFTRepository.getTagFrequencyByDay(day);
-    }
-    public List<PlazaNFTModel> getArticlesByTitle(String title) {
-        return plazaNFTRepository.getArticlesByTitle(title);
     }
     public static void main(String[] args) {
 

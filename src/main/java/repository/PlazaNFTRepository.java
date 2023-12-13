@@ -10,16 +10,10 @@ public interface PlazaNFTRepository {
 
     List<PlazaNFTModel> getAllModels();
 
-    List<String> getNFTsByTags(String tag);
+    List<PlazaNFTModel> getNFTsByTags(String tag);
 
-    List<String> getTagsByDate(String date);
-
-    List<String> getTagsByWeek(String startDate);
-
-    List<String> getTagsByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);
-    List<PlazaNFTModel> getArticlesByTitle(String title);
 }

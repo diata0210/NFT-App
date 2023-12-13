@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
 import models.BlogNFTicallyModel;
+import models.CtytoNewsBlogModel;
 import models.PlazaNFTModel;
 import repository.PlazaNFTRepository;
 import repository.Repository;
@@ -43,63 +44,62 @@ public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
     }
 
     @Override
-    public List<String> getNFTsByTags(String tag) {
-        List<String> allArticles = new ArrayList<>();
+    public List<PlazaNFTModel> getNFTsByTags(String tag) {
+        List<PlazaNFTModel> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase();
         for (PlazaNFTModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
             if (lowercaseTags.contains(lowercaseTag)) {
-                allArticles.add(model.getTitle());
+                allArticles.add(model);
                 System.out.println(model.getTitle());
             }
         }
         return allArticles;
     }
 
-    @Override
-    public List<String> getTagsByDate(String date) {
-        // Implementation for retrieving tags by day
-        return null;
-    }
+    
 
-    @Override
-    public List<String> getTagsByWeek(String startDate) {
-        // Implementation for retrieving tags by week
-        return null;
-    }
-
-    @Override
-    public List<String> getTagsByMonth(String month) {
-        // Implementation for retrieving tags by month
-        return null;
-    }
-
-    @Override
+     @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
-        // Implementation for tag frequency by month
-        return null;
+        Map<String, Integer> tagFrequency = new HashMap<>();
+        for (PlazaNFTModel model : models) {
+            String date = model.getDate();
+            // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
+            if (date != null && date.length() == 10) {
+                String modelMonth = date.substring(5, 7); // Lấy phần tháng từ chuỗi ngày
+                if (modelMonth.equals(month)) {
+                    for (String tag : model.getRelatedTags()) {
+                        tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
+                    }
+                }
+            }
+        }
+        return tagFrequency;
     }
 
     @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
-        // Implementation for tag frequency by day
-        return null;
-    }
-public List<PlazaNFTModel> getArticlesByTitle(String title) {
-        List<PlazaNFTModel> matchingArticles = new ArrayList<>();
+        Map<String, Integer> tagFrequency = new HashMap<>();
         for (PlazaNFTModel model : models) {
-            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model);
+            String date = model.getDate();
+            // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
+            if (date != null && date.length() == 10) {
+                String modelDay = date.substring(5, 10); // Lấy phần tháng từ chuỗi ngày
+                if (modelDay.equals(day)) {
+                    for (String tag : model.getRelatedTags()) {
+                        tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
+                    }
+                }
             }
         }
-        return matchingArticles;
+        return tagFrequency;
     }
     public static void main(String[] args) {
         PlazaNFTRepositoryImp mod = new PlazaNFTRepositoryImp();
         mod.loadData();
-        for (String md : mod.getNFTsByTags("NFTS")) {
+        for (PlazaNFTModel md : mod.getNFTsByTags("NFTS")) {
             System.out.println(md);
         }
     }
