@@ -15,13 +15,11 @@ import repository.Repository;
 public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public static CoinDeskRepositoryImp instance;
     private List<CoinDeskBlogModel> models = new ArrayList<>();
-
     public static CoinDeskRepositoryImp getInstance() {
         if (instance == null)
             instance = new CoinDeskRepositoryImp();
         return instance;
     }
-
     @Override
     public void loadData() {
         try {
@@ -32,14 +30,11 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
-
     @Override
     public List<CoinDeskBlogModel> getAllCoin() {
         return models;
     }
-
     @Override
     public List<String> getArticleByTags(String tag) {
         List<String> allArticles = new ArrayList<>();

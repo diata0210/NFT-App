@@ -23,7 +23,6 @@ public class PlazaNFTCrawler implements BaseCrawler {
     private final String BASE_URL = "/all-posts/";
     private final int NUM_OF_PAGE = 53;
 
-    @Override
     public List<String> getUrls() {
         List<String> listUrls = new ArrayList<String>();
         try {
