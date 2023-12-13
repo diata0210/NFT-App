@@ -34,7 +34,7 @@ public class TwitterCrawler {
 
   public TwitterCrawler() {
     System.setProperty("webdriver.chrome.driver",
-        "D:\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        "C:\\Users\\DELL\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
     ChromeOptions options = new ChromeOptions();
     options.addArguments(USER_AGENT_PERSON);
     driver = new ChromeDriver(options);
@@ -45,7 +45,7 @@ public class TwitterCrawler {
       Dotenv dotenv = Dotenv.configure().load();
       String username = dotenv.get("USERNAMETWITTER");
       String password = dotenv.get("PASSWORDTWITTER");
-      driver.get(BASE_URL + "search?q=" + TAGS + "&src=hashtag_click");
+      driver.get(BASE_URL + "search?q=" + TAGS);
 
       Thread.sleep(4000);
 
@@ -75,12 +75,13 @@ public class TwitterCrawler {
   }
 
   public void getElements() {
+    List<TwitterModel> twitterList = new ArrayList<TwitterModel>();
     int targetElementCount = 100;
     int currentElementCount = 0;
     int scrollCount = 0;
     int idx = 0;
     int elementSize = 100;
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 
     try (Writer writer = new FileWriter(JsonURL.TWITTER)) {
       writer.write('[');
@@ -99,8 +100,7 @@ public class TwitterCrawler {
           wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(
               "div.css-1rynq56.r-8akbws.r-krxsd3.r-dnmrzs.r-1udh08x.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-bnwqim")));
 
-          List<WebElement> tweetElements = driver.findElements(
-              By.cssSelector(
+          List<WebElement> tweetElements = driver.findElements(By.cssSelector(
                   "div.css-1rynq56.r-8akbws.r-krxsd3.r-dnmrzs.r-1udh08x.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-bnwqim"));
 
           elementSize = tweetElements.size();
@@ -128,18 +128,30 @@ public class TwitterCrawler {
 
           String author = "";
           try {
-            wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath(
-                    "//span[@class='css-1qaijid r-bcqeeo r-qvutc0 r-poiln3' and @style='text-overflow: unset;']")));
+            wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
+                By.cssSelector(
+                    "div.css-1rynq56.r-dnmrzs.r-1udh08x.r-3s2u2q.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-18u37iz.r-1wvb978")));
+                    List<WebElement> authorDivs = driver.findElements(
+                      By.cssSelector(
+                    "div.css-1rynq56.r-dnmrzs.r-1udh08x.r-3s2u2q.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-18u37iz.r-1wvb978"));
+              
+                  if (!authorDivs.isEmpty()) {
+                      WebElement firstAuthorDiv = authorDivs.get(0);
+              
+                      List<WebElement> authorSpans = firstAuthorDiv.findElements(
+                          By.cssSelector("span.css-1qaijid.r-bcqeeo.r-qvutc0.r-poiln3"));
+              
+                      if (!authorSpans.isEmpty()) {
+                          author = authorSpans.get(0).getText();
+                          System.out.println("author: " + author);
+                      }
+                  } else{
+                    System.out.println("khong tim thay");
+                  }
+          } finally{
 
-            WebElement authorElement = driver.findElement(
-                By.xpath("//span[@class='css-1qaijid r-bcqeeo r-qvutc0 r-poiln3' and @style='text-overflow: unset;']"));
-            author = authorElement.getText();
-            System.out.println("author: " + author);
-          } catch (Exception e) {
-            System.out.println("loi author");
           }
-
+          final String[] descHolder = new String[1]; // Mảng chứa desc
           // desc
           String desc = "";
           try {
@@ -154,6 +166,7 @@ public class TwitterCrawler {
               descBuilder.append(descTemp);
             }
             desc = descBuilder.toString();
+            descHolder[0] = desc;
             System.out.println("desc: " + desc);
           } catch (Exception e) {
             System.out.println("Loi desc");
@@ -187,9 +200,14 @@ public class TwitterCrawler {
             date = dateTime.format(outputFormatter);
           }
           try {
+            
             TwitterModel model = new TwitterModel(desc, author, date, relatedTags);
-            ObjectMapper mapper = new ObjectMapper();
-            writer.write(mapper.writeValueAsString(model));
+            if (twitterList.stream().noneMatch(existingModel -> existingModel.getDesc().equals(descHolder[0]))) {
+              twitterList.add(model);
+              ObjectMapper mapper = new ObjectMapper();
+              writer.write(mapper.writeValueAsString(model));
+            }
+            
           } finally {
             driver.navigate().back();
             WebElement elementToRemove = wait.until(ExpectedConditions.presenceOfElementLocated(
