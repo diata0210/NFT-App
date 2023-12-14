@@ -9,5 +9,7 @@ public class JsonURL {
     public static String PLAZANFT = "src/main/java/data/PlazaNFT.json";
     public static String ARTNEWSPAPER = "src/main/java/data/TheartNewsPaper.json";
     public static String TWITTER = "src/main/java/data/Twitter.json";
+    public static String IMMUTABLE = "src/main/java/data/ImmutableCollection.json";
+    public static String MOOAR = "src/main/java/data/MooarCollection.json";
 }
 

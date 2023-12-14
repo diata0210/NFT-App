@@ -3,6 +3,7 @@ package crawler;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import data.util.JsonURL;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -45,7 +46,7 @@ public class MooarApiCall implements ApiDataProvider {
         if (response.isSuccessful()) {
           String responseData = response.body().string();
           try {
-            FileWriter file = new FileWriter("src/main/java/data/MooarCollection.json");
+            FileWriter file = new FileWriter(JsonURL.MOOAR);
             file.write(responseData);
             file.flush();
             file.close();
@@ -66,5 +67,4 @@ public class MooarApiCall implements ApiDataProvider {
     MooarApiCall model = new MooarApiCall();
     model.fetchData();
   }
-
 }
