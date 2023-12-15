@@ -10,38 +10,43 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
-import models.CoinDeskBlogModel;
-import repository.CoinDeskRepository;
+import models.BlogNFTicallyModel;
+import repository.BlogNFTicallyRepository;
 import repository.Repository;
 
-public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
-    public static CoinDeskRepositoryImp instance;
-    private List<CoinDeskBlogModel> models = new ArrayList<>();
-    public static CoinDeskRepositoryImp getInstance() {
+public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repository {
+    public static BlogNFTicallyRepositoryImp instance;
+    private List<BlogNFTicallyModel> models = new ArrayList<>();
+
+    public static BlogNFTicallyRepositoryImp getInstance() {
         if (instance == null)
-            instance = new CoinDeskRepositoryImp();
+            instance = new BlogNFTicallyRepositoryImp();
         return instance;
     }
+
     @Override
     public void loadData() {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            CoinDeskBlogModel[] sites = mapper.readValue(new File(JsonURL.COINDESK), CoinDeskBlogModel[].class);
-            for (CoinDeskBlogModel site : sites)
+            BlogNFTicallyModel[] sites = mapper.readValue(new File(JsonURL.NFTICALLY), BlogNFTicallyModel[].class);
+            for (BlogNFTicallyModel site : sites)
                 models.add(site);
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
+
     @Override
-    public List<CoinDeskBlogModel> getAllCoin() {
+    public List<BlogNFTicallyModel> getAllModels() {
         return models;
     }
+
     @Override
-    public List<CoinDeskBlogModel> getArticlesByTag(String tag) {
-        List<CoinDeskBlogModel> allArticles = new ArrayList<>();
+    public List<BlogNFTicallyModel> getArticleByTags(String tag) {
+        List<BlogNFTicallyModel> allArticles = new ArrayList<>();
         String lowercaseTag = tag.toLowerCase();
-        for (CoinDeskBlogModel model : models) {
+        for (BlogNFTicallyModel model : models) {
             List<String> lowercaseTags = model.getRelatedTags().stream()
                     .map(String::toLowerCase)
                     .collect(Collectors.toList());
@@ -53,10 +58,10 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         return allArticles;
     }
 
-   
+
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CoinDeskBlogModel model : models) {
+        for (BlogNFTicallyModel model : models) {
             String date = model.getDate();
             // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
             if (date != null && date.length() == 10) {
@@ -73,7 +78,7 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
 
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CoinDeskBlogModel model : models) {
+        for (BlogNFTicallyModel model : models) {
             String date = model.getDate();
             // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
             if (date != null && date.length() == 10) {
@@ -87,20 +92,12 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         }
         return tagFrequency;
     }
-    public List<CoinDeskBlogModel>getArticlesByTitle(String title) {
-        List<CoinDeskBlogModel> matchingArticles = new ArrayList<>();
-        for (CoinDeskBlogModel model : models) {
-            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model);
-            }
-        }
-        return matchingArticles;
-    }
+
     
     public static void main(String[] args) {
-        CoinDeskRepositoryImp mod = new CoinDeskRepositoryImp();
+        BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
         mod.loadData();
-        for (CoinDeskBlogModel md : mod.getArticlesByTag("NFTS")) {
+        for (BlogNFTicallyModel md : mod.getArticleByTags("NFTS")) {
             System.out.println(md);
         }
     }

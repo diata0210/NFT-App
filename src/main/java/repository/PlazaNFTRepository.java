@@ -3,14 +3,15 @@ package repository;
 import java.util.List;
 import java.util.Map;
 
-import models.CoinDeskBlogModel;
+import models.PlazaNFTModel;
 
-public interface CoinDeskRepository {
+public interface PlazaNFTRepository {
     void loadData();
 
-    List<CoinDeskBlogModel> getAllCoin();
+    List<PlazaNFTModel> getAllModels();
 
-    List<CoinDeskBlogModel> getArticlesByTag(String tag);
+    List<PlazaNFTModel> getNFTsByTags(String tag);
+
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 

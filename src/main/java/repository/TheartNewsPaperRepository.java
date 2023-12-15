@@ -3,14 +3,13 @@ package repository;
 import java.util.List;
 import java.util.Map;
 
-import models.CoinDeskBlogModel;
+import models.TheartNewPaperBlogModel;
 
-public interface CoinDeskRepository {
+public interface TheartNewsPaperRepository {
     void loadData();
+    List<TheartNewPaperBlogModel> getAllModels();
 
-    List<CoinDeskBlogModel> getAllCoin();
-
-    List<CoinDeskBlogModel> getArticlesByTag(String tag);
+    List<TheartNewPaperBlogModel> getArticleByTags(String tag);
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
