@@ -1,200 +1,200 @@
 [
-    {
-        "id": "0x9c8d2f53f6bff84458f1c84fdaa1e4852ca958e3",
-        "name": "Super Creators By IAC",
-        "collection": {
-            "blockchain": "ETHEREUM",
-            "cover": "https://lh3.googleusercontent.com/Lxj5rVxgn3T20hoPGSm1yKimipUUo97d5ZqVywtt--wjlt8QiogZOC-MhmqU2tyFEohJTWAnci8Uu_9q9xe0xo1hrGQ01Zhk-ss_Nw=s2500",
-            "description": "\"Where Spirituality Meets Virtuality\" \r\n\r\nThe Super Creators project is the first of its kind project that aims to make spirituality available to everyone in the metaverse. We are pioneering across this constantly changing virtual land in attempt to unite both the ethereal and material to have abundance in both areas.\r\n\r\nSuper Creators are a collection of 2,222 unique �I Am Creator� NFTs - unique digital collectibles living on the Ethereum blockchain. Your Super Creator  doubles as your Virtual Creators Land membership card, and grants access to members-only benefits, the first of which is access to the Super Creator Academy, a 24 hour virtual knowledge center. \r\n\r\nToken Holders will have the benefits in both the physical and metaphysical space. Such as FREE events and trainings in a variety of fields, from yoga, to wealth building, to spirituality & personal development. This also includes private access to future developments in both the virtual and physical Creators Land.",
-            "editors": [],
-            "features": [
-                "APPROVE_FOR_ALL"
-            ],
+        {
             "id": "0x9c8d2f53f6bff84458f1c84fdaa1e4852ca958e3",
             "name": "Super Creators By IAC",
-            "owner": "0x08ff5be7763ba696e7ec9dce9930bf701af523ca",
-            "pic": "https://lh3.googleusercontent.com/1rc8SSvlhrlbYFiAmU-AzSkrmGdg6dHEByOtE38a6domk2gwERy5bxr6mWamLfE1HQb7t-72G6MzVssXPruaMnLfVVjRGgl2G4FFmw=s120",
-            "shortUrl": "supercreatorsbyiac",
-            "links": {
-                "WEB_SITE_URL": "https://supercreators.io/",
-                "DISCORD": "NaBnwevg2n",
-                "INSTAGRAM": "supercreatorsbyiac"
-            },
-            "standard": "ERC721",
-            "symbol": "SCIAC",
-            "tags": [
-                {
-                    "name": "pfp",
-                    "source": "ADMIN"
-                }
-            ],
-            "shared": false,
-            "blacklisted": false,
-            "itemsWithRarity": false,
-            "badges": [
-                "VERIFIED"
-            ],
-            "coverMedia": [
-                {
-                    "url": "https://lh3.googleusercontent.com/Lxj5rVxgn3T20hoPGSm1yKimipUUo97d5ZqVywtt--wjlt8QiogZOC-MhmqU2tyFEohJTWAnci8Uu_9q9xe0xo1hrGQ01Zhk-ss_Nw=s2500",
-                    "sizeType": "ORIGINAL",
-                    "contentType": "IMAGE"
+            "collection": {
+                "blockchain": "ETHEREUM",
+                "cover": "https://lh3.googleusercontent.com/Lxj5rVxgn3T20hoPGSm1yKimipUUo97d5ZqVywtt--wjlt8QiogZOC-MhmqU2tyFEohJTWAnci8Uu_9q9xe0xo1hrGQ01Zhk-ss_Nw=s2500",
+                "description": "\"Where Spirituality Meets Virtuality\" \r\n\r\nThe Super Creators project is the first of its kind project that aims to make spirituality available to everyone in the metaverse. We are pioneering across this constantly changing virtual land in attempt to unite both the ethereal and material to have abundance in both areas.\r\n\r\nSuper Creators are a collection of 2,222 unique �I Am Creator� NFTs - unique digital collectibles living on the Ethereum blockchain. Your Super Creator  doubles as your Virtual Creators Land membership card, and grants access to members-only benefits, the first of which is access to the Super Creator Academy, a 24 hour virtual knowledge center. \r\n\r\nToken Holders will have the benefits in both the physical and metaphysical space. Such as FREE events and trainings in a variety of fields, from yoga, to wealth building, to spirituality & personal development. This also includes private access to future developments in both the virtual and physical Creators Land.",
+                "editors": [],
+                "features": [
+                    "APPROVE_FOR_ALL"
+                ],
+                "id": "0x9c8d2f53f6bff84458f1c84fdaa1e4852ca958e3",
+                "name": "Super Creators By IAC",
+                "owner": "0x08ff5be7763ba696e7ec9dce9930bf701af523ca",
+                "pic": "https://lh3.googleusercontent.com/1rc8SSvlhrlbYFiAmU-AzSkrmGdg6dHEByOtE38a6domk2gwERy5bxr6mWamLfE1HQb7t-72G6MzVssXPruaMnLfVVjRGgl2G4FFmw=s120",
+                "shortUrl": "supercreatorsbyiac",
+                "links": {
+                    "WEB_SITE_URL": "https://supercreators.io/",
+                    "DISCORD": "NaBnwevg2n",
+                    "INSTAGRAM": "supercreatorsbyiac"
                 },
-                {
-                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
-                    "dimension": {
-                        "width": 1000,
-                        "height": 200
-                    },
-                    "sizeType": "PREVIEW",
-                    "contentType": "IMAGE",
-                    "cropMode": "CROP"
-                },
-                {
-                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
-                    "dimension": {
-                        "width": 2200,
-                        "height": 400
-                    },
-                    "sizeType": "BIG",
-                    "contentType": "IMAGE",
-                    "cropMode": "CROP"
-                },
-                {
-                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
-                    "dimension": {
-                        "width": 55,
-                        "height": 10
-                    },
-                    "sizeType": "PLACEHOLDER",
-                    "contentType": "IMAGE",
-                    "cropMode": "CROP"
-                }
-            ],
-            "imageMedia": [
-                {
-                    "url": "https://lh3.googleusercontent.com/1rc8SSvlhrlbYFiAmU-AzSkrmGdg6dHEByOtE38a6domk2gwERy5bxr6mWamLfE1HQb7t-72G6MzVssXPruaMnLfVVjRGgl2G4FFmw=s120",
-                    "sizeType": "ORIGINAL",
-                    "contentType": "IMAGE"
-                },
-                {
-                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzFyYzhTU3ZsaHJsYllGaUFtVS1BelNrcm1HZGc2ZEhFQnlPdEUzOGE2ZG9tazJnd0VSeTVieHI2bVdhbUxmRTFIUWI3dC03Mkc2TXpWc3NYUHJ1YU1uTGZWVmpSR2dsMkc0RkZtdz1zMTIw",
-                    "dimension": {
-                        "width": 30,
-                        "height": 30
-                    },
-                    "sizeType": "PREVIEW",
-                    "contentType": "IMAGE",
-                    "cropMode": "THUMB"
-                },
-                {
-                    "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzFyYzhTU3ZsaHJsYllGaUFtVS1BelNrcm1HZGc2ZEhFQnlPdEUzOGE2ZG9tazJnd0VSeTVieHI2bVdhbUxmRTFIUWI3dC03Mkc2TXpWc3NYUHJ1YU1uTGZWVmpSR2dsMkc0RkZtdz1zMTIw",
-                    "dimension": {
-                        "width": 240,
-                        "height": 240
-                    },
-                    "sizeType": "BIG",
-                    "contentType": "IMAGE",
-                    "cropMode": "THUMB"
-                }
-            ],
-            "size": 2222,
-            "onSaleSize": 94,
-            "hasTraits": true,
-            "hasRewards": false,
-            "statistics": {
-                "itemCountTotal": "2222",
-                "ownerCountTotal": "883",
-                "totalVolume": {
-                    "value": 3326.8853138688,
-                    "valueUsd": 8074646.280679695
-                },
-                "volumes": [
+                "standard": "ERC721",
+                "symbol": "SCIAC",
+                "tags": [
                     {
-                        "value": {
-                            "value": 0,
-                            "valueUsd": 0
-                        },
-                        "period": "M5",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 0,
-                            "valueUsd": 0
-                        },
-                        "period": "M30",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 0,
-                            "valueUsd": 0
-                        },
-                        "period": "H1",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 0,
-                            "valueUsd": 0
-                        },
-                        "period": "H6",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 6.548053566,
-                            "valueUsd": 13177.0816793424
-                        },
-                        "period": "DAY",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 23.6398890768,
-                            "valueUsd": 46843.5909976887
-                        },
-                        "period": "WEEK",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 146.7377736608,
-                            "valueUsd": 270741.0750673507
-                        },
-                        "period": "MONTH",
-                        "changePercent": 0
-                    },
-                    {
-                        "value": {
-                            "value": 3314.1693037968,
-                            "valueUsd": 8048775.1947717334
-                        },
-                        "period": "TOTAL",
-                        "changePercent": 0
+                        "name": "pfp",
+                        "source": "ADMIN"
                     }
-                ]
+                ],
+                "shared": false,
+                "blacklisted": false,
+                "itemsWithRarity": false,
+                "badges": [
+                    "VERIFIED"
+                ],
+                "coverMedia": [
+                    {
+                        "url": "https://lh3.googleusercontent.com/Lxj5rVxgn3T20hoPGSm1yKimipUUo97d5ZqVywtt--wjlt8QiogZOC-MhmqU2tyFEohJTWAnci8Uu_9q9xe0xo1hrGQ01Zhk-ss_Nw=s2500",
+                        "sizeType": "ORIGINAL",
+                        "contentType": "IMAGE"
+                    },
+                    {
+                        "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
+                        "dimension": {
+                            "width": 1000,
+                            "height": 200
+                        },
+                        "sizeType": "PREVIEW",
+                        "contentType": "IMAGE",
+                        "cropMode": "CROP"
+                    },
+                    {
+                        "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
+                        "dimension": {
+                            "width": 2200,
+                            "height": 400
+                        },
+                        "sizeType": "BIG",
+                        "contentType": "IMAGE",
+                        "cropMode": "CROP"
+                    },
+                    {
+                        "url": "https://assets.raribleuserdata.com/prod/v1/image/t_cover_placeholder/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL0x4ajVyVnhnbjNUMjBob1BHU20xeUtpbWlwVVVvOTdkNVpxVnl3dHQtLXdqbHQ4UWlvZ1pPQy1NaG1xVTJ0eUZFb2hKVFdBbmNpOFV1XzlxOXhlMHhvMWhyR1EwMVpoay1zc19Odz1zMjUwMA==",
+                        "dimension": {
+                            "width": 55,
+                            "height": 10
+                        },
+                        "sizeType": "PLACEHOLDER",
+                        "contentType": "IMAGE",
+                        "cropMode": "CROP"
+                    }
+                ],
+                "imageMedia": [
+                    {
+                        "url": "https://lh3.googleusercontent.com/1rc8SSvlhrlbYFiAmU-AzSkrmGdg6dHEByOtE38a6domk2gwERy5bxr6mWamLfE1HQb7t-72G6MzVssXPruaMnLfVVjRGgl2G4FFmw=s120",
+                        "sizeType": "ORIGINAL",
+                        "contentType": "IMAGE"
+                    },
+                    {
+                        "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_preview/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzFyYzhTU3ZsaHJsYllGaUFtVS1BelNrcm1HZGc2ZEhFQnlPdEUzOGE2ZG9tazJnd0VSeTVieHI2bVdhbUxmRTFIUWI3dC03Mkc2TXpWc3NYUHJ1YU1uTGZWVmpSR2dsMkc0RkZtdz1zMTIw",
+                        "dimension": {
+                            "width": 30,
+                            "height": 30
+                        },
+                        "sizeType": "PREVIEW",
+                        "contentType": "IMAGE",
+                        "cropMode": "THUMB"
+                    },
+                    {
+                        "url": "https://assets.raribleuserdata.com/prod/v1/image/t_avatar_big/aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzFyYzhTU3ZsaHJsYllGaUFtVS1BelNrcm1HZGc2ZEhFQnlPdEUzOGE2ZG9tazJnd0VSeTVieHI2bVdhbUxmRTFIUWI3dC03Mkc2TXpWc3NYUHJ1YU1uTGZWVmpSR2dsMkc0RkZtdz1zMTIw",
+                        "dimension": {
+                            "width": 240,
+                            "height": 240
+                        },
+                        "sizeType": "BIG",
+                        "contentType": "IMAGE",
+                        "cropMode": "THUMB"
+                    }
+                ],
+                "size": 2222,
+                "onSaleSize": 94,
+                "hasTraits": true,
+                "hasRewards": false,
+                "statistics": {
+                    "itemCountTotal": "2222",
+                    "ownerCountTotal": "883",
+                    "totalVolume": {
+                        "value": 3326.8853138688,
+                        "valueUsd": 8074646.280679695
+                    },
+                    "volumes": [
+                        {
+                            "value": {
+                                "value": 0,
+                                "valueUsd": 0
+                            },
+                            "period": "M5",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 0,
+                                "valueUsd": 0
+                            },
+                            "period": "M30",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 0,
+                                "valueUsd": 0
+                            },
+                            "period": "H1",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 0,
+                                "valueUsd": 0
+                            },
+                            "period": "H6",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 6.548053566,
+                                "valueUsd": 13177.0816793424
+                            },
+                            "period": "DAY",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 23.6398890768,
+                                "valueUsd": 46843.5909976887
+                            },
+                            "period": "WEEK",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 146.7377736608,
+                                "valueUsd": 270741.0750673507
+                            },
+                            "period": "MONTH",
+                            "changePercent": 0
+                        },
+                        {
+                            "value": {
+                                "value": 3314.1693037968,
+                                "valueUsd": 8048775.1947717334
+                            },
+                            "period": "TOTAL",
+                            "changePercent": 0
+                        }
+                    ]
+                }
+            },
+            "statistics": {
+                "floorPrice": {
+                    "value": 0.6,
+                    "currency": "ETH",
+                    "changePercent": 0
+                },
+                "amount": {
+                    "value": 6.548053566,
+                    "currency": "ETH"
+                },
+                "usdAmount": {
+                    "value": 13177.0816793424,
+                    "currency": "USD"
+                },
+                "owners": 963,
+                "items": 2222
             }
         },
-        "statistics": {
-            "floorPrice": {
-                "value": 0.6,
-                "currency": "ETH",
-                "changePercent": 0
-            },
-            "amount": {
-                "value": 6.548053566,
-                "currency": "ETH"
-            },
-            "usdAmount": {
-                "value": 13177.0816793424,
-                "currency": "USD"
-            },
-            "owners": 963,
-            "items": 2222
-        }
-    },
     {
         "id": "0x716f29b8972d551294d9e02b3eb0fc1107fbf4aa",
         "name": "Imaginary Ones",
