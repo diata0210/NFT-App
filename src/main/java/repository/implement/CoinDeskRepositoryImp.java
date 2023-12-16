@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.BlogNFTicallyModel;
 import models.CoinDeskBlogModel;
 import repository.CoinDeskRepository;
 import repository.Repository;
@@ -17,6 +18,7 @@ import repository.Repository;
 public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
     public static CoinDeskRepositoryImp instance;
     private List<CoinDeskBlogModel> models = new ArrayList<>();
+    private List<CoinDeskBlogModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
     public static CoinDeskRepositoryImp getInstance() {
         if (instance == null)
             instance = new CoinDeskRepositoryImp();
@@ -96,7 +98,20 @@ public class CoinDeskRepositoryImp implements CoinDeskRepository, Repository {
         }
         return matchingArticles;
     }
-    
+    public List<CoinDeskBlogModel> addFavorite(String title) {
+        for (CoinDeskBlogModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<CoinDeskBlogModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
     public static void main(String[] args) {
         CoinDeskRepositoryImp mod = new CoinDeskRepositoryImp();
         mod.loadData();

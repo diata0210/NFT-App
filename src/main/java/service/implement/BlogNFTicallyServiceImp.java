@@ -41,7 +41,12 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return blogNFTicallyRepository.getTagFrequencyByMonth(month);
     }
-
+    public List<BlogNFTicallyModel> addFavorite(String title){
+         return blogNFTicallyRepository.addFavorite(title);
+    }
+    public List<BlogNFTicallyModel> removeFavorite(String title){
+         return blogNFTicallyRepository.removeFavorite(title);
+    }
     public static void main(String[] args) {
     }
 }

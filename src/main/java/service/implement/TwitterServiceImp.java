@@ -3,6 +3,7 @@ package service.implement;
 import java.util.List;
 import java.util.Map;
 
+import models.CoinDeskBlogModel;
 import models.TheartNewPaperBlogModel;
 import models.TwitterModel;
 import repository.TwitterRepository;
@@ -42,7 +43,13 @@ public class TwitterServiceImp implements TwitterService {
         return twitterRepository.getTagFrequencyByMonth(month);
     }
 
+      public List<TwitterModel> addFavorite(String title) {
+        return twitterRepository.addFavorite(title);
+    }
 
+    public List<TwitterModel> removeFavorite(String title) {
+        return twitterRepository.removeFavorite(title);
+    }
     public static void main(String[] args) {
 
     }

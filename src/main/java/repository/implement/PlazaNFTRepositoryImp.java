@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.CtytoNewsBlogModel;
 import models.PlazaNFTModel;
 import repository.PlazaNFTRepository;
 import repository.Repository;
@@ -17,7 +18,7 @@ import repository.Repository;
 public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
     public static PlazaNFTRepositoryImp instance;
     private List<PlazaNFTModel> models = new ArrayList<>();
-
+    private List<PlazaNFTModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
     public static PlazaNFTRepositoryImp getInstance() {
         if (instance == null)
             instance = new PlazaNFTRepositoryImp();
@@ -94,6 +95,21 @@ public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
         }
         return tagFrequency;
     }
+       public List<PlazaNFTModel> addFavorite(String title) {
+        for (PlazaNFTModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<PlazaNFTModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
+
     public static void main(String[] args) {
         PlazaNFTRepositoryImp mod = new PlazaNFTRepositoryImp();
         mod.loadData();

@@ -9,6 +9,12 @@ public interface BlogNFTicallyService {
     List<BlogNFTicallyModel> getAllModels();
 
     List<BlogNFTicallyModel> getArticlesByTag(String tag);
+
     Map<String, Integer> getTagFrequencyByMonth(String month);
-     Map<String, Integer> getTagFrequencyByDay(String day);
+
+    Map<String, Integer> getTagFrequencyByDay(String day);
+
+    List<BlogNFTicallyModel> addFavorite(String title);
+
+    List<BlogNFTicallyModel> removeFavorite(String title);
 }

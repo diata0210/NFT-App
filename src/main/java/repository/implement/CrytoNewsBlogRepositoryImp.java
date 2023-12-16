@@ -17,6 +17,7 @@ import repository.Repository;
 public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repository {
     public static CrytoNewsBlogRepositoryImp instance;
     private List<CtytoNewsBlogModel> models = new ArrayList<>();
+    private List<CtytoNewsBlogModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
 
     public static CrytoNewsBlogRepositoryImp getInstance() {
         if (instance == null)
@@ -58,7 +59,6 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         return allArticles;
     }
 
-
     @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         Map<String, Integer> tagFrequency = new HashMap<>();
@@ -94,6 +94,7 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return tagFrequency;
     }
+
     public List<CtytoNewsBlogModel> getArticlesByTitle(String title) {
         List<CtytoNewsBlogModel> matchingArticles = new ArrayList<>();
         for (CtytoNewsBlogModel model : models) {
@@ -103,7 +104,22 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
         }
         return matchingArticles;
     }
-    
+
+    public List<CtytoNewsBlogModel> addFavorite(String title) {
+        for (CtytoNewsBlogModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<CtytoNewsBlogModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
+
     public static void main(String[] args) {
         CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
         mod.loadData();

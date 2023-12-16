@@ -3,6 +3,8 @@ package service.implement;
 import java.util.List;
 import java.util.Map;
 
+import models.CoinDeskBlogModel;
+import models.PlazaNFTModel;
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
 import repository.implement.TheartNewsPaperRepositoryImp;
@@ -18,9 +20,11 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
             instance = new TheartNewsPaperServiceImp();
         return instance;
     }
+
     private TheartNewsPaperServiceImp() {
         theartNewsPaperRepository.loadData(); // Gọi loadData ở đây
     }
+
     @Override
     public List<TheartNewPaperBlogModel> getAllModels() {
         return theartNewsPaperRepository.getAllModels();
@@ -31,15 +35,23 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
         return theartNewsPaperRepository.getArticleByTags(tag);
     }
 
-@Override
+    @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return theartNewsPaperRepository.getTagFrequencyByDay(day);
     }
+
     @Override
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return theartNewsPaperRepository.getTagFrequencyByMonth(month);
     }
 
+    public List<TheartNewPaperBlogModel> addFavorite(String title) {
+        return theartNewsPaperRepository.addFavorite(title);
+    }
+
+    public List<TheartNewPaperBlogModel> removeFavorite(String title) {
+        return theartNewsPaperRepository.removeFavorite(title);
+    }
 
     public static void main(String[] args) {
 

@@ -3,6 +3,7 @@ package service.implement;
 import java.util.List;
 import java.util.Map;
 
+import models.CoinDeskBlogModel;
 import models.PlazaNFTModel;
 import repository.PlazaNFTRepository;
 import repository.implement.PlazaNFTRepositoryImp;
@@ -33,6 +34,13 @@ public class PlazaNFTServiceImp implements PlazaNFTService {
     }
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return plazaNFTRepository.getTagFrequencyByDay(day);
+    }
+      public List<PlazaNFTModel> addFavorite(String title) {
+        return plazaNFTRepository.addFavorite(title);
+    }
+
+    public List<PlazaNFTModel> removeFavorite(String title) {
+        return plazaNFTRepository.removeFavorite(title);
     }
     public static void main(String[] args) {
 

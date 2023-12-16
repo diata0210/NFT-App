@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.CtytoNewsBlogModel;
+import models.TheartNewPaperBlogModel;
 import models.TwitterModel;
 import repository.TwitterRepository;
 import repository.Repository;
@@ -18,7 +20,7 @@ import twitter4j.Twitter;
 public class TwitterRepositoryImp implements TwitterRepository, Repository {
     public static TwitterRepositoryImp instance;
     private List<TwitterModel> models = new ArrayList<>();
-
+    private List<TwitterModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
     public static TwitterRepositoryImp getInstance() {
         if (instance == null)
             instance = new TwitterRepositoryImp();
@@ -94,7 +96,21 @@ public class TwitterRepositoryImp implements TwitterRepository, Repository {
         return tagFrequency;
     }
 
-    
+     public List<TwitterModel> addFavorite(String title) {
+        for (TwitterModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<TwitterModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
+
     public static void main(String[] args) {
        TwitterRepositoryImp mod = new TwitterRepositoryImp();
         mod.loadData();

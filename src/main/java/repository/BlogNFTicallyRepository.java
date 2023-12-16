@@ -16,4 +16,7 @@ public interface BlogNFTicallyRepository {
 
     Map<String, Integer> getTagFrequencyByDay(String day);
 
+    List<BlogNFTicallyModel> addFavorite(String title);
+
+    List<BlogNFTicallyModel> removeFavorite(String title);
 }

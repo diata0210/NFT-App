@@ -3,6 +3,7 @@ package service.implement;
 import java.util.List;
 import java.util.Map;
 
+import models.CoinDeskBlogModel;
 import models.CtytoNewsBlogModel;
 import repository.CrytoNewsBlogRepository;
 import repository.implement.CrytoNewsBlogRepositoryImp;
@@ -41,7 +42,13 @@ public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
     public Map<String, Integer> getTagFrequencyByMonth(String month) {
         return crytoNewsBlogRepository.getTagFrequencyByMonth(month);
     }
-  
+      public List<CtytoNewsBlogModel> addFavorite(String title) {
+        return crytoNewsBlogRepository.addFavorite(title);
+    }
+
+    public List<CtytoNewsBlogModel> removeFavorite(String title) {
+        return crytoNewsBlogRepository.removeFavorite(title);
+    }
     public static void main(String[] args) {
 
     }

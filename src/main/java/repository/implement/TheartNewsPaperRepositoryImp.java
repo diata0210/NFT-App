@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
+import models.CtytoNewsBlogModel;
 import models.TheartNewPaperBlogModel;
 import repository.TheartNewsPaperRepository;
 import repository.Repository;
@@ -17,7 +18,7 @@ import repository.Repository;
 public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, Repository {
     public static TheartNewsPaperRepositoryImp instance;
     private List<TheartNewPaperBlogModel> models = new ArrayList<>();
-
+    private List<TheartNewPaperBlogModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
     public static TheartNewsPaperRepositoryImp getInstance() {
         if (instance == null)
             instance = new TheartNewsPaperRepositoryImp();
@@ -94,7 +95,8 @@ public class TheartNewsPaperRepositoryImp implements TheartNewsPaperRepository, 
         }
         return tagFrequency;
     }
-public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
+
+    public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
         List<TheartNewPaperBlogModel> matchingArticles = new ArrayList<>();
         for (TheartNewPaperBlogModel model : models) {
             if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
@@ -103,6 +105,22 @@ public List<TheartNewPaperBlogModel> getArticlesByTitle(String title) {
         }
         return matchingArticles;
     }
+
+    public List<TheartNewPaperBlogModel> addFavorite(String title) {
+        for (TheartNewPaperBlogModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<TheartNewPaperBlogModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
+
     public static void main(String[] args) {
         TheartNewsPaperRepositoryImp mod = new TheartNewsPaperRepositoryImp();
         mod.loadData();

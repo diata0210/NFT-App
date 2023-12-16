@@ -17,6 +17,7 @@ import repository.Repository;
 public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repository {
     public static BlogNFTicallyRepositoryImp instance;
     private List<BlogNFTicallyModel> models = new ArrayList<>();
+    private List<BlogNFTicallyModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
 
     public static BlogNFTicallyRepositoryImp getInstance() {
         if (instance == null)
@@ -93,7 +94,21 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         return tagFrequency;
     }
 
-    
+    public List<BlogNFTicallyModel> addFavorite(String title) {
+        for (BlogNFTicallyModel model : models) {
+            if (model.getTitle().equalsIgnoreCase(title) && !favoriteArticles.contains(model)) {
+                favoriteArticles.add(model);
+                break;
+            }
+        }
+        return new ArrayList<>(favoriteArticles);
+    }
+
+    public List<BlogNFTicallyModel> removeFavorite(String title) {
+        favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
+        return new ArrayList<>(favoriteArticles);
+    }
+
     public static void main(String[] args) {
         BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
         mod.loadData();

@@ -3,6 +3,7 @@ package service.implement;
 import java.util.List;
 import java.util.Map;
 
+import models.BlogNFTicallyModel;
 import models.CoinDeskBlogModel;
 import repository.CoinDeskRepository;
 import repository.implement.CoinDeskRepositoryImp;
@@ -40,6 +41,14 @@ public class CoinDeskServiceImp implements CoinDeskService {
     @Override
     public Map<String, Integer> getTagFrequencyByDay(String day) {
         return coinDeskRepository.getTagFrequencyByDay(day);
+    }
+
+    public List<CoinDeskBlogModel> addFavorite(String title) {
+        return coinDeskRepository.addFavorite(title);
+    }
+
+    public List<CoinDeskBlogModel> removeFavorite(String title) {
+        return coinDeskRepository.removeFavorite(title);
     }
 
     public static void main(String[] args) {
