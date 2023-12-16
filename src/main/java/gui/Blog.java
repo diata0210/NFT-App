@@ -1,13 +1,19 @@
-package models;
+package gui;
 
-import java.util.List;
-
-public abstract class BlogModel {
+public class Blog {
     String title;
     String desc;
     String author;
     String date;
-    List<String> relatedTags;
+    String relatedTags;
+
+    public Blog(){
+        this.title = null;
+        this.desc = null;
+        this.author = null;
+        this.date = null;
+        this.relatedTags = null;
+    }
 
     public String getAuthor() {
         return author;
@@ -41,11 +47,11 @@ public abstract class BlogModel {
         this.desc = desc;
     }
 
-    public List<String> getRelatedTags() {
+    public String getRelatedTags() {
         return relatedTags;
     }
 
-    public void setRelatedTags(List<String> relatedTags) {
+    public void setRelatedTags(String relatedTags) {
         this.relatedTags = relatedTags;
     }
 }
