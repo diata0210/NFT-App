@@ -5,6 +5,7 @@ import java.util.List;
 import service.implement.BlogNFTicallyServiceImp;
 import service.implement.CoinDeskServiceImp;
 import service.implement.CrytoNewsBlogServiceImp;
+import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 
@@ -18,10 +19,12 @@ public class addFavouriteArticle {
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
         TwitterServiceImp twitterService  = TwitterServiceImp.getInstance();
+        PlazaNFTServiceImp plazaNFTService = PlazaNFTServiceImp.getInstance();
         favouriteArticles.addAll(blogService.addFavorite(title));
         favouriteArticles.addAll(coinDeskService.addFavorite(title));
         favouriteArticles.addAll(cryptoNewsService.addFavorite(title));
         favouriteArticles.addAll(artNewsService.addFavorite(title));
+        favouriteArticles.addAll(plazaNFTService.addFavorite(title));
         //favouriteArticles.addAll(twitterService.addFavorite(title));
         return favouriteArticles;
     }
