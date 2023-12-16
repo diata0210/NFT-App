@@ -15,7 +15,7 @@ public class ShowTable extends Application{
     public void start(Stage stage) throws Exception {
         try {
             Parent root = FXMLLoader.load((getClass().getResource("TagsTable.fxml")));
-            Scene scene1 = new Scene(root, 1000, 600);
+            Scene scene1 = new Scene(root, 3000, 600);
             stage.setTitle("Table Sample");
 
             stage.setScene(scene1);
