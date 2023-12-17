@@ -1,7 +1,6 @@
 package service;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.LinkedHashMap;
@@ -11,6 +10,7 @@ import service.implement.CoinDeskServiceImp;
 import service.implement.CrytoNewsBlogServiceImp;
 import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
+import service.implement.TwitterServiceImp;
 
 public class getTagFrequencyByDay {
 
@@ -19,6 +19,7 @@ public class getTagFrequencyByDay {
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
+        TwitterServiceImp twitterService = TwitterServiceImp.getInstance();
         PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByDay(day));
@@ -26,6 +27,7 @@ public class getTagFrequencyByDay {
         mergeTagFrequency(overallTagFrequency, cryptoNewsService.getTagFrequencyByDay(day));
         mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByDay(day));
         mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByMonth(day));
+        mergeTagFrequency(overallTagFrequency, twitterService.getTagFrequencyByMonth(day));
         return getTopTags(overallTagFrequency, 10); // Trả về top 10 tags
     }
 
