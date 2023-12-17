@@ -2,6 +2,7 @@ package repository;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import models.CoinDeskBlogModel;
 import models.CtytoNewsBlogModel;
@@ -12,7 +13,6 @@ public interface CrytoNewsBlogRepository {
     List<CtytoNewsBlogModel> getAllModels();
 
     List<CtytoNewsBlogModel> getArticleByTags(String tag);
-
     Map<String, Integer> getTagFrequencyByMonth(String month);
 
     Map<String, Integer> getTagFrequencyByDay(String day);

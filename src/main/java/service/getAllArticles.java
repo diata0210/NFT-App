@@ -2,6 +2,8 @@ package service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import models.BlogModel;
 import service.implement.BlogNFTicallyServiceImp;
 import service.implement.CoinDeskServiceImp;
 import service.implement.CrytoNewsBlogServiceImp;
@@ -11,8 +13,8 @@ import service.implement.TwitterServiceImp;
 
 public class getAllArticles {
     
-    public static List<Object> allArticles() {
-        List<Object> allArticles = new ArrayList<>();
+    public static List<BlogModel> allArticles() {
+        List<BlogModel> allArticles = new ArrayList<>();
         
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
@@ -31,8 +33,8 @@ public class getAllArticles {
     }
     
     public static void main(String[] args) {
-        List<Object> allArticles=allArticles();
-        for (Object article:allArticles){
+        List<BlogModel> allArticles=allArticles();
+        for (BlogModel article:allArticles){
             System.out.println(article);
         }
 }

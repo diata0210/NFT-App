@@ -2,6 +2,7 @@ package repository;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import models.CtytoNewsBlogModel;
 import models.PlazaNFTModel;
@@ -12,6 +13,7 @@ public interface PlazaNFTRepository {
     List<PlazaNFTModel> getAllModels();
 
     List<PlazaNFTModel> getNFTsByTags(String tag);
+
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 

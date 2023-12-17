@@ -3,8 +3,10 @@ package repository.implement;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -18,6 +20,7 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     public static BlogNFTicallyRepositoryImp instance;
     private List<BlogNFTicallyModel> models = new ArrayList<>();
     private List<BlogNFTicallyModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
+    private List<BlogNFTicallyModel> tags = new ArrayList<>(); // Array cac bai viet duoc yeu thich
 
     public static BlogNFTicallyRepositoryImp getInstance() {
         if (instance == null)
@@ -42,7 +45,6 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     public List<BlogNFTicallyModel> getAllModels() {
         return models;
     }
-
     @Override
     public List<BlogNFTicallyModel> getArticleByTags(String tag) {
         List<BlogNFTicallyModel> allArticles = new ArrayList<>();

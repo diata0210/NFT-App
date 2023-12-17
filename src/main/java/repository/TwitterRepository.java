@@ -2,8 +2,8 @@ package repository;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
-import models.PlazaNFTModel;
 import models.TwitterModel;
 
 public interface TwitterRepository {
@@ -12,6 +12,8 @@ public interface TwitterRepository {
     List<TwitterModel> getAllModels();
 
     List<TwitterModel> getArticleByTags(String tag);
+
+
 
     Map<String, Integer> getTagFrequencyByMonth(String month);
 

@@ -19,4 +19,5 @@ public interface BlogNFTicallyRepository {
     List<BlogNFTicallyModel> addFavorite(String title);
 
     List<BlogNFTicallyModel> removeFavorite(String title);
+
 }
