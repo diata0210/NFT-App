@@ -19,3 +19,24 @@
 .side-bar-list{
   -fx-background-color: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+/* Định nghĩa class cho button */
+.custom-button {
+  -fx-background-color: #EBE8F9; /* Màu nền mặc định */
+  -fx-text-fill: black; /* Màu chữ mặc định */
+  -fx-font-size: 14px; /* Kích thước font chữ */
+  -fx-font-weight: bold; /* Font chữ đậm */
+  -fx-padding: 8px 16px; /* Khoảng cách giữa nội dung và viền button */
+  -fx-border-radius: 5px; /* Bo tròn viền button */
+}
+
+/* Đổi màu nền khi di chuột vào */
+.custom-button:hover {
+  -fx-background-color: #D6D3E7; /* Màu nền khi di chuột vào */
+}
+
+/* Đổi màu khi bấm chuột */
+.custom-button:pressed {
+  -fx-background-color: #C2BBD6; /* Màu khi bấm chuột */
+}
+
+
