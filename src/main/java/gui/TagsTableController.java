@@ -20,6 +20,8 @@ import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import models.BlogModel;
@@ -57,17 +59,19 @@ public class TagsTableController implements Initializable {
         authorCol.setCellValueFactory(new PropertyValueFactory<>("author"));
         dateCol.setCellValueFactory(new PropertyValueFactory<>("date"));
         relatedTagsCol.setCellValueFactory(new PropertyValueFactory<>("relatedTags"));
-        //tao button cho moi table cell
+
+        // tao button cho moi table cell
         actionCol.setCellValueFactory(new PropertyValueFactory<>("dummy"));
 
-        Callback<TableColumn<Blog, String>, TableCell<Blog, String>> cellFactory = 
-        new Callback<TableColumn<Blog, String>, TableCell<Blog, String>>() {
+        Callback<TableColumn<Blog, String>, TableCell<Blog, String>> cellFactory = new Callback<TableColumn<Blog, String>, TableCell<Blog, String>>() {
             @Override
             public TableCell<Blog, String> call(final TableColumn<Blog, String> param) {
                 final TableCell<Blog, String> cell = new TableCell<Blog, String>() {
 
-                    final Button btn = new Button("Add");
-                    
+                    final Button btn = new Button(null);
+                    Image saveIcon = new Image(getClass().getResource("save-icon.png").toExternalForm());
+                    Image savedIcon = new Image(getClass().getResource("saved-icon.png").toExternalForm());
+
                     @Override
                     public void updateItem(String item, boolean empty) {
                         super.updateItem(item, empty);
@@ -75,13 +79,34 @@ public class TagsTableController implements Initializable {
                             setGraphic(null);
                             setText(null);
                         } else {
-                            btn.setOnAction(event -> {
-                                String text = btn.getText();
-                                if (text == "Add") {
-                                    btn.setText("Added");
+                            ImageView imageView;
+                            if (getTableRow() != null) {
+                                Blog blog = getTableView().getItems().get(getIndex());
+                                if (blog.getSavedToFavouriteList()) {
+                                    imageView = new ImageView(savedIcon);
+                                } else {
+                                    imageView = new ImageView(saveIcon);
                                 }
-                                else {
-                                    btn.setText("Add");
+                            } else {
+                                imageView = new ImageView(saveIcon);
+                            }
+                            imageView.setFitWidth(20);
+                            imageView.setFitHeight(20);
+                            btn.setGraphic(imageView);
+                            btn.setOnAction(event -> {
+                                Blog blog = getTableView().getItems().get(getIndex());
+                                if (blog.getSavedToFavouriteList()) {
+                                    blog.setSavedToFavouriteList(false);
+                                    ImageView newImageView = new ImageView(saveIcon);
+                                    newImageView.setFitWidth(20);
+                                    newImageView.setFitHeight(20);
+                                    btn.setGraphic(newImageView);
+                                } else {
+                                    blog.setSavedToFavouriteList(true);
+                                    ImageView newImageView = new ImageView(savedIcon);
+                                    newImageView.setFitWidth(20);
+                                    newImageView.setFitHeight(20);
+                                    btn.setGraphic(newImageView);
                                 }
                             });
                             setGraphic(btn);
@@ -103,7 +128,7 @@ public class TagsTableController implements Initializable {
             relatedTagsList = blog.getRelatedTags();
             relatedTags = "";
             for (String tag : relatedTagsList) {
-                relatedTags = relatedTags + ", " + tag;
+                relatedTags = tag + ", " + relatedTags;
             }
             Blog newBlog = new Blog();
             newBlog.setTitle(title);
@@ -122,7 +147,7 @@ public class TagsTableController implements Initializable {
         table.getItems().clear();
         String title, desc, author, date, relatedTags;
         List<String> relatedTagsList;
-        String tag = "#NFT"; //bien luu tag can de tim kiem
+        String tag = "#NFT"; // bien luu tag can de tim kiem
         List<BlogModel> returnedList = ArticleSearchService.searchArticlesByTag(tag);
         for (BlogModel blog : returnedList) {
             title = blog.getTitle();
@@ -146,7 +171,7 @@ public class TagsTableController implements Initializable {
     }
 
     @FXML
-    public void getShowBlogDetail (MouseEvent event) {
+    public void getShowBlogDetail(MouseEvent event) {
         try {
             Parent parent = FXMLLoader.load(getClass().getResource("showBlogDetail.fxml"));
             Scene scene = new Scene(parent);
@@ -154,7 +179,7 @@ public class TagsTableController implements Initializable {
             stage.setScene(scene);
             stage.show();
 
-        }catch (IOException ex){
+        } catch (IOException ex) {
             Logger.getLogger(TagsTableController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
