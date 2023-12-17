@@ -9,4 +9,7 @@
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
+
+  <component name="ProjectRootManager" version="2" default="true" />
+
 </project>
