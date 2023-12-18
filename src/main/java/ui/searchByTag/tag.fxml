@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="143.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.searchByTag.Controller">
+   <children>
+      <Button fx:id="searchButton" layoutX="342.0" layoutY="22.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="75.0" text="Search" onAction="#handleSearchButton" />
+     <TextField fx:id="tagField" layoutX="182.0" layoutY="22.0" prefHeight="34.0" prefWidth="160.0" promptText="Enter tag" />
+   </children>
+</AnchorPane>
