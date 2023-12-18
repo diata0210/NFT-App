@@ -7,10 +7,15 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.VBox;
+import models.BlogModel;
 import models.TagTableType;
+import service.getAllTags;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
+
 
 public class TagsController implements Initializable {
     @FXML
@@ -21,20 +26,27 @@ public class TagsController implements Initializable {
 
     @FXML
     public TableColumn<TagTableType, String> tag;
+
     public ObservableList<TagTableType> list;
+@FXML
+public VBox wrapTable;
+
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
+//        getAllTags tags = new getAllTags();
+        int idx = 0;
+
+        List<String> tags = getAllTags.allTags();
         list = FXCollections.observableArrayList();
 
-        list.add(new TagTableType(20, "hahah"));
-        list.add(new TagTableType(25, "alice@example.com"));
-        list.add(new TagTableType(30, "bob@example.com"));
-
+        for (String tag : tags) {
+            idx += 1;
+            TagTableType newtag = new TagTableType(idx, tag);
+            list.add(newtag);
+        }
         table.setItems(list);
 
         id.setCellValueFactory(new PropertyValueFactory<>("id"));
         tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
     }
-
-
 }

@@ -35,6 +35,7 @@ public class LayoutController extends Controller {
     public void loadScreen(String fxml){
         try {
             contentArea.getChildren().clear();
+            contentArea.setLayoutX(280);
             contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
         } catch (Exception e) {
             e.printStackTrace();
