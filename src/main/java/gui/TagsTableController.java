@@ -1,5 +1,6 @@
 package gui;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.io.IOException;
 import java.net.URL;
@@ -10,6 +11,7 @@ import javafx.util.Callback;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -33,8 +35,8 @@ public class TagsTableController implements Initializable {
     private TableView<Blog> table;
     @FXML
     private TableColumn<Blog, String> titleCol;
-    @FXML
-    private TableColumn<Blog, String> descCol;
+    // @FXML
+    // private TableColumn<Blog, String> descCol;
     @FXML
     private TableColumn<Blog, String> authorCol;
     @FXML
@@ -45,6 +47,7 @@ public class TagsTableController implements Initializable {
     private TableColumn<Blog, String> actionCol;
 
     private ObservableList<Blog> blogList;
+    private List<String> favouriteList = new ArrayList<>();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -55,7 +58,7 @@ public class TagsTableController implements Initializable {
         blogList = FXCollections.observableArrayList();
 
         titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
-        descCol.setCellValueFactory(new PropertyValueFactory<>("desc"));
+        // descCol.setCellValueFactory(new PropertyValueFactory<>("desc"));
         authorCol.setCellValueFactory(new PropertyValueFactory<>("author"));
         dateCol.setCellValueFactory(new PropertyValueFactory<>("date"));
         relatedTagsCol.setCellValueFactory(new PropertyValueFactory<>("relatedTags"));
@@ -68,7 +71,7 @@ public class TagsTableController implements Initializable {
             public TableCell<Blog, String> call(final TableColumn<Blog, String> param) {
                 final TableCell<Blog, String> cell = new TableCell<Blog, String>() {
 
-                    final Button btn = new Button(null);
+                    final Button saveButton = new Button(null);
                     Image saveIcon = new Image(getClass().getResource("save-icon.png").toExternalForm());
                     Image savedIcon = new Image(getClass().getResource("saved-icon.png").toExternalForm());
 
@@ -92,24 +95,26 @@ public class TagsTableController implements Initializable {
                             }
                             imageView.setFitWidth(20);
                             imageView.setFitHeight(20);
-                            btn.setGraphic(imageView);
-                            btn.setOnAction(event -> {
+                            saveButton.setGraphic(imageView);
+                            saveButton.setOnAction(event -> {
                                 Blog blog = getTableView().getItems().get(getIndex());
                                 if (blog.getSavedToFavouriteList()) {
                                     blog.setSavedToFavouriteList(false);
+                                    removeFromFavouriteList(blog.getTitle());
                                     ImageView newImageView = new ImageView(saveIcon);
                                     newImageView.setFitWidth(20);
                                     newImageView.setFitHeight(20);
-                                    btn.setGraphic(newImageView);
+                                    saveButton.setGraphic(newImageView);
                                 } else {
                                     blog.setSavedToFavouriteList(true);
+                                    addToFavouriteList(blog.getTitle());
                                     ImageView newImageView = new ImageView(savedIcon);
                                     newImageView.setFitWidth(20);
                                     newImageView.setFitHeight(20);
-                                    btn.setGraphic(newImageView);
+                                    saveButton.setGraphic(newImageView);
                                 }
                             });
-                            setGraphic(btn);
+                            setGraphic(saveButton);
                             setText(null);
                         }
                     }
@@ -141,13 +146,27 @@ public class TagsTableController implements Initializable {
         table.setItems(blogList);
     }
 
+    // them 1 blog vao danh sach yeu thich
+    public void addToFavouriteList(String name) {
+        favouriteList.add(name);
+    }
+
+    // xoa 1 blog ra khoi danh sach yeu thich
+    public void removeFromFavouriteList(String name) {
+        favouriteList.remove(name);
+    }
+
+    // reset table
+
+    // hien thi danh sach yeu thich
+
     // đưa những bài viết chứa tag mà người dùng tìm kiếm ra table
     @FXML
-    public void searchBlogsByTag() {
+    public void searchBlogsByTag(ActionEvent e) {
         table.getItems().clear();
         String title, desc, author, date, relatedTags;
         List<String> relatedTagsList;
-        String tag = "#NFT"; // bien luu tag can de tim kiem
+        String tag = "NFTs"; // bien luu tag can de tim kiem
         List<BlogModel> returnedList = ArticleSearchService.searchArticlesByTag(tag);
         for (BlogModel blog : returnedList) {
             title = blog.getTitle();
@@ -165,20 +184,28 @@ public class TagsTableController implements Initializable {
             newBlog.setAuthor(author);
             newBlog.setDate(date);
             newBlog.setRelatedTags(relatedTags);
+            // gán lại những bài viết đã được thêm vào danh sách yêu thích
+            if (favouriteList.contains(title))
+                newBlog.setSavedToFavouriteList(true);
+
             blogList.add(newBlog);
         }
         table.setItems(blogList);
     }
 
+    // Xử lý sự kiện khi nhấp vào hàng của bảng
     @FXML
     public void getShowBlogDetail(MouseEvent event) {
         try {
-            Parent parent = FXMLLoader.load(getClass().getResource("showBlogDetail.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("showBlogDetail.fxml"));
+            Parent parent = loader.load();
             Scene scene = new Scene(parent);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.show();
-
+            showBlogDetailController controller = loader.getController();
+            Blog selectedBlog = table.getSelectionModel().getSelectedItem();
+            controller.setBlog(selectedBlog);
         } catch (IOException ex) {
             Logger.getLogger(TagsTableController.class.getName()).log(Level.SEVERE, null, ex);
         }
