@@ -10,11 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import org.openqa.selenium.json.Json;
-
 import models.ImmutableCollectionModel;
-import models.RaribleModel;
 import repository.Repository;
 import repository.ImmutableCollectionRepository;
 

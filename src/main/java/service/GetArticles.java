@@ -9,7 +9,7 @@ import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 import models.BlogModel;
-public class getAllArticles {
+public class GetArticles {
     
     public static List<BlogModel> allArticles() {
         List<BlogModel> allArticles = new ArrayList<>();
