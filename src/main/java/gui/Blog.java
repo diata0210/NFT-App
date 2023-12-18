@@ -6,7 +6,6 @@ public class Blog {
     String author;
     String date;
     String relatedTags;
-    Boolean savedToFavouriteList;
 
     public Blog(){
         this.title = null;
@@ -14,7 +13,6 @@ public class Blog {
         this.author = null;
         this.date = null;
         this.relatedTags = null;
-        this.savedToFavouriteList = false;
     }
 
     public String getAuthor() {
@@ -55,13 +53,5 @@ public class Blog {
 
     public void setRelatedTags(String relatedTags) {
         this.relatedTags = relatedTags;
-    }
-
-    public Boolean getSavedToFavouriteList(){
-        return savedToFavouriteList;
-    }
-    
-    public void setSavedToFavouriteList(Boolean added){
-        this.savedToFavouriteList = added;
     }
 }
