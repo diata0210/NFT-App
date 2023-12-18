@@ -87,9 +87,9 @@ public class getAllTags {
         for (String tag : tagByMonth) {
             System.out.println(tag);
         }
-         System.out.println("All Tag");
-        List<String> allTags=getAllTags("", "", "");
-           for (String tag : allTags) {
+        System.out.println("All Tag");
+        List<String> allTags = getAllTags("", "", "");
+        for (String tag : allTags) {
             System.out.println(tag);
         }
         System.out.println(getAllTags("NFT", null, "09"));
