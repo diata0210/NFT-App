@@ -1,6 +1,20 @@
 [
+<<<<<<< HEAD
     [
         {
+=======
+    {
+        "id": "0x9c8d2f53f6bff84458f1c84fdaa1e4852ca958e3",
+        "name": "Super Creators By IAC",
+        "collection": {
+            "blockchain": "ETHEREUM",
+            "cover": "https://lh3.googleusercontent.com/Lxj5rVxgn3T20hoPGSm1yKimipUUo97d5ZqVywtt--wjlt8QiogZOC-MhmqU2tyFEohJTWAnci8Uu_9q9xe0xo1hrGQ01Zhk-ss_Nw=s2500",
+            "description": "\"Where Spirituality Meets Virtuality\" \r\n\r\nThe Super Creators project is the first of its kind project that aims to make spirituality available to everyone in the metaverse. We are pioneering across this constantly changing virtual land in attempt to unite both the ethereal and material to have abundance in both areas.\r\n\r\nSuper Creators are a collection of 2,222 unique 锟絀 Am Creator锟� NFTs - unique digital collectibles living on the Ethereum blockchain. Your Super Creator  doubles as your Virtual Creators Land membership card, and grants access to members-only benefits, the first of which is access to the Super Creator Academy, a 24 hour virtual knowledge center. \r\n\r\nToken Holders will have the benefits in both the physical and metaphysical space. Such as FREE events and trainings in a variety of fields, from yoga, to wealth building, to spirituality & personal development. This also includes private access to future developments in both the virtual and physical Creators Land.",
+            "editors": [],
+            "features": [
+                "APPROVE_FOR_ALL"
+            ],
+>>>>>>> 4d39876cf13244fa097b1e05a50444b6bfe8c5bc
             "id": "0x9c8d2f53f6bff84458f1c84fdaa1e4852ca958e3",
             "name": "Super Creators By IAC",
             "collection": {
