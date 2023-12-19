@@ -186,7 +186,8 @@ public class TwitterCrawler {
                 String tag = tagElement.getText();
                 if (tag.startsWith("#")) {
                   if (!relatedTags.contains(tag)) {
-                    relatedTags.add(tag);
+                    String processedTag = tag.substring(1);
+                    relatedTags.add(processedTag);
                   }
                 }
               }
