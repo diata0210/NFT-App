@@ -2,15 +2,13 @@ package service;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import models.BlogModel;
 import service.implement.BlogNFTicallyServiceImp;
 import service.implement.CoinDeskServiceImp;
 import service.implement.CrytoNewsBlogServiceImp;
 import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
-
+import models.BlogModel;
 public class getAllArticles {
     
     public static List<BlogModel> allArticles() {

@@ -1,7 +1,9 @@
-package gui;
+package controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import gui.Blog;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 

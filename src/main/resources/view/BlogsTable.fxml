@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="1380.0" styleClass="background" stylesheets="@../css/blogsTable.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BlogsTableController">
+   <children>
+      <TableView fx:id="table" layoutX="19.0" layoutY="29.0" onMouseClicked="#getShowBlogDetail" prefHeight="478.0" prefWidth="1341.0">
+        <columns>
+          <TableColumn fx:id="titleCol" prefWidth="573.60003054142" text="TITLE" />
+          <TableColumn fx:id="authorCol" minWidth="0.0" prefWidth="220.79998779296875" text="AUTHOR" />
+          <TableColumn fx:id="dateCol" minWidth="0.0" prefWidth="101.5999755859375" text="DATE" />
+          <TableColumn fx:id="relatedTagsCol" prefWidth="424.0" text="RELATED TAGS" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

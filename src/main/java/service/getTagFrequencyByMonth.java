@@ -20,7 +20,7 @@ public class getTagFrequencyByMonth {
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
         PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
-         TwitterServiceImp twitterService =TwitterServiceImp.getInstance();
+        TwitterServiceImp  twitterService = TwitterServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByMonth(month));
         mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByMonth(month));

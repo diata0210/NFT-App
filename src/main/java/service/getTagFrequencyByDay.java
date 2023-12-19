@@ -11,6 +11,7 @@ import service.implement.CrytoNewsBlogServiceImp;
 import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
+
 public class getTagFrequencyByDay {
 
     public static Map<String, Integer> getTagFrequencyByDay(String day) {
@@ -18,8 +19,8 @@ public class getTagFrequencyByDay {
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-        PlazaNFTServiceImp plazaNFTService = PlazaNFTServiceImp.getInstance();
-        TwitterServiceImp twitterService =TwitterServiceImp.getInstance();
+        TwitterServiceImp twitterService = TwitterServiceImp.getInstance();
+        PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByDay(day));
         mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByDay(day));

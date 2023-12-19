@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.Parent;
 import javafx.stage.Stage;
 
-public class ShowTable extends Application{
+public class ShowBlogsTable extends Application{
     public static void main (String[] args) {
         launch(args);
     }
@@ -14,10 +14,9 @@ public class ShowTable extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         try {
-            Parent root = FXMLLoader.load((getClass().getResource("TagsTable.fxml")));
-            Scene scene1 = new Scene(root, 3000, 600);
+            Parent root = FXMLLoader.load((getClass().getResource("/view/BlogsTable.fxml")));
+            Scene scene1 = new Scene(root, 1500, 600);
             stage.setTitle("Table Sample");
-
             stage.setScene(scene1);
             stage.show();
         } catch(Exception e) {

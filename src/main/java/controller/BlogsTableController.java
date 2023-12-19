@@ -1,4 +1,4 @@
-package gui;
+package controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import gui.Blog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -24,13 +26,11 @@ import models.BlogModel;
 import service.getAllArticles;
 import service.ArticleSearchService;
 
-public class TagsTableController implements Initializable {
+public class BlogsTableController implements Initializable {
     @FXML
     private TableView<Blog> table;
     @FXML
     private TableColumn<Blog, String> titleCol;
-    // @FXML
-    // private TableColumn<Blog, String> descCol;
     @FXML
     private TableColumn<Blog, String> authorCol;
     @FXML
@@ -47,17 +47,12 @@ public class TagsTableController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         String title, desc, author, date, relatedTags;
         List<String> relatedTagsList;
-
         List<BlogModel> allBlogList = getAllArticles.allArticles();
         blogList = FXCollections.observableArrayList();
-
         titleCol.setCellValueFactory(new PropertyValueFactory<>("title"));
-        // descCol.setCellValueFactory(new PropertyValueFactory<>("desc"));
         authorCol.setCellValueFactory(new PropertyValueFactory<>("author"));
         dateCol.setCellValueFactory(new PropertyValueFactory<>("date"));
         relatedTagsCol.setCellValueFactory(new PropertyValueFactory<>("relatedTags"));
-
-        // Khoi tao table (in ra tat ca cac blog)
         for (BlogModel blog : allBlogList) {
             title = blog.getTitle();
             desc = blog.getDesc();
@@ -78,20 +73,13 @@ public class TagsTableController implements Initializable {
         }
         table.setItems(blogList);
     }
-
-    // them 1 blog vao danh sach yeu thich
     public void addToFavouriteList(String name) {
         favouriteList.add(name);
     }
-
-    // xoa 1 blog ra khoi danh sach yeu thich
     public void removeFromFavouriteList(String name) {
         favouriteList.remove(name);
     }
 
-    // hien thi danh sach yeu thich
-
-    // đưa những bài viết chứa tag mà người dùng tìm kiếm ra table
     @FXML
     public void searchBlogsByTag(ActionEvent e) {
         blogList.clear();
@@ -115,17 +103,15 @@ public class TagsTableController implements Initializable {
             newBlog.setAuthor(author);
             newBlog.setDate(date);
             newBlog.setRelatedTags(relatedTags);
-            // gán lại những bài viết đã được thêm vào danh sách yêu thích
             blogList.add(newBlog);
         }
         table.setItems(blogList);
     }
 
-    // Xử lý sự kiện khi nhấp vào hàng của bảng
     @FXML
     public void getShowBlogDetail(MouseEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("showBlogDetail.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/showBlogDetail.fxml"));
             Parent parent = loader.load();
             Scene scene = new Scene(parent);
             Stage stage = new Stage();
@@ -135,7 +121,7 @@ public class TagsTableController implements Initializable {
             Blog selectedBlog = table.getSelectionModel().getSelectedItem();
             controller.setBlog(selectedBlog);
         } catch (IOException ex) {
-            Logger.getLogger(TagsTableController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(BlogsTableController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
