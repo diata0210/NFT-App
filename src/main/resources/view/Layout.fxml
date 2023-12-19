@@ -8,47 +8,64 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="680.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LayoutController">
+<AnchorPane prefHeight="800.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LayoutController">
    <children>
-      <VBox alignment="CENTER" prefHeight="680.0" prefWidth="264.0" style="-fx-background-color: #EBE8F9;">
+      <VBox prefHeight="800.0" prefWidth="264.0" style="-fx-background-color: #EBE8F9;">
          <children>
-            <ImageView fitHeight="250.0" fitWidth="264.0">
+            <ImageView fitHeight="262.0" fitWidth="523.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/bug.png" />
+                  <Image url="@../img/layout-icon.png" />
                </image>
             </ImageView>
-            <Button graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadHomeScreen" prefHeight="115.0" prefWidth="263.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="Home">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadHomeScreen" prefHeight="80.0" prefWidth="263.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="HOME">
                <graphic>
-                  <ImageView fitHeight="42.0" fitWidth="41.0">
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-homepage-64.png" />
+                        <Image url="@../img/layout-home-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadNftTagsScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="TAGS">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/layout-tags-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
-            <Button graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadNftTagsScreen" prefHeight="98.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="NFT_Tags">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadSearch" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="BLOGS">
                <graphic>
-                  <ImageView fitHeight="42.0" fitWidth="41.0">
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-tags-64.png" />
+                        <Image url="@../img/layout-blog-icon.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
-            <Button graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadSearch" prefHeight="99.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="Search">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadMarketPlaceScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="MARKET PLACE">
                <graphic>
-                  <ImageView fitHeight="42.0" fitWidth="41.0">
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-search-49.png" />
+                        <Image url="@../img/layout-marketplace-icon.png" />
                      </image>
                   </ImageView>
-               </graphic>
-            </Button>
-            <Button graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadMarketPlaceScreen" prefHeight="100.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="Maket Place" />
-            <Button graphicTextGap="22.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="Lag" />
+               </graphic></Button>
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="CHAT BOT">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/layout-chatbot-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
          </children>
       </VBox>
-      <StackPane fx:id="contentArea" alignment="BOTTOM_CENTER" layoutX="264.0" prefHeight="681.0" prefWidth="966.0">
+      <StackPane fx:id="contentArea" alignment="BOTTOM_CENTER" layoutX="307.0" layoutY="42.0" minHeight="622.0" minWidth="885.0" prefHeight="722.0" prefWidth="1251.0">
       </StackPane>
    </children>
 </AnchorPane>

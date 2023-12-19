@@ -9,7 +9,7 @@ public class LayoutController{
 
   @FXML
   public void loadHomeScreen(ActionEvent event) {
-    loadScreen("/view/Home.fxml");
+    loadHome("/view/Home.fxml");
   }
 
   @FXML
@@ -35,6 +35,15 @@ public class LayoutController{
       contentArea.getChildren().clear();
       contentArea.setLayoutX(520);
       contentArea.setLayoutY(180);
+      contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+
+  public void loadHome(String fxml) {
+    try {
+      contentArea.getChildren().clear();
       contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
     } catch (Exception e) {
       e.printStackTrace();
