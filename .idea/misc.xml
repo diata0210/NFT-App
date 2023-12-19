@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+  <component name="ProjectRootManager" version="2" default="true" />
+
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+>>>>>>> 4d39876 (tagtable)
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+>>>>>>> 4d39876cf13244fa097b1e05a50444b6bfe8c5bc
+</project>

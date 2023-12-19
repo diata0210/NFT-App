@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane alignment="BOTTOM_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TagsController">
+   <children>
+      <AnchorPane layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="799.0">
+         <children>
+            <Text layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NFT TAGS" wrappingWidth="185.30615234375">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <HBox layoutX="420.0" layoutY="21.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: #eee;">
+               <children>
+                  <TextField fx:id="searchByName" onAction="#onSearchByName" opacity="0.57" prefHeight="72.0" prefWidth="379.0" text="Enter name to search">
+                     <padding>
+                        <Insets left="12.0" />
+                     </padding>
+                  </TextField>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <DatePicker fx:id="datePicker" layoutX="420.0" layoutY="106.0" onAction="#onDateChange" prefHeight="70.0" prefWidth="379.0" promptText="Select date">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </DatePicker>
+            <ComboBox fx:id="filterType" layoutY="106.0" onAction="#onFilterType" prefHeight="70.0" prefWidth="389.0" promptText="Customize">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ComboBox>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane prefHeight="498.0" prefWidth="800.0">
+         <children>
+            <TableView fx:id="table" focusTraversable="false" prefHeight="500.0" prefWidth="800.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="122.0" text="ID" />
+                <TableColumn fx:id="tag" editable="false" minWidth="0.0" prefWidth="477.0" text="Tags" />
+              </columns>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TableView>
+         </children>
+         <StackPane.margin>
+         </StackPane.margin>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</StackPane>

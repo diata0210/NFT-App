@@ -18,10 +18,4 @@ public class getAllTags {
         }
         return allTags;
     }
-    public static void main(String[] args) {
-        List<String> allTags=allTags();
-        for (String tags:allTags){
-            System.out.println(tags);
-        }
-}
 }

@@ -69,7 +69,7 @@ public class CryptoNewsBlogCrawler implements BaseCrawler {
           DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
           LocalDateTime dateTime = null;
           if (date != null && !date.isEmpty()) {
-              dateTime = LocalDateTime.parse(date, inputFormatter);
+            dateTime = LocalDateTime.parse(date, inputFormatter);
           }
           DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
           if (dateTime != null) {
