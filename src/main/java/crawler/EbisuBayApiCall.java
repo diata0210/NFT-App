@@ -10,8 +10,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-
-public class ImmutableApiCall implements ApiDataProvider {
+public class EbisuBayApiCall implements ApiDataProvider {
 
     @Override
     public void fetchData() {
@@ -20,13 +19,14 @@ public class ImmutableApiCall implements ApiDataProvider {
         MediaType mediaType = MediaType.parse("text/plain");
         RequestBody body = RequestBody.create(mediaType, "");
         Request request = new Request.Builder()
-        .url("https://marketplace-api.immutable.com/v1/collections?page_size=40&order_by=volume_24h&direction=desc")
+        .url("https://api.ebisusbay.com/collectioninfo?pageSize=50&direction=desc&sortBy=totalvolume7d&search=&page=1")
         .method("GET", null)
-        .addHeader("authority", "marketplace-api.immutable.com")
-        .addHeader("accept", "*/*")
+        .addHeader("authority", "api.ebisusbay.com")
+        .addHeader("accept", "application/json, text/plain, */*")
         .addHeader("accept-language", "en-US,en;q=0.9")
-        .addHeader("origin", "https://market.immutable.com")
-        .addHeader("referer", "https://market.immutable.com/")
+        .addHeader("if-none-match", "\"15360-E/kvSMRkTgxHuNS8o2RR/tbKOq0\"")
+        .addHeader("origin", "https://app.ebisusbay.com")
+        .addHeader("referer", "https://app.ebisusbay.com/")
         .addHeader("sec-ch-ua", "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Microsoft Edge\";v=\"120\"")
         .addHeader("sec-ch-ua-mobile", "?0")
         .addHeader("sec-ch-ua-platform", "\"Windows\"")
@@ -34,12 +34,13 @@ public class ImmutableApiCall implements ApiDataProvider {
         .addHeader("sec-fetch-mode", "cors")
         .addHeader("sec-fetch-site", "same-site")
         .addHeader("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0")
+        .addHeader("Cookie", "AWSALB=+xVis2hCwzjDQrv8Rx9TOhGA7uGFg1nrpQZUo3AxC2s8vadTaN0t9uTakyloNQ6gcBKzo5ImEmYXin7XlhUCv18oCA4PFT7alGotPoz7S54hJXqOohPn+KbIyVvj; AWSALBCORS=+xVis2hCwzjDQrv8Rx9TOhGA7uGFg1nrpQZUo3AxC2s8vadTaN0t9uTakyloNQ6gcBKzo5ImEmYXin7XlhUCv18oCA4PFT7alGotPoz7S54hJXqOohPn+KbIyVvj")
         .build();
         try (Response response = client.newCall(request).execute()) {
             if (response.isSuccessful()) {
                 String responseData = response.body().string();
                 try {
-                    FileWriter file = new FileWriter(JsonURL.IMMUTABLE);
+                    FileWriter file = new FileWriter(JsonURL.EBISUBAY);
                     file.write(responseData);
                     file.flush();
                     file.close();
@@ -55,7 +56,7 @@ public class ImmutableApiCall implements ApiDataProvider {
         }
     }
     public static void main(String[] args) {
-        ImmutableApiCall model = new ImmutableApiCall();
+        EbisuBayApiCall model = new EbisuBayApiCall();
         model.fetchData();
     }
 }
