@@ -44,6 +44,8 @@ public class LayoutController{
   public void loadHome(String fxml) {
     try {
       contentArea.getChildren().clear();
+      contentArea.setLayoutX(300);
+      contentArea.setLayoutY(30);
       contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
     } catch (Exception e) {
       e.printStackTrace();
