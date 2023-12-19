@@ -57,5 +57,5 @@ public class ImmutableApiCall implements ApiDataProvider {
     public static void main(String[] args) {
         ImmutableApiCall model = new ImmutableApiCall();
         model.fetchData();
-    }
+      }
 }
