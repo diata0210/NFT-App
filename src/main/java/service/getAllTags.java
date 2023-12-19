@@ -6,7 +6,6 @@ import java.util.Map;
 import models.BlogModel;
 
 public class getAllTags {
-
     public static List<String> getAllTags(int type, String parameter) {
         switch (type) {
             case 0:
@@ -60,24 +59,5 @@ public class getAllTags {
         } else {
             return null;
         }
-    }
-
-    public static void main(String[] args) {
-        List<String> allTags = getAllTags(0, null);
-        List<String> tagsByName = getAllTags(1, "NFT");
-        List<String> tagsByDay = getAllTags(2, "08-01");
-        List<String> tagsByMonth = getAllTags(3, "08");
-
-        System.out.println("All Tags:");
-        allTags.forEach(System.out::println);
-
-        System.out.println("\nTags by Name:");
-        tagsByName.forEach(System.out::println);
-
-        System.out.println("\nTags by Day:");
-        tagsByDay.forEach(System.out::println);
-
-        System.out.println("\nTags by Month:");
-        tagsByMonth.forEach(System.out::println);
     }
 }
