@@ -19,7 +19,7 @@ public class MainScreen extends Application {
     try {
       Parent root = FXMLLoader.load(getClass().getResource("/view/Layout.fxml"));
       primaryStage.initStyle(StageStyle.DECORATED);
-      Scene scene = new Scene(root);
+      Scene scene = new Scene(root, 1600,800);
       primaryStage.setTitle("NFTS");
       primaryStage.setScene(scene);
       primaryStage.show();
