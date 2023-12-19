@@ -1,0 +1,3216 @@
+{
+    "data": {
+        "collections": {
+            "edges": [
+                {
+                    "node": {
+                        "address": "0x06596ed89ac4609de47a21af7e36b38b2df57c26",
+                        "name": "VVS Miner Mole",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=821b83e3e534629adfdd4a120496360cc9bc663270fa2fdeadfa62058a15163d",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=073f59169ca3f483d7b2efa8a34b3f89291f9344e98e42b1bcc91313184788b1",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "VVS miner mole is a collection of 10,000 utility-enabled PFP. On top of exclusive VVS perks and special IRL event invites. The artwork is also a precursor to our game - VVSgotchi. It gives holders an opportunity to participate in the creation of new characters in the game. The collection consists of over 100+ unique hand-drawn traits from scratch spanning various rarities with no two alike.",
+                        "assetCount": 10000,
+                        "ownerCount": 919,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 497,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 243.1504153621216,
+                            "latestFloorPriceNative": "2500000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -3.10077519379845,
+                            "change7d": 4.602510460251046,
+                            "change30d": 4.253544620517098,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 19105.78703749407,
+                            "volume24h": 7919.60354867659,
+                            "volume30d": 58351.77160951574,
+                            "volumeAll": 2707238.305506268,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "196440000000000000000000",
+                            "volume24hNative": "81427000000000000000000",
+                            "volume30dNative": "599955500000000000000000",
+                            "volumeAllNative": "27835016253976000000000000",
+                            "change24h": 261.9138628383483,
+                            "change7d": 26.129654658751978,
+                            "change30d": -11.84669755954018,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "2580000000000000000000",
+                            "points": 15,
+                            "isWhitelist": true,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x2aed33b0a2278243392bd3996c9201c01947205f",
+                        "name": "AutoTicket",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=d98b86ded9dd909bff80e065882b9b3cc51af1acd2370f384ea549629123db6c",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=c465d9d09febb7c736e28589419b366d444f15be965f62131e747f6a894d99db",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "AutoTicket is a collection of 2000+ utility-enabled PFP. With AutoTicket, you can unlock exclusive Auto Strategy Vaults from AutoSingle. Head over to https://autosingle.singlefinance.io/ for more information about AutoTicket.",
+                        "assetCount": 792,
+                        "ownerCount": 83,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 3,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 116.71219937381836,
+                            "latestFloorPriceNative": "1200000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 96.72131147540983,
+                            "change7d": 200.0,
+                            "change30d": 534.9206349206349,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 1361.5450658617362,
+                            "volume24h": 510.6158722604554,
+                            "volume30d": 1414.357336078389,
+                            "volumeAll": 4553.684020038679,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "13999000000000000000000",
+                            "volume24hNative": "5250000000000000000000",
+                            "volume30dNative": "14542000000000000000000",
+                            "volumeAllNative": "46819620000000000000000",
+                            "change24h": 424.9999999999999,
+                            "change7d": 2478.084714548803,
+                            "change30d": 7028.431372549019,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "610000000000000000000",
+                            "points": 1,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xcd8799dcfee2d5a5bd8f26a3b4f30afb1099bcbc",
+                        "name": "Atlantis Spaceships",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=a3e1de462df9b6ee9baac5e30e243a4f06faa6b51c4efb2f688a5f8f7a6889f2",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=d089495bc2e9481bc049b9d9b60db3fdd65ef369080cab88760f2f646dd98212",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Welcome to the captivating realm of Atlantis, the game-verse and home of the legendary Argonauts. Acquire Spaceships to take part in the Atlantis race and earn attractive rewards!",
+                        "assetCount": 6316,
+                        "ownerCount": 208,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 284,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 18.673951899810938,
+                            "latestFloorPriceNative": "192000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -3.5175879396984926,
+                            "change7d": -4.0,
+                            "change30d": -13.513513513513514,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 560.5103374927627,
+                            "volume24h": 468.3076999874462,
+                            "volume30d": 1433.5156436056013,
+                            "volumeAll": 128889.65166777252,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "5763000000000000000000",
+                            "volume24hNative": "4815000000000000000000",
+                            "volume30dNative": "14738980000000000000000",
+                            "volumeAllNative": "1325204930000000000000000",
+                            "change24h": 589.8280802292264,
+                            "change7d": 342.9737582437855,
+                            "change30d": -60.21652990714749,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x3a19a693a29b43bae23f32b498d1a24d09f19878",
+                        "name": "Atlantis Planets",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=618d5838c582803a1e1ee6a04517d69d6f13f41a170ed4a041fcbcdc2f8963a1",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=d695238739604f4b6c131c012acc4788c93a8012e39edca77f3807c5b962bb2c",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Welcome to the captivating realm of Atlantis, the game-verse and home of the legendary Argonauts. Planets are coveted lands that hold the key to your success in the game. Acquire planets, embark on exciting expeditions, and earn rewards that will supercharge your growth in Atlantis.",
+                        "assetCount": 6012,
+                        "ownerCount": 295,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 1525,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 17.117789241493362,
+                            "latestFloorPriceNative": "176000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -1.675977653631285,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 725.0745386098466,
+                            "volume24h": 440.8803331345989,
+                            "volume30d": 2290.9632135419097,
+                            "volumeAll": 329094.60748729063,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "7455000000000000000000",
+                            "volume24hNative": "4533000000000000000000",
+                            "volume30dNative": "23555000000000000000000",
+                            "volumeAllNative": "3383652532499000000000000",
+                            "change24h": 151.69350360910605,
+                            "change7d": 14.322956601748208,
+                            "change30d": -37.653847171858864,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "176000000000000000000",
+                            "points": 1,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xd4390ff0122e9e79af2054bf9b23103d20bfd155",
+                        "name": "Ballies All-Stars",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=0b0cf5dbab18c078affbe879083dce60dce438b99c9f91aa0915904e9afce240",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=3fc12cfa3c9fb0ad718bd9156a3e29f0c46e0e059a54632c6ac13128e7a2817a",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Ballies All-Stars collection features 24 exceptional players carefully handpicked from the East and West. Each player showcased in this collection possesses unparalleled skills perfectly suited for the Ballies game. Get ready to own a piece of NFT history as you explore this meticulously curated selection of top-tier All-Star talent. From breathtaking dunks to astonishing three-pointers, these players embody the pinnacle of basketball excellence. Don't miss your chance to immerse yourself in the world of the Ballies game with the extraordinary All-Stars NFT collection.",
+                        "assetCount": 24,
+                        "ownerCount": 15,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 2,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 1167.024733572039,
+                            "latestFloorPriceNative": "11999000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 260.0060006000601,
+                            "change7d": 260.0060006000601,
+                            "change30d": 242.82857142857145,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 324.1681337607805,
+                            "volume24h": 324.1681337607805,
+                            "volume30d": 324.1681337607805,
+                            "volumeAll": 324.1681337607805,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "3333000000000000000000",
+                            "volume24hNative": "3333000000000000000000",
+                            "volume30dNative": "3333000000000000000000",
+                            "volumeAllNative": "3333000000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTU=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x0ba3d2be7977075cbdae40ccbbf73c4febfdcb4a",
+                        "name": "Wicked Azz Pawnz",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=1c2fa0f725778ad0325c8aa71e6ec97b0961dcfbe1573c5d9142753c16341165",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=7d00d6cd1cdc881df1f55ca3366a577d0c5091f6332b3753b18bba766fbac227",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Anything but your average PAWNZ!",
+                        "assetCount": 4420,
+                        "ownerCount": 115,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 1944,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 16.047927413900027,
+                            "latestFloorPriceNative": "165000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 6.451612903225806,
+                            "change7d": 4.430379746835443,
+                            "change30d": -34.0,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 431.34883685240374,
+                            "volume24h": 237.31480539343067,
+                            "volume30d": 3736.735583285085,
+                            "volumeAll": 20798.64885932823,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "4435000000000000000000",
+                            "volume24hNative": "2440000000000000000000",
+                            "volume30dNative": "38420000000000000000000",
+                            "volumeAllNative": "213845500000000000000000",
+                            "change24h": 30.831099195710454,
+                            "change7d": -63.02317825579456,
+                            "change30d": -56.2215132178669,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "165000000000000000000",
+                            "points": 6,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTY=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xe3d53fb80c8cda7bb9b7207cb6b186172bd323cf",
+                        "name": "Cyber Cubs",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=2d41e4c8c05e4ee1fa7acd02ed3a8a040c0e4204fb4174c7eb90dc248b2a3d24",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=bcebfa368f2de65d0883ea104998aeb321b269647688c097ca0a4ce212830226",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The Cyber Cubs collection consists of 10,000 unique and algorithmically-generated PFPs. Stumbling upon a mysterious portal, the Cyber Cubs have jumped 370 years back to the present to reunite with the Loaded Lions. Armed with advanced technology and knowledge, these Cubs quickly assimilate into the present way of life, but not without a few tricks up their sleeves. There�s no stopping this dynamic duo now.",
+                        "assetCount": 10000,
+                        "ownerCount": 369,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 18,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 194.52033228969728,
+                            "latestFloorPriceNative": "2000000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -0.7444168734491315,
+                            "change7d": -4.7165316817532155,
+                            "change30d": -33.33333333333333,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 204.1490887380373,
+                            "volume24h": 204.1490887380373,
+                            "volume30d": 1566.9585367596565,
+                            "volumeAll": 19248.856741893138,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "2099000000000000000000",
+                            "volume24hNative": "2099000000000000000000",
+                            "volume30dNative": "16111000000000000000000",
+                            "volumeAllNative": "197911000000000000000000",
+                            "change24h": null,
+                            "change7d": -56.56941858059176,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "2000000000000000000000",
+                            "points": 4,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTc=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xf12b07570804c56b4ce8f63e7121bec8c7ca1542",
+                        "name": "Ballies Origins",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=cdd9ce22aa02ac7fb5040ff3de125cfaf3f0521cb8aa76dd6bb436ac337dced0",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=389a1a34a922d14bd3753957d86a81c3e087911a128efe5b06f0d89a359e4319",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Ballies Origins are a set of 9,999 completely unique basketball characters algorithmically generated from over 170 hand-drawn traits. They�re equipped with performance skills to become players in exciting basketball matches. Ballies are split into 2 rarity levels: Basic and Advanced. The latter are also stronger (higher ATK & DEF points). Own a Ballie and live out your basketball dream! Enjoy exclusive access to the Meta-Court metaverse with many perks and opportunities. Dominate first-ever NFT 2.0 basketball games and tournaments, join exclusive talks with basketball stars, benefit from surprise raffles and competitions and be part of a dope community. Created by award-winning young digital artist Keivo. Become the KING of the Meta-Court! Do you have what it takes?",
+                        "assetCount": 9999,
+                        "ownerCount": 308,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 114,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 38.80680629179461,
+                            "latestFloorPriceNative": "399000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.25125628140703515,
+                            "change7d": -10.135135135135135,
+                            "change30d": -27.978339350180505,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 351.20645994904845,
+                            "volume24h": 195.97923478187002,
+                            "volume30d": 1304.6478686669998,
+                            "volumeAll": 8440.33447821611,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "3611000000000000000000",
+                            "volume24hNative": "2015000000000000000000",
+                            "volume30dNative": "13414000000000000000000",
+                            "volumeAllNative": "86781000000000000000000",
+                            "change24h": null,
+                            "change7d": -41.37987012987013,
+                            "change30d": -76.62536811472981,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTg=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xadb9e5199818f006a5852ef34edc879614d7a8a1",
+                        "name": "InventorBot",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=7d6c1dcc5d2f4a0e850eeb81c45ba44c9f6c5d0263a22f3cbf6aa60b29451e4b",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=777c293ba5fad863e1aa9d5d56bd3c8b68e74c2a7dc58941fe420303f7886110",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Inventorbot is a collection only for people who Collect all of the components and specificity points + CrofamLadiesAI.\n\nInventorbots have dedicated staking pool for holders.\n\n",
+                        "assetCount": 525,
+                        "ownerCount": 14,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 15,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 29.080789677309745,
+                            "latestFloorPriceNative": "299000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": 19.6,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 251.3202693182889,
+                            "volume24h": 170.10803058734027,
+                            "volume30d": 2176.0989573248435,
+                            "volumeAll": 11387.648196969916,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "2584000000000000000000",
+                            "volume24hNative": "1749000000000000000000",
+                            "volume30dNative": "22374000000000000000000",
+                            "volumeAllNative": "117084400000000000000000",
+                            "change24h": 209.5575221238938,
+                            "change7d": -28.677891250345024,
+                            "change30d": -13.861340396698294,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "290000000000000000000",
+                            "points": 1,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTk=",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xa19bfce9baf34b92923b71d487db9d0d051a88f8",
+                        "name": "Mad Meerkat Degen",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=f2abb1b19affddd4b25df4c9fbb4122b0e37d8ded63897b4c89f1a0b1cd50a34",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=58f9547e06b6c8538607645534ceb3447d55dc20ce2c98d7c8bebd4cdfa3da2a",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The Degen Mad Meerkat Collection is the symbol of True Madness within MM. Loving the thrill of celebrating highs and avenging lows, this is what it means to be on an Adventure like no other. MM has and will always be a movement for those who burn bright in the Madness no matter what happens. #MAD4LIFE.",
+                        "assetCount": 10010,
+                        "ownerCount": 1980,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 73,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 70.51362045501527,
+                            "latestFloorPriceNative": "725000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 21.237458193979933,
+                            "change7d": 21.237458193979933,
+                            "change30d": 9.848484848484848,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 255.79423696095193,
+                            "volume24h": 116.32315870923898,
+                            "volume30d": 599.2198836184125,
+                            "volumeAll": 42281.70369687417,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "2630000000000000000000",
+                            "volume24hNative": "1196000000000000000000",
+                            "volume30dNative": "6161000000000000000000",
+                            "volumeAllNative": "434727858000000000000000",
+                            "change24h": null,
+                            "change7d": 65.40880503144653,
+                            "change30d": -49.360950150002054,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTEw",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x562f021423d75a1636db5be1c4d99bc005ccebfe",
+                        "name": "Cronos Chimp Club",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=c4eb59163973e427a83f6ab5381050e907349595fc983f3eddbf3081da5b96e6",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=9c0bd6c96d311fa8f85cf95b7bc67061b9441560c7c03d3e04299385eb52283b",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Cronos Chimp Club is a collection of 10,000 uniquely generated Chimps on the Cronos Chain with various traits that celebrate the different aspects of the Cronos ecosystem.",
+                        "assetCount": 10000,
+                        "ownerCount": 4076,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 178,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 97.16290597870379,
+                            "latestFloorPriceNative": "999000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -0.1,
+                            "change7d": 0.1002004008016032,
+                            "change30d": 13.20241589139821,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 97.16290597870379,
+                            "volume24h": 97.16290597870379,
+                            "volume30d": 1780.684834057977,
+                            "volumeAll": 50115.87119232447,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "999000000000000000000",
+                            "volume24hNative": "999000000000000000000",
+                            "volume30dNative": "18308470000000000000000",
+                            "volumeAllNative": "515276430000000000000000",
+                            "change24h": null,
+                            "change7d": -83.87661657496727,
+                            "change30d": -26.938545033720423,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTEx",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xa996ad2b9f240f78b063e47f552037658c4563d1",
+                        "name": "Argonauts",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=df66840ff8e08a0a124c27a46486a7f311548796e18e95c38b311d5924370b33",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=52e4d59cb89a4da73510f3b8aecce0abd8c2e6f75da84f72aaa6c7b95826f780",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Argonauts is a collection of 8,888 unique utility-enabled characters that represents your unique identity on the Cronos chain. Each Argonaut holder gets access to utility across the Argo Protocol platform, exclusive treasure chest events, activated partnership experiences, future collections, and more.",
+                        "assetCount": 8888,
+                        "ownerCount": 1449,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 3150,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 75.3766287622577,
+                            "latestFloorPriceNative": "775000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -3.0037546933667083,
+                            "change7d": 3.3333333333333335,
+                            "change30d": -1.89873417721519,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 1648.5598161551845,
+                            "volume24h": 65.65061214777283,
+                            "volume30d": 8014.928237515157,
+                            "volumeAll": 753665.0456656904,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "16950000000000000000000",
+                            "volume24hNative": "675000000000000000000",
+                            "volume30dNative": "82407100000000000000000",
+                            "volumeAllNative": "7748959060416000000000000",
+                            "change24h": -82.30204509701102,
+                            "change7d": 114.71732053052281,
+                            "change30d": -27.697347519693093,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "799000000000000000000",
+                            "points": 2,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTEy",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x4c7863cd4d6c24f8d5c5423ede1852691a2c1a54",
+                        "name": "CorgiAI VIP Pass",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=4e3e0450ccbb48ffd68514c4d7a73a80b9b9b926b41bec74e3b71c5f4bdf59ca",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=b7eec3560ba4d97d7d6e6e4fa6e22e2a26f500b544d2359669e455a89e1ab215",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The CorgiAI VIP Pass is a collection of 2000 NFTs created to celebrate the launch of CorgiAI Social Club. \n\nThe NFT serves as an access pass to exclusive perks for holders.\n\nFor more information: https://corgiai.xyz/",
+                        "assetCount": 2000,
+                        "ownerCount": 792,
+                        "raritySource": null,
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 641,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 33.94379798455218,
+                            "latestFloorPriceNative": "349000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -5.163043478260869,
+                            "change7d": 39.6,
+                            "change30d": 21.602787456445995,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 1985.9553325116644,
+                            "volume24h": 60.7876038405304,
+                            "volume30d": 10690.363805632638,
+                            "volumeAll": 48589.09113053865,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "20419000000000000000000",
+                            "volume24hNative": "625000000000000000000",
+                            "volume30dNative": "109915130000000000000000",
+                            "volumeAllNative": "499578533088000000000000",
+                            "change24h": -83.08067135896047,
+                            "change7d": 93.38005492944407,
+                            "change30d": 6.387171802278731,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "350000000000000000000",
+                            "points": 1,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTEz",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x8fb4483d92c045336974c4f8c96ad9b1fae8ac64",
+                        "name": "D.G.Pals Special Edition",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=687ba875eb214c037f1dd8a71bf9b451fa94f69d481770cf114f1b2a6cc05a8e",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=c16fc4647ed63a19f9c08dd4f925edafa091dcca3285064eaefabf75cf62d0e0",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Welcome to the D.G.Verse! Backed by Crypto.com Capital and Spartan Group, D.G.Pals is one of the first to redefine Web3 gaming with the first Interoperable NFT on the Cronos chain. The Special Edition Collection consists mainly of crossover characters from collaborations with other IPs. These NFTs will be able to participate in all of the games in the D.G.Verse. Do check out the D.G.Pals website for more information on the collection.",
+                        "assetCount": 633,
+                        "ownerCount": 166,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 20,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 67.9848561352492,
+                            "latestFloorPriceNative": "699000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 16.69449081803005,
+                            "change7d": 16.69449081803005,
+                            "change30d": 74.75,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 58.25883952076434,
+                            "volume24h": 58.25883952076434,
+                            "volume30d": 101.53961345522198,
+                            "volumeAll": 8169.464915502706,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "599000000000000000000",
+                            "volume24hNative": "599000000000000000000",
+                            "volume30dNative": "1044000000000000000000",
+                            "volumeAllNative": "83996000000000000000000",
+                            "change24h": null,
+                            "change7d": 34.60674157303371,
+                            "change30d": 74.0,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE0",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xb650279e3d726b0c75c984caa55341cb87a7f501",
+                        "name": "Boomer Squad",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=4b4567ee45283b65f36426b17bf9117a122fb5fd37b0eac9db957e743e0db711",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=f1dcea23bac4dee24c5396857991ced62a3e11e375e24993fe99cee205fffdfa",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Collection of 8008 Boomers using crypto in the only way they know how. Everyone has felt like our Boomers at some point in their crypto journey but just like everyone else they will figure it out eventually. Founded by a fully doxed team of 11, Boomer Squad was established to build an ecosystem of on chain games, events, collections, and ecosystem developments that reflects value back to our Gen 0 Boomers through our Verified Distribution Contract called the \"Mattress Fund\" and Boomer DAO. Check out our GitBook for a full breakdown of everything already established and in the works in our ecosystem",
+                        "assetCount": 8008,
+                        "ownerCount": 999,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 1185,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 70.02731962429102,
+                            "latestFloorPriceNative": "720000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -2.7027027027027026,
+                            "change7d": -4.0,
+                            "change30d": -14.285714285714285,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 406.6447546516122,
+                            "volume24h": 54.46569304111524,
+                            "volume30d": 1318.556072425713,
+                            "volumeAll": 174502.18406638128,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "4181000000000000000000",
+                            "volume24hNative": "560000000000000000000",
+                            "volume30dNative": "13557000000000000000000",
+                            "volumeAllNative": "1794179374591000000000000",
+                            "change24h": null,
+                            "change7d": 20.873084706562572,
+                            "change30d": -74.44920287807857,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE1",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xe1049178296ce004996afb16b0816c5a95ac8482",
+                        "name": "Bored Candy",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=8947f6c8e8d8076aa255fb8f8858e8c8df9edaa99f36c60151dd9f3ca7576bf3",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=ac4df11a58794830df8f727bba6a0c511a30a05b52175821ff23e8137c77e64e",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Bored Candy NFTs are the official NFT collection of Bored Candy City, the newest Cronos Chain ecosystem comprised of $CANDY token, a DEX & AMM, Play 2 Earn Web3 Games and the first P2E Mobile Game listed in App Store & Play Store. These NFTs can be staked in the DEX for a fixed amount of $CANDY per day OR for a share of 25% of ALL games revenues OR to boost farms APRs by up to 25%. They will also bare utility in the web3 and mobile games in the future.",
+                        "assetCount": 10041,
+                        "ownerCount": 348,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 246,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 10.212317445209107,
+                            "latestFloorPriceNative": "105000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -13.934426229508196,
+                            "change7d": 40.0,
+                            "change30d": 84.21052631578947,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 461.24611589848286,
+                            "volume24h": 47.85200174326553,
+                            "volume30d": 1313.1454310269755,
+                            "volumeAll": 498004.61830519146,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "4742394900000000000000",
+                            "volume24hNative": "492000000000000000000",
+                            "volume30dNative": "13501369400000000000000",
+                            "volumeAllNative": "5120334850791000000000000",
+                            "change24h": 64.0,
+                            "change7d": 462.2316032971865,
+                            "change30d": -54.69751243334042,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE2",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x320ec6a9b6963670daaa13839bbe77d41af6f330",
+                        "name": "CronosBullFinance",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=d75a10a7a5ff785c11e1aa7f0479e42ff775b6969ae863313422232986db71e4",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=37c32f47079abbee00b41cc9cabd7a6cc9df0b9e5a0240c6ca489813db08c089",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "CronosBullFinance collection, is our second drop and comes now to you as pointed on the roadmap from the beginning of the journey. The collection itself contains 8510 NFTs generated with more than 75 hand drawn traits, some of them tributes to Cronos chain and #Crofam members. \n\nJoin us on the Bullrun!",
+                        "assetCount": 8510,
+                        "ownerCount": 303,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 13,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 9.628756448340015,
+                            "latestFloorPriceNative": "99000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 296.0,
+                            "change7d": 296.0,
+                            "change30d": 120.0,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 50.96432705990069,
+                            "volume24h": 43.76707476518189,
+                            "volume30d": 102.71646146557465,
+                            "volumeAll": 252.11780268067665,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "524000000000000000000",
+                            "volume24hNative": "450000000000000000000",
+                            "volume30dNative": "1056100000000000000000",
+                            "volumeAllNative": "2592200000000000000000",
+                            "change24h": null,
+                            "change7d": 155.4851292052657,
+                            "change30d": -28.91087775982768,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE3",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x25ea0f16e3a52db95e31f8514917a0610270e7cd",
+                        "name": "TeenDACC",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=fb16bc75e110c9cefb18a802e9b4234e47d31fdc79316f004c13556a09674f5b",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=50f56769bdc9dbba2bd41879dfaf89bcc5fc20d491b5f3aaffc4d5fca2e71ad8",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "TeenDACC is an investment rewards NFT, 75% of the mint funds have been invested and the interest is used to reward holders every week.",
+                        "assetCount": 7774,
+                        "ownerCount": 205,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 80,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 3.793146479649097,
+                            "latestFloorPriceNative": "39000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -2.5,
+                            "change7d": -7.142857142857142,
+                            "change30d": -9.30232558139535,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 41.821871442284916,
+                            "volume24h": 41.821871442284916,
+                            "volume30d": 65.06705115090374,
+                            "volumeAll": 132.66286662157356,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "430000000000000000000",
+                            "volume24hNative": "430000000000000000000",
+                            "volume30dNative": "669000000000000000000",
+                            "volumeAllNative": "1364000000000000000000",
+                            "change24h": null,
+                            "change7d": 179.2207792207792,
+                            "change30d": -3.741007194244604,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE4",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xae50f345502ad3395db0099d38692f609f829b58",
+                        "name": "Crypto.com Expedition Gear",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=633b80521e23dfa71d138e3cbc2159d9795eac9296b3774be93b4b4a57410661",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=77e5f734845748954c72848a61de0e70e3beaceafb177261fe5a45a8de007b01",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "When there's land to explore, there's gear to help you out on your travels. Introducing the first series in the 'Crypto.com Expedition Gear' collection: 50,000 backpack NFTs divided into five rarities. Each rarity boasts a unique design, but that's not all.\n\nThese collectibles grant you a world of additional benefits while enhancing your in-game experience for Loaded Lions: Mane City. Keep them handy because the backpacks are ever-evolving too, just like our land NFTs.",
+                        "assetCount": 50000,
+                        "ownerCount": 451,
+                        "raritySource": null,
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 80,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 4.376707476518189,
+                            "latestFloorPriceNative": "45000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -10.0,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 75.5711490945474,
+                            "volume24h": 39.87666811938794,
+                            "volume30d": 571.88977693171,
+                            "volumeAll": 6743.837071371452,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "777000000000000000000",
+                            "volume24hNative": "410000000000000000000",
+                            "volume30dNative": "5880000000000000000000",
+                            "volumeAllNative": "69338120000000000000000",
+                            "change24h": null,
+                            "change7d": -68.129614438064,
+                            "change30d": -1.7235154902458834,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTE5",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x0b289dea4dcb07b8932436c2ba78ba09fbd34c44",
+                        "name": "Genesis Weird Apes",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=105ba13000137a04b2acaf6baf82ac8cc0e48d68a8bf1d1b3eb2159529e05f66",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=445f13a202b3b181d895b202edfd17e08ec7d429e6b3fd9d967b0a928986a6ae",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Genesis Weird Apes is a collection of 2500 NFTs randomly generated from 125 traits aimed to bring Weirdness all over the Cronos Chain! Not just a PFP but an entire ecosystem of advanced mechanisms of staking, breeding, renting, customization and more! With every 2D ape you may burn $WAC to claim an additional new 3D Voxel ape with corresponding rank and traits. Voxel apes will play a key role within our P2E, Legends of Weirdonite. Visit our Discord to join our wonderful community!",
+                        "assetCount": 2301,
+                        "ownerCount": 487,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 52,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 21.883537382590944,
+                            "latestFloorPriceNative": "225000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -24.74916387959866,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 67.9848561352492,
+                            "volume24h": 34.041058150697026,
+                            "volume30d": 95.70400348653106,
+                            "volumeAll": 18332.71460689174,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "699000000000000000000",
+                            "volume24hNative": "350000000000000000000",
+                            "volume30dNative": "984000000000000000000",
+                            "volumeAllNative": "188491500000000000000000",
+                            "change24h": null,
+                            "change7d": 145.26315789473685,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTIw",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xc427e0b2e4c9b79f856391b1ef37fd7ee7457d8d",
+                        "name": "MarbleVerse",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=74760c4f951f10f164e9b77045d51b7c9c9b42ab2841eacedffa21ba30e7e3c2",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=e941f4c08fba3b3bfb64de760f20bc89ed0c330a2eecf57db582d441d98b4582",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The glass champions of the MarbleVerse represent the core of creativity, design, and imagination. With their crafted simplicity, minimalistic posture and sturdy build, Marbles are created to battle through race tracks with the grace of a dancer and a strong will to win. Getting stronger as their flocks grow, Marble racers represent purity, open-mindedness, creativity, unbound potential, and unshakable love of our childhoods while reflecting the aesthetic of the contemporary world.",
+                        "assetCount": 20000,
+                        "ownerCount": 1725,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 1190,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 10.212317445209107,
+                            "latestFloorPriceNative": "105000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -4.545454545454546,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 37.347903799621875,
+                            "volume24h": 31.317773498641262,
+                            "volume30d": 223.40660163471733,
+                            "volumeAll": 179139.30975477514,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "384000000000000000000",
+                            "volume24hNative": "322000000000000000000",
+                            "volume30dNative": "2297000000000000000000",
+                            "volumeAllNative": "1841856916921000000000000",
+                            "change24h": null,
+                            "change7d": -73.20307048150732,
+                            "change30d": 333.39622641509436,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTIx",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x6b02935008c23325b28f17f6281a8456f46fc121",
+                        "name": "Eyeball Balldroid Gen 0",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=1a0e991f238a7719ea5906a8fc6f2b437bbc5f893b88a9fcee088abb37cf9e26",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=11ef64c75d5bc67b814e7101b0c429153996b4cda43112af84c60c0abc1c2640",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Eyeball Pool is by the makers of 8 Ball Pool. Balldroids are a collection of 4,001 unique utility PFPs that gives you early game access to Eyeball Pool. On launch you will receive an airdrop with an in-game starter pack of NFTs and tokens. In addition, holders of the PFP will also get \"priority boarding\" to in-game tournaments from a private Discord channel and the right to vote on community polls.",
+                        "assetCount": 4001,
+                        "ownerCount": 552,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 740,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 34.041058150697026,
+                            "latestFloorPriceNative": "350000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": -6.914893617021277,
+                            "change30d": -10.025706940874036,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 214.6522140800195,
+                            "volume24h": 24.41230170235701,
+                            "volume30d": 1072.8856461587784,
+                            "volumeAll": 335744.64227192197,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "2206990000000000000000",
+                            "volume24hNative": "251000000000000000000",
+                            "volume30dNative": "11031090000000000000000",
+                            "volumeAllNative": "3452026205383000000000000",
+                            "change24h": null,
+                            "change7d": -62.17669237360754,
+                            "change30d": -8.260023452508673,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTIy",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x89f7114c73d5cef7d7edcbdb14daa092eb2194c9",
+                        "name": "Baby Weird Apes",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=097455885f1c9e60e7e6fddaacb5ec094b3c01dd9b93a1140fb885e8dd1d364b",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=630014d330421456efe49d786d76a2ab26df741d34c3abb5afa96e2913ce8e00",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Baby Weird Apes will inherit rarity and some traits from parents, there will also be a random mutation that can give the baby brand new traits for a total number of 300+ traits. A Baby Weird Ape can be customized by changing the name and the bio. Every Baby can be staked to yield 5 Blue Vials per day in Legends of Weirdonite as the game releases.",
+                        "assetCount": 5018,
+                        "ownerCount": 542,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 114,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 8.656154786891529,
+                            "latestFloorPriceNative": "89000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -3.260869565217391,
+                            "change7d": -1.1111111111111112,
+                            "change30d": -6.315789473684211,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 74.01498643622982,
+                            "volume24h": 22.95339921018428,
+                            "volume30d": 164.80735153244603,
+                            "volumeAll": 17354.102169526293,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "761000000000000000000",
+                            "volume24hNative": "236000000000000000000",
+                            "volume30dNative": "1694500000000000000000",
+                            "volumeAllNative": "178429698996000000000000",
+                            "change24h": null,
+                            "change7d": 46.34615384615385,
+                            "change30d": 61.36558423007331,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTIz",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x0ecf3d6f406d59e38f2df8584b64b45e9ca05f21",
+                        "name": "Bad Lion",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=6193013547601f5d241d3f8319d7c04f03fb324be3ea68ca327481a4f11ef8de",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=7198de4fdabd9b02018820bdc273e026d57e59ed3dc1c2097024bc6f709f3d1b",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Collection Bio The Bad Lion NFT collection is a unique and exciting addition to the Cronos chain that will be a tribute to the BadCro Community (Community-based project). The BadLion NFTs are similar in style to the successful Loaded Lion NFTs, but with their own unique features and characteristics. The collection includes 10,000 NFTs; each NFT in the collection is a one-of-a-kind, meaning that there will be no two BadLions alike. Every single trait is hand drawn by our talented creative team. The BadLion NFTs are designed to have multiple utilities within the Community, including access to exclusive staking pools and a share of the royalties generated by the secondary markets and more. Collectors who own BadLion NFTs can participate in these staking pools and earn rewards for their participation, making these NFTs a valuable asset for those looking to maximize their return on investment. All previous BadMeerkat collections holders have a free claim for the Bad Lions. ",
+                        "assetCount": 9827,
+                        "ownerCount": 279,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 170,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.6808211630139405,
+                            "latestFloorPriceNative": "7000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -11.39240506329114,
+                            "change7d": -22.135706340378196,
+                            "change30d": -29.929929929929934,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 18.742034016112335,
+                            "volume24h": 15.503270483488874,
+                            "volume30d": 94.15075863319782,
+                            "volumeAll": 2969.080640224588,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "192700000000000000000",
+                            "volume24hNative": "159400000000000000000",
+                            "volume30dNative": "968030000000000000000",
+                            "volumeAllNative": "30527200990000000000000",
+                            "change24h": null,
+                            "change7d": -34.720010840475624,
+                            "change30d": -63.25829604241865,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI0",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x212f04cc7e26e371c7baf966f726845269bc40ac",
+                        "name": "Crofam Ladies FULL",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=b8c29f347a5b735bfbd114df138aaf38975df1b072ad85c2eed93775f2d8f297",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=a1cef85ac16193654db675a2c5c4188f6cb1cdd5afbf3e017bf7c8111054069a",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Crofam Ladies FULL is a collection consisting of 1295 NFT. You collected your lady in full crown from Crofam Ladies collection.",
+                        "assetCount": 1295,
+                        "ownerCount": 97,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 51,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 4.4739676426630375,
+                            "latestFloorPriceNative": "46000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 22.666666666666664,
+                            "change30d": 228.57142857142856,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 76.10608000834407,
+                            "volume24h": 13.61642326027881,
+                            "volume30d": 271.350027934159,
+                            "volumeAll": 5678.087780194085,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "782500000000000000000",
+                            "volume24hNative": "140000000000000000000",
+                            "volume30dNative": "2789940000000000000000",
+                            "volumeAllNative": "58380403872000000000000",
+                            "change24h": -49.64028776978417,
+                            "change7d": -48.092180327433866,
+                            "change30d": 2689.9399721006002,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI1",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xb15533a0bc7c530d692a9660785226dfd3633965",
+                        "name": "Veno Unstaked CRO",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=f7ee482d5677c2f91b51e8f65c91715d5272ff78d6d1337417ee0eb9d76a5c00",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=ebddfd1f0395f616c8c8549372276c2bcd2c9f5f88ab8c98976d963c43e21cb5",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Each Veno Unstaked CRO NFT enables the holder to claim the CRO amount stated on the NFT after the given unlock date on https://veno.finance",
+                        "assetCount": 10025,
+                        "ownerCount": 1574,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 38,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.9726016614484865,
+                            "latestFloorPriceNative": "10000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -9.090909090909092,
+                            "change7d": 11.11111111111111,
+                            "change30d": -16.666666666666664,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 13.130122429554566,
+                            "volume24h": 10.309577611353957,
+                            "volume30d": 20.81367555499761,
+                            "volumeAll": 48037.98681379321,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "135000000000000000000",
+                            "volume24hNative": "106000000000000000000",
+                            "volume30dNative": "214000000000000000000",
+                            "volumeAllNative": "493912242986000000000000",
+                            "change24h": 265.51724137931035,
+                            "change7d": 365.51724137931035,
+                            "change30d": -99.60598896769109,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI2",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x1ed88baf12ec3fd8d2955b1b2a883e6e79a10828",
+                        "name": "The CronosVerse Suites",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=06fde6e0c8c69a2e21950331acfecdb69759e143ab306988d73dc65d0691d99e",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=2a6a75bb588cba060defc21e01f7b9136c961b470024135d9d0355b3517a9d35",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Each SUITE NFT represents ownership of either an office, studio, apartment or luxury suite in one of the downtown towers within The CronosVerse. By owning a SUITE NFT, users are able to access The CronosVerse and customize their metaverse experience inside of their digital property",
+                        "assetCount": 668,
+                        "ownerCount": 165,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 28,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 37.73694446420127,
+                            "latestFloorPriceNative": "388000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.2583979328165375,
+                            "change7d": 0.0,
+                            "change30d": -26.095238095238095,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 9.920536946774561,
+                            "volume24h": 9.920536946774561,
+                            "volume30d": 9.920536946774561,
+                            "volumeAll": 29.46983034188914,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "102000000000000000000",
+                            "volume24hNative": "102000000000000000000",
+                            "volume30dNative": "102000000000000000000",
+                            "volumeAllNative": "303000000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI3",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x4fbb16c096b52adebdfa7fa71a74f492fddd722d",
+                        "name": "Sou-Sou Bears Degens",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=e0aecf3b337171eb2135f771d20ecc266470a0706001faa15046f1fc04ca6954",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=115b4f538006e949a766bfecd82b0120c2edef0f97bab7f3ebad554a430aa27d",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Every Degen needs a Sou-Sou Bear to Pave the way for the Bull Run. The Bear Market is not over until The Sou-Sou Bears say Sou!",
+                        "assetCount": 1000,
+                        "ownerCount": 108,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 187,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 10.504097943643654,
+                            "latestFloorPriceNative": "108000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 11.34020618556701,
+                            "change30d": 285.7142857142857,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 297.71045076439736,
+                            "volume24h": 9.726016614484864,
+                            "volume30d": 2767.849260183332,
+                            "volumeAll": 4717.546002172636,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "3060970000000000000000",
+                            "volume24hNative": "100000000000000000000",
+                            "volume30dNative": "28458200000000000000000",
+                            "volumeAllNative": "48504399994000000000000",
+                            "change24h": -70.8454810495627,
+                            "change7d": 641.1549636803875,
+                            "change30d": 83723.8586156112,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI4",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x724cf09b1544963b38d872a1f245616ae20c5d56",
+                        "name": "My CroFam Furrend",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=d2b9007c3725f3871ed4c4a9d58ebdae4a157fdfe935140a6451d0239c398a70",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=28830c5c3a30eab6490511d098fe5f73c6d483bd0c54d045bfd444bbd4920569",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "??Join us in this exclusive NFT journey celebrating pets and creativity. Mint one today and enjoy early TestFlight access. Unite with us in redefining pet-centric engagement!",
+                        "assetCount": 198,
+                        "ownerCount": 118,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 54,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 8.850675119181226,
+                            "latestFloorPriceNative": "91000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 1.1111111111111112,
+                            "change7d": -0.9254218835057159,
+                            "change30d": 37.878787878787875,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 22.85613904403943,
+                            "volume24h": 8.753414953036378,
+                            "volume30d": 89.7711333516953,
+                            "volumeAll": 867.56749022368,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "235000000000000000000",
+                            "volume24hNative": "90000000000000000000",
+                            "volume30dNative": "923000000000000000000",
+                            "volumeAllNative": "8920070000000000000000",
+                            "change24h": 0.0,
+                            "change7d": null,
+                            "change30d": 169.09620991253644,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTI5",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xb33c03c551018e6c14f137003160067795667c8a",
+                        "name": "Crofam Ladies SKULL",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=8684414856dbfc0c1653ed240e0bad97fd7b99df673c3bebdcd5d5c7c04681f1",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=957b5adce8f16316da242cfea02c3b7157bbeee0b3e006ebbfaa0094870506cc",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "CrofamLadiesSKULL is a collection consisting of 10 000 NFT.\n10 traits and over 200 elements.\nCrofamLadiesVIP (SKULL rarity) drop for TOP 155 holders.\nSpecial (1:1) drop \"Era of Inventors\" collection.\n5% mint royalties for CrofamLadiesSKULL holders.\nPart of the profits will be used to the CrofamVIP staking.\nMore utility coming soon",
+                        "assetCount": 10000,
+                        "ownerCount": 443,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 111,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 1.65147762113953,
+                            "latestFloorPriceNative": "16980000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -15.015015015015015,
+                            "change7d": -15.015015015015015,
+                            "change30d": -43.4,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 8.461634454601832,
+                            "volume24h": 5.835609968690918,
+                            "volume30d": 136.45406789789976,
+                            "volumeAll": 24685.650192113924,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "87000000000000000000",
+                            "volume24hNative": "60000000000000000000",
+                            "volume30dNative": "1402980000000000000000",
+                            "volumeAllNative": "253810487588000000000000",
+                            "change24h": 122.22222222222223,
+                            "change7d": -91.2780206119421,
+                            "change30d": -22.59249859307241,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTMw",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xfe2932237daa20ec1d4c053054b710ca15ffeebc",
+                        "name": "Cronos Community Awards",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=df4eeacd9a18f62a39f6c780a4848dc28d206b3f31113e2a5293532878916745",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=7725ebbfe55d44bb6f2bb788d54ca54ed2346b20eefed51973609bb9192fa728",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Ahoy CroFam! Complete quests and receive these NFTs to celebrate your journey on the Cronos blockchain.",
+                        "assetCount": 12006,
+                        "ownerCount": 5063,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 2001,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.6613691297849708,
+                            "latestFloorPriceNative": "6800000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": -1.3062409288824384,
+                            "change7d": -20.0,
+                            "change30d": -9.212283044058744,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 10.228851673453732,
+                            "volume24h": 3.137612959832817,
+                            "volume30d": 219.86156583890374,
+                            "volumeAll": 3168.183483669488,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "105170000000000000000",
+                            "volume24hNative": "32260000000000000000",
+                            "volume30dNative": "2260551000000000000000",
+                            "volumeAllNative": "32574317002000000000000",
+                            "change24h": null,
+                            "change7d": -93.66972416321121,
+                            "change30d": -46.49166764784958,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTMx",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x7aebfd662494299ce53feb533bfe80a749e656bc",
+                        "name": "Degen Ape Cronos Club",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=3ea6d19c4eea1f7dc2461ea1b96eb8f7c76ae9e1cdf01418c6d733b39d192cb1",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=e08817ab7ba2f5d04ec2e277b282984e37082547f89939d461786c8b79e44dc5",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "A collection of 7777 Degen Apes that know how to have a good time.\n75% of royalties paid to holders every week. \n\nClaim royalties here -> https://dacc.netlify.app/",
+                        "assetCount": 7777,
+                        "ownerCount": 604,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 118,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 7.586292959298194,
+                            "latestFloorPriceNative": "78000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -1.2658227848101267,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 11.28412447612534,
+                            "volume24h": 3.113297918296605,
+                            "volume30d": 34.43204401859931,
+                            "volumeAll": 54824.682080405975,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "116020000000000000000",
+                            "volume24hNative": "32010000000000000000",
+                            "volume30dNative": "354020000000000000000",
+                            "volumeAllNative": "563691018158000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": -77.91074949459654,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTMy",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xb72cddd1113b0906f5b82f507ad90c5cc65b22fb",
+                        "name": "NoBuddies Gen 3D",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=0bc230a6d8710ba96951c12aa98513408cb5f7a688f664e8aee736073c995c2b",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=cdd04137427cb7c2ba38fd1199b15ae799d0f766243a3b143f9d40deca5c4cea",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "NoBuddies Gen 3D is the 3rd collection of NoBuddies NFT with 3333 NFTS. It's a collection that was created by JonnyChimps to prove that even a nobody with a dream could create a successful project. OG collection brought about 250 NoBuddies and the start of a community. Gen 2 brought about the 1st Cronos NFT to be featured in an free to play Apple and Android mobile game. And now Gen 3D will bring about a P2E single/multi player game earning NoBu coin, the native coin for NoBuddies.",
+                        "assetCount": 2808,
+                        "ownerCount": 367,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 8,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 4.279447310373341,
+                            "latestFloorPriceNative": "44000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 100.0,
+                            "change7d": 100.0,
+                            "change30d": 10.0,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 2.1397236551866703,
+                            "volume24h": 2.1397236551866703,
+                            "volume30d": 6.030130300980616,
+                            "volumeAll": 379.3146479649097,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "22000000000000000000",
+                            "volume24hNative": "22000000000000000000",
+                            "volume30dNative": "62000000000000000000",
+                            "volumeAllNative": "3900000000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTMz",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x04b5abbca29c2750bfdcfea20fc1511913711d22",
+                        "name": "Trollfam",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=3c2772e356c4bde3f2af2c70680beafe8d81e8021c345c27e1af76fbf52ea09a",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=4aaa25cbc11bc8ebc3cd2e7fbf55cb67dadf872611618e2f71dff380a2a9c3cf",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Trollfam is built from a community of Trollcoin holders. You are Trollcoin, we are Trollfam!",
+                        "assetCount": 5555,
+                        "ownerCount": 608,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 85,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 1.653422824462427,
+                            "latestFloorPriceNative": "17000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": 76.16580310880829,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 1.945203322896973,
+                            "volume24h": 1.945203322896973,
+                            "volume30d": 19.075636385989164,
+                            "volumeAll": 21905.920155531014,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "20000000000000000000",
+                            "volume24hNative": "20000000000000000000",
+                            "volume30dNative": "196130000000000000000",
+                            "volumeAllNative": "225230132991000000000000",
+                            "change24h": null,
+                            "change7d": -62.96296296296296,
+                            "change30d": 1134.2983008181245,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM0",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x7d8f0a2b275c0b22720a6fc3b5a65af84d9c55c5",
+                        "name": "Crofam Ladies RETRO",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=7fec2083085afb10fe4f97cd7ad09506c61526698c8977e0a3781ad24fe06069",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=339165d99c7c31fcea62ba78ae60a100396870c96f0d410a77edce5adb3de20c",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "CrofamLadiesRETRO is a collection consisting of 10 000 NFT.\n\n11 traits and over 200 elements\n\nCrofamLadiesVIP drop for TOP 200 CrofamLadiesRETRO holders\n\n5% mint royalties for CrofamLadiesRETRO holders\n\n10% Market Royalty Fee - We will buy CrofamLadiesRETRO from floor price and burn it\n\nPart of the profits will be used to the CrofamLadiesVIP staking",
+                        "assetCount": 10000,
+                        "ownerCount": 313,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": false,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 157,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.5835609968690918,
+                            "latestFloorPriceNative": "6000000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": -42.58373205741627,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 6.905471796284254,
+                            "volume24h": 1.361642326027881,
+                            "volume30d": 33.16085364708614,
+                            "volumeAll": 26854.33040929097,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "71000000000000000000",
+                            "volume24hNative": "14000000000000000000",
+                            "volume30dNative": "340950000000000000000",
+                            "volumeAllNative": "276108210316000000000000",
+                            "change24h": 180.0,
+                            "change7d": -56.60146699266504,
+                            "change30d": -50.405108586556516,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM1",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x671bd56d29216a8c7a43498515a1b629e9b52895",
+                        "name": "King Kong Cronos",
+                        "chain": {
+                            "name": "CRONOS",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=95f93cbc9a620f662e1971f015d356dcc659ee9c736c5e5aa24576e04a6691d6",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=a8c4a7d071f8909fcc3b23ce74c09c8080dab81183f3a2881627bdf8ffe9a9c4",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The staking and governance token for the ToC Community",
+                        "assetCount": 10023,
+                        "ownerCount": 508,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 121,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 1.067916624270438,
+                            "latestFloorPriceNative": "10980000000000000000",
+                            "latestGlobalFloorPriceNative": null,
+                            "change24h": 4.571428571428571,
+                            "change7d": 4.571428571428571,
+                            "change30d": 9.8,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.5942596151450252,
+                            "volume24h": 0.2927531000959944,
+                            "volume30d": 11.928959377665686,
+                            "volumeAll": 2244.1044373810637,
+                            "globalVolume7dNative": null,
+                            "globalVolume24hNative": null,
+                            "globalVolume30dNative": null,
+                            "globalVolumeAllNative": null,
+                            "volume7dNative": "6110000000000000000",
+                            "volume24hNative": "3010000000000000000",
+                            "volume30dNative": "122650000000000000000",
+                            "volumeAllNative": "23073212049000000000000",
+                            "change24h": null,
+                            "change7d": -90.11006798316608,
+                            "change30d": -84.62743623488124,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM2",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+                        "name": "Azuki",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=18406c3759bb1589676ba7da5d66d64eef23ef90a435e00061ccba7f144873a1",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=89e4535430ec722da6931d14139c9e25d3218a742c0bcc1527daa5cd5a1dead0",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Take the red bean to join the garden. View the collection at�[azuki.com/gallery](https://azuki.com/gallery).\n\nAzuki starts with a collection of 10,000 avatars that give you membership access to The Garden: a corner of the internet where artists, builders, and web3 enthusiasts meet to create a decentralized future. Azuki holders receive access to exclusive drops, experiences, and more. Visit [azuki.com](https://azuki.com) for more details.\n\nWe rise together. We build together. We grow together.",
+                        "assetCount": 10000,
+                        "ownerCount": 4169,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "5719000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "4484748316221585000000",
+                            "globalVolume24hNative": "1088759937482827100000",
+                            "globalVolume30dNative": "13692524384170962000000",
+                            "globalVolumeAllNative": "692146152327936400000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "5651000000000000000",
+                            "points": 70,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM3",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+                        "name": "Pudgy Penguins",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=06c9221b2d50a62134164f100723476a781dd0e2f5c19d97a73d6a9f36ce80e0",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=fef68a6d0f9566c41c273cd8c669dc8671d9e961fec640c385254e465daab63e",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Pudgy Penguins is a collection of 8,888 NFTs, waddling through Web3. Embodying empathy & compassion, Pudgy Penguins are a beacon of positivity in the NFT Space. Each holder receives exclusive access to experiences, events, and more. \n\nJoin the Huddle now and spread good vibes across the meta. \n\n[pudgypenguins.com](https://pudgypenguins.com)\n\nPudgy Collections:\n[Lil Pudgys](https://opensea.io/collection/lilpudgys) | [Pudgy Rods](https://opensea.io/collection/pudgyrods)",
+                        "assetCount": 8888,
+                        "ownerCount": 4407,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 1,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 42829.9877725771,
+                            "latestFloorPriceNative": "19500000000000000000",
+                            "latestGlobalFloorPriceNative": "10000000000000000000",
+                            "change24h": 0.0,
+                            "change7d": -7.142857142857142,
+                            "change30d": 105.26315789473684,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "5635266297364454000000",
+                            "globalVolume24hNative": "725992153478869600000",
+                            "globalVolume30dNative": "32517467325649974000000",
+                            "globalVolumeAllNative": "229754236830210800000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "9265000000000000000",
+                            "points": 60,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM4",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+                        "name": "Bored Ape Yacht Club",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=229c2fcc4251dd4095c3a19084c24923e2c42c9269a317bd0b5bc315e130252f",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=0653871ace207bb9b543f2e91b8229d66e5694381f0b4a6e1e8e50ee3fbee14e",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs� unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.BoredApeYachtClub.com for more details.",
+                        "assetCount": 10000,
+                        "ownerCount": 5513,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "26218000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "6588793673905144000000",
+                            "globalVolume24hNative": "601653853903417300000",
+                            "globalVolume30dNative": "32888350082788490000000",
+                            "globalVolumeAllNative": "1469528473374149000000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "25899900000000000000",
+                            "points": 100,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTM5",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+                        "name": "Mutant Ape Yacht Club",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=657e0c8b041c5d84bfea1bdc091371b9e49227a5d889d43bf1813fd158b50316",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=bcf9ff780316fb46172def14d67ed53a4255401a72ec279d842fd4f72bb3f926",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "The MUTANT APE YACHT CLUB is a collection of up to 20,000 Mutant Apes that can only be created by exposing an existing Bored Ape to a vial of MUTANT SERUM or by minting a Mutant Ape in the public sale.",
+                        "assetCount": 19486,
+                        "ownerCount": 11287,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "5069870000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "3787440947026068400000",
+                            "globalVolume24hNative": "599243556257546200000",
+                            "globalVolume30dNative": "16940938945195670000000",
+                            "globalVolumeAllNative": "1028696768325410000000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "5028800000000000000",
+                            "points": 80,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQw",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x8821bee2ba0df28761afff119d66390d594cd280",
+                        "name": "DeGods",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=9bafa8a86dccd7c33059d381e99980bdd97bde9d1ac7a72c24d0b20e429ac7fa",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=ad60d5b8a2c8041d2b380cd792b11fee8409c0bb9045fbac801b6add1261ec27",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "DeGods is a digital art collection and global community of creators, developers, entrepreneurs, athletes, artists, experimenters and innovators.",
+                        "assetCount": 8954,
+                        "ownerCount": 2549,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": null,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "2567000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": null,
+                            "volume24h": null,
+                            "volume30d": null,
+                            "volumeAll": null,
+                            "globalVolume7dNative": "2181073003614526400000",
+                            "globalVolume24hNative": "326993026189412150000",
+                            "globalVolume30dNative": "15876068772845083000000",
+                            "globalVolumeAllNative": "123430377958738320000000",
+                            "volume7dNative": null,
+                            "volume24hNative": null,
+                            "volume30dNative": null,
+                            "volumeAllNative": null,
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQx",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+                        "name": "Moonbirds",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=155f06e31b61188dd7bbaeadbdf4029d4a02bcbf4092710985169122c32b3dd4",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=a8b3974d1ca3c84259b5e329a2f3055ea86f528334d22f64c2d4fd1dc7f802aa",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "A collection of 10,000 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits. What's more, each Moonbird unlocks private club membership and additional benefits the longer you hold them. We call it nesting � because, obviously.",
+                        "assetCount": 10000,
+                        "ownerCount": 5753,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 10,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 3514.255406980685,
+                            "latestFloorPriceNative": "1600000000000000000",
+                            "latestGlobalFloorPriceNative": "1735000000000000000",
+                            "change24h": 0.0,
+                            "change7d": 0.0,
+                            "change30d": 0.0,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "1082302527058474400000",
+                            "globalVolume24hNative": "128858316472407860000",
+                            "globalVolume30dNative": "9968164001276458000000",
+                            "globalVolumeAllNative": "341288232120029160000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "1829000000000000000",
+                            "points": 50,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQy",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x769272677fab02575e84945f03eca517acc544cc",
+                        "name": "The Captainz",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=5b6fe955262b1573de8209c62d22181bf0731f6a4533a2c5611ef5df9caec2b8",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=deeb0008a537f4b206342680d6f22ded5c56d20b882d74102cca0b483be1c253",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "9,999 PIRATE CAPTAINZ SEARCHING FOR THE LEGENDARY MEMELAND.9,999 Captainz, with their pirate crewz, explore the Broken Seas in search of the legendary treasure known as �Memeland�. Join them in their quests for glory, fortune, love, and of course� memes.",
+                        "assetCount": 9999,
+                        "ownerCount": 3970,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "4350000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "505034900485986270000",
+                            "globalVolume24hNative": "92109000000000010000",
+                            "globalVolume30dNative": "4376498107569962000000",
+                            "globalVolumeAllNative": "106650052295157310000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQz",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x5946aeaab44e65eb370ffaa6a7ef2218cff9b47d",
+                        "name": "Creepz by OVERLORD",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=a5830d0454bdd8d520f4740880a3207978bdd6cf053fae8c6ff3ea31b5ccb3d2",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=2046f0c1efdfbffcda98502c06acdb1aca8487cff40f626a6433a5919cd99d6a",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Creepz are the genesis characters in the Overlord Universe.\n\nInvading millions of households worldwide through Blockchain Gaming, TV Animation, Fashion Brand & an Ecosystem Coin.\n\nExplore the mind-melting Universe: overlord.xyz\n\nRepresented by WME | Managed by ThreeSixZero",
+                        "assetCount": 9591,
+                        "ownerCount": 2371,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": null,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "3350000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": null,
+                            "volume24h": null,
+                            "volume30d": null,
+                            "volumeAll": null,
+                            "globalVolume7dNative": "1113479297500292200000",
+                            "globalVolume24hNative": "88971334693573240000",
+                            "globalVolume30dNative": "4993874832899290000000",
+                            "globalVolumeAllNative": "0",
+                            "volume7dNative": null,
+                            "volume24hNative": null,
+                            "volume30dNative": null,
+                            "volumeAllNative": null,
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ0",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x524cab2ec69124574082676e6f654a18df49a048",
+                        "name": "Lil Pudgys",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=efbbd90317eed927897a186da914352519ce8ddd4b0456bf53f8341fb5bac4c1",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=5773ea53c936f33ab48959450294a83367aaefada25a1f83f046113795bae737",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Lil Pudgys are a collection of 22,222 randomly generated NFTs minted on the Ethereum blockchain. The first 8888 Lil Pudgys were reserved for Pudgy Penguin holders. \n\nPudgy Collections:\n[Pudgy Penguins](https://opensea.io/collection/pudgypenguins) | [Pudgy Rods](https://opensea.io/collection/pudgyrods)",
+                        "assetCount": 21402,
+                        "ownerCount": 7533,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "932600000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 1910.8763775457476,
+                            "globalVolume7dNative": "1438225090310454300000",
+                            "globalVolume24hNative": "86828473778523810000",
+                            "globalVolume30dNative": "9281695495151875000000",
+                            "globalVolumeAllNative": "0",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "870000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ1",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+                        "name": "Milady Maker",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=f1b208683c7f4613506b02dea6cea5af12b48d0b7a31d1c5e7aeb9e7cd54daff",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=f12988cfc8171534f58f322bd02874f1803c622551a70c1bbe26d305ce9570f0",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Milady Maker is a collection of 10,000 generative pfpNFT's in a neochibi aesthetic inspired by street style tribes.",
+                        "assetCount": 10000,
+                        "ownerCount": 3546,
+                        "raritySource": "RARITY_SNIPER",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "2638000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "1810254208198604100000",
+                            "globalVolume24hNative": "85258777920704660000",
+                            "globalVolume30dNative": "7769079688541678000000",
+                            "globalVolumeAllNative": "105975908306010560000000",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ2",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x99a9b7c1116f9ceeb1652de04d5969cce509b069",
+                        "name": "Art Blocks",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=3bd17cf54f68f8b3cf1f6727a97838f91131d40952da6e24b3ec443a1a0c3f0f",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=7f8dad79b2306984b50f6b9d7f988d2ce6a26b60ca95cd96861a78841ae49408",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Art Blocks is dedicated to bringing compelling works of contemporary generative art to life. We unite artists, collectors, and blockchain technology in service of groundbreaking artwork and remarkable experiences.",
+                        "assetCount": 25066,
+                        "ownerCount": 6897,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": null,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "23300000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": null,
+                            "volume24h": null,
+                            "volume30d": null,
+                            "volumeAll": null,
+                            "globalVolume7dNative": "778420801289317200000",
+                            "globalVolume24hNative": "85174748141897650000",
+                            "globalVolume30dNative": "3748788043140997600000",
+                            "globalVolumeAllNative": "522705089321990800000000",
+                            "volume7dNative": null,
+                            "volume24hNative": null,
+                            "volume30dNative": null,
+                            "volumeAllNative": null,
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ3",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xe012baf811cf9c05c408e879c399960d1f305903",
+                        "name": "Otherside Koda",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "VERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=9a42cb679bc310d39f192bc717749d758353a722e9760257a91e7415aa017558",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=a111d495f2fc479f44381885d14324bb4209c4a4e25625b71bb740d54a10f1cf",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Kodas are celestial beings that reside in Otherside. About the Kodas� origins and culture, little is known, but their magic and science keep Otherside thriving.All holders of Otherside Koda NFTs are subject to the license available at: https://otherside.xyz/license/koda",
+                        "assetCount": 6500,
+                        "ownerCount": 3448,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "4100000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "1014022230888130800000",
+                            "globalVolume24hNative": "75255500000000000000",
+                            "globalVolume30dNative": "2033203736439535000000",
+                            "globalVolumeAllNative": "0",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ4",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0x7bfd9a55f4c00783b5a8ea18f7735e1a405dd520",
+                        "name": "Skyborne - Nexian Gems",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=eb9087186486e830c00b18d52ae4fed7d8876e42dce3fa493a205c746f1ac2e4",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=42f246904e6703ac36b46e91daf06bf221431b3403bb195777ebfaf91062bde6",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Skyborne - Nexian Gems is a Proof of Collective within the Skyborne Legacy ecosystem.These limited gems hold significant value and provide holders with special privileges. Holders gain access to a whitelist for future Skyborne mints, ensuring early access to new collectibles. The collection will include ten 1-of-1s of ultra rare, mythic rarity which will come with additional utility to be revealed closer to game launch.Developed by Revolving Games and backed by industry giants such as Pantera Capital, Animoca Brands, Polygon, and many others.",
+                        "assetCount": 3333,
+                        "ownerCount": 951,
+                        "raritySource": null,
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": 0.0,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "940000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": 0.0,
+                            "volume24h": 0.0,
+                            "volume30d": 0.0,
+                            "volumeAll": 0.0,
+                            "globalVolume7dNative": "607449277354542600000",
+                            "globalVolume24hNative": "73731001412730300000",
+                            "globalVolume30dNative": "0",
+                            "globalVolumeAllNative": "0",
+                            "volume7dNative": "0",
+                            "volume24hNative": "0",
+                            "volume30dNative": "0",
+                            "volumeAllNative": "0",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "717000000000000000",
+                            "points": 35,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTQ5",
+                    "__typename": "AssetCollectionEdge"
+                },
+                {
+                    "node": {
+                        "address": "0xd3d9ddd0cf0a5f0bfb8f7fceae075df687eaebab",
+                        "name": "Redacted Remilio Babies",
+                        "chain": {
+                            "name": "ETHEREUM",
+                            "__typename": "BlockchainMetadata"
+                        },
+                        "status": "UNVERIFIED",
+                        "__typename": "AssetCollection",
+                        "logo": {
+                            "url": "https://images.minted.network/?image=19d5739117b29bf01282ec9a370dc74897035b129ff0fd1ac04f336b16d4b25c",
+                            "__typename": "Image"
+                        },
+                        "banner": {
+                            "url": "https://images.minted.network/?image=880948d110b3ff188d44155bba335624185762230def1f53ab9b94b03bf1a360",
+                            "__typename": "Image"
+                        },
+                        "creator": null,
+                        "description": "Redacted Remilio Babies is a collection of 10,000 neochibi pfpNFT's expanding the Milady Maker paradigm with the introduction of young J.I.T. energy and schizophrenic reactionary aesthetics. We are #REMILIONAIREs.",
+                        "assetCount": 10000,
+                        "ownerCount": 2505,
+                        "raritySource": "INTERNAL",
+                        "isRarityEnable": true,
+                        "isCollectionOfferEnable": true,
+                        "listedCount": 0,
+                        "analyticsEnable": false,
+                        "floorPrice": {
+                            "latestFloorPrice": null,
+                            "latestFloorPriceNative": null,
+                            "latestGlobalFloorPriceNative": "490000000000000000",
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "FloorPriceStatistics"
+                        },
+                        "volume": {
+                            "volume7d": null,
+                            "volume24h": null,
+                            "volume30d": null,
+                            "volumeAll": null,
+                            "globalVolume7dNative": "205145640021848040000",
+                            "globalVolume24hNative": "72333786806066230000",
+                            "globalVolume30dNative": "1454272942398579000000",
+                            "globalVolumeAllNative": "0",
+                            "volume7dNative": null,
+                            "volume24hNative": null,
+                            "volume30dNative": null,
+                            "volumeAllNative": null,
+                            "change24h": null,
+                            "change7d": null,
+                            "change30d": null,
+                            "__typename": "VolumeStatistics"
+                        },
+                        "listingRewardStats": {
+                            "referencePrice": "0",
+                            "points": 0,
+                            "isWhitelist": false,
+                            "__typename": "ListingRewardStats"
+                        }
+                    },
+                    "cursor": "bW50LTUw",
+                    "__typename": "AssetCollectionEdge"
+                }
+            ],
+            "pageInfo": {
+                "hasPreviousPage": false,
+                "hasNextPage": true,
+                "startCursor": "bW50LTE=",
+                "endCursor": "bW50LTUw",
+                "__typename": "PageInfo"
+            },
+            "__typename": "AssetCollectionConnection"
+        }
+    }
+}
