@@ -13,7 +13,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By.ByCssSelector;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -101,7 +100,7 @@ public class TwitterCrawler {
               "div.css-1rynq56.r-8akbws.r-krxsd3.r-dnmrzs.r-1udh08x.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-bnwqim")));
 
           List<WebElement> tweetElements = driver.findElements(By.cssSelector(
-                  "div.css-1rynq56.r-8akbws.r-krxsd3.r-dnmrzs.r-1udh08x.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-bnwqim"));
+              "div.css-1rynq56.r-8akbws.r-krxsd3.r-dnmrzs.r-1udh08x.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-bnwqim"));
 
           elementSize = tweetElements.size();
           System.out.println("count: " + elementSize);
@@ -131,28 +130,27 @@ public class TwitterCrawler {
             wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
                 By.cssSelector(
                     "div.css-1rynq56.r-dnmrzs.r-1udh08x.r-3s2u2q.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-18u37iz.r-1wvb978")));
-                    List<WebElement> authorDivs = driver.findElements(
-                      By.cssSelector(
+            List<WebElement> authorDivs = driver.findElements(
+                By.cssSelector(
                     "div.css-1rynq56.r-dnmrzs.r-1udh08x.r-3s2u2q.r-bcqeeo.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-18u37iz.r-1wvb978"));
-              
-                  if (!authorDivs.isEmpty()) {
-                      WebElement firstAuthorDiv = authorDivs.get(0);
-              
-                      List<WebElement> authorSpans = firstAuthorDiv.findElements(
-                          By.cssSelector("span.css-1qaijid.r-bcqeeo.r-qvutc0.r-poiln3"));
-              
-                      if (!authorSpans.isEmpty()) {
-                          author = authorSpans.get(0).getText();
-                          System.out.println("author: " + author);
-                      }
-                  } else{
-                    System.out.println("khong tim thay");
-                  }
-          } finally{
+
+            if (!authorDivs.isEmpty()) {
+              WebElement firstAuthorDiv = authorDivs.get(0);
+
+              List<WebElement> authorSpans = firstAuthorDiv.findElements(
+                  By.cssSelector("span.css-1qaijid.r-bcqeeo.r-qvutc0.r-poiln3"));
+
+              if (!authorSpans.isEmpty()) {
+                author = authorSpans.get(0).getText();
+                System.out.println("author: " + author);
+              }
+            } else {
+              System.out.println("khong tim thay");
+            }
+          } finally {
 
           }
-          final String[] descHolder = new String[1]; // Mảng chứa desc
-          // desc
+          final String[] descHolder = new String[1]; 
           String desc = "";
           try {
             wait.until(ExpectedConditions.presenceOfElementLocated(
@@ -200,14 +198,14 @@ public class TwitterCrawler {
             date = dateTime.format(outputFormatter);
           }
           try {
-            
+
             TwitterModel model = new TwitterModel(desc, author, date, relatedTags);
             if (twitterList.stream().noneMatch(existingModel -> existingModel.getDesc().equals(descHolder[0]))) {
               twitterList.add(model);
               ObjectMapper mapper = new ObjectMapper();
               writer.write(mapper.writeValueAsString(model));
             }
-            
+
           } finally {
             driver.navigate().back();
             WebElement elementToRemove = wait.until(ExpectedConditions.presenceOfElementLocated(

@@ -60,13 +60,13 @@ public class NFTicallyBlogCrawl implements BaseCrawler {
 
           Element metaTag = document.select("meta[name=author]").first();
           String author = (metaTag != null) ? metaTag.attr("content") : "";
-          
+
           Element dateElement = document.select("meta[property=article:published_time]").first();
           String date = (dateElement != null) ? dateElement.attr("content") : "";
           DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
           LocalDateTime dateTime = null;
           if (date != null && !date.isEmpty()) {
-              dateTime = LocalDateTime.parse(date, inputFormatter);
+            dateTime = LocalDateTime.parse(date, inputFormatter);
           }
           DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
           if (dateTime != null) {
