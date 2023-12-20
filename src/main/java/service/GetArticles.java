@@ -26,7 +26,6 @@ public class GetArticles {
         allArticles.addAll(artNewsService.getAllModels());
         allArticles.addAll( plazaNFTService.getAllModels());
         allArticles.addAll(twitterService.getAllModels());
-        //favouriteArticles.addAll(twitterService.addFavorite(title));
         return allArticles;
     }
     
