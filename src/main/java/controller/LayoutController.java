@@ -33,8 +33,6 @@ public class LayoutController{
   public void loadScreen(String fxml) {
     try {
       contentArea.getChildren().clear();
-      contentArea.setLayoutX(520);
-      contentArea.setLayoutY(180);
       contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
     } catch (Exception e) {
       e.printStackTrace();
