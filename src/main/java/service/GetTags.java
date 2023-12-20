@@ -50,13 +50,13 @@ public class GetTags {
     }
 
     private static List<String> getTagsByDay(String day) {
-        Map<String, Integer> tagFrequency = FilterTagFrequencyByDay.getTagFrequencyByDay(day);
+        Map<String, Integer> tagFrequency = getTagFrequencyByDay.getTagFrequencyByDay(day);
         return new ArrayList<>(tagFrequency.keySet());
     }
 
     private static List<String> getTagsByMonth(String month) {
         if (month.length() == 2) {
-            Map<String, Integer> tagFrequency = FilterTagFrequencyByMonth.getTagFrequencyByMonth(month);
+            Map<String, Integer> tagFrequency = getTagFrequencyByMonth.getTagFrequencyByMonth(month);
             return new ArrayList<>(tagFrequency.keySet());
         } else {
             return null;
@@ -64,7 +64,7 @@ public class GetTags {
     }
 
     public static void main(String[] args) {
-        List<String> allTags = getAllTags(0, null);
+        List<String> allTags = getAllTags(0, "");
         List<String> tagsByName = getAllTags(1, "NFT");
         List<String> tagsByDay = getAllTags(2, "08-01");
         List<String> tagsByMonth = getAllTags(3, "08");
