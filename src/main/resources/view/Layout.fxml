@@ -38,15 +38,6 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadSearch" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="BLOGS">
-               <graphic>
-                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../img/layout-blog-icon.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
             <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadMarketPlaceScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="MARKET PLACE">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
