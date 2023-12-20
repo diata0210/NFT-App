@@ -14,7 +14,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.VBox;
 import models.TagTableType;
-import service.getAllTags;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -81,7 +80,7 @@ public class TagsController implements Initializable {
         int idx = 0;
         List<String> tags = new ArrayList<String>();
         list = FXCollections.observableArrayList();
-        tags = getAllTags.allTags();
+        // tags = getAllTags.allTags();
         for (String tag : tags) {
             idx += 1;
             TagTableType newtag = new TagTableType(idx, tag);
