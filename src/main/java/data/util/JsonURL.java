@@ -12,5 +12,6 @@ public class JsonURL {
     public static String IMMUTABLE = "src/main/java/data/ImmutableCollection.json";
     public static String MOOAR = "src/main/java/data/MooarCollection.json";
     public static String EBISUBAY = "src/main/java/data/EbisuBayCollection.json";
+    public static String MINTED = "src/main/java/data/MintedCollection.json";
 }
 
