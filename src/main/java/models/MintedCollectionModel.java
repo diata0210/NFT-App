@@ -3,15 +3,15 @@ package models;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ImmutableCollectionModel  extends ApiModel implements CustomModel {
+public class MintedCollectionModel  extends ApiModel implements CustomModel {
 
-    public ImmutableCollectionModel(String name, String description, String floorPrice) {
+    public MintedCollectionModel(String name, String description, String floorPrice) {
         super.name = name;
         super.description = description;
         super.floorPrice = floorPrice;
     }
 
-    public ImmutableCollectionModel() {
+    public MintedCollectionModel() {
         super.floorPrice=null;
         super.name = null;
         super.description = null;

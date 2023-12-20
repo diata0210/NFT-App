@@ -8,7 +8,8 @@ import repository.implement.ImmutableCollectionRepositoryImp;
 import service.ImmutableCollectionService;
 
 public class ImmutableCollectionServiceImp implements ImmutableCollectionService {
-    private ImmutableCollectionRepository ImmutableCollectionRepository = ImmutableCollectionRepositoryImp.getInstance();
+    private ImmutableCollectionRepository ImmutableCollectionRepository = ImmutableCollectionRepositoryImp
+            .getInstance();
 
     public static ImmutableCollectionServiceImp instance;
 
@@ -16,6 +17,10 @@ public class ImmutableCollectionServiceImp implements ImmutableCollectionService
         if (instance == null)
             instance = new ImmutableCollectionServiceImp();
         return instance;
+    }
+
+    private ImmutableCollectionServiceImp() {
+        ImmutableCollectionRepository.loadData(); // Gọi loadData ở đây
     }
 
     @Override

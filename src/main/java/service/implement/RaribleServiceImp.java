@@ -18,6 +18,10 @@ public class RaribleServiceImp implements RaribleService {
         return instance;
     }
 
+    private RaribleServiceImp() {
+         raribleRepository.loadData(); // Gọi loadData ở đây
+    }
+
     @Override
     public List<RaribleModel> findModelsByName(String name) {
         return raribleRepository.findModelsByName(name);
