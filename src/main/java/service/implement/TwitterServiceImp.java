@@ -2,10 +2,14 @@ package service.implement;
 
 import java.util.List;
 import java.util.Map;
+
+import models.CoinDeskBlogModel;
+import models.TheartNewPaperBlogModel;
 import models.TwitterModel;
 import repository.TwitterRepository;
 import repository.implement.TwitterRepositoryImp;
 import service.TwitterService;
+import twitter4j.Twitter;
 
 public class TwitterServiceImp implements TwitterService {
     private TwitterRepository twitterRepository = TwitterRepositoryImp.getInstance();

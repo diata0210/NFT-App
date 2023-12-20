@@ -8,7 +8,7 @@ public class TagsSearchService {
 
     public static List<String> searchTagsContainingString(String searchString) {
         List<String> matchingTags = new ArrayList<>();
-        List<BlogModel> allArticles = GetArticles.allArticles();
+        List<BlogModel> allArticles = getAllArticles.allArticles();
         for (BlogModel article : allArticles) {
             for (String tag : article.getRelatedTags()) {
                 if (tag.contains(searchString) && !matchingTags.contains(tag)) {
