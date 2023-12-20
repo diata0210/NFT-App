@@ -82,25 +82,33 @@ public class TagsController implements Initializable {
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
-        ObservableList<String> selectList = FXCollections.observableArrayList("Customize", "Filter by date",
-                "Filter by week", "Filter by month");
-        filterType.setItems(selectList);
-        int idx = 0;
-        List<String> tags = new ArrayList<String>();
-        list = FXCollections.observableArrayList();
-        // tags = getAllTags.allTags();
-        for (String tag : tags) {
-            idx += 1;
-            TagTableType newtag = new TagTableType(idx, tag);
-            list.add(newtag);
-        }
+        // ObservableList<String> selectList = FXCollections.observableArrayList("Customize", "Filter by date",
+        //         "Filter by week", "Filter by month");
+        // filterType.setItems(selectList);
+        // int idx = 0;
+        // List<String> tags = new ArrayList<String>();
+        // list = FXCollections.observableArrayList();
+        // // tags = getAllTags.allTags();
+        // for (String tag : tags) {
+        //     idx += 1;
+        //     TagTableType newtag = new TagTableType(idx, tag);
+        //     list.add(newtag);
+        // }
+        // table.setItems(list);
+        // id.setCellValueFactory(new PropertyValueFactory<>("id"));
+        // tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
+        list = FXCollections.observableArrayList(
+            new TagTableType(1, "mot"),
+            new TagTableType(2, "hai"),
+            new TagTableType(3, "ba")
+        );
         table.setItems(list);
         id.setCellValueFactory(new PropertyValueFactory<>("id"));
         tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
     }
 
     @FXML
-    public void getShowBlogDetail(MouseEvent event) {
+    public void getShowTagDetail(MouseEvent event) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/TagsPopUp.fxml"));
             Parent parent = loader.load();
