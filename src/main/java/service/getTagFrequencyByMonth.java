@@ -48,9 +48,4 @@ public class getTagFrequencyByMonth {
                         LinkedHashMap::new));
     }
 
-    public static void main(String[] args) {
-        String month = "08";
-        Map<String, Integer> topTags = getTagFrequencyByMonth(month);
-        topTags.forEach((key, value) -> System.out.println(key + ": " + value));
-    }
 }

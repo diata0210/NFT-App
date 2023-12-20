@@ -12,7 +12,7 @@ import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 
-public class FilterTagFrequencyByDay {
+public class getTagFrequencyByDay {
 
     public static Map<String, Integer> getTagFrequencyByDay(String day) {
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
@@ -48,9 +48,4 @@ public class FilterTagFrequencyByDay {
                         LinkedHashMap::new));
     }
 
-    public static void main(String[] args) {
-        String day = "08-01";
-        Map<String, Integer> topTags = getTagFrequencyByDay(day);
-        topTags.forEach((key, value) -> System.out.println(key + ": " + value));
-    }
 }
