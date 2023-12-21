@@ -4,20 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import models.BlogModel;
-
 public class GetTags {
 
 
-    public static List<String> getAllTags(int type, String parameter) {
+    public static List<String> getAllTags(int type, String title,String date) {
         switch (type) {
             case 0:
                 return allTags();
             case 1:
-                return getAllTagsFilteredByName(parameter);
+                return getAllTagsFilteredByName(title);
             case 2:
-                return getTagsByDay(parameter);
+                return getTagsByDay(date);
             case 3:
-                return getTagsByMonth(parameter);
+                return getTagsByMonth(date);
             default:
                 return new ArrayList<>();
         }
@@ -49,12 +48,14 @@ public class GetTags {
         return allTags;
     }
 
-    private static List<String> getTagsByDay(String day) {
+    private static List<String> getTagsByDay(String date) {
+        String day = date.substring(0, 2);
         Map<String, Integer> tagFrequency = getTagFrequencyByDay.getTagFrequencyByDay(day);
         return new ArrayList<>(tagFrequency.keySet());
     }
 
-    private static List<String> getTagsByMonth(String month) {
+    private static List<String> getTagsByMonth(String date) {
+        String month = date.substring(3, 5);
         if (month.length() == 2) {
             Map<String, Integer> tagFrequency = getTagFrequencyByMonth.getTagFrequencyByMonth(month);
             return new ArrayList<>(tagFrequency.keySet());
@@ -64,10 +65,10 @@ public class GetTags {
     }
 
     public static void main(String[] args) {
-        List<String> allTags = getAllTags(0, "");
-        List<String> tagsByName = getAllTags(1, "NFT");
-        List<String> tagsByDay = getAllTags(2, "08-01");
-        List<String> tagsByMonth = getAllTags(3, "08");
+        List<String> allTags = getAllTags(0, "","");
+        List<String> tagsByName = getAllTags(1, "NFT","");
+        List<String> tagsByDay = getAllTags(2, "","08-01-2023");
+        List<String> tagsByMonth = getAllTags(3, "","01-08-2023");
 
         System.out.println("All Tags:");
         allTags.forEach(System.out::println);

@@ -38,7 +38,8 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadMarketPlaceScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="MARKET PLACE">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="TRENDING TAGS"
+                    onAction="#loadTreding">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -46,7 +47,7 @@
                      </image>
                   </ImageView>
                </graphic></Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="CHAT BOT">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="CHAT BOT" >
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>

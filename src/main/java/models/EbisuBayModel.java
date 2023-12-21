@@ -3,16 +3,16 @@ package models;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ImmutableCollectionModel  extends ApiModel implements CustomModel {
+public class EbisuBayModel extends ApiModel implements CustomModel {
 
-    public ImmutableCollectionModel(String name, String description, String floorPrice) {
+    public EbisuBayModel(String name, String description, String floorPrice) {
         super.name = name;
         super.description = description;
         super.floorPrice = floorPrice;
     }
 
-    public ImmutableCollectionModel() {
-        super.floorPrice=null;
+    public EbisuBayModel() {
+        super.floorPrice = null;
         super.name = null;
         super.description = null;
     }

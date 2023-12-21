@@ -41,11 +41,13 @@ public class ImmutableCollectionRepositoryImp implements ImmutableCollectionRepo
 
                     model.setName(nameNode != null ? nameNode.asText() : "");
                     model.setDescription(descriptionNode != null ? descriptionNode.asText() : "");
-
-                    if (!floorPriceNode.isMissingNode()) {
-                        model.setFloorPrice(floorPriceNode.floatValue());
+                    if (floorPriceNode != null) {
+                        double floorPrice = floorPriceNode.asDouble();
+                        String formattedFloorPrice = String.format("%.2f", floorPrice);
+                        model.setFloorPrice(formattedFloorPrice);
+                    } else {
+                        model.setFloorPrice("");
                     }
-
                     models.add(model);
                 }
             }

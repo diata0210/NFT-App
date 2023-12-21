@@ -24,6 +24,7 @@ public class TagsController implements Initializable {
     private String searchNameString;
     private int type = 0;
     private String date;
+
     @FXML
     public TableView<TagTableType> table;
 
@@ -74,13 +75,27 @@ public class TagsController implements Initializable {
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
+        initializeFilterType();
+        initializeTable();
+        initializeColumns();
+    }
+
+    private void initializeFilterType() {
         ObservableList<String> selectList = FXCollections.observableArrayList("Customize", "Filter by date",
                 "Filter by week", "Filter by month");
         filterType.setItems(selectList);
-        int idx = 0;
-        List<String> tags = new ArrayList<String>();
+    }
+
+        private void initializeColumns() {
+        id.setCellValueFactory(new PropertyValueFactory<>("id"));
+        tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
+    }
+
+    private void initializeTable() {
         list = FXCollections.observableArrayList();
+        List<String> tags = new ArrayList<>();
         // tags = getAllTags.allTags();
+        int idx = 0;
         for (String tag : tags) {
             idx += 1;
             TagTableType newtag = new TagTableType(idx, tag);
@@ -97,7 +112,5 @@ public class TagsController implements Initializable {
         });
 
         table.setItems(list);
-        id.setCellValueFactory(new PropertyValueFactory<>("id"));
-        tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
     }
 }

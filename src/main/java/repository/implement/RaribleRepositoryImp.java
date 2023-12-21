@@ -17,7 +17,7 @@ import repository.RaribleRepository;
 public class RaribleRepositoryImp implements RaribleRepository, Repository {
     public static RaribleRepositoryImp instance;
     private List<RaribleModel> models = new ArrayList<>();
-
+    private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031;
     public static RaribleRepositoryImp getInstance() {
         if (instance == null)
             instance = new RaribleRepositoryImp();
@@ -32,7 +32,6 @@ public class RaribleRepositoryImp implements RaribleRepository, Repository {
             if (rootNode.isArray()) {
                 for (JsonNode node : rootNode) {
                     RaribleModel model = new RaribleModel();
-                    model.setId(node.get("id").asText());
                     model.setName(node.get("name").asText());
 
                     JsonNode collectionNode = node.get("collection");
@@ -45,8 +44,9 @@ public class RaribleRepositoryImp implements RaribleRepository, Repository {
                         JsonNode floorPriceNode = statisticsNode.get("floorPrice");
                         if (floorPriceNode != null) {
                             JsonNode valueNode = floorPriceNode.get("value");
+
                             if (valueNode != null && !valueNode.isNull()) {
-                                model.setFloorPrice(valueNode.floatValue());
+                                model.setFloorPrice(valueNode != null ? valueNode.asText() : "");
                             }
                         }
                     }
@@ -81,19 +81,18 @@ public class RaribleRepositoryImp implements RaribleRepository, Repository {
         System.out.println("All Rarible Models:");
         for (RaribleModel model : allModels) {
             System.out.println(
-                    "ID: " + model.getId() + ", Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
+                    "Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
         }
         String searchName = "Super Creators By IAC";
 
-    // Tìm kiếm mô hình theo tên
-    System.out.println("\nModels with name '" + searchName + "':");
-    List<RaribleModel> foundModels = raribleRepository.findModelsByName(searchName);
-    if (foundModels.isEmpty()) {
-        System.out.println("No models found with the name '" + searchName + "'.");
-    } else {
-        foundModels.forEach(model -> 
-            System.out.println("ID: " + model.getId() + ", Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice())
-        );
-    }
+        // Tìm kiếm mô hình theo tên
+        System.out.println("\nModels with name '" + searchName + "':");
+        List<RaribleModel> foundModels = raribleRepository.findModelsByName(searchName);
+        if (foundModels.isEmpty()) {
+            System.out.println("No models found with the name '" + searchName + "'.");
+        } else {
+            foundModels.forEach(model -> System.out.println(
+            " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
+        }
     }
 }

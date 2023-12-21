@@ -23,21 +23,31 @@ public class LayoutController{
   }
 
   @FXML
-  void loadSearch(ActionEvent event) {
-    loadScreen("/view/Search.fxml");
+  void loadTreding(ActionEvent event) {
+    loadScreen("/view/TrendingNFT.fxml");
   }
 
   @FXML
   private StackPane contentArea;
 
-  public void loadScreen(String fxml) {
+  private void loadScreen(String fxml) {
     try {
-      contentArea.getChildren().clear();
-      contentArea.setLayoutX(520);
-      contentArea.setLayoutY(180);
-      contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
+      if (contentArea != null) {
+        contentArea.getChildren().clear();
+        contentArea.setLayoutX(520);
+        contentArea.setLayoutY(180);
+        contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
+      }
     } catch (Exception e) {
       e.printStackTrace();
     }
+  }
+
+  public void initialize() {
+    loadHomeScreen();
+  }
+
+  private void loadHomeScreen() {
+    loadScreen("/view/Home.fxml");
   }
 }
