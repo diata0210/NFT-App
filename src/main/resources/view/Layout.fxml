@@ -46,7 +46,7 @@
                      </image>
                   </ImageView>
                </graphic></Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="CHAT BOT">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="TRENDING NFT" onAction="#loadTreding">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>

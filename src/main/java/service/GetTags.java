@@ -50,14 +50,14 @@ public class GetTags {
 
     private static List<String> getTagsByDay(String date) {
         String day = date.substring(0, 2);
-        Map<String, Integer> tagFrequency = GetTagFrequencyByDay.getTagFrequencyByDay(day);
+        Map<String, Integer> tagFrequency = getTagFrequencyByDay.getTagFrequencyByDay(day);
         return new ArrayList<>(tagFrequency.keySet());
     }
 
     private static List<String> getTagsByMonth(String date) {
         String month = date.substring(3, 5);
         if (month.length() == 2) {
-            Map<String, Integer> tagFrequency = GetTagFrequencyByMonth.getTagFrequencyByMonth(month);
+            Map<String, Integer> tagFrequency = getTagFrequencyByMonth.getTagFrequencyByMonth(month);
             return new ArrayList<>(tagFrequency.keySet());
         } else {
             return null;

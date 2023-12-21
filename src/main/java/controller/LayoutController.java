@@ -23,8 +23,8 @@ public class LayoutController{
   }
 
   @FXML
-  void loadSearch(ActionEvent event) {
-    loadScreen("/view/Search.fxml");
+  void loadTreding(ActionEvent event) {
+    loadScreen("/view/TrendingNFT.fxml");
   }
 
   @FXML
