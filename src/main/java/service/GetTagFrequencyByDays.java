@@ -12,23 +12,23 @@ import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 
-public class getTagFrequencyByMonth {
+public class GetTagFrequencyByDays {
 
-    public static Map<String, Integer> getTagFrequencyByMonth(String month) {
+    public static Map<String, Integer> getTagFrequencyByDay(String date) {
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
         CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
         CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
         TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
+        TwitterServiceImp twitterService = TwitterServiceImp.getInstance();
         PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
-        TwitterServiceImp  twitterService = TwitterServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
-        mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByMonth(month));
-        mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByMonth(month));
-        mergeTagFrequency(overallTagFrequency, cryptoNewsService.getTagFrequencyByMonth(month));
-        mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByMonth(month));
-        mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByMonth(month));
-        mergeTagFrequency(overallTagFrequency, twitterService.getTagFrequencyByMonth(month));
-        return getTopTags(overallTagFrequency, 10); // Trả về top 10 tags
+        mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByDay(date));
+        mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByDay(date));
+        mergeTagFrequency(overallTagFrequency, cryptoNewsService.getTagFrequencyByDay(date));
+        mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByDay(date));
+        mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByDay(date));
+        mergeTagFrequency(overallTagFrequency, twitterService.getTagFrequencyByDay(date));
+        return getTopTags(overallTagFrequency); 
     }
 
     private static void mergeTagFrequency(Map<String, Integer> overallTagFrequency, Map<String, Integer> tagFrequency) {
@@ -37,10 +37,9 @@ public class getTagFrequencyByMonth {
         }
     }
 
-    private static Map<String, Integer> getTopTags(Map<String, Integer> tagFrequency, int limit) {
+    private static Map<String, Integer> getTopTags(Map<String, Integer> tagFrequency) {
         return tagFrequency.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-                .limit(limit)
                 .collect(Collectors.toMap(
                         Map.Entry::getKey,
                         Map.Entry::getValue,

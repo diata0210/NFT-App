@@ -58,17 +58,18 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         return allArticles;
     }
 
-
-    public Map<String, Integer> getTagFrequencyByMonth(String month) {
+    public Map<String, Integer> getTagFrequencyByMonth(String date) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (BlogNFTicallyModel model : models) {
-            String date = model.getDate();
-            // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
-            if (date != null && date.length() == 10) {
-                String modelMonth = date.substring(5, 7); // Lấy phần tháng từ chuỗi ngày
-                if (modelMonth.equals(month)) {
-                    for (String tag : model.getRelatedTags()) {
-                        tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
+            if (model.getDate() != null && model.getDate().length() >= 7) {
+                String month = model.getDate().substring(0, 7);
+                // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
+                if (date != null && date.length()>=7  && model.getDate().contains(date)) {
+                    String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
+                    if (modelMonth.equals(month)) {
+                        for (String tag : model.getRelatedTags()) {
+                            tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
+                        }
                     }
                 }
             }
@@ -76,13 +77,13 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         return tagFrequency;
     }
 
-    public Map<String, Integer> getTagFrequencyByDay(String day) {
+    public Map<String, Integer> getTagFrequencyByDay(String date) {
         Map<String, Integer> tagFrequency = new HashMap<>();
         for (BlogNFTicallyModel model : models) {
-            String date = model.getDate();
+            String day = model.getDate();
             // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
             if (date != null && date.length() == 10) {
-                String modelDay = date.substring(5, 10); // Lấy phần tháng từ chuỗi ngày
+                String modelDay = date; // Lấy phần tháng từ chuỗi ngày
                 if (modelDay.equals(day)) {
                     for (String tag : model.getRelatedTags()) {
                         tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -93,7 +94,6 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
         return tagFrequency;
     }
 
-    
     public static void main(String[] args) {
         BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
         mod.loadData();
