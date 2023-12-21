@@ -8,12 +8,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LayoutController">
    <children>
-      <Label layoutX="66.0" layoutY="30.0" prefHeight="75.0" prefWidth="906.0" text="Unlocking the future of digital ownership">
+      <Label layoutX="-200" layoutY="-100.0" prefHeight="75.0" prefWidth="900.0" text="Unlocking the future of digital ownership">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="48.0" />
          </font>
       </Label>
-      <ImageView fitHeight="747.0" fitWidth="691.0" layoutX="174.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="747.0" fitWidth="691.0" layoutX="-100.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/homeScreen.png" />
          </image>
