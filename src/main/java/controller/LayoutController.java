@@ -30,16 +30,21 @@ public class LayoutController{
   @FXML
   private StackPane contentArea;
 
-  public void loadScreen(String fxml) {
+  private void loadScreen(String fxml) {
     try {
-      contentArea.getChildren().clear();
-      contentArea.setLayoutX(520);
-      contentArea.setLayoutY(180);
-      contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
+      if (contentArea != null) {
+        contentArea.getChildren().clear();
+        contentArea.setLayoutX(520);
+        contentArea.setLayoutY(180);
+        contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
+      } else {
+        System.out.println("contentArea is null");
+      }
     } catch (Exception e) {
       e.printStackTrace();
     }
   }
+
   public void initialize() {
     loadHomeScreen();
   }
