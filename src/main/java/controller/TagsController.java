@@ -16,6 +16,7 @@ import javafx.scene.layout.VBox;
 import models.TagTableType;
 
 import java.net.URL;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -41,13 +42,16 @@ public class TagsController implements Initializable {
     public TextField searchByName;
 
     @FXML
+    public ComboBox<String> filterType;
+
+    @FXML
+    private DatePicker datePicker;
+
+    @FXML
     void onSearchByName(ActionEvent event) {
         searchNameString = searchByName.getText();
         System.out.println(searchNameString);
     }
-
-    @FXML
-    public ComboBox<String> filterType;
 
     @FXML
     void onFilterType(ActionEvent event) {
@@ -61,10 +65,8 @@ public class TagsController implements Initializable {
         } else if (typeValue.equals("Filter by month")) {
             type = 3;
         }
+        changeDatePickerVisibility(type);
     }
-
-    @FXML
-    private DatePicker datePicker;
 
     @FXML
     void onDateChange(ActionEvent event) {
@@ -99,5 +101,15 @@ public class TagsController implements Initializable {
         table.setItems(list);
         id.setCellValueFactory(new PropertyValueFactory<>("id"));
         tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
+        datePicker.setVisible(false);
+        datePicker.setValue(LocalDate.now());
+    }
+
+    @FXML
+    void changeDatePickerVisibility(int type){
+        if( type == 0){
+            datePicker.setVisible(false);
+        }
+        else datePicker.setVisible(true);
     }
 }
