@@ -32,6 +32,15 @@ public class TrendingController {
         updateTableData();
     }
 
+
+    private void initializeColumns() {
+        // Kết nối cột với thuộc tính trong NFTData
+        floorPrice.setCellValueFactory(new PropertyValueFactory<>("floorPrice"));
+        name.setCellValueFactory(new PropertyValueFactory<>("name"));
+        tagCount.setCellValueFactory(new PropertyValueFactory<>("tagCount"));
+    }
+
+
     private void updateTableData() {
         Map<ApiModel, Integer> trendingNFTsWithTagCount = trendingService.getTrendingNFTsWithTagCount();
 
@@ -50,10 +59,5 @@ public class TrendingController {
             tableTrend.getItems().add(nftData); // Thêm dữ liệu mới vào bảng
         }
     }
-    private void initializeColumns() {
-        // Kết nối cột với thuộc tính trong NFTData
-        floorPrice.setCellValueFactory(new PropertyValueFactory<>("floorPrice"));
-        name.setCellValueFactory(new PropertyValueFactory<>("name"));
-        tagCount.setCellValueFactory(new PropertyValueFactory<>("tagCount"));
-    }
+
 }

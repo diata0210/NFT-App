@@ -37,8 +37,6 @@ public class LayoutController{
         contentArea.setLayoutX(520);
         contentArea.setLayoutY(180);
         contentArea.getChildren().add(FXMLLoader.load(getClass().getResource(fxml)));
-      } else {
-        System.out.println("contentArea is null");
       }
     } catch (Exception e) {
       e.printStackTrace();

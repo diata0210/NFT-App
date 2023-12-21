@@ -86,6 +86,11 @@ public class TagsController implements Initializable {
         filterType.setItems(selectList);
     }
 
+        private void initializeColumns() {
+        id.setCellValueFactory(new PropertyValueFactory<>("id"));
+        tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
+    }
+
     private void initializeTable() {
         list = FXCollections.observableArrayList();
         List<String> tags = new ArrayList<>();
@@ -107,10 +112,5 @@ public class TagsController implements Initializable {
         });
 
         table.setItems(list);
-    }
-
-    private void initializeColumns() {
-        id.setCellValueFactory(new PropertyValueFactory<>("id"));
-        tag.setCellValueFactory(new PropertyValueFactory<>("tag"));
     }
 }
