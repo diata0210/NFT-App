@@ -39,13 +39,13 @@ public class GetTags {
   }
 
   private static List<String> getTagsByDay(String date) {
-    Map<String, Integer> tagFrequency = GetTagFrequencyByDay.getTagFrequencyByDay(date);
+    Map<String, Integer> tagFrequency = GetTagFrequencyByDays.getTagFrequencyByDay(date);
     return new ArrayList<>(tagFrequency.keySet());
   }
 
   public static List<String> searchTagsByDateAndName(String title, String date) {
     List<BlogModel> allArticles = GetArticles.allArticles();
-    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByDay.getTagFrequencyByDay(date);
+    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByDays.getTagFrequencyByDay(date);
     Set<String> tags = new HashSet<>();
     for (String key : tagFrequencyByMonth.keySet()) {
       for (BlogModel article : allArticles) {
@@ -72,7 +72,7 @@ public class GetTags {
 
   public static List<String> searchTagsByMonthAndName(String title, String monthYear) {
     List<BlogModel> allArticles = GetArticles.allArticles();
-    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByMonth.getTagFrequencyByMonth(monthYear);
+    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByMonths.getTagFrequencyByMonth(monthYear);
     Set<String> tags = new HashSet<>();
     for (String key : tagFrequencyByMonth.keySet()) {
       for (BlogModel article : allArticles) {
