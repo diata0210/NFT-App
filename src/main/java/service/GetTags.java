@@ -1,86 +1,119 @@
 package service;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+
 import models.BlogModel;
+
 public class GetTags {
 
-
-    public static List<String> getAllTags(int type, String title,String date) {
-        switch (type) {
-            case 0:
-                return allTags();
-            case 1:
-                return getAllTagsFilteredByName(title);
-            case 2:
-                return getTagsByDay(date);
-            case 3:
-                return getTagsByMonth(date);
-            default:
-                return new ArrayList<>();
-        }
+  public static List<String> getAllTags(int type, String title, String date) {
+    switch (type) {
+      case 0:
+        return getAllTagsFilteredByName(title);
+      case 1:
+        return getTagsByDay(date);
+      case 2:
+        return searchTagsByDateAndName(title, date);
+      case 3:
+        return searchTagsByMonthAndName(title, date);
+      default:
+        return new ArrayList<>();
     }
+  }
 
-    private static List<String> allTags() {
-        List<String> allTags = new ArrayList<>();
-        List<BlogModel> allArticles = GetArticles.allArticles();
-        for (BlogModel article : allArticles) {
-            for (String tag : article.getRelatedTags()) {
-                if (!allTags.contains(tag)) {
-                    allTags.add(tag);
-                }
+  private static List<String> getAllTagsFilteredByName(String name) {
+    List<String> allTags = new ArrayList<>();
+    List<BlogModel> allArticles = GetArticles.allArticles();
+    for (BlogModel article : allArticles) {
+      for (String tag : article.getRelatedTags()) {
+        if (tag.contains(name) && !allTags.contains(tag)) {
+          allTags.add(tag);
+        }
+      }
+    }
+    return allTags;
+  }
+
+  private static List<String> getTagsByDay(String date) {
+    Map<String, Integer> tagFrequency = GetTagFrequencyByDay.getTagFrequencyByDay(date);
+    return new ArrayList<>(tagFrequency.keySet());
+  }
+
+  public static List<String> searchTagsByDateAndName(String title, String date) {
+    List<BlogModel> allArticles = GetArticles.allArticles();
+    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByDay.getTagFrequencyByDay(date);
+    Set<String> tags = new HashSet<>();
+    for (String key : tagFrequencyByMonth.keySet()) {
+      for (BlogModel article : allArticles) {
+        if (matchesDate(article.getDate(), date) && matchesName(article.getTitle(), title)) {
+          for (String tag : article.getRelatedTags()) {
+            if (!tags.contains(tag)) {
+              if (key.equals(tag)) {
+                tags.add(tag);
+              }
             }
+          }
         }
-        return allTags;
+      }
     }
+    return new ArrayList<>(tags);
+  }
 
-    private static List<String> getAllTagsFilteredByName(String name) {
-        List<String> allTags = new ArrayList<>();
-        List<BlogModel> allArticles = GetArticles.allArticles();
-        for (BlogModel article : allArticles) {
-            for (String tag : article.getRelatedTags()) {
-                if (tag.contains(name) && !allTags.contains(tag)) {
-                    allTags.add(tag);
-                }
+  private static boolean matchesDate(String articleDate, String searchDate) {
+    if (articleDate != null && articleDate.length() >= 10 && searchDate != null && searchDate.length() >= 10) {
+      return articleDate.substring(0, 10).equals(searchDate.substring(0, 10));
+    }
+    return false;
+  }
+
+  public static List<String> searchTagsByMonthAndName(String title, String monthYear) {
+    List<BlogModel> allArticles = GetArticles.allArticles();
+    Map<String, Integer> tagFrequencyByMonth = GetTagFrequencyByMonth.getTagFrequencyByMonth(monthYear);
+    Set<String> tags = new HashSet<>();
+    for (String key : tagFrequencyByMonth.keySet()) {
+      for (BlogModel article : allArticles) {
+        if (matchesMonthYear(article.getDate(), monthYear) && matchesName(article.getTitle(), title)) {
+          for (String tag : article.getRelatedTags()) {
+            if (!tags.contains(tag)) {
+              if (key.equals(tag)) {
+                tags.add(tag);
+              }
             }
+          }
         }
-        return allTags;
+      }
     }
+    return new ArrayList<>(tags);
+  }
 
-    private static List<String> getTagsByDay(String date) {
-        String day = date.substring(0, 2);
-        Map<String, Integer> tagFrequency = getTagFrequencyByDay.getTagFrequencyByDay(day);
-        return new ArrayList<>(tagFrequency.keySet());
+  private static boolean matchesMonthYear(String articleDate, String searchMonthYear) {
+    if (articleDate != null && articleDate.length() >= 7 && searchMonthYear != null
+        && searchMonthYear.length() >= 7) {
+      return articleDate.substring(0, 7).equals(searchMonthYear.substring(0, 7));
     }
+    return false;
+  }
 
-    private static List<String> getTagsByMonth(String date) {
-        String month = date.substring(3, 5);
-        if (month.length() == 2) {
-            Map<String, Integer> tagFrequency = getTagFrequencyByMonth.getTagFrequencyByMonth(month);
-            return new ArrayList<>(tagFrequency.keySet());
-        } else {
-            return null;
-        }
-    }
+  private static boolean matchesName(String articleTitle, String searchName) {
+    return articleTitle != null && articleTitle.toLowerCase().contains(searchName.toLowerCase());
+  }
 
-    public static void main(String[] args) {
-        List<String> allTags = getAllTags(0, "","");
-        List<String> tagsByName = getAllTags(1, "NFT","");
-        List<String> tagsByDay = getAllTags(2, "","08-01-2023");
-        List<String> tagsByMonth = getAllTags(3, "","01-08-2023");
+  public static void main(String[] args) {
 
-        System.out.println("All Tags:");
-        allTags.forEach(System.out::println);
+    List<String> tagsByName = getAllTags(0, "NFT", "");
+    List<String> tagsByMonthAndName = getAllTags(3, "NFT", "2023-08-01");
+    List<String> tagsByDateAndName = getAllTags(2, "NFT", "2023-08-01");
+    System.out.println("\nTags by Name:");
+    tagsByName.forEach(System.out::println);
 
-        System.out.println("\nTags by Name:");
-        tagsByName.forEach(System.out::println);
+    System.out.println("\nTags by Day:");
+    tagsByDateAndName.forEach(System.out::println);
 
-        System.out.println("\nTags by Day:");
-        tagsByDay.forEach(System.out::println);
-
-        System.out.println("\nTags by Month:");
-        tagsByMonth.forEach(System.out::println);
-    }
+    System.out.println("\nTags by Month:");
+    tagsByMonthAndName.forEach(System.out::println);
+  }
 }
-
