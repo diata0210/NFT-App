@@ -2,7 +2,6 @@ package models;
 
 import java.util.HashMap;
 import java.util.Map;
-import models.ApiModel;
 
 public class RaribleModel extends ApiModel implements CustomModel {
 

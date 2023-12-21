@@ -12,7 +12,7 @@ import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 
-public class GetTagFrequencyByMonth {
+public class GetTagFrequencyByMonths {
 
     public static Map<String, Integer> getTagFrequencyByMonth(String date) {
         BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
