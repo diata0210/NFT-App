@@ -40,4 +40,11 @@ public class LayoutController{
       e.printStackTrace();
     }
   }
+  public void initialize() {
+    loadHomeScreen();
+  }
+
+  private void loadHomeScreen() {
+    loadScreen("/view/Home.fxml");
+  }
 }
