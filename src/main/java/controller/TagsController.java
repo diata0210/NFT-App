@@ -12,8 +12,10 @@ import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import models.TagTableType;
+import service.GetTags;
 
 import java.net.URL;
 import java.time.LocalDate;
@@ -48,11 +50,27 @@ public class TagsController implements Initializable {
   @FXML
   private DatePicker datePicker;
 
+  @FXML 
+  void clearTextField (MouseEvent e){
+    searchByName.setText("");
+  }
+
   @FXML
   void onSearchByName(ActionEvent event) {
     searchNameString = searchByName.getText();
-    System.out.println(searchNameString);
+    tags = GetTags.getAllTags(type, searchNameString, date);
+    list.clear();
+    int idx = 0;
+    for (String tag : tags) {
+      idx += 1;
+      TagTableType newtag = new TagTableType(idx, tag);
+      list.add(newtag);
+    }
+    table.setItems(list);
+    searchByName.setText(searchNameString);
   }
+
+  private List<String> tags = new ArrayList<>();
 
   @FXML
   void onFilterType(ActionEvent event) {
@@ -95,23 +113,13 @@ public class TagsController implements Initializable {
 
   private void initializeTable() {
     list = FXCollections.observableArrayList();
-    List<String> tags = new ArrayList<>();
-    // tags = getAllTags.allTags();
+    tags = GetTags.getAllTags(0, "", "");
     int idx = 0;
     for (String tag : tags) {
       idx += 1;
       TagTableType newtag = new TagTableType(idx, tag);
       list.add(newtag);
     }
-
-    table.setRowFactory(tv -> {
-      TableRow<TagTableType> row = new TableRow<>();
-      row.setOnMouseClicked(event -> {
-        TagTableType clickedTag = row.getItem();
-        System.out.println(clickedTag.tag);
-      });
-      return row;
-    });
 
     table.setItems(list);
 
