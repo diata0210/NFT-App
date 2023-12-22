@@ -24,7 +24,7 @@
             </Text>
             <HBox layoutX="420.0" layoutY="21.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: #eee;">
                <children>
-                  <TextField fx:id="searchByName" onAction="#onSearchByName" opacity="0.57" prefHeight="72.0" prefWidth="379.0" text="Enter name to search">
+                  <TextField fx:id="searchByName" onAction="#onSearchByName" onMouseClicked="#clearTextField" opacity="0.57" prefHeight="72.0" prefWidth="379.0" text="Enter name to search">
                      <padding>
                         <Insets left="12.0" />
                      </padding>
