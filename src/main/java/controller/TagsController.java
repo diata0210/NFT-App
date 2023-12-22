@@ -56,8 +56,9 @@ public class TagsController implements Initializable {
   @FXML
   private DatePicker datePicker;
 
-  @FXML
-  void clearTextField(MouseEvent e) {
+
+  @FXML 
+  void clearTextField (MouseEvent e){
     searchByName.setText("");
   }
 
@@ -141,7 +142,6 @@ public class TagsController implements Initializable {
     } else
       datePicker.setVisible(true);
   }
-
   @FXML
   public void openBlogsTable(MouseEvent event) {
     try {
@@ -158,4 +158,5 @@ public class TagsController implements Initializable {
       Logger.getLogger(BlogsTableController.class.getName()).log(Level.SEVERE, null, ex);
     }
   }
+}
 }
