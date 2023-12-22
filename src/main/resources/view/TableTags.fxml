@@ -51,7 +51,7 @@
       </AnchorPane>
       <AnchorPane prefHeight="498.0" prefWidth="800.0">
          <children>
-            <TableView fx:id="table" focusTraversable="false" prefHeight="500.0" prefWidth="800.0">
+            <TableView fx:id="table" focusTraversable="false" onMouseClicked="#openBlogsTable" prefHeight="500.0" prefWidth="800.0">
               <columns>
                 <TableColumn fx:id="id" prefWidth="122.0" text="ID" />
                 <TableColumn fx:id="tag" editable="false" minWidth="0.0" prefWidth="477.0" text="Tags" />

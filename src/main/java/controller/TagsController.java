@@ -4,24 +4,30 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 import models.TagTableType;
 import service.GetTags;
 
+import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TagsController implements Initializable {
   private String searchNameString;
@@ -135,4 +141,21 @@ public class TagsController implements Initializable {
     } else
       datePicker.setVisible(true);
   }
+
+  @FXML
+  public void openBlogsTable(MouseEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/BlogsTable.fxml"));
+            Parent parent = loader.load();
+            Scene scene = new Scene(parent, 1700, 700);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.show();
+            BlogsTableController controller = loader.getController();
+            TagTableType selectedTag = table.getSelectionModel().getSelectedItem();
+            controller.setTable(selectedTag);
+        } catch (IOException ex) {
+            Logger.getLogger(BlogsTableController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
