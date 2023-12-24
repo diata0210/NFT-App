@@ -56,9 +56,8 @@ public class TagsController implements Initializable {
   @FXML
   private DatePicker datePicker;
 
-
-  @FXML 
-  void clearTextField (MouseEvent e){
+  @FXML
+  void clearTextField(MouseEvent e) {
     searchByName.setText("");
   }
 
@@ -97,6 +96,15 @@ public class TagsController implements Initializable {
   @FXML
   void onDateChange(ActionEvent event) {
     date = datePicker.getValue().toString();
+    tags = GetTags.getAllTags(type, searchNameString, date);
+    list.clear();
+    int idx = 0;
+    for (String tag : tags) {
+      idx += 1;
+      TagTableType newtag = new TagTableType(idx, tag);
+      list.add(newtag);
+    }
+    table.setItems(list);
     System.out.println(date);
   }
 
@@ -142,6 +150,7 @@ public class TagsController implements Initializable {
     } else
       datePicker.setVisible(true);
   }
+
   @FXML
   public void openBlogsTable(MouseEvent event) {
     try {

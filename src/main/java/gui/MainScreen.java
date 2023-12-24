@@ -10,7 +10,6 @@ import java.io.IOException;
 
 public class MainScreen extends Application {
   public void on(String[] args) {
-    new Program();
     launch(args);
   }
 
