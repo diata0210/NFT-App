@@ -56,8 +56,8 @@ public class TagsController implements Initializable {
   @FXML
   private DatePicker datePicker;
 
-  @FXML 
-  void clearTextField (MouseEvent e){
+  @FXML
+  void clearTextField(MouseEvent e) {
     searchByName.setText("");
   }
 
@@ -144,18 +144,18 @@ public class TagsController implements Initializable {
 
   @FXML
   public void openBlogsTable(MouseEvent event) {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/BlogsTable.fxml"));
-            Parent parent = loader.load();
-            Scene scene = new Scene(parent, 1700, 700);
-            Stage stage = new Stage();
-            stage.setScene(scene);
-            stage.show();
-            BlogsTableController controller = loader.getController();
-            TagTableType selectedTag = table.getSelectionModel().getSelectedItem();
-            controller.setTable(selectedTag);
-        } catch (IOException ex) {
-            Logger.getLogger(BlogsTableController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+    try {
+      FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/BlogsTable.fxml"));
+      Parent parent = loader.load();
+      Scene scene = new Scene(parent, 1700, 700);
+      Stage stage = new Stage();
+      stage.setScene(scene);
+      stage.show();
+      BlogsTableController controller = loader.getController();
+      TagTableType selectedTag = table.getSelectionModel().getSelectedItem();
+      controller.setTable(selectedTag);
+    } catch (IOException ex) {
+      Logger.getLogger(BlogsTableController.class.getName()).log(Level.SEVERE, null, ex);
     }
+  }
 }
