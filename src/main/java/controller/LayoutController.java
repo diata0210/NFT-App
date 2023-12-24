@@ -18,11 +18,6 @@ public class LayoutController {
   }
 
   @FXML
-  void loadMarketPlaceScreen(ActionEvent event) {
-    loadScreen("/view/MarketPlace.fxml");
-  }
-
-  @FXML
   void loadTreding(ActionEvent event) {
     loadScreen("/view/TrendingNFT.fxml");
   }

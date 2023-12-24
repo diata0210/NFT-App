@@ -8,8 +8,9 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class NiftyGateWayApiCall implements ApiDataProvider {
-  public void fetchData() {
+public class NiftyGateWayApiCall implements BaseCrawler {
+
+  public void crawlData(){
     try {
       OkHttpClient client = new OkHttpClient().newBuilder()
           .build();

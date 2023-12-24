@@ -10,9 +10,9 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class RaribleApiCall implements ApiDataProvider {
+public class RaribleApiCall implements BaseCrawler {
 
-  public void fetchData() {
+  public void crawlData(){
     OkHttpClient client = new OkHttpClient().newBuilder()
         .build();
     MediaType mediaType = MediaType.parse("application/json");
