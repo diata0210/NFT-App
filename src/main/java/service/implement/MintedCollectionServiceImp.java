@@ -19,7 +19,7 @@ public class MintedCollectionServiceImp implements MintedCollectionService {
   }
 
   private MintedCollectionServiceImp() {
-    MintedCollectionRepository.loadData(); // Gọi loadData ở đây
+    MintedCollectionRepository.loadData(); 
   }
 
   @Override
@@ -30,5 +30,4 @@ public class MintedCollectionServiceImp implements MintedCollectionService {
   public List<MintedCollectionModel> getAllModels() {
     return MintedCollectionRepository.getAllModels();
   }
-
 }

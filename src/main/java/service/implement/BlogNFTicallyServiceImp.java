@@ -20,7 +20,7 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
   }
 
   private BlogNFTicallyServiceImp() {
-    blogNFTicallyRepository.loadData(); // Gọi loadData ở đây
+    blogNFTicallyRepository.loadData(); 
   }
 
   @Override

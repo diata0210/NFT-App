@@ -19,7 +19,7 @@ public class EbisuBayServiceImp implements EbisuBayService {
   }
 
   private EbisuBayServiceImp() {
-    EbisuBayRepository.loadData(); // Gọi loadData ở đây
+    EbisuBayRepository.loadData(); 
   }
 
   @Override
@@ -30,5 +30,4 @@ public class EbisuBayServiceImp implements EbisuBayService {
   public List<EbisuBayModel> getAllModels() {
     return EbisuBayRepository.getAllModels();
   }
-
 }

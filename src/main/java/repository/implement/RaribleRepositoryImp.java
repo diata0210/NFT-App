@@ -16,7 +16,6 @@ import repository.RaribleRepository;
 public class RaribleRepositoryImp implements RaribleRepository, Repository {
   public static RaribleRepositoryImp instance;
   private List<RaribleModel> models = new ArrayList<>();
-  private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031;
 
   public static RaribleRepositoryImp getInstance() {
     if (instance == null)
@@ -67,32 +66,5 @@ public class RaribleRepositoryImp implements RaribleRepository, Repository {
     return models.stream()
         .filter(model -> model.getName().equalsIgnoreCase(name))
         .collect(Collectors.toList());
-  }
-
-  public static void main(String[] args) {
-    // Tạo đối tượng của RaribleRepositoryImp
-    RaribleRepositoryImp raribleRepository = RaribleRepositoryImp.getInstance();
-
-    // Tải dữ liệu
-    raribleRepository.loadData();
-
-    // Lấy tất cả các mô hình và in ra
-    List<RaribleModel> allModels = raribleRepository.getAllModels();
-    System.out.println("All Rarible Models:");
-    for (RaribleModel model : allModels) {
-      System.out.println(
-          "Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
-    }
-    String searchName = "Super Creators By IAC";
-
-    // Tìm kiếm mô hình theo tên
-    System.out.println("\nModels with name '" + searchName + "':");
-    List<RaribleModel> foundModels = raribleRepository.findModelsByName(searchName);
-    if (foundModels.isEmpty()) {
-      System.out.println("No models found with the name '" + searchName + "'.");
-    } else {
-      foundModels.forEach(model -> System.out.println(
-          " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
-    }
   }
 }

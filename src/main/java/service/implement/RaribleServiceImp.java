@@ -19,7 +19,7 @@ public class RaribleServiceImp implements RaribleService {
   }
 
   private RaribleServiceImp() {
-    raribleRepository.loadData(); // Gọi loadData ở đây
+    raribleRepository.loadData(); 
   }
 
   @Override
