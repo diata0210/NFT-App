@@ -3,6 +3,7 @@ package controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.input.ZoomEvent;
 import javafx.scene.layout.StackPane;
 
 public class LayoutController{
@@ -47,5 +48,10 @@ public class LayoutController{
 
   private void loadHomeScreen() {
     loadScreen("/view/Home.fxml");
+  }
+
+  @FXML 
+  public void adjustButtonBarSize (ZoomEvent e){
+    System.out.println("Aaaaaaa");
   }
 }
