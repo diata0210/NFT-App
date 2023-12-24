@@ -6,12 +6,13 @@ import java.util.Map;
 import models.TheartNewPaperBlogModel;
 
 public interface TheartNewsPaperRepository {
-    void loadData();
-    List<TheartNewPaperBlogModel> getAllModels();
+  void loadData();
 
-    List<TheartNewPaperBlogModel> getArticleByTags(String tag);
+  List<TheartNewPaperBlogModel> getAllModels();
 
-    Map<String, Integer> getTagFrequencyByMonth(String month);
+  List<TheartNewPaperBlogModel> getArticleByTags(String tag);
 
-    Map<String, Integer> getTagFrequencyByDay(String day);
+  Map<String, Integer> getTagFrequencyByMonth(String month);
+
+  Map<String, Integer> getTagFrequencyByDay(String day);
 }

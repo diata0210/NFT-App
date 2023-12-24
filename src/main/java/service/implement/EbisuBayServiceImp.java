@@ -8,27 +8,27 @@ import repository.implement.EbisuBayRepositoryImp;
 import service.EbisuBayService;
 
 public class EbisuBayServiceImp implements EbisuBayService {
-    private EbisuBayRepository EbisuBayRepository = EbisuBayRepositoryImp.getInstance();
+  private EbisuBayRepository EbisuBayRepository = EbisuBayRepositoryImp.getInstance();
 
-    public static EbisuBayServiceImp instance;
+  public static EbisuBayServiceImp instance;
 
-    public static EbisuBayServiceImp getInstance() {
-        if (instance == null)
-            instance = new EbisuBayServiceImp();
-        return instance;
-    }
+  public static EbisuBayServiceImp getInstance() {
+    if (instance == null)
+      instance = new EbisuBayServiceImp();
+    return instance;
+  }
 
-    private EbisuBayServiceImp() {
-        EbisuBayRepository.loadData(); // Gọi loadData ở đây
-    }
+  private EbisuBayServiceImp() {
+    EbisuBayRepository.loadData(); // Gọi loadData ở đây
+  }
 
-    @Override
-    public List<EbisuBayModel> findModelsByName(String name) {
-        return EbisuBayRepository.findModelsByName(name);
-    }
+  @Override
+  public List<EbisuBayModel> findModelsByName(String name) {
+    return EbisuBayRepository.findModelsByName(name);
+  }
 
-    public List<EbisuBayModel> getAllModels() {
-        return EbisuBayRepository.getAllModels();
-    }
+  public List<EbisuBayModel> getAllModels() {
+    return EbisuBayRepository.getAllModels();
+  }
 
 }

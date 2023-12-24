@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.StackPane;
 
-public class LayoutController{
+public class LayoutController {
 
   @FXML
   public void loadHomeScreen(ActionEvent event) {

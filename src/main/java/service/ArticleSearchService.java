@@ -10,31 +10,30 @@ import service.implement.CrytoNewsBlogServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 
 public class ArticleSearchService {
+  private static BlogNFTicallyService blogService = BlogNFTicallyServiceImp.getInstance();
+  private static CoinDeskService coinDeskService = CoinDeskServiceImp.getInstance();
+  private static CrytoNewsBlogService cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
+  private static TheartNewsPaperService artNewsService = TheartNewsPaperServiceImp.getInstance();
 
-    private static BlogNFTicallyService blogService = BlogNFTicallyServiceImp.getInstance();
-    private static CoinDeskService coinDeskService = CoinDeskServiceImp.getInstance();
-    private static CrytoNewsBlogService cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
-    private static TheartNewsPaperService artNewsService = TheartNewsPaperServiceImp.getInstance();
+  public static List<BlogModel> searchArticlesByTag(String tag) {
+    List<BlogModel> matchingArticles = new ArrayList<>();
 
-    public static List<BlogModel> searchArticlesByTag(String tag) {
-        List<BlogModel> matchingArticles = new ArrayList<>();
+    matchingArticles.addAll(blogService.getArticlesByTag(tag));
+    matchingArticles.addAll(coinDeskService.getArticlesByTag(tag));
+    matchingArticles.addAll(cryptoNewsService.getArticlesByTag(tag));
+    matchingArticles.addAll(artNewsService.getArticlesByTag(tag));
 
-        matchingArticles.addAll(blogService.getArticlesByTag(tag));
-        matchingArticles.addAll(coinDeskService.getArticlesByTag(tag));
-        matchingArticles.addAll(cryptoNewsService.getArticlesByTag(tag));
-        matchingArticles.addAll(artNewsService.getArticlesByTag(tag));
+    return matchingArticles;
+  }
 
-        return matchingArticles;
+  public static void main(String[] args) {
+    String tag = "NFT"; // Điều chỉnh tiêu đề muốn tìm kiếm
+    List<BlogModel> matchingArticles = searchArticlesByTag(tag);
+    if (!matchingArticles.isEmpty()) {
+      System.out.println("Matching articles:");
+      matchingArticles.forEach(System.out::println);
+    } else {
+      System.out.println("No matching articles found.");
     }
-
-    public static void main(String[] args) {
-        String tag = "NFT"; // Điều chỉnh tiêu đề muốn tìm kiếm
-        List<BlogModel> matchingArticles = searchArticlesByTag(tag);
-        if (!matchingArticles.isEmpty()) {
-            System.out.println("Matching articles:");
-            matchingArticles.forEach(System.out::println);
-        } else {
-            System.out.println("No matching articles found.");
-        }
-    }
+  }
 }

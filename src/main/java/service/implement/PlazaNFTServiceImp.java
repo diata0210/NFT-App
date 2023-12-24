@@ -9,32 +9,34 @@ import repository.implement.PlazaNFTRepositoryImp;
 import service.PlazaNFTService;
 
 public class PlazaNFTServiceImp implements PlazaNFTService {
-    private static PlazaNFTServiceImp instance;
-    private PlazaNFTRepository plazaNFTRepository = PlazaNFTRepositoryImp.getInstance();
+  private static PlazaNFTServiceImp instance;
+  private PlazaNFTRepository plazaNFTRepository = PlazaNFTRepositoryImp.getInstance();
 
-    public static PlazaNFTServiceImp getInstance() {
-        if (instance == null)
-            instance = new PlazaNFTServiceImp();
-        return instance;
-    }
+  public static PlazaNFTServiceImp getInstance() {
+    if (instance == null)
+      instance = new PlazaNFTServiceImp();
+    return instance;
+  }
 
-    @Override
-    public List<PlazaNFTModel> getAllModels() {
-        return plazaNFTRepository.getAllModels();
-    }
+  @Override
+  public List<PlazaNFTModel> getAllModels() {
+    return plazaNFTRepository.getAllModels();
+  }
 
-    @Override
-    public List<PlazaNFTModel> getNFTsByTags(String tag) {
-        return plazaNFTRepository.getNFTsByTags(tag);
-    }
+  @Override
+  public List<PlazaNFTModel> getNFTsByTags(String tag) {
+    return plazaNFTRepository.getNFTsByTags(tag);
+  }
 
- public Map<String, Integer> getTagFrequencyByMonth(String month) {
-        return plazaNFTRepository.getTagFrequencyByMonth(month);
-    }
-    public Map<String, Integer> getTagFrequencyByDay(String day) {
-        return plazaNFTRepository.getTagFrequencyByDay(day);
-    }
-    public static void main(String[] args) {
+  public Map<String, Integer> getTagFrequencyByMonth(String month) {
+    return plazaNFTRepository.getTagFrequencyByMonth(month);
+  }
 
-    }
+  public Map<String, Integer> getTagFrequencyByDay(String day) {
+    return plazaNFTRepository.getTagFrequencyByDay(day);
+  }
+
+  public static void main(String[] args) {
+
+  }
 }

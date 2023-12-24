@@ -2,9 +2,7 @@ package crawler;
 
 import java.io.FileWriter;
 import java.io.IOException;
-
 import org.json.JSONException;
-
 import data.util.JsonURL;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;

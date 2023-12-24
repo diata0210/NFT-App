@@ -6,110 +6,108 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.util.JsonURL;
-import models.BlogNFTicallyModel;
 import models.CtytoNewsBlogModel;
 import repository.CrytoNewsBlogRepository;
 import repository.Repository;
 
 public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repository {
-    public static CrytoNewsBlogRepositoryImp instance;
-    private List<CtytoNewsBlogModel> models = new ArrayList<>();
+  public static CrytoNewsBlogRepositoryImp instance;
+  private List<CtytoNewsBlogModel> models = new ArrayList<>();
 
-    public static CrytoNewsBlogRepositoryImp getInstance() {
-        if (instance == null)
-            instance = new CrytoNewsBlogRepositoryImp();
-        return instance;
+  public static CrytoNewsBlogRepositoryImp getInstance() {
+    if (instance == null)
+      instance = new CrytoNewsBlogRepositoryImp();
+    return instance;
+  }
+
+  @Override
+  public void loadData() {
+    try {
+      ObjectMapper mapper = new ObjectMapper();
+      CtytoNewsBlogModel[] sites = mapper.readValue(new File(JsonURL.CRYTONEWS), CtytoNewsBlogModel[].class);
+      for (CtytoNewsBlogModel site : sites)
+        models.add(site);
+    } catch (Exception e) {
+      e.printStackTrace();
     }
 
-    @Override
-    public void loadData() {
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            CtytoNewsBlogModel[] sites = mapper.readValue(new File(JsonURL.CRYTONEWS), CtytoNewsBlogModel[].class);
-            for (CtytoNewsBlogModel site : sites)
-                models.add(site);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+  }
 
+  @Override
+  public List<CtytoNewsBlogModel> getAllModels() {
+    return models;
+  }
+
+  @Override
+  public List<CtytoNewsBlogModel> getArticleByTags(String tag) {
+    List<CtytoNewsBlogModel> allArticles = new ArrayList<>();
+    String lowercaseTag = tag.toLowerCase();
+    for (CtytoNewsBlogModel model : models) {
+      List<String> lowercaseTags = model.getRelatedTags().stream()
+          .map(String::toLowerCase)
+          .collect(Collectors.toList());
+      if (lowercaseTags.contains(lowercaseTag)) {
+        allArticles.add(model);
+        System.out.println(model.getTitle());
+      }
     }
+    return allArticles;
+  }
 
-    @Override
-    public List<CtytoNewsBlogModel> getAllModels() {
-        return models;
-    }
-
-    @Override
-    public List<CtytoNewsBlogModel> getArticleByTags(String tag) {
-        List<CtytoNewsBlogModel> allArticles = new ArrayList<>();
-        String lowercaseTag = tag.toLowerCase();
-        for (CtytoNewsBlogModel model : models) {
-            List<String> lowercaseTags = model.getRelatedTags().stream()
-                    .map(String::toLowerCase)
-                    .collect(Collectors.toList());
-            if (lowercaseTags.contains(lowercaseTag)) {
-                allArticles.add(model);
-                System.out.println(model.getTitle());
+  public Map<String, Integer> getTagFrequencyByMonth(String date) {
+    Map<String, Integer> tagFrequency = new HashMap<>();
+    for (CtytoNewsBlogModel model : models) {
+      if (model.getDate() != null && model.getDate().length() >= 7) {
+        String month = model.getDate().substring(0, 7);
+        // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
+        if (date != null && date.length() >= 7 && model.getDate().contains(date)) {
+          String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
+          if (modelMonth.equals(month)) {
+            for (String tag : model.getRelatedTags()) {
+              tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
             }
+          }
         }
-        return allArticles;
+      }
     }
+    return tagFrequency;
+  }
 
-    public Map<String, Integer> getTagFrequencyByMonth(String date) {
-        Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CtytoNewsBlogModel model : models) {
-            if (model.getDate() != null && model.getDate().length() >= 7) {
-                String month = model.getDate().substring(0, 7);
-                // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
-                if (date != null && date.length() >= 7 && model.getDate().contains(date)) {
-                    String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
-                    if (modelMonth.equals(month)) {
-                        for (String tag : model.getRelatedTags()) {
-                            tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
-                        }
-                    }
-                }
-            }
+  public Map<String, Integer> getTagFrequencyByDay(String date) {
+    Map<String, Integer> tagFrequency = new HashMap<>();
+    for (CtytoNewsBlogModel model : models) {
+      String day = model.getDate().substring(5, 10);
+      // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
+      if (date != null && date.length() == 10) {
+        String modelDay = date.substring(5, 10); // Lấy phần tháng từ chuỗi ngày
+        if (modelDay.equals(day)) {
+          for (String tag : model.getRelatedTags()) {
+            tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
+          }
         }
-        return tagFrequency;
+      }
     }
+    return tagFrequency;
+  }
 
-    public Map<String, Integer> getTagFrequencyByDay(String date) {
-        Map<String, Integer> tagFrequency = new HashMap<>();
-        for (CtytoNewsBlogModel model : models) {
-            String day = model.getDate().substring(5, 10);
-            // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
-            if (date != null && date.length() == 10) {
-                String modelDay = date.substring(5, 10); // Lấy phần tháng từ chuỗi ngày
-                if (modelDay.equals(day)) {
-                    for (String tag : model.getRelatedTags()) {
-                        tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
-                    }
-                }
-            }
-        }
-        return tagFrequency;
+  public List<CtytoNewsBlogModel> getArticlesByTitle(String title) {
+    List<CtytoNewsBlogModel> matchingArticles = new ArrayList<>();
+    for (CtytoNewsBlogModel model : models) {
+      if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
+        matchingArticles.add(model);
+      }
     }
+    return matchingArticles;
+  }
 
-    public List<CtytoNewsBlogModel> getArticlesByTitle(String title) {
-        List<CtytoNewsBlogModel> matchingArticles = new ArrayList<>();
-        for (CtytoNewsBlogModel model : models) {
-            if (model.getTitle().toLowerCase().contains(title.toLowerCase())) {
-                matchingArticles.add(model);
-            }
-        }
-        return matchingArticles;
+  public static void main(String[] args) {
+    CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
+    mod.loadData();
+    for (CtytoNewsBlogModel md : mod.getArticleByTags("NFTS")) {
+      System.out.println(md);
     }
-
-    public static void main(String[] args) {
-        CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
-        mod.loadData();
-        for (CtytoNewsBlogModel md : mod.getArticleByTags("NFTS")) {
-            System.out.println(md);
-        }
-    }
+  }
 }

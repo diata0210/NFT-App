@@ -5,10 +5,10 @@ import java.util.List;
 import models.MintedCollectionModel;
 
 public interface MintedCollectionRepository {
-    void loadData();
+  void loadData();
 
-    List<MintedCollectionModel> getAllModels();
+  List<MintedCollectionModel> getAllModels();
 
-    List<MintedCollectionModel> findModelsByName(String name);
+  List<MintedCollectionModel> findModelsByName(String name);
 
 }

@@ -15,43 +15,43 @@ public class BlogTableType {
         this.relatedTags = null;
     }
 
-    public String getAuthor() {
-        return author;
-    }
+  public String getAuthor() {
+    return author;
+  }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
+  public void setAuthor(String author) {
+    this.author = author;
+  }
 
-    public String getDate() {
-        return date;
-    }
+  public String getDate() {
+    return date;
+  }
 
-    public void setDate(String date) {
-        this.date = date;
-    }
+  public void setDate(String date) {
+    this.date = date;
+  }
 
-    public String getTitle() {
-        return title;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+  public void setTitle(String title) {
+    this.title = title;
+  }
 
-    public String getDesc() {
-        return desc;
-    }
+  public String getDesc() {
+    return desc;
+  }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+  public void setDesc(String desc) {
+    this.desc = desc;
+  }
 
-    public String getRelatedTags() {
-        return relatedTags;
-    }
+  public String getRelatedTags() {
+    return relatedTags;
+  }
 
-    public void setRelatedTags(String relatedTags) {
-        this.relatedTags = relatedTags;
-    }
+  public void setRelatedTags(String relatedTags) {
+    this.relatedTags = relatedTags;
+  }
 }

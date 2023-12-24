@@ -9,40 +9,40 @@ import repository.implement.CoinDeskRepositoryImp;
 import service.CoinDeskService;
 
 public class CoinDeskServiceImp implements CoinDeskService {
-    public static CoinDeskServiceImp instance;
-    private CoinDeskRepository coinDeskRepository = CoinDeskRepositoryImp.getInstance();
+  public static CoinDeskServiceImp instance;
+  private CoinDeskRepository coinDeskRepository = CoinDeskRepositoryImp.getInstance();
 
-    public static CoinDeskServiceImp getInstance() {
-        if (instance == null)
-            instance = new CoinDeskServiceImp();
+  public static CoinDeskServiceImp getInstance() {
+    if (instance == null)
+      instance = new CoinDeskServiceImp();
 
-        return instance;
-    }
+    return instance;
+  }
 
-    private CoinDeskServiceImp() {
-        coinDeskRepository.loadData(); 
-    }
+  private CoinDeskServiceImp() {
+    coinDeskRepository.loadData();
+  }
 
-    @Override
-    public List<CoinDeskBlogModel> getAllCoin() {
-        return coinDeskRepository.getAllCoin();
-    }
+  @Override
+  public List<CoinDeskBlogModel> getAllCoin() {
+    return coinDeskRepository.getAllCoin();
+  }
 
-    @Override
-    public List<CoinDeskBlogModel> getArticlesByTag(String tag) {
-        return coinDeskRepository.getArticlesByTag(tag);
-    }
+  @Override
+  public List<CoinDeskBlogModel> getArticlesByTag(String tag) {
+    return coinDeskRepository.getArticlesByTag(tag);
+  }
 
-    public Map<String, Integer> getTagFrequencyByMonth(String month) {
-        return coinDeskRepository.getTagFrequencyByMonth(month);
-    }
+  public Map<String, Integer> getTagFrequencyByMonth(String month) {
+    return coinDeskRepository.getTagFrequencyByMonth(month);
+  }
 
-    @Override
-    public Map<String, Integer> getTagFrequencyByDay(String day) {
-        return coinDeskRepository.getTagFrequencyByDay(day);
-    }
+  @Override
+  public Map<String, Integer> getTagFrequencyByDay(String day) {
+    return coinDeskRepository.getTagFrequencyByDay(day);
+  }
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-    }
+  }
 }
