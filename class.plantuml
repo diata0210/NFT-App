@@ -1,0 +1,954 @@
+@startuml
+
+class BlogsTableController {
+  - table: TableView<Blog>
+  - titleCol: TableColumn<Blog, String>
+  - desCol: TableColumn<Blog, String>
+  - authorCol: TableColumn<Blog, String>
+  - dateCol: TableColumn<Blog, String>
+  - relatedTagsCol: TableColumn<Blog, String>
+  - resources: ResourceBundle
+  - location: URL
+  - tagNameLabel: Label
+  - tag: TagTableType
+  - blogList: ObservableList<Blog>
+  + setTable(tag: TagTableType): void
+  + initialize(location: URL, resources: ResourceBundle): void
+}
+
+class HomeController {
+  + loadHomeScreen()
+}
+
+class LayoutController {
+  - contentArea: StackPane
+  + loadHomeScreen(event: ActionEvent): void
+  + loadNftTagsScreen(event: ActionEvent): void
+  + loadTreding(event: ActionEvent): void
+  + initialize(): void
+  - loadScreen(fxml: String): void
+  - loadHomeScreen(): void
+}
+
+class TagsController {
+  - searchNameString: String
+  - type: int
+  - date: String
+  - table: TableView<TagTableType>
+  - id: TableColumn<TagTableType, Integer>
+  - tag: TableColumn<TagTableType, String>
+  - wrapTable: VBox
+  - list: ObservableList<TagTableType>
+  - searchByName: TextField
+  - filterType: ComboBox<String>
+  - datePicker: DatePicker
+  - tags: List<String>
+  + initialize(arg0: URL, arg1: ResourceBundle): void
+  + initializeFilterType(): void
+  + initializeColumns(): void
+  + initializeTable(): void
+  + clearTextField(e: MouseEvent): void
+  + onSearchByName(event: ActionEvent): void
+  + onFilterType(event: ActionEvent): void
+  + onDateChange(event: ActionEvent): void
+  + changeDatePickerVisibility(type: int): void
+  + openBlogsTable(event: MouseEvent): void
+}
+
+class TrendingController {
+  - floorPrice: TableColumn<NFTData, Double>
+  - name: TableColumn<NFTData, String>
+  - tableTrend: TableView<NFTData>
+  - tagCount: TableColumn<NFTData, Integer>
+  - trendingService: TrendingNFTService
+  + initialize(): void
+  - initializeColumns(): void
+  - updateTableData(): void
+}
+
+interface BaseCrawler {
+  + crawlData(): void
+}
+
+class CoinDeskBlogCrawler {
+  - SEARCH_URL: String
+  - BASE_URL: String
+  - NUM_OF_PAGE: int
+  + getUrls(): List<String>
+  + crawlData(): void
+}
+
+class CryptoNewsBlogCrawler {
+  - BASE_URL: String
+  - SEARCH_URL: String
+  - NUM_OF_PAGE: int
+  + getUrls(): List<String>
+  + crawlData(): void
+}
+
+class EbisuBayApiCall {
+  + crawlData()
+}
+
+class ImmutableApiCall {
+  + crawlData()
+}
+
+class MintedApiCall {
+  + crawlData()
+}
+
+class MooarApiCall {
+  + crawlData()
+}
+
+class NFTicallyBlogCrawl {
+  - URL: String
+  - NUM_OF_PAGE: int
+  + getUrls(): List<String>
+  + crawlData(): void
+}
+
+class NiftyGateWayApiCall {
+  + crawlData()
+}
+
+class PlazaNFTCrawler {
+  - SEARCH_URL: String
+  - BASE_URL: String
+  - NUM_OF_PAGE: int
+  + getUrls(): List<String>
+  + crawlData(): void
+}
+
+class RaribleApiCall {
+  + crawlData()
+}
+
+class TheartNewsPaperCrawler {
+  - BASE_URL: String
+  - SEARCH_URL: String
+  - NUM_OF_PAGE: int
+  + getUrls(): List<String>
+  + crawlData(): void
+}
+
+class TwitterCrawler {
+  - driver: WebDriver
+  - USER_AGENT_PERSON: String
+  - BASE_URL: String
+  - TAGS: String
+  + TwitterCrawler()
+  + login(): void
+  + scrollDown(driver: WebDriver): void
+  + crawlData(): void
+}
+
+class MainScreen {
+  + on()
+  + start()
+}
+
+abstract class ApiModel {
+  +name: String
+  +description: String
+  +floorPrice: String
+  {abstract} #getName(): String
+  {abstract} #getDescription(): String
+  {abstract} #getFloorPrice(): String
+  {abstract} #setName(name: String): void
+  {abstract} #setDescription(description: String): void
+  {abstract} #setFloorPrice(floorPrice: String): void
+}
+
+class Blog {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: String
+  {abstract} #getAuthor(): String
+  {abstract} #setAuthor(author: String): void
+  {abstract} #getDate(): String
+  {abstract} #setDate(date: String): void
+  {abstract} #getTitle(): String
+  {abstract} #setTitle(title: String): void
+  {abstract} #getDesc(): String
+  {abstract} #setDesc(desc: String): void
+  {abstract} #getRelatedTags(): String
+  {abstract} #setRelatedTags(relatedTags: String): void
+}
+
+abstract class BlogModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  {abstract} #getAuthor(): String
+  {abstract} #setAuthor(author: String): void
+  {abstract} #getDate(): String
+  {abstract} #setDate(date: String): void
+  {abstract} #getTitle(): String
+  {abstract} #setTitle(title: String): void
+  {abstract} #getDesc(): String
+  {abstract} #setDesc(desc: String): void
+  {abstract} #getRelatedTags(): List<String>
+  {abstract} #setRelatedTags(relatedTags: List<String>): void
+}
+
+class BlogNFTicallyModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +BlogNFTicallyModel()
+  +BlogNFTicallyModel(title: String, desc: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+class CoinDeskBlogModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +CoinDeskBlogModel()
+  +CoinDeskBlogModel(title: String, desc: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+class CtytoNewsBlogModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +CtytoNewsBlogModel()
+  +CtytoNewsBlogModel(title: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+class EbisuBayModel {
+  +name: String
+  +description: String
+  +floorPrice: String
+  +EbisuBayModel()
+  +EbisuBayModel(name: String, description: String, floorPrice: String)
+  +MapDescription(): Map<String, Object>
+}
+
+class ImmutableCollectionModel {
+  +name: String
+  +description: String
+  +floorPrice: String
+  +ImmutableCollectionModel()
+  +ImmutableCollectionModel(name: String, description: String, floorPrice: String)
+  +MapDescription(): Map<String, Object>
+}
+
+class MintedCollectionModel {
+  +name: String
+  +description: String
+  +floorPrice: String
+  +MintedCollectionModel()
+  +MintedCollectionModel(name: String, description: String, floorPrice: String)
+  +MapDescription(): Map<String, Object>
+}
+
+class NFTData {
+  - name
+  - floorPrice
+  - tagCount
+  + getName()
+  + setName()
+  + getFloorPrice()
+  + setFloorPrice()
+  + getTagCount()
+  + setTagCount()
+}
+
+class PlazaNFTModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +PlazaNFTModel()
+  +PlazaNFTModel(title: String, desc: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+class NFTData {
+  +name: String
+  +floorPrice: String
+  +tagCount: int
+
+  +NFTData()
+  +NFTData(name: String, floorPrice: String, tagCount: int)
+}
+
+class RaribleModel {
+  +name: String
+  +description: String
+  +floorPrice: String
+  +RaribleModel()
+  +RaribleModel(name: String, description: String, floorPrice: String)
+  +MapDescription(): Map<String, Object>
+}
+
+class TagTableType {
+  +id: int
+  +tag: String
+  +TagTableType(id: int, tag: String)
+  +getId(): int
+  +setId(id: int): void
+  +getTag(): String
+  +setTags(tag: String): void
+}
+
+class TheartNewPaperBlogModel {
+  +title: String
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +TheartNewPaperBlogModel()
+  +TheartNewPaperBlogModel(title: String, desc: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+class TwitterModel {
+  +desc: String
+  +author: String
+  +date: String
+  +relatedTags: List<String>
+  +TwitterModel()
+  +TwitterModel(desc: String, author: String, date: String, relatedTags: List<String>)
+  +MapDescription(): Map<String, Object>
+}
+
+interface BlogNFTicallyRepository {
+  +loadData(): void
+  +getAllModels(): List<BlogNFTicallyModel>
+  +getArticleByTags(tag: String): List<BlogNFTicallyModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class BlogNFTicallyRepositoryImp {
+  +instance: BlogNFTicallyRepositoryImp
+  -models: List<BlogNFTicallyModel>
+  +getInstance(): BlogNFTicallyRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<BlogNFTicallyModel>
+  +getArticleByTags(tag: String): List<BlogNFTicallyModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+}
+
+interface CoinDeskRepository {
+  +loadData(): void
+  +getAllCoin(): List<CoinDeskBlogModel>
+  +getArticlesByTag(tag: String): List<CoinDeskBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class CoinDeskRepositoryImp {
+  +instance: CoinDeskRepositoryImp
+  -models: List<CoinDeskBlogModel>
+  +getInstance(): CoinDeskRepositoryImp
+  +loadData(): void
+  +getAllCoin(): List<CoinDeskBlogModel>
+  +getArticlesByTag(tag: String): List<CoinDeskBlogModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+  +getArticlesByTitle(title: String): List<CoinDeskBlogModel>
+}
+
+interface CrytoNewsBlogRepository {
+  +loadData(): void
+  +getAllModels(): List<CtytoNewsBlogModel>
+  +getArticleByTags(tag: String): List<CtytoNewsBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class CrytoNewsBlogRepositoryImp {
+  +instance: CrytoNewsBlogRepositoryImp
+  -models: List<CtytoNewsBlogModel>
+  +getInstance(): CrytoNewsBlogRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<CtytoNewsBlogModel>
+  +getArticleByTags(tag: String): List<CtytoNewsBlogModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+  +getArticlesByTitle(title: String): List<CtytoNewsBlogModel>
+}
+
+interface EbisuBayRepository {
+  +loadData(): void
+  +getAllModels(): List<EbisuBayModel>
+  +findModelsByName(name: String): List<EbisuBayModel>
+}
+
+class EbisuBayRepositoryImp {
+  +instance: EbisuBayRepositoryImp
+  -models: List<EbisuBayModel>
+  +getInstance(): EbisuBayRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<EbisuBayModel>
+  +findModelsByName(name: String): List<EbisuBayModel>
+}
+
+interface ImmutableCollectionRepository {
+  +loadData(): void
+  +getAllModels(): List<ImmutableCollectionModel>
+  +findModelsByName(name: String): List<ImmutableCollectionModel>
+}
+
+class ImmutableCollectionRepositoryImp {
+  +instance: ImmutableCollectionRepositoryImp
+  -models: List<ImmutableCollectionModel>
+  +getInstance(): ImmutableCollectionRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<ImmutableCollectionModel>
+  +findModelsByName(name: String): List<ImmutableCollectionModel>
+}
+
+interface MintedCollectionRepository {
+  +loadData(): void
+  +getAllModels(): List<MintedCollectionModel>
+  +findModelsByName(name: String): List<MintedCollectionModel>
+}
+
+class MintedCollectionRepositoryImp {
+  +instance: MintedCollectionRepositoryImp
+  -models: List<MintedCollectionModel>
+  +USD_TO_ETH_EXCHANGE_RATE: double
+  +convertUsdToEth(usd: double): String
+  +getInstance(): MintedCollectionRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<MintedCollectionModel>
+  +findModelsByName(name: String): List<MintedCollectionModel>
+}
+
+interface PlazaNFTRepository {
+  +loadData(): void
+  +getAllModels(): List<PlazaNFTModel>
+  +getNFTsByTags(tag: String): List<PlazaNFTModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class PlazaNFTRepositoryImp {
+  +instance: PlazaNFTRepositoryImp
+  -models: List<PlazaNFTModel>
+  +getInstance(): PlazaNFTRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<PlazaNFTModel>
+  +getNFTsByTags(tag: String): List<PlazaNFTModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+interface RaribleRepository {
+  +loadData(): void
+  +getAllModels(): List<RaribleModel>
+  +findModelsByName(name: String): List<RaribleModel>
+}
+
+class RaribleRepositoryImp {
+  +instance: RaribleRepositoryImp
+  -models: List<RaribleModel>
+  +getInstance(): RaribleRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<RaribleModel>
+  +findModelsByName(name: String): List<RaribleModel>
+}
+
+interface TheartNewsPaperRepository {
+  +loadData(): void
+  +getAllModels(): List<TheartNewPaperBlogModel>
+  +getArticleByTags(tag: String): List<TheartNewPaperBlogModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+}
+
+class TheartNewsPaperRepositoryImp {
+  +instance: TheartNewsPaperRepositoryImp
+  -models: List<TheartNewPaperBlogModel>
+  +getInstance(): TheartNewsPaperRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<TheartNewPaperBlogModel>
+  +getArticleByTags(tag: String): List<TheartNewPaperBlogModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+  +getArticlesByTitle(title: String): List<TheartNewPaperBlogModel>
+}
+
+interface TwitterRepository {
+  +loadData(): void
+  +getAllModels(): List<TwitterModel>
+  +getArticleByTags(tag: String): List<TwitterModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+  +addFavorite(title: String): List<TwitterModel>
+  +removeFavorite(title: String): List<TwitterModel>
+}
+
+class TwitterRepositoryImp {
+  +instance: TwitterRepositoryImp
+  -models: List<TwitterModel>
+  -favoriteArticles: List<TwitterModel>
+  +getInstance(): TwitterRepositoryImp
+  +loadData(): void
+  +getAllModels(): List<TwitterModel>
+  +getArticleByTags(tag: String): List<TwitterModel>
+  +getTagFrequencyByMonth(date: String): Map<String, Integer>
+  +getTagFrequencyByDay(date: String): Map<String, Integer>
+  +addFavorite(title: String): List<TwitterModel>
+  +removeFavorite(title: String): List<TwitterModel>
+}
+
+interface Repository {
+  +loadData(): void
+}
+
+class TheartNewPaperBlogModel {
+  -title: String
+  -date: String
+  -relatedTags: List<String>
+  +getTitle(): String
+  +getDate(): String
+  +getRelatedTags(): List<String>
+  +setTitle(title: String): void
+  +setDate(date: String): void
+  +setRelatedTags(relatedTags: List<String>): void
+}
+
+class TwitterModel {
+  -title: String
+  -date: String
+  -relatedTags: List<String>
+  +getTitle(): String
+  +getDate(): String
+  +getRelatedTags(): List<String>
+  +setTitle(title: String): void
+  +setDate(date: String): void
+  +setRelatedTags(relatedTags: List<String>): void
+}
+
+interface BlogNFTicallyService {
+  +getAllModels(): List<BlogNFTicallyModel>
+  +getArticlesByTag(tag: String): List<BlogNFTicallyModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class BlogNFTicallyServiceImp {
+  +instance: BlogNFTicallyServiceImp
+  -blogNFTicallyRepository: BlogNFTicallyRepository
+  +getInstance(): BlogNFTicallyServiceImp
+  +getAllModels(): List<BlogNFTicallyModel>
+  +getArticlesByTag(tag: String): List<BlogNFTicallyModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+interface CoinDeskService {
+  +getAllCoin(): List<CoinDeskBlogModel>
+  +getArticlesByTag(tag: String): List<CoinDeskBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class CoinDeskServiceImp {
+  +instance: CoinDeskServiceImp
+  -coinDeskRepository: CoinDeskRepository
+  +getInstance(): CoinDeskServiceImp
+  +loadData(): void
+  +getAllCoin(): List<CoinDeskBlogModel>
+  +getArticlesByTag(tag: String): List<CoinDeskBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+interface CrytoNewsBlogService {
+  +getAllModels(): List<CtytoNewsBlogModel>
+  +getArticlesByTag(tag: String): List<CtytoNewsBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class CrytoNewsBlogServiceImp {
+  +instance: CrytoNewsBlogServiceImp
+  -crytoNewsBlogRepository: CrytoNewsBlogRepository
+  +getInstance(): CrytoNewsBlogServiceImp
+  +getAllModels(): List<CtytoNewsBlogModel>
+  +getArticlesByTag(tag: String): List<CtytoNewsBlogModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+interface EbisuBayService {
+  +getAllModels(): List<EbisuBayModel>
+  +findModelsByName(name: String): List<EbisuBayModel>
+}
+
+class EbisuBayServiceImp {
+  +instance: EbisuBayServiceImp
+  -ebisuBayRepository: EbisuBayRepository
+  +getInstance(): EbisuBayServiceImp
+  +getAllModels(): List<EbisuBayModel>
+  +findModelsByName(name: String): List<EbisuBayModel>
+}
+
+interface ImmutableCollectionService {
+  +getAllModels(): List<ImmutableCollectionModel>
+  +findModelsByName(name: String): List<ImmutableCollectionModel>
+}
+
+class ImmutableCollectionServiceImp {
+  +instance: ImmutableCollectionServiceImp
+  -immutableCollectionRepository: ImmutableCollectionRepository
+  +getInstance(): ImmutableCollectionServiceImp
+  +getAllModels(): List<ImmutableCollectionModel>
+  +findModelsByName(name: String): List<ImmutableCollectionModel>
+}
+
+interface MintedCollectionService {
+  +getAllModels(): List<MintedCollectionModel>
+  +findModelsByName(name: String): List<MintedCollectionModel>
+}
+
+class MintedCollectionServiceImp {
+  +instance: MintedCollectionServiceImp
+  -mintedCollectionRepository: MintedCollectionRepository
+  +getInstance(): MintedCollectionServiceImp
+  +getAllModels(): List<MintedCollectionModel>
+  +findModelsByName(name: String): List<MintedCollectionModel>
+}
+
+interface PlazaNFTService {
+  +getAllModels(): List<PlazaNFTModel>
+  +getNFTsByTags(tag: String): List<PlazaNFTModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+class PlazaNFTServiceImp {
+  +instance: PlazaNFTServiceImp
+  -plazaNFTRepository: PlazaNFTRepository
+  +getInstance(): PlazaNFTServiceImp
+  +getAllModels(): List<PlazaNFTModel>
+  +getNFTsByTags(tag: String): List<PlazaNFTModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+}
+
+interface RaribleService {
+  +getAllModels(): List<RaribleModel>
+  +findModelsByName(name: String): List<RaribleModel>
+}
+
+class RaribleServiceImp {
+  +instance: RaribleServiceImp
+  -raribleRepository: RaribleRepository
+  +getInstance(): RaribleServiceImp
+  +getAllModels(): List<RaribleModel>
+  +findModelsByName(name: String): List<RaribleModel>
+}
+
+interface TheartNewsPaperService {
+  +getAllModels(): List<TheartNewPaperBlogModel>
+  +getArticlesByTag(tag: String): List<TheartNewPaperBlogModel>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+}
+
+class TheartNewsPaperServiceImp {
+  -theartNewsPaperRepository: TheartNewsPaperRepository
+  +getInstance(): TheartNewsPaperServiceImp
+  +getAllModels(): List<TheartNewPaperBlogModel>
+  +getArticlesByTag(tag: String): List<TheartNewPaperBlogModel>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  -loadData(): void
+}
+
+
+interface TwitterService {
+  +getAllModels(): List<TwitterModel>
+  +getArticlesByTag(tag: String): List<TwitterModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+  +addFavorite(title: String): List<TwitterModel>
+  +removeFavorite(title: String): List<TwitterModel>
+}
+
+class TwitterServiceImp {
+  +instance: TwitterServiceImp
+  -twitterRepository: TwitterRepository
+  +getInstance(): TwitterServiceImp
+  +getAllModels(): List<TwitterModel>
+  +getArticlesByTag(tag: String): List<TwitterModel>
+  +getTagFrequencyByMonth(month: String): Map<String, Integer>
+  +getTagFrequencyByDay(day: String): Map<String, Integer>
+  +addFavorite(title: String): List<TwitterModel>
+  +removeFavorite(title: String): List<TwitterModel>
+}
+
+class ArticleSearchService {
+  - blogService: BlogNFTicallyService
+  - coinDeskService: CoinDeskService
+  - cryptoNewsService: CrytoNewsBlogService
+  - artNewsService: TheartNewsPaperService
+  + searchArticlesByTag(tag: String): List<BlogModel>
+}
+
+class GetArticles {
+  -blogService: BlogNFTicallyServiceImp
+  -coinDeskService: CoinDeskServiceImp
+  -cryptoNewsService: CrytoNewsBlogServiceImp
+  -artNewsService: TheartNewsPaperServiceImp
+  -plazaNFTService: PlazaNFTServiceImp
+  -twitterService: TwitterServiceImp
+
+  {static} +allArticles(): List<BlogModel>
+}
+
+class GetNft {
+  -ebisuBayService: EbisuBayService
+  -mintedCollectionService: MintedCollectionService
+  -raribleService: RaribleService
+  -immutableCollectionService: ImmutableCollectionService
+
+  {static} +allNft(): List<ApiModel>
+}
+
+class GetTags {
+  + getAllTags(type: int, title: String, date: String)
+  - getAllTagsFilteredByName(name: String)
+  - getTagsByDay(date: String)
+  + searchTagsByDateAndName(title: String, date: String)
+  + searchTagsByMonthAndName(title: String, monthYear: String)
+  + searchTagsByWeekAndName(title: String, dateString: String)
+  - matchesDate(articleDate: String, searchDate: String)
+  - matchesMonthYear(articleDate: String, searchMonthYear: String)
+  - matchesName(articleTitle: String, searchName: String)
+}
+
+class GetArticles {
+  {static} +allArticles(): List<BlogModel>
+}
+
+class GetTagFrequencyByWeeks {
+  {static} +getTagFrequencyByWeek(String): Map<String, Integer>
+  -parseDate(String): LocalDate
+  {static} -tryParseDate(String): LocalDate
+  {static} +getWeekOfYear(String): String
+  -sortMapByValue(Map<String, Integer>): Map<String, Integer>
+}
+
+class TagsSearchService {
+  {static} +searchTagsContainingString(String): List<String>
+}
+
+class TrendingNFTService {
+  +getTrendingNFTsWithTagCount(): Map<ApiModel, Integer>
+}
+
+class GetTagFrequencyByMonths {
+  -blogService: BlogNFTicallyService
+  -coinDeskService: CoinDeskService
+  -cryptoNewsService: CrytoNewsBlogService
+  -artNewsService: TheartNewsPaperService
+  -plazaNFTService: PlazaNFTService
+  -twitterService: TwitterService
+
+  {static} +getTagFrequencyByMonth(String): Map<String, Integer>
+  -mergeTagFrequency(Map<String, Integer>, Map<String, Integer>): void
+  -getTopTags(Map<String, Integer>): Map<String, Integer>
+}
+
+class GetTagFrequencyByDays {
+  - blogService: BlogNFTicallyService
+  - coinDeskService: CoinDeskService
+  - cryptoNewsService: CrytoNewsBlogService
+  - artNewsService: TheartNewsPaperService
+  - twitterService: TwitterService
+  - plazaNFTService: PlazaNFTService
+
+  + getTagFrequencyByDay(date: String): Map<String, Integer>
+  - mergeTagFrequency(overallTagFrequency: Map<String, Integer>, tagFrequency: Map<String, Integer>): void
+  - getTopTags(tagFrequency: Map<String, Integer>): Map<String, Integer>
+}
+
+Initializable <|.. BlogsTableController
+Initializable <|.. TagsController
+
+BaseCrawler <|.. CoinDeskBlogCrawler
+BaseCrawler <|.. CryptoNewsBlogCrawler
+BaseCrawler <|.. EbisuBayApiCall
+BaseCrawler <|.. ImmutableApiCall
+BaseCrawler <|.. MintedApiCall
+BaseCrawler <|.. MooarApiCall
+BaseCrawler <|.. NFTicallyBlogCrawl
+BaseCrawler <|.. NiftyGateWayApiCall
+BaseCrawler <|.. PlazaNFTCrawler
+BaseCrawler <|.. RaribleApiCall
+BaseCrawler <|.. TheartNewsPaperCrawler
+
+Application <|-- MainScreen
+CustomModel <|.. BlogNFTicallyModel
+BlogModel <|-- CoinDeskBlogModel
+CustomModel <|.. CoinDeskBlogModel
+BlogModel <|-- CtytoNewsBlogModel
+CustomModel <|.. CtytoNewsBlogModel
+ApiModel <|-- EbisuBayModel
+CustomModel <|.. EbisuBayModel
+ApiModel <|-- ImmutableCollectionModel
+CustomModel <|.. ImmutableCollectionModel
+ApiModel <|-- MintedCollectionModel
+CustomModel <|.. MintedCollectionModel
+BlogModel <|-- PlazaNFTModel
+CustomModel <|.. PlazaNFTModel
+ApiModel <|-- RaribleModel
+CustomModel <|.. RaribleModel
+BlogModel <|-- TheartNewPaperBlogModel
+CustomModel <|.. TheartNewPaperBlogModel
+BlogModel <|-- TwitterModel
+CustomModel <|.. TwitterModel
+BlogNFTicallyRepository <|.. BlogNFTicallyRepositoryImp
+Repository <|.. BlogNFTicallyRepositoryImp
+CoinDeskRepository <|.. CoinDeskRepositoryImp
+Repository <|.. CoinDeskRepositoryImp
+CrytoNewsBlogRepository <|.. CrytoNewsBlogRepositoryImp
+
+Repository <|.. CrytoNewsBlogRepositoryImp
+Repository <|.. EbisuBayRepositoryImp
+Repository <|.. ImmutableCollectionRepositoryImp
+Repository <|.. MintedCollectionRepositoryImp
+Repository <|.. PlazaNFTRepositoryImp
+Repository <|.. RaribleRepositoryImp
+Repository <|.. TheartNewsPaperRepositoryImp
+
+TheartNewsPaperRepository <|.. TheartNewsPaperRepositoryImp
+Repository <|.. TwitterRepositoryImp
+BlogNFTicallyService <|.. BlogNFTicallyServiceImp
+CoinDeskService <|.. CoinDeskServiceImp
+CrytoNewsBlogService <|.. CrytoNewsBlogServiceImp
+EbisuBayService <|.. EbisuBayServiceImp
+ImmutableCollectionService <|.. ImmutableCollectionServiceImp
+MintedCollectionService <|.. MintedCollectionServiceImp
+PlazaNFTService <|.. PlazaNFTServiceImp
+RaribleService <|.. RaribleServiceImp
+TheartNewsPaperService <|.. TheartNewsPaperServiceImp
+TwitterService <|.. TwitterServiceImp
+
+CustomModel <|-- BlogNFTicallyModel
+CustomModel <|-- CtytoNewsBlogModel
+
+ImmutableCollectionModel <|.. CustomModel
+MintedCollectionModel <|.. CustomModel
+PlazaNFTModel <|-- BlogModel
+PlazaNFTModel <|.. CustomModel
+NFTData <|.. ApiModel
+PlazaNFTModel <|.. BlogModel
+RaribleModel <|.. CustomModel
+
+TagTableType <|.. CustomModel
+TheartNewPaperBlogModel <|-- BlogModel
+TheartNewPaperBlogModel <|.. CustomModel
+TwitterModel <|-- BlogModel
+TwitterModel <|.. CustomModel
+
+Repository <|.. TheartNewsPaperRepository
+Repository <|.. TwitterRepository
+
+BlogNFTicallyServiceImp --> BlogNFTicallyRepositoryImp
+
+CoinDeskServiceImp --> CoinDeskRepositoryImp
+
+CrytoNewsBlogServiceImp --> CrytoNewsBlogRepositoryImp
+
+EbisuBayRepository <|.. EbisuBayRepositoryImp
+EbisuBayServiceImp --> EbisuBayRepositoryImp
+
+ImmutableCollectionRepository <|.. ImmutableCollectionRepositoryImp
+ImmutableCollectionServiceImp --> ImmutableCollectionRepositoryImp
+
+MintedCollectionRepository <|.. MintedCollectionRepositoryImp
+MintedCollectionServiceImp --> MintedCollectionRepositoryImp
+
+PlazaNFTRepository <|.. PlazaNFTRepositoryImp
+PlazaNFTServiceImp --> PlazaNFTRepositoryImp
+
+RaribleRepository <|.. RaribleRepositoryImp
+RaribleServiceImp --> RaribleRepositoryImp
+
+TwitterRepository <|.. TwitterRepositoryImp
+TwitterServiceImp --> TwitterRepositoryImp
+
+BlogNFTicallyRepositoryImp ..|> BlogNFTicallyServiceImp
+
+ArticleSearchService --> BlogNFTicallyService: blogService
+ArticleSearchService --> CoinDeskService: coinDeskService
+ArticleSearchService --> CrytoNewsBlogService: cryptoNewsService
+ArticleSearchService --> TheartNewsPaperService: artNewsService
+
+GetTagFrequencyByDays --> BlogNFTicallyService: blogService
+GetTagFrequencyByDays --> CoinDeskService: coinDeskService
+GetTagFrequencyByDays --> CrytoNewsBlogService: cryptoNewsService
+GetTagFrequencyByDays --> TheartNewsPaperService: artNewsService
+GetTagFrequencyByDays --> TwitterService: twitterService
+GetTagFrequencyByDays --> PlazaNFTService: plazaNFTService
+
+GetArticles --> BlogNFTicallyServiceImp: blogService
+GetArticles --> CoinDeskServiceImp: coinDeskService
+GetArticles --> CrytoNewsBlogServiceImp: cryptoNewsService
+GetArticles --> TheartNewsPaperServiceImp: artNewsService
+GetArticles --> PlazaNFTServiceImp: plazaNFTService
+GetArticles --> TwitterServiceImp: twitterService
+
+GetNft --> EbisuBayService: ebisuBayService
+GetNft --> MintedCollectionService: mintedCollectionService
+GetNft --> RaribleService: raribleService
+GetNft --> ImmutableCollectionService: immutableCollectionService
+
+GetAllNft --|> ApiModel
+GetAllNft --|> NFTService
+
+GetTags --> GetArticles: Uses
+GetTags --> GetTagFrequencyByDays: Uses
+GetTags --> GetTagFrequencyByMonths: Uses
+GetTags --> GetTagFrequencyByWeeks: Uses
+GetTags --> TagsSearchService: Uses
+
+TagsSearchService --> GetArticles: Uses
+TrendingNFTService --> GetAllNft: Uses
+TrendingNFTService --> GetArticles: Uses
+
+GetTagFrequencyByMonths --> BlogNFTicallyService: -blogService
+GetTagFrequencyByMonths --> CoinDeskService: -coinDeskService
+GetTagFrequencyByMonths --> CrytoNewsBlogService: -cryptoNewsService
+GetTagFrequencyByMonths --> TheartNewsPaperService: -artNewsService
+GetTagFrequencyByMonths --> PlazaNFTService: -plazaNFTService
+GetTagFrequencyByMonths --> TwitterService: -twitterService
+
+GetTagFrequencyByWeeks --> GetArticles: +allArticles()
+GetTagFrequencyByWeeks --> LocalDate
+GetTagFrequencyByWeeks --> DateTimeFormatter
+GetTagFrequencyByWeeks --> DateTimeParseException
+GetTagFrequencyByWeeks --> WeekFields
+GetTagFrequencyByWeeks --> Locale
+GetTagFrequencyByWeeks --> HashMap
+GetTagFrequencyByWeeks --> Map
+GetTagFrequencyByWeeks --> List
+GetTagFrequencyByWeeks --> Collectors
+GetTagFrequencyByWeeks --> LinkedHashMap
+GetTagFrequencyByWeeks --> BlogModel
+@enduml
