@@ -19,17 +19,4 @@ public class TagsSearchService {
     }
     return matchingTags;
   }
-
-  public static void main(String[] args) {
-    String searchString = "NF"; // Thay thế bằng chuỗi bạn muốn tìm
-    List<String> foundTags = searchTagsContainingString(searchString);
-    if (foundTags.isEmpty()) {
-      System.out.println("No tags found containing: " + searchString);
-    } else {
-      System.out.println("Tags containing '" + searchString + "':");
-      for (String tag : foundTags) {
-        System.out.println(tag);
-      }
-    }
-  }
 }

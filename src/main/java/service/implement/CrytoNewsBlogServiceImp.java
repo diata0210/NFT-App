@@ -20,7 +20,7 @@ public class CrytoNewsBlogServiceImp implements CrytoNewsBlogService {
   }
 
   private CrytoNewsBlogServiceImp() {
-    crytoNewsBlogRepository.loadData(); // Gọi loadData ở đây
+    crytoNewsBlogRepository.loadData(); 
   }
 
   @Override
@@ -40,9 +40,5 @@ public class CrytoNewsBlogServiceImp implements CrytoNewsBlogService {
 
   public Map<String, Integer> getTagFrequencyByMonth(String month) {
     return crytoNewsBlogRepository.getTagFrequencyByMonth(month);
-  }
-
-  public static void main(String[] args) {
-
   }
 }

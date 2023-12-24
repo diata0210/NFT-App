@@ -69,31 +69,4 @@ public class EbisuBayRepositoryImp implements EbisuBayRepository, Repository {
         .collect(Collectors.toList());
   }
 
-  public static void main(String[] args) {
-    // Tạo đối tượng của EbisuBayRepositoryImp
-    EbisuBayRepositoryImp EbisuBayRepository = EbisuBayRepositoryImp.getInstance();
-
-    // Tải dữ liệu
-    EbisuBayRepository.loadData();
-
-    // Lấy tất cả các mô hình và in ra
-    List<EbisuBayModel> allModels = EbisuBayRepository.getAllModels();
-    System.out.println("All EbisuBay Models:");
-    for (EbisuBayModel model : allModels) {
-      System.out.println(
-          " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
-    }
-    System.out.println(allModels);
-    String searchName = "Super Creators By IAC";
-
-    // Tìm kiếm mô hình theo tên
-    System.out.println("\nModels with name '" + searchName + "':");
-    List<EbisuBayModel> foundModels = EbisuBayRepository.findModelsByName(searchName);
-    if (foundModels.isEmpty()) {
-      System.out.println("No models found with the name '" + searchName + "'.");
-    } else {
-      foundModels.forEach(model -> System.out
-          .println(" Name:" + model.getName() + ", Floor Price: " + model.getFloorPrice()));
-    }
-  }
 }

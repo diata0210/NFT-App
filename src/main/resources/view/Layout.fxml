@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LayoutController">
+<AnchorPane prefHeight="800.0" prefWidth="1600.0" styleClass="background" stylesheets="@../css/BackGround.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LayoutController">
    <children>
-      <VBox fx:id="buttonBar" prefHeight="800.0" prefWidth="264.0" style="-fx-background-color: #EBE8F9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox fx:id="buttonBar" prefHeight="800.0" prefWidth="264.0" styleClass="side-bar-list" stylesheets="@../css/Layout.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fx:id="logo" fitHeight="262.0" fitWidth="523.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../img/layout-icon.png" />
                </image>
             </ImageView>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadHomeScreen" prefHeight="80.0" prefWidth="263.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="HOME">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadHomeScreen" prefHeight="80.0" prefWidth="263.0" styleClass="custom-button" stylesheets="@../css/Layout.css" text="HOME">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -29,7 +29,7 @@
                   <Insets />
                </VBox.margin>
             </Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadNftTagsScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="TAGS">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadNftTagsScreen" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/Layout.css" text="TAGS">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -38,7 +38,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadTreding" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="TRENDING TAGS">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#loadTreding" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/Layout.css" text="TRENDING TAGS">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -46,7 +46,7 @@
                      </image>
                   </ImageView>
                </graphic></Button>
-            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/layout.css" text="CHAT BOT">
+            <Button alignment="BOTTOM_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="264.0" styleClass="custom-button" stylesheets="@../css/Layout.css" text="CHAT BOT">
                <graphic>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>

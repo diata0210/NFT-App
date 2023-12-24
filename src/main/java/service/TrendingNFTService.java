@@ -32,8 +32,6 @@ public class TrendingNFTService {
         nftToTagMatchCount.put(nft, tagMatchCount);
       }
     }
-
-    // Sắp xếp các NFT theo TagCount giảm dần
     return nftToTagMatchCount.entrySet()
         .stream()
         .sorted(Map.Entry.<ApiModel, Integer>comparingByValue().reversed())
@@ -42,18 +40,5 @@ public class TrendingNFTService {
             Map.Entry::getValue,
             (e1, e2) -> e1,
             LinkedHashMap::new));
-  }
-
-  public static void main(String[] args) {
-    TrendingNFTService trendingService = new TrendingNFTService();
-    Map<ApiModel, Integer> trendingNFTsWithTagCount = trendingService.getTrendingNFTsWithTagCount();
-
-    System.out.println("Trending NFTs:");
-    for (Map.Entry<ApiModel, Integer> entry : trendingNFTsWithTagCount.entrySet()) {
-      ApiModel nft = entry.getKey();
-      Integer tagCount = entry.getValue();
-      System.out
-          .println("Name: " + nft.getName() + ", Floor Price: " + nft.getFloorPrice() + ", Tag Count: " + tagCount);
-    }
   }
 }

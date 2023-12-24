@@ -20,7 +20,7 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
   }
 
   private BlogNFTicallyServiceImp() {
-    blogNFTicallyRepository.loadData(); // Gọi loadData ở đây
+    blogNFTicallyRepository.loadData(); 
   }
 
   @Override
@@ -40,8 +40,5 @@ public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
 
   public Map<String, Integer> getTagFrequencyByMonth(String month) {
     return blogNFTicallyRepository.getTagFrequencyByMonth(month);
-  }
-
-  public static void main(String[] args) {
   }
 }

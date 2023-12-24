@@ -28,12 +28,11 @@ public class TrendingController {
 
   @FXML
   public void initialize() {
-    initializeColumns(); // Khởi tạo cấu trúc cột
+    initializeColumns(); 
     updateTableData();
   }
 
   private void initializeColumns() {
-    // Kết nối cột với thuộc tính trong NFTData
     floorPrice.setCellValueFactory(new PropertyValueFactory<>("floorPrice"));
     name.setCellValueFactory(new PropertyValueFactory<>("name"));
     tagCount.setCellValueFactory(new PropertyValueFactory<>("tagCount"));
@@ -42,7 +41,7 @@ public class TrendingController {
   private void updateTableData() {
     Map<ApiModel, Integer> trendingNFTsWithTagCount = trendingService.getTrendingNFTsWithTagCount();
 
-    tableTrend.getItems().clear(); // Xóa dữ liệu cũ trước khi cập nhật mới
+    tableTrend.getItems().clear(); 
 
     for (Map.Entry<ApiModel, Integer> entry : trendingNFTsWithTagCount.entrySet()) {
       ApiModel apiModel = entry.getKey();
@@ -53,7 +52,7 @@ public class TrendingController {
           apiModel.getFloorPrice(),
           tagCount);
 
-      tableTrend.getItems().add(nftData); // Thêm dữ liệu mới vào bảng
+      tableTrend.getItems().add(nftData); 
     }
   }
 

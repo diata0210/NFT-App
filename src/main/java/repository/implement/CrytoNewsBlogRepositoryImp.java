@@ -62,9 +62,8 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
     for (CtytoNewsBlogModel model : models) {
       if (model.getDate() != null && model.getDate().length() >= 7) {
         String month = model.getDate().substring(0, 7);
-        // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
         if (date != null && date.length() >= 7 && model.getDate().contains(date)) {
-          String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
+          String modelMonth = date.substring(0, 7); 
           if (modelMonth.equals(month)) {
             for (String tag : model.getRelatedTags()) {
               tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -80,9 +79,8 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
     Map<String, Integer> tagFrequency = new HashMap<>();
     for (CtytoNewsBlogModel model : models) {
       String day = model.getDate().substring(5, 10);
-      // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
       if (date != null && date.length() == 10) {
-        String modelDay = date.substring(5, 10); // Lấy phần tháng từ chuỗi ngày
+        String modelDay = date.substring(5, 10); 
         if (modelDay.equals(day)) {
           for (String tag : model.getRelatedTags()) {
             tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -101,13 +99,5 @@ public class CrytoNewsBlogRepositoryImp implements CrytoNewsBlogRepository, Repo
       }
     }
     return matchingArticles;
-  }
-
-  public static void main(String[] args) {
-    CrytoNewsBlogRepositoryImp mod = new CrytoNewsBlogRepositoryImp();
-    mod.loadData();
-    for (CtytoNewsBlogModel md : mod.getArticleByTags("NFTS")) {
-      System.out.println(md);
-    }
   }
 }

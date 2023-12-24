@@ -69,12 +69,4 @@ public class GetTagFrequencyByWeeks {
             (e1, e2) -> e1,
             LinkedHashMap::new));
   }
-
-  public static void main(String[] args) {
-    String date = "2023-08-01";
-    Map<String, Integer> tagFrequencyByWeek = getTagFrequencyByWeek(date);
-
-    System.out.println("Tag Frequency for the week of " + date + ":");
-    tagFrequencyByWeek.forEach((tag, frequency) -> System.out.println(tag + ": " + frequency));
-  }
 }

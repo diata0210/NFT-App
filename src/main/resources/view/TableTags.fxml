@@ -22,9 +22,9 @@
                   <Font size="36.0" />
                </font>
             </Text>
-            <HBox layoutX="420.0" layoutY="21.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: #eee;">
+            <HBox layoutX="420.0" layoutY="21.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: transparent;">
                <children>
-                  <TextField fx:id="searchByName" onAction="#onSearchByName" onMouseClicked="#clearTextField" opacity="0.57" prefHeight="72.0" prefWidth="379.0" text="Enter name to search">
+                  <TextField fx:id="searchByName" onAction="#onSearchByName" onMouseClicked="#clearTextField" opacity="0.57" prefHeight="72.0" prefWidth="379.0" stylesheets="@../css/SearchBar.css" text="Enter name to search">
                      <padding>
                         <Insets left="12.0" />
                      </padding>
@@ -34,12 +34,12 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </HBox>
-            <DatePicker fx:id="datePicker" layoutX="420.0" layoutY="106.0" onAction="#onDateChange" prefHeight="70.0" prefWidth="379.0" promptText="Select date">
+            <DatePicker fx:id="datePicker" layoutX="420.0" layoutY="106.0" onAction="#onDateChange" prefHeight="70.0" prefWidth="379.0" promptText="Select date" stylesheets="@../css/DatePicker.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </DatePicker>
-            <ComboBox fx:id="filterType" layoutY="106.0" onAction="#onFilterType" prefHeight="70.0" prefWidth="389.0" promptText="Customize">
+            <ComboBox fx:id="filterType" layoutY="106.0" onAction="#onFilterType" prefHeight="70.0" prefWidth="389.0" promptText="Customize" stylesheets="@../css/ComboBox.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -51,7 +51,7 @@
       </AnchorPane>
       <AnchorPane prefHeight="498.0" prefWidth="800.0">
          <children>
-            <TableView fx:id="table" focusTraversable="false" onMouseClicked="#openBlogsTable" prefHeight="500.0" prefWidth="800.0">
+            <TableView fx:id="table" focusTraversable="false" onMouseClicked="#openBlogsTable" prefHeight="500.0" prefWidth="800.0" stylesheets="@../css/Table.css">
               <columns>
                 <TableColumn fx:id="id" prefWidth="122.0" text="ID" />
                 <TableColumn fx:id="tag" editable="false" minWidth="0.0" prefWidth="477.0" text="Tags" />

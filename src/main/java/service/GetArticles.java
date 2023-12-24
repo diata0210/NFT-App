@@ -30,11 +30,4 @@ public class GetArticles {
     allArticles.addAll(twitterService.getAllModels());
     return allArticles;
   }
-
-  public static void main(String[] args) {
-    List<BlogModel> allArticles = allArticles();
-    for (BlogModel article : allArticles) {
-      System.out.println(article);
-    }
-  }
 }

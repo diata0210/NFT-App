@@ -25,15 +25,4 @@ public class ArticleSearchService {
 
     return matchingArticles;
   }
-
-  public static void main(String[] args) {
-    String tag = "NFT"; // Điều chỉnh tiêu đề muốn tìm kiếm
-    List<BlogModel> matchingArticles = searchArticlesByTag(tag);
-    if (!matchingArticles.isEmpty()) {
-      System.out.println("Matching articles:");
-      matchingArticles.forEach(System.out::println);
-    } else {
-      System.out.println("No matching articles found.");
-    }
-  }
 }

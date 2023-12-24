@@ -17,7 +17,6 @@ public class NiftyGateWayApiCall implements ApiDataProvider {
       Request request = new Request.Builder()
           .url(
               "https://api.niftygateway.com/marketplace/nifty-types/?page=%7B%22current%22:1,%22size%22:52%7D&filter=%7B%22available%22:%22true%22,%22baseChain%22:\\[\\],%22listing_type%22:\\[\\],%22volume_sales_in_last_24_hours%22:1,%22category_name__in%22:\\[\\],%22tag_name__in%22:\\[\\]%7D&sort=%7B%7D")
-          // .method("GET", body)
           .addHeader("authority", "api.niftygateway.com")
           .addHeader("accept", "application/json, text/plain, */*")
           .addHeader("accept-language", "vi,en;q=0.9,en-GB;q=0.8,en-US;q=0.7")

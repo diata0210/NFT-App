@@ -16,7 +16,7 @@ import repository.Repository;
 public class TwitterRepositoryImp implements TwitterRepository, Repository {
   public static TwitterRepositoryImp instance;
   private List<TwitterModel> models = new ArrayList<>();
-  private List<TwitterModel> favoriteArticles = new ArrayList<>(); // Array cac bai viet duoc yeu thich
+  private List<TwitterModel> favoriteArticles = new ArrayList<>(); 
 
   public static TwitterRepositoryImp getInstance() {
     if (instance == null)
@@ -63,9 +63,8 @@ public class TwitterRepositoryImp implements TwitterRepository, Repository {
     for (TwitterModel model : models) {
       if (model.getDate() != null && model.getDate().length() >= 7) {
         String month = model.getDate().substring(0, 7);
-        // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
         if (date != null && date.length() >= 7 && model.getDate().contains(date)) {
-          String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
+          String modelMonth = date.substring(0, 7); 
           if (modelMonth.equals(month)) {
             for (String tag : model.getRelatedTags()) {
               tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -81,9 +80,8 @@ public class TwitterRepositoryImp implements TwitterRepository, Repository {
     Map<String, Integer> tagFrequency = new HashMap<>();
     for (TwitterModel model : models) {
       String day = model.getDate();
-      // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
       if (date != null && date.length() == 10) {
-        String modelDay = date; // Lấy phần tháng từ chuỗi ngày
+        String modelDay = date; 
         if (modelDay.equals(day)) {
           for (String tag : model.getRelatedTags()) {
             tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -107,13 +105,5 @@ public class TwitterRepositoryImp implements TwitterRepository, Repository {
   public List<TwitterModel> removeFavorite(String title) {
     favoriteArticles.removeIf(article -> article.getTitle().equalsIgnoreCase(title));
     return new ArrayList<>(favoriteArticles);
-  }
-
-  public static void main(String[] args) {
-    TwitterRepositoryImp mod = new TwitterRepositoryImp();
-    mod.loadData();
-    for (TwitterModel md : mod.getArticleByTags("#NFTs")) {
-      System.out.println(md);
-    }
   }
 }

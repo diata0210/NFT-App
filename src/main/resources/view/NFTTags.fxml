@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -12,5 +14,10 @@
                 <fx:include source="TableTags.fxml" />
         </children>
         </VBox>
+      <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="846.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/search-icon.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

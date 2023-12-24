@@ -16,7 +16,7 @@ import repository.MintedCollectionRepository;
 public class MintedCollectionRepositoryImp implements MintedCollectionRepository, Repository {
   public static MintedCollectionRepositoryImp instance;
   private List<MintedCollectionModel> models = new ArrayList<>();
-  private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031; // Giả sử tỷ giá này là 1 USD = 0.00031 ETH
+  private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031; 
 
   private String convertUsdToEth(double usd) {
     double convertedValue = usd * USD_TO_ETH_EXCHANGE_RATE;
@@ -68,33 +68,5 @@ public class MintedCollectionRepositoryImp implements MintedCollectionRepository
     return models.stream()
         .filter(model -> model.getName().equalsIgnoreCase(name))
         .collect(Collectors.toList());
-  }
-
-  public static void main(String[] args) {
-    // Tạo đối tượng của MintedCollectionRepositoryImp
-    MintedCollectionRepositoryImp MintedCollectionRepository = MintedCollectionRepositoryImp.getInstance();
-
-    // Tải dữ liệu
-    MintedCollectionRepository.loadData();
-
-    // Lấy tất cả các mô hình và in ra
-    List<MintedCollectionModel> allModels = MintedCollectionRepository.getAllModels();
-    System.out.println("All MintedCollection Models:");
-    for (MintedCollectionModel model : allModels) {
-      System.out.println(
-          " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
-    }
-    System.out.println(allModels);
-    String searchName = "Super Creators By IAC";
-
-    // Tìm kiếm mô hình theo tên
-    System.out.println("\nModels with name '" + searchName + "':");
-    List<MintedCollectionModel> foundModels = MintedCollectionRepository.findModelsByName(searchName);
-    if (foundModels.isEmpty()) {
-      System.out.println("No models found with the name '" + searchName + "'.");
-    } else {
-      foundModels.forEach(model -> System.out
-          .println("ID: " + ", Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
-    }
   }
 }
