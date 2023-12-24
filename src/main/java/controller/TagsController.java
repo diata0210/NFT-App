@@ -97,7 +97,15 @@ public class TagsController implements Initializable {
   @FXML
   void onDateChange(ActionEvent event) {
     date = datePicker.getValue().toString();
-    System.out.println(date);
+    tags = GetTags.getAllTags(type, searchNameString, date);
+    list.clear();
+    int idx = 0;
+    for (String tag : tags) {
+      idx += 1;
+      TagTableType newtag = new TagTableType(idx, tag);
+      list.add(newtag);
+    }
+    table.setItems(list);
   }
 
   @Override

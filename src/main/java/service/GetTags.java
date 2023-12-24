@@ -10,14 +10,6 @@ import models.BlogModel;
 public class GetTags {
 
   public static List<String> getAllTags(int type, String title, String date) {
-      if(date!=null){
-        if (date != null && date.length() >= 10) {
-          String year = date.substring(0, 4);
-          String month = date.substring(5, 7);
-          String day = date.substring(8, 10);
-          date= year + "-" + day + "-" + month;
-      }
-      }
     switch (type) {
       case 0:
         return getAllTagsFilteredByName(title);
