@@ -52,7 +52,7 @@ public class TwitterRepositoryImp implements TwitterRepository, Repository {
           .collect(Collectors.toList());
       if (lowercaseTags.contains(lowercaseTag)) {
         allArticles.add(model);
-        System.out.println(model.getTitle());
+        
       }
     }
     return allArticles;

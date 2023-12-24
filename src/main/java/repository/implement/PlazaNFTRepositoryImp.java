@@ -50,7 +50,7 @@ public class PlazaNFTRepositoryImp implements PlazaNFTRepository, Repository {
           .collect(Collectors.toList());
       if (lowercaseTags.contains(lowercaseTag)) {
         allArticles.add(model);
-        System.out.println(model.getTitle());
+        
       }
     }
     return allArticles;
