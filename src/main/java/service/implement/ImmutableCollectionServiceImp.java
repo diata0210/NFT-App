@@ -20,7 +20,7 @@ public class ImmutableCollectionServiceImp implements ImmutableCollectionService
     }
 
     private ImmutableCollectionServiceImp() {
-        ImmutableCollectionRepository.loadData(); // Gọi loadData ở đây
+        ImmutableCollectionRepository.loadData();
     }
 
     @Override

@@ -7,18 +7,18 @@ import repository.EbisuBayRepository;
 import repository.implement.EbisuBayRepositoryImp;
 import service.EbisuBayService;
 
-public class EbisuBaySeviceImp implements EbisuBayService {
+public class EbisuBayServiceImp implements EbisuBayService {
     private EbisuBayRepository EbisuBayRepository = EbisuBayRepositoryImp.getInstance();
 
-    public static EbisuBaySeviceImp instance;
+    public static EbisuBayServiceImp instance;
 
-    public static EbisuBaySeviceImp getInstance() {
+    public static EbisuBayServiceImp getInstance() {
         if (instance == null)
-            instance = new EbisuBaySeviceImp();
+            instance = new EbisuBayServiceImp();
         return instance;
     }
 
-    private EbisuBaySeviceImp() {
+    private EbisuBayServiceImp() {
         EbisuBayRepository.loadData(); // Gọi loadData ở đây
     }
 
