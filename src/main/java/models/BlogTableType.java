@@ -1,13 +1,13 @@
 package models;
 
-public class Blog {
+public class BlogTableType {
     String title;
     String desc;
     String author;
     String date;
     String relatedTags;
 
-    public Blog(){
+    public BlogTableType(){
         this.title = null;
         this.desc = null;
         this.author = null;

@@ -1,13 +1,9 @@
 package models;
 
-public class NFTData {
+public class NFTData  {
     private String name;
     private String floorPrice;
     private int tagCount;
-
-    public NFTData() {
-
-    }
 
     public String getName() {
         return name;

@@ -12,25 +12,25 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import models.Blog;
 import models.BlogModel;
 import models.TagTableType;
+import models.BlogTableType;
 import service.ArticleSearchService;
 
 public class BlogsTableController implements Initializable {
     @FXML
-    private TableView<Blog> table;
+    private TableView<BlogTableType> table;
     @FXML
-    private TableColumn<Blog, String> titleCol;
+    private TableColumn<BlogTableType, String> titleCol;
     @FXML
-    private TableColumn<Blog, String> desCol;
+    private TableColumn<BlogTableType, String> desCol;
     @FXML
-    private TableColumn<Blog, String> authorCol;
+    private TableColumn<BlogTableType, String> authorCol;
     @FXML
-    private TableColumn<Blog, String> dateCol;
+    private TableColumn<BlogTableType, String> dateCol;
     @FXML
-    private TableColumn<Blog, String> relatedTagsCol;
-    
+    private TableColumn<BlogTableType, String> relatedTagsCol;
+
     @FXML
     private ResourceBundle resources;
     @FXML
@@ -41,12 +41,12 @@ public class BlogsTableController implements Initializable {
 
     private TagTableType tag;
 
-    private ObservableList<Blog> blogList;
+    private ObservableList<BlogTableType> blogList;
 
-    public void setTable (TagTableType tag){
+    public void setTable(TagTableType tag) {
         this.tag = tag;
-        tagNameLabel.setText("#"+this.tag.getTag());
-        
+        tagNameLabel.setText("#" + this.tag.getTag());
+
         String title, desc, author, date, relatedTags;
         List<String> relatedTagsList;
         List<BlogModel> returnedList = ArticleSearchService.searchArticlesByTag(this.tag.getTag());
@@ -68,7 +68,7 @@ public class BlogsTableController implements Initializable {
             for (String relatedTag : relatedTagsList) {
                 relatedTags = relatedTag + ", " + relatedTags;
             }
-            Blog newBlog = new Blog();
+            BlogTableType newBlog = new BlogTableType();
             newBlog.setTitle(title);
             newBlog.setDesc(desc);
             newBlog.setAuthor(author);
