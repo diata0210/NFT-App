@@ -20,7 +20,6 @@ public class GetTagFrequencyByMonths {
     private static TheartNewsPaperService artNewsService = TheartNewsPaperServiceImp.getInstance();
     private static PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
     private static TwitterService twitterService = TwitterServiceImp.getInstance();
-
     public static Map<String, Integer> getTagFrequencyByMonth(String date) {
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByMonth(date));
