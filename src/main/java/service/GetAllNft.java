@@ -25,11 +25,4 @@ public class GetAllNft {
     allNft.addAll(immutableCollectionService.getAllModels());
     return allNft;
   }
-
-  public static void main(String[] args) {
-    List<ApiModel> allNft = allNft();
-    for (ApiModel nft : allNft) {
-      System.out.println(nft);
-    }
-  }
 }

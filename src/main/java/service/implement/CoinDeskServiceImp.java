@@ -41,8 +41,4 @@ public class CoinDeskServiceImp implements CoinDeskService {
   public Map<String, Integer> getTagFrequencyByDay(String day) {
     return coinDeskRepository.getTagFrequencyByDay(day);
   }
-
-  public static void main(String[] args) {
-
-  }
 }

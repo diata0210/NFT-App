@@ -65,32 +65,4 @@ public class ImmutableCollectionRepositoryImp implements ImmutableCollectionRepo
         .filter(model -> model.getName().equalsIgnoreCase(name))
         .collect(Collectors.toList());
   }
-
-  public static void main(String[] args) {
-    // Tạo đối tượng của ImmutableCollectionRepositoryImp
-    ImmutableCollectionRepositoryImp ImmutableCollectionRepository = ImmutableCollectionRepositoryImp.getInstance();
-
-    // Tải dữ liệu
-    ImmutableCollectionRepository.loadData();
-
-    // Lấy tất cả các mô hình và in ra
-    List<ImmutableCollectionModel> allModels = ImmutableCollectionRepository.getAllModels();
-    System.out.println("All ImmutableCollection Models:");
-    for (ImmutableCollectionModel model : allModels) {
-      System.out.println(
-          " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
-    }
-    System.out.println(allModels);
-    String searchName = "Super Creators By IAC";
-
-    // Tìm kiếm mô hình theo tên
-    System.out.println("\nModels with name '" + searchName + "':");
-    List<ImmutableCollectionModel> foundModels = ImmutableCollectionRepository.findModelsByName(searchName);
-    if (foundModels.isEmpty()) {
-      System.out.println("No models found with the name '" + searchName + "'.");
-    } else {
-      foundModels.forEach(model -> System.out
-          .println("ID: " + ", Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
-    }
-  }
 }

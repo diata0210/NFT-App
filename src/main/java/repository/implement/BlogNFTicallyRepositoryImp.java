@@ -62,9 +62,8 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     for (BlogNFTicallyModel model : models) {
       if (model.getDate() != null && model.getDate().length() >= 7) {
         String month = model.getDate().substring(0, 7);
-        // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
         if (date != null && date.length() >= 7 && model.getDate().contains(date)) {
-          String modelMonth = date.substring(0, 7); // Lấy phần tháng từ chuỗi ngày
+          String modelMonth = date.substring(0, 7); 
           if (modelMonth.equals(month)) {
             for (String tag : model.getRelatedTags()) {
               tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -80,9 +79,8 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
     Map<String, Integer> tagFrequency = new HashMap<>();
     for (BlogNFTicallyModel model : models) {
       String day = model.getDate();
-      // Kiểm tra để đảm bảo rằng chuỗi ngày không rỗng và có độ dài phù hợp
       if (date != null && date.length() == 10) {
-        String modelDay = date; // Lấy phần tháng từ chuỗi ngày
+        String modelDay = date; 
         if (modelDay.equals(day)) {
           for (String tag : model.getRelatedTags()) {
             tagFrequency.put(tag, tagFrequency.getOrDefault(tag, 0) + 1);
@@ -91,13 +89,5 @@ public class BlogNFTicallyRepositoryImp implements BlogNFTicallyRepository, Repo
       }
     }
     return tagFrequency;
-  }
-
-  public static void main(String[] args) {
-    BlogNFTicallyRepositoryImp mod = new BlogNFTicallyRepositoryImp();
-    mod.loadData();
-    for (BlogNFTicallyModel md : mod.getArticleByTags("NFTS")) {
-      System.out.println(md);
-    }
   }
 }

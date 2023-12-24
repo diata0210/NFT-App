@@ -1,0 +1,71 @@
+.table-view {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #5cd7e475, #b7eaf0);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 10px 0 0 10px;
+    -fx-font-size: 17px;
+}
+.table-row-cell:hover {
+    -fx-background-color: #d0ffe159;
+    -fx-text-background-color: rgb(44, 81, 145);
+    -fx-font-weight: bold;
+}
+.table-row-cell:odd{
+    -fx-background-color: #efd8ef1b;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #81e9f519;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+.table-row-cell:highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}
+.background {
+    -fx-background-color: linear-gradient(to right, #82f6d5be, #cceb8d9e);
+}
+.table-row-cell {
+    -fx-cell-size: 40px;
+    -fx-font-size: 16px;
+    -fx-text-background-color: rgb(64, 69, 130);
+    -fx-font-weight: 600;
+}

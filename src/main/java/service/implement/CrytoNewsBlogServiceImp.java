@@ -41,8 +41,4 @@ public class CrytoNewsBlogServiceImp implements CrytoNewsBlogService {
   public Map<String, Integer> getTagFrequencyByMonth(String month) {
     return crytoNewsBlogRepository.getTagFrequencyByMonth(month);
   }
-
-  public static void main(String[] args) {
-
-  }
 }

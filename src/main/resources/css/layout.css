@@ -1,49 +1,31 @@
-#layout {
-  -fx-background: #000;
-}
-
-.side-bar {
-  -fx-border-width: 1px;
-  -fx-border-style: solid;
-  -fx-border-color: #ccc;
-}
-
-.wrap-img {
+.wrap-img{
   -fx-margin: auto;
 }
 
-.img {
+.img{
   -fx-background-color: red;
 }
 
-.side-bar-list {
-  -fx-background-color: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+.side-bar-list{
+  -fx-background-color: linear-gradient(to bottom, #0f0d38, #176786);
 }
-
 /* Định nghĩa class cho button */
 .custom-button {
-  -fx-background-color: #EBE8F9;
-  /* Màu nền mặc định */
-  -fx-text-fill: black;
-  /* Màu chữ mặc định */
-  -fx-font-size: 14px;
-  /* Kích thước font chữ */
-  -fx-font-weight: bold;
-  /* Font chữ đậm */
-  -fx-padding: 8px 16px;
-  /* Khoảng cách giữa nội dung và viền button */
-  -fx-border-radius: 5px;
-  /* Bo tròn viền button */
+  -fx-background-color: transparent; /* Màu nền mặc định */
+  -fx-text-fill: rgb(208, 208, 208); /* Màu chữ mặc định */
+  -fx-font-size: 14px; /* Kích thước font chữ */
+  -fx-font-weight: bold; /* Font chữ đậm */
+  -fx-padding: 8px 16px; /* Khoảng cách giữa nội dung và viền button */
+  -fx-border-radius: 5px; /* Bo tròn viền button */
 }
 
 /* Đổi màu nền khi di chuột vào */
 .custom-button:hover {
-  -fx-background-color: #D6D3E7;
-  /* Màu nền khi di chuột vào */
+  -fx-background-color: #d6d3e713; /* Màu nền khi di chuột vào */
 }
 
 /* Đổi màu khi bấm chuột */
 .custom-button:pressed {
-  -fx-background-color: #C2BBD6;
-  /* Màu khi bấm chuột */
+  -fx-background-color: #c2bbd649; /* Màu khi bấm chuột */
 }
+
