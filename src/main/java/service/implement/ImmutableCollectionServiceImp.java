@@ -31,5 +31,4 @@ public class ImmutableCollectionServiceImp implements ImmutableCollectionService
   public List<ImmutableCollectionModel> getAllModels() {
     return ImmutableCollectionRepository.getAllModels();
   }
-
 }

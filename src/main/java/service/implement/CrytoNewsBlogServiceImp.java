@@ -20,7 +20,7 @@ public class CrytoNewsBlogServiceImp implements CrytoNewsBlogService {
   }
 
   private CrytoNewsBlogServiceImp() {
-    crytoNewsBlogRepository.loadData(); // Gọi loadData ở đây
+    crytoNewsBlogRepository.loadData(); 
   }
 
   @Override

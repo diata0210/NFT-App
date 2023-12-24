@@ -67,7 +67,7 @@ public class BlogsTableController implements Initializable {
             relatedTags = "";
             for (String relatedTag : relatedTagsList) {
                 relatedTags = relatedTag + ", " + relatedTags;
-            }
+            } 
             Blog newBlog = new Blog();
             newBlog.setTitle(title);
             newBlog.setDesc(desc);

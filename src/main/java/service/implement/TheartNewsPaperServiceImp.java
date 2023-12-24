@@ -20,7 +20,7 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
   }
 
   private TheartNewsPaperServiceImp() {
-    theartNewsPaperRepository.loadData(); // Gọi loadData ở đây
+    theartNewsPaperRepository.loadData(); 
   }
 
   @Override
@@ -41,9 +41,5 @@ public class TheartNewsPaperServiceImp implements TheartNewsPaperService {
   @Override
   public Map<String, Integer> getTagFrequencyByMonth(String month) {
     return theartNewsPaperRepository.getTagFrequencyByMonth(month);
-  }
-
-  public static void main(String[] args) {
-
   }
 }

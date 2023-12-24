@@ -20,7 +20,7 @@ public class TwitterServiceImp implements TwitterService {
   }
 
   private TwitterServiceImp() {
-    twitterRepository.loadData(); // Gọi loadData ở đây
+    twitterRepository.loadData(); 
   }
 
   @Override
@@ -49,9 +49,5 @@ public class TwitterServiceImp implements TwitterService {
 
   public List<TwitterModel> removeFavorite(String title) {
     return twitterRepository.removeFavorite(title);
-  }
-
-  public static void main(String[] args) {
-
   }
 }
