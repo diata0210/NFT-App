@@ -1,5 +1,5 @@
 package crawler;
 
 public interface BaseCrawler {
-    void crawlData();
+  void crawlData();
 }

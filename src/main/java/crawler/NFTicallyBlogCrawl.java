@@ -7,15 +7,13 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import data.util.JsonURL;
+
 import models.BlogNFTicallyModel;
 
 public class NFTicallyBlogCrawl implements BaseCrawler {

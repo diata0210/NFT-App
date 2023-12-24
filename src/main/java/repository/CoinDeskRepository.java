@@ -6,13 +6,13 @@ import java.util.Map;
 import models.CoinDeskBlogModel;
 
 public interface CoinDeskRepository {
-    void loadData();
+  void loadData();
 
-    List<CoinDeskBlogModel> getAllCoin();
+  List<CoinDeskBlogModel> getAllCoin();
 
-    List<CoinDeskBlogModel> getArticlesByTag(String tag);
+  List<CoinDeskBlogModel> getArticlesByTag(String tag);
 
-    Map<String, Integer> getTagFrequencyByMonth(String month);
+  Map<String, Integer> getTagFrequencyByMonth(String month);
 
-    Map<String, Integer> getTagFrequencyByDay(String day);
+  Map<String, Integer> getTagFrequencyByDay(String day);
 }

@@ -6,13 +6,14 @@ import java.util.Map;
 import models.CtytoNewsBlogModel;
 
 public interface CrytoNewsBlogRepository {
-    void loadData();
-    List<CtytoNewsBlogModel> getAllModels();
+  void loadData();
 
-    List<CtytoNewsBlogModel> getArticleByTags(String tag);
+  List<CtytoNewsBlogModel> getAllModels();
 
-    Map<String, Integer> getTagFrequencyByMonth(String month);
+  List<CtytoNewsBlogModel> getArticleByTags(String tag);
 
-    Map<String, Integer> getTagFrequencyByDay(String day);
+  Map<String, Integer> getTagFrequencyByMonth(String month);
+
+  Map<String, Integer> getTagFrequencyByDay(String day);
 
 }

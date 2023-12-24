@@ -5,10 +5,10 @@ import java.util.List;
 import models.EbisuBayModel;
 
 public interface EbisuBayRepository {
-    void loadData();
+  void loadData();
 
-    List<EbisuBayModel> getAllModels();
+  List<EbisuBayModel> getAllModels();
 
-    List<EbisuBayModel> findModelsByName(String name);
+  List<EbisuBayModel> findModelsByName(String name);
 
 }
