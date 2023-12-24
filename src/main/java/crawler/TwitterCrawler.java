@@ -22,7 +22,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 import models.TwitterModel;
 
-public class TwitterCrawler {
+public class TwitterCrawler implement BaseCrawler{
 
   private WebDriver driver;
   private final String USER_AGENT_PERSON = "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
@@ -71,7 +71,7 @@ public class TwitterCrawler {
     js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
   }
 
-  public void getElements() {
+  public void crawlData() {
     List<TwitterModel> twitterList = new ArrayList<TwitterModel>();
     int targetElementCount = 100;
     int currentElementCount = 0;

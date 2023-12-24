@@ -10,10 +10,10 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class EbisuBayApiCall implements ApiDataProvider {
+public class EbisuBayApiCall implements BaseCrawler {
 
   @Override
-  public void fetchData() {
+  public void crawlData() {
     OkHttpClient client = new OkHttpClient().newBuilder()
         .build();
     MediaType mediaType = MediaType.parse("text/plain");

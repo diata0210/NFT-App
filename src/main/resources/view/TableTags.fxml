@@ -17,9 +17,9 @@
    <children>
       <AnchorPane layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="799.0">
          <children>
-            <Text layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NFT TAGS" wrappingWidth="185.30615234375">
+            <Text layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NFT TAGS" wrappingWidth="185.30615234375" fill="#0f0d38">
                <font>
-                  <Font size="36.0" />
+                  <Font name="Berlin Sans FB Demi Bold" size="40.0" />
                </font>
             </Text>
             <HBox layoutX="420.0" layoutY="21.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: transparent;">

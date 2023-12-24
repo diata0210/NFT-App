@@ -9,10 +9,10 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class MooarApiCall implements ApiDataProvider {
+public class MooarApiCall implements BaseCrawler {
 
   @Override
-  public void fetchData() {
+  public void crawlData() {
     try {
       OkHttpClient client = new OkHttpClient().newBuilder()
           .build();
@@ -64,6 +64,6 @@ public class MooarApiCall implements ApiDataProvider {
 
   public static void main(String[] args) {
     MooarApiCall model = new MooarApiCall();
-    model.fetchData();
+    model.crawlData();
   }
 }
