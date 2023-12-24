@@ -4,11 +4,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import java.util.Map;
+
 import models.NFTData;
 import service.TrendingNFTService;
 import models.ApiModel;
-
-import java.util.Map;
 
 public class TrendingController {
 

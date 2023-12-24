@@ -2,97 +2,97 @@ package repository.implement;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import data.util.JsonURL;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import data.util.JsonURL;
 import models.RaribleModel;
 import repository.Repository;
 import repository.RaribleRepository;
 
 public class RaribleRepositoryImp implements RaribleRepository, Repository {
-    public static RaribleRepositoryImp instance;
-    private List<RaribleModel> models = new ArrayList<>();
-    private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031;
-    public static RaribleRepositoryImp getInstance() {
-        if (instance == null)
-            instance = new RaribleRepositoryImp();
-        return instance;
-    }
+  public static RaribleRepositoryImp instance;
+  private List<RaribleModel> models = new ArrayList<>();
+  private static final double USD_TO_ETH_EXCHANGE_RATE = 0.00031;
 
-    public void loadData() {
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            File jsonFile = new File(JsonURL.RARIBLE);
-            JsonNode rootNode = mapper.readTree(jsonFile);
-            if (rootNode.isArray()) {
-                for (JsonNode node : rootNode) {
-                    RaribleModel model = new RaribleModel();
-                    model.setName(node.get("name").asText());
+  public static RaribleRepositoryImp getInstance() {
+    if (instance == null)
+      instance = new RaribleRepositoryImp();
+    return instance;
+  }
 
-                    JsonNode collectionNode = node.get("collection");
-                    if (collectionNode != null) {
-                        model.setDescription(collectionNode.get("description").asText());
-                    }
+  public void loadData() {
+    try {
+      ObjectMapper mapper = new ObjectMapper();
+      File jsonFile = new File(JsonURL.RARIBLE);
+      JsonNode rootNode = mapper.readTree(jsonFile);
+      if (rootNode.isArray()) {
+        for (JsonNode node : rootNode) {
+          RaribleModel model = new RaribleModel();
+          model.setName(node.get("name").asText());
 
-                    JsonNode statisticsNode = node.get("statistics");
-                    if (statisticsNode != null) {
-                        JsonNode floorPriceNode = statisticsNode.get("floorPrice");
-                        if (floorPriceNode != null) {
-                            JsonNode valueNode = floorPriceNode.get("value");
+          JsonNode collectionNode = node.get("collection");
+          if (collectionNode != null) {
+            model.setDescription(collectionNode.get("description").asText());
+          }
 
-                            if (valueNode != null && !valueNode.isNull()) {
-                                model.setFloorPrice(valueNode != null ? valueNode.asText() : "");
-                            }
-                        }
-                    }
+          JsonNode statisticsNode = node.get("statistics");
+          if (statisticsNode != null) {
+            JsonNode floorPriceNode = statisticsNode.get("floorPrice");
+            if (floorPriceNode != null) {
+              JsonNode valueNode = floorPriceNode.get("value");
 
-                    models.add(model);
-                }
+              if (valueNode != null && !valueNode.isNull()) {
+                model.setFloorPrice(valueNode != null ? valueNode.asText() : "");
+              }
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+          }
+
+          models.add(model);
         }
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
-    public List<RaribleModel> getAllModels() {
-        return models;
+  public List<RaribleModel> getAllModels() {
+    return models;
+  }
+
+  public List<RaribleModel> findModelsByName(String name) {
+    return models.stream()
+        .filter(model -> model.getName().equalsIgnoreCase(name))
+        .collect(Collectors.toList());
+  }
+
+  public static void main(String[] args) {
+    // Tạo đối tượng của RaribleRepositoryImp
+    RaribleRepositoryImp raribleRepository = RaribleRepositoryImp.getInstance();
+
+    // Tải dữ liệu
+    raribleRepository.loadData();
+
+    // Lấy tất cả các mô hình và in ra
+    List<RaribleModel> allModels = raribleRepository.getAllModels();
+    System.out.println("All Rarible Models:");
+    for (RaribleModel model : allModels) {
+      System.out.println(
+          "Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
     }
+    String searchName = "Super Creators By IAC";
 
-    public List<RaribleModel> findModelsByName(String name) {
-        return models.stream()
-                .filter(model -> model.getName().equalsIgnoreCase(name))
-                .collect(Collectors.toList());
+    // Tìm kiếm mô hình theo tên
+    System.out.println("\nModels with name '" + searchName + "':");
+    List<RaribleModel> foundModels = raribleRepository.findModelsByName(searchName);
+    if (foundModels.isEmpty()) {
+      System.out.println("No models found with the name '" + searchName + "'.");
+    } else {
+      foundModels.forEach(model -> System.out.println(
+          " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
     }
-
-    public static void main(String[] args) {
-        // Tạo đối tượng của RaribleRepositoryImp
-        RaribleRepositoryImp raribleRepository = RaribleRepositoryImp.getInstance();
-
-        // Tải dữ liệu
-        raribleRepository.loadData();
-
-        // Lấy tất cả các mô hình và in ra
-        List<RaribleModel> allModels = raribleRepository.getAllModels();
-        System.out.println("All Rarible Models:");
-        for (RaribleModel model : allModels) {
-            System.out.println(
-                    "Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice());
-        }
-        String searchName = "Super Creators By IAC";
-
-        // Tìm kiếm mô hình theo tên
-        System.out.println("\nModels with name '" + searchName + "':");
-        List<RaribleModel> foundModels = raribleRepository.findModelsByName(searchName);
-        if (foundModels.isEmpty()) {
-            System.out.println("No models found with the name '" + searchName + "'.");
-        } else {
-            foundModels.forEach(model -> System.out.println(
-            " Name: " + model.getName() + ", Floor Price: " + model.getFloorPrice()));
-        }
-    }
+  }
 }

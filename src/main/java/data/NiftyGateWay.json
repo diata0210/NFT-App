@@ -1,1367 +1,1367 @@
 {
-    "didSucceed": true,
-    "errorType": "none",
-    "message": "Requested task executed successfully.",
-    "data": {
-        "meta": {
-            "page": 1,
-            "total_pages": 528,
-            "size": 52,
-            "total_results": 27432
-        },
-        "results": [
-            {
-                "id": 132420,
-                "niftyType": 1,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Harmony",
-                "niftyContractAddress": "0x569c09df92533b983fbbe9b89f958463d8597d12",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700502371/publishers/Fan3/107152/126853/final.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "FAN3",
-                "creators": [
-                    {
-                        "id": 651326,
-                        "name": "Necrofear",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
-                        "profile_url": "necrofearfx"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "FAN3",
-                "is_live": true,
-                "tokenId": "1"
-            },
-            {
-                "id": 132421,
-                "niftyType": 2,
-                "niftyTotalNumOfEditions": 10,
-                "niftyTitle": "The End of an Era",
-                "niftyContractAddress": "0x569c09df92533b983fbbe9b89f958463d8597d12",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1700567977/publishers/Fan3/107152/126920/the%20end%20of%20an%20era%20ng.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700568105/publishers/Fan3/107152/126920/thumbnail/frame%201.png",
-                "creatorName": "FAN3",
-                "creators": [
-                    {
-                        "id": 651326,
-                        "name": "Necrofear",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
-                        "profile_url": "necrofearfx"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "FAN3",
-                "is_live": true,
-                "tokenId": ""
-            },
-            {
-                "id": 132423,
-                "niftyType": 1,
-                "niftyTotalNumOfEditions": 99999999,
-                "niftyTitle": "Emerald Breeze",
-                "niftyContractAddress": "0x23c466504c4095ef57aefaf44fb4f332440d4b31",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1700572785/publishers/Fan3/107251/126952/emerald%20breeze%20NG.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700572958/publishers/Fan3/107251/126952/thumbnail/frame%202.png",
-                "creatorName": "FAN3",
-                "creators": [
-                    {
-                        "id": 651326,
-                        "name": "Necrofear",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
-                        "profile_url": "necrofearfx"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "FAN3",
-                "is_live": true,
-                "tokenId": ""
-            },
-            {
-                "id": 132486,
-                "niftyType": 1,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "JUST BELLA-#015A001",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700609535/publishers/niftygateway_curated/107317/126987/JUST%20BELLA-015A0001-.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "1"
-            },
-            {
-                "id": 132487,
-                "niftyType": 2,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "AFRODITE-#0I5A7768",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700610571/publishers/niftygateway_curated/107317/126989/AFRODITE-0I5A7768.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "2"
-            },
-            {
-                "id": 132488,
-                "niftyType": 3,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "ALLIE-#0I5A3851",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611030/publishers/niftygateway_curated/107317/126990/ALLIE-0I5A3851.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "3"
-            },
-            {
-                "id": 132489,
-                "niftyType": 4,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "ANASTASIA-#0I5A5547",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611996/publishers/niftygateway_curated/107317/126993/ANASTASIA-0I5A5547.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "4"
-            },
-            {
-                "id": 132490,
-                "niftyType": 5,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "ALLIE-#0I5A3923",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611691/publishers/niftygateway_curated/107317/126991/ALLIE-0I5A3923.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "5"
-            },
-            {
-                "id": 132491,
-                "niftyType": 6,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "AMALIE-#0I5A5421",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611930/publishers/niftygateway_curated/107317/126992/AMALIE-0I5A5421.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "6"
-            },
-            {
-                "id": 132492,
-                "niftyType": 7,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "AFRODITE-#0I5A7751",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700609929/publishers/niftygateway_curated/107317/126988/AFRODITA-0I5A7751.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "7"
-            },
-            {
-                "id": 132493,
-                "niftyType": 8,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "ANGEL-#0I5A7927",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612045/publishers/niftygateway_curated/107317/126994/ANGEL-0I5A7927.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "8"
-            },
-            {
-                "id": 132494,
-                "niftyType": 9,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "DAMARIS-#0I5A7377",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612156/publishers/niftygateway_curated/107317/126995/DAMARIS-0I5A7377.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "9"
-            },
-            {
-                "id": 132495,
-                "niftyType": 10,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "TEDDY-#0I5A4683",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616545/publishers/niftygateway_curated/107317/127034/TEDDY-0I5A4683.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "10"
-            },
-            {
-                "id": 132496,
-                "niftyType": 11,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "WILLOW-#0I5A8216",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616728/publishers/niftygateway_curated/107317/127037/WILLOW-0I5A8216.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "11"
-            },
-            {
-                "id": 132497,
-                "niftyType": 12,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "DAMARIS-#0I5A7412",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612203/publishers/niftygateway_curated/107317/126996/DAMARIS-0I5A7412.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "12"
-            },
-            {
-                "id": 132498,
-                "niftyType": 13,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "DAMARIS-#0I5A7445",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612281/publishers/niftygateway_curated/107317/126997/DAMARIS-0I5A7445.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "13"
-            },
-            {
-                "id": 132499,
-                "niftyType": 14,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "DARINA-#0I5A7242",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612346/publishers/niftygateway_curated/107317/126998/DARINA-0I5A7242.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "14"
-            },
-            {
-                "id": 132500,
-                "niftyType": 15,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "DARINA-#X0I5A7133",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612394/publishers/niftygateway_curated/107317/126999/DARINA-X0I5A7133.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "15"
-            },
-            {
-                "id": 132501,
-                "niftyType": 16,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "EVA-#0I5A2672",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613025/publishers/niftygateway_curated/107317/127000/EVA-0I5A2672.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "16"
-            },
-            {
-                "id": 132502,
-                "niftyType": 17,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "EVA-#0I5A2831",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613099/publishers/niftygateway_curated/107317/127001/EVA-0I5A2831.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "17"
-            },
-            {
-                "id": 132503,
-                "niftyType": 18,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "EVA-#0I5A2851",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613158/publishers/niftygateway_curated/107317/127002/EVA-0I5A2851.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": false,
-                "tokenId": "18"
-            },
-            {
-                "id": 132504,
-                "niftyType": 19,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "IBEN-#0I5A8114",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613247/publishers/niftygateway_curated/107317/127003/IBEN-0I5A8114.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "19"
-            },
-            {
-                "id": 132505,
-                "niftyType": 20,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "KATE-#0I5A6757",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613634/publishers/niftygateway_curated/107317/127009/KATE-0I5A6757.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "20"
-            },
-            {
-                "id": 132506,
-                "niftyType": 21,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "IRINA-#0I5A6217",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613388/publishers/niftygateway_curated/107317/127004/IRINA-0I5A6217.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "21"
-            },
-            {
-                "id": 132507,
-                "niftyType": 22,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "IRINA-#0I5A6274",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613434/publishers/niftygateway_curated/107317/127005/IRINA-0I5A6274.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "22"
-            },
-            {
-                "id": 132508,
-                "niftyType": 23,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SARAH-#0I5A3149",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616145/publishers/niftygateway_curated/107317/127024/SARAH-0I5A3149.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "23"
-            },
-            {
-                "id": 132509,
-                "niftyType": 24,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl锟絥-The Waiting",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698740588/publishers/ferdebuenart/105106/125170/Mictl%C3%A1n%20Card-The%20Waiting.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "24"
-            },
-            {
-                "id": 132510,
-                "niftyType": 25,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl锟絥-Chicanohuapan",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742511/publishers/ferdebuenart/105106/125203/Mictlan%20Card-02-Chiconahuapan.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "25"
-            },
-            {
-                "id": 132511,
-                "niftyType": 26,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl锟絥-Cycle of Dead",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742872/publishers/ferdebuenart/105106/125204/Mictlan%20Card-Cycle%20of%20Dead.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "26"
-            },
-            {
-                "id": 132512,
-                "niftyType": 27,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "Mictl锟絥-Resurrection",
-                "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
-                "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698743222/publishers/ferdebuenart/105106/125236/Mictlan%20Card-Resurrection.mp4",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "27"
-            },
-            {
-                "id": 132513,
-                "niftyType": 28,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "KELINE-#0I5A4055",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613713/publishers/niftygateway_curated/107317/127011/KELINE-0I5A4055.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "28"
-            },
-            {
-                "id": 132514,
-                "niftyType": 29,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "KELINE-#0I5A4100",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613768/publishers/niftygateway_curated/107317/127012/KELINE-0I5A4100.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "29"
-            },
-            {
-                "id": 132515,
-                "niftyType": 30,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "KRIS-#0I5A4971",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613859/publishers/niftygateway_curated/107317/127013/KRIS-0I5A4971.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "30"
-            },
-            {
-                "id": 132516,
-                "niftyType": 31,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "NAMARA-#0I5A2328",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614800/publishers/niftygateway_curated/107317/127017/NAMARA-0I5A2328.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": false,
-                "tokenId": "31"
-            },
-            {
-                "id": 132517,
-                "niftyType": 32,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "KRIS-#0I5A4998",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613917/publishers/niftygateway_curated/107317/127014/KRIS-0I5A4998.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "32"
-            },
-            {
-                "id": 132518,
-                "niftyType": 33,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "MICHI-#0I5A4462",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614045/publishers/niftygateway_curated/107317/127015/MICHI-0I5A4462.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "33"
-            },
-            {
-                "id": 132519,
-                "niftyType": 34,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "MICHI-#0I5A4559",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614073/publishers/niftygateway_curated/107317/127016/MICHI-0I5A4559.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "34"
-            },
-            {
-                "id": 132520,
-                "niftyType": 35,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SOPHIA-#0I5A5713",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616220/publishers/niftygateway_curated/107317/127026/SOPHIA-0I5A5713-.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "35"
-            },
-            {
-                "id": 132521,
-                "niftyType": 36,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "NAMARA-#0I5A2430",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614841/publishers/niftygateway_curated/107317/127018/NAMARA-0I5A2430.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "36"
-            },
-            {
-                "id": 132522,
-                "niftyType": 37,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "NASTYA-#0I5A3778",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700615802/publishers/niftygateway_curated/107317/127020/NASTYA-0I5A3778.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "37"
-            },
-            {
-                "id": 132523,
-                "niftyType": 38,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SOFIE-#0I5A3477",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616189/publishers/niftygateway_curated/107317/127025/SOFIE-0I5A3477.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "38"
-            },
-            {
-                "id": 132524,
-                "niftyType": 39,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "NASTYA-#0I5A3743",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614945/publishers/niftygateway_curated/107317/127019/NASTYA-0I5A3743.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "39"
-            },
-            {
-                "id": 132525,
-                "niftyType": 40,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUNG-#0I5A5274",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616390/publishers/niftygateway_curated/107317/127031/SUNG-0I5A5274.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "40"
-            },
-            {
-                "id": 132526,
-                "niftyType": 41,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "RACHEL-#0I5A6861",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700615901/publishers/niftygateway_curated/107317/127021/RACHEL-0I5A6861.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "41"
-            },
-            {
-                "id": 132527,
-                "niftyType": 42,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "REBECCA-#0I5A2920",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616001/publishers/niftygateway_curated/107317/127022/REBECCA-0I5A2920.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "42"
-            },
-            {
-                "id": 132528,
-                "niftyType": 43,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "TEDDY-#0I5A4632",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616472/publishers/niftygateway_curated/107317/127033/TEDDY-0I5A4632.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "43"
-            },
-            {
-                "id": 132529,
-                "niftyType": 44,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SARAH-#0I5A3049",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616053/publishers/niftygateway_curated/107317/127023/SARAH-0I5A3049.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "44"
-            },
-            {
-                "id": 132530,
-                "niftyType": 45,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUA-#0I5A2480",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616253/publishers/niftygateway_curated/107317/127027/SUA-0I5A2480.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": false,
-                "tokenId": "45"
-            },
-            {
-                "id": 132531,
-                "niftyType": 46,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUA-#0I5A2559",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616290/publishers/niftygateway_curated/107317/127028/SUA-0I5A2559.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "46"
-            },
-            {
-                "id": 132532,
-                "niftyType": 47,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUA-#0I5A2647",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616324/publishers/niftygateway_curated/107317/127029/SUA-0I5A2647.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": false,
-                "tokenId": "47"
-            },
-            {
-                "id": 132533,
-                "niftyType": 48,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUNG-#0I5A5184",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616355/publishers/niftygateway_curated/107317/127030/SUNG-0I5A5184.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "48"
-            },
-            {
-                "id": 132534,
-                "niftyType": 49,
-                "niftyTotalNumOfEditions": 1,
-                "niftyTitle": "SUNG-#0I5A5294",
-                "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
-                "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616438/publishers/niftygateway_curated/107317/127032/SUNG-0I5A5294.png",
-                "floorPrice": null,
-                "lowestSalePrice": 0,
-                "staticThumbnailUrl": "",
-                "creatorName": "DarkMarkArt",
-                "creators": [
-                    {
-                        "id": 1156550,
-                        "name": "DarkMarkArt",
-                        "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
-                        "profile_url": "darkmarkart"
-                    }
-                ],
-                "listingType": null,
-                "likes": 0,
-                "baseChain": "ethereum",
-                "publisher": "Nifty Gateway Curated",
-                "is_live": true,
-                "tokenId": "49"
-            }
-        ]
-    }
+  "didSucceed": true,
+  "errorType": "none",
+  "message": "Requested task executed successfully.",
+  "data": {
+    "meta": {
+      "page": 1,
+      "total_pages": 528,
+      "size": 52,
+      "total_results": 27432
+    },
+    "results": [
+      {
+        "id": 132420,
+        "niftyType": 1,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "Harmony",
+        "niftyContractAddress": "0x569c09df92533b983fbbe9b89f958463d8597d12",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700502371/publishers/Fan3/107152/126853/final.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "FAN3",
+        "creators": [
+          {
+            "id": 651326,
+            "name": "Necrofear",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
+            "profile_url": "necrofearfx"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "FAN3",
+        "is_live": true,
+        "tokenId": "1"
+      },
+      {
+        "id": 132421,
+        "niftyType": 2,
+        "niftyTotalNumOfEditions": 10,
+        "niftyTitle": "The End of an Era",
+        "niftyContractAddress": "0x569c09df92533b983fbbe9b89f958463d8597d12",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1700567977/publishers/Fan3/107152/126920/the%20end%20of%20an%20era%20ng.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700568105/publishers/Fan3/107152/126920/thumbnail/frame%201.png",
+        "creatorName": "FAN3",
+        "creators": [
+          {
+            "id": 651326,
+            "name": "Necrofear",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
+            "profile_url": "necrofearfx"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "FAN3",
+        "is_live": true,
+        "tokenId": ""
+      },
+      {
+        "id": 132423,
+        "niftyType": 1,
+        "niftyTotalNumOfEditions": 99999999,
+        "niftyTitle": "Emerald Breeze",
+        "niftyContractAddress": "0x23c466504c4095ef57aefaf44fb4f332440d4b31",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1700572785/publishers/Fan3/107251/126952/emerald%20breeze%20NG.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700572958/publishers/Fan3/107251/126952/thumbnail/frame%202.png",
+        "creatorName": "FAN3",
+        "creators": [
+          {
+            "id": 651326,
+            "name": "Necrofear",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1700078304/ilszdcvvbqi2d7s5ig56.jpg",
+            "profile_url": "necrofearfx"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "FAN3",
+        "is_live": true,
+        "tokenId": ""
+      },
+      {
+        "id": 132486,
+        "niftyType": 1,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "JUST BELLA-#015A001",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700609535/publishers/niftygateway_curated/107317/126987/JUST%20BELLA-015A0001-.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "1"
+      },
+      {
+        "id": 132487,
+        "niftyType": 2,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "AFRODITE-#0I5A7768",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700610571/publishers/niftygateway_curated/107317/126989/AFRODITE-0I5A7768.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "2"
+      },
+      {
+        "id": 132488,
+        "niftyType": 3,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "ALLIE-#0I5A3851",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611030/publishers/niftygateway_curated/107317/126990/ALLIE-0I5A3851.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "3"
+      },
+      {
+        "id": 132489,
+        "niftyType": 4,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "ANASTASIA-#0I5A5547",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611996/publishers/niftygateway_curated/107317/126993/ANASTASIA-0I5A5547.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "4"
+      },
+      {
+        "id": 132490,
+        "niftyType": 5,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "ALLIE-#0I5A3923",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611691/publishers/niftygateway_curated/107317/126991/ALLIE-0I5A3923.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "5"
+      },
+      {
+        "id": 132491,
+        "niftyType": 6,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "AMALIE-#0I5A5421",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700611930/publishers/niftygateway_curated/107317/126992/AMALIE-0I5A5421.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "6"
+      },
+      {
+        "id": 132492,
+        "niftyType": 7,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "AFRODITE-#0I5A7751",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700609929/publishers/niftygateway_curated/107317/126988/AFRODITA-0I5A7751.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "7"
+      },
+      {
+        "id": 132493,
+        "niftyType": 8,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "ANGEL-#0I5A7927",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612045/publishers/niftygateway_curated/107317/126994/ANGEL-0I5A7927.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "8"
+      },
+      {
+        "id": 132494,
+        "niftyType": 9,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "DAMARIS-#0I5A7377",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612156/publishers/niftygateway_curated/107317/126995/DAMARIS-0I5A7377.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "9"
+      },
+      {
+        "id": 132495,
+        "niftyType": 10,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "TEDDY-#0I5A4683",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616545/publishers/niftygateway_curated/107317/127034/TEDDY-0I5A4683.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "10"
+      },
+      {
+        "id": 132496,
+        "niftyType": 11,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "WILLOW-#0I5A8216",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616728/publishers/niftygateway_curated/107317/127037/WILLOW-0I5A8216.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "11"
+      },
+      {
+        "id": 132497,
+        "niftyType": 12,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "DAMARIS-#0I5A7412",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612203/publishers/niftygateway_curated/107317/126996/DAMARIS-0I5A7412.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "12"
+      },
+      {
+        "id": 132498,
+        "niftyType": 13,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "DAMARIS-#0I5A7445",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612281/publishers/niftygateway_curated/107317/126997/DAMARIS-0I5A7445.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "13"
+      },
+      {
+        "id": 132499,
+        "niftyType": 14,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "DARINA-#0I5A7242",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612346/publishers/niftygateway_curated/107317/126998/DARINA-0I5A7242.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "14"
+      },
+      {
+        "id": 132500,
+        "niftyType": 15,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "DARINA-#X0I5A7133",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700612394/publishers/niftygateway_curated/107317/126999/DARINA-X0I5A7133.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "15"
+      },
+      {
+        "id": 132501,
+        "niftyType": 16,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "EVA-#0I5A2672",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613025/publishers/niftygateway_curated/107317/127000/EVA-0I5A2672.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "16"
+      },
+      {
+        "id": 132502,
+        "niftyType": 17,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "EVA-#0I5A2831",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613099/publishers/niftygateway_curated/107317/127001/EVA-0I5A2831.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "17"
+      },
+      {
+        "id": 132503,
+        "niftyType": 18,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "EVA-#0I5A2851",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613158/publishers/niftygateway_curated/107317/127002/EVA-0I5A2851.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": false,
+        "tokenId": "18"
+      },
+      {
+        "id": 132504,
+        "niftyType": 19,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "IBEN-#0I5A8114",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613247/publishers/niftygateway_curated/107317/127003/IBEN-0I5A8114.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "19"
+      },
+      {
+        "id": 132505,
+        "niftyType": 20,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "KATE-#0I5A6757",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613634/publishers/niftygateway_curated/107317/127009/KATE-0I5A6757.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "20"
+      },
+      {
+        "id": 132506,
+        "niftyType": 21,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "IRINA-#0I5A6217",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613388/publishers/niftygateway_curated/107317/127004/IRINA-0I5A6217.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "21"
+      },
+      {
+        "id": 132507,
+        "niftyType": 22,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "IRINA-#0I5A6274",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613434/publishers/niftygateway_curated/107317/127005/IRINA-0I5A6274.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "22"
+      },
+      {
+        "id": 132508,
+        "niftyType": 23,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SARAH-#0I5A3149",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616145/publishers/niftygateway_curated/107317/127024/SARAH-0I5A3149.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "23"
+      },
+      {
+        "id": 132509,
+        "niftyType": 24,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "Mictl锟絥-The Waiting",
+        "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698740588/publishers/ferdebuenart/105106/125170/Mictl%C3%A1n%20Card-The%20Waiting.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "24"
+      },
+      {
+        "id": 132510,
+        "niftyType": 25,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "Mictl锟絥-Chicanohuapan",
+        "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742511/publishers/ferdebuenart/105106/125203/Mictlan%20Card-02-Chiconahuapan.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "25"
+      },
+      {
+        "id": 132511,
+        "niftyType": 26,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "Mictl锟絥-Cycle of Dead",
+        "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698742872/publishers/ferdebuenart/105106/125204/Mictlan%20Card-Cycle%20of%20Dead.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "26"
+      },
+      {
+        "id": 132512,
+        "niftyType": 27,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "Mictl锟絥-Resurrection",
+        "niftyContractAddress": "0x1fb2b22dc86b4039bce2b67ebd7972b2ded09b96",
+        "niftyDisplayImage": "https://media.niftygateway.com/video/upload/v1698743222/publishers/ferdebuenart/105106/125236/Mictlan%20Card-Resurrection.mp4",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "27"
+      },
+      {
+        "id": 132513,
+        "niftyType": 28,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "KELINE-#0I5A4055",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613713/publishers/niftygateway_curated/107317/127011/KELINE-0I5A4055.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "28"
+      },
+      {
+        "id": 132514,
+        "niftyType": 29,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "KELINE-#0I5A4100",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613768/publishers/niftygateway_curated/107317/127012/KELINE-0I5A4100.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "29"
+      },
+      {
+        "id": 132515,
+        "niftyType": 30,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "KRIS-#0I5A4971",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613859/publishers/niftygateway_curated/107317/127013/KRIS-0I5A4971.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "30"
+      },
+      {
+        "id": 132516,
+        "niftyType": 31,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "NAMARA-#0I5A2328",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614800/publishers/niftygateway_curated/107317/127017/NAMARA-0I5A2328.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": false,
+        "tokenId": "31"
+      },
+      {
+        "id": 132517,
+        "niftyType": 32,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "KRIS-#0I5A4998",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700613917/publishers/niftygateway_curated/107317/127014/KRIS-0I5A4998.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "32"
+      },
+      {
+        "id": 132518,
+        "niftyType": 33,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "MICHI-#0I5A4462",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614045/publishers/niftygateway_curated/107317/127015/MICHI-0I5A4462.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "33"
+      },
+      {
+        "id": 132519,
+        "niftyType": 34,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "MICHI-#0I5A4559",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614073/publishers/niftygateway_curated/107317/127016/MICHI-0I5A4559.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "34"
+      },
+      {
+        "id": 132520,
+        "niftyType": 35,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SOPHIA-#0I5A5713",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616220/publishers/niftygateway_curated/107317/127026/SOPHIA-0I5A5713-.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "35"
+      },
+      {
+        "id": 132521,
+        "niftyType": 36,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "NAMARA-#0I5A2430",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614841/publishers/niftygateway_curated/107317/127018/NAMARA-0I5A2430.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "36"
+      },
+      {
+        "id": 132522,
+        "niftyType": 37,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "NASTYA-#0I5A3778",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700615802/publishers/niftygateway_curated/107317/127020/NASTYA-0I5A3778.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "37"
+      },
+      {
+        "id": 132523,
+        "niftyType": 38,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SOFIE-#0I5A3477",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616189/publishers/niftygateway_curated/107317/127025/SOFIE-0I5A3477.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "38"
+      },
+      {
+        "id": 132524,
+        "niftyType": 39,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "NASTYA-#0I5A3743",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700614945/publishers/niftygateway_curated/107317/127019/NASTYA-0I5A3743.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "39"
+      },
+      {
+        "id": 132525,
+        "niftyType": 40,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUNG-#0I5A5274",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616390/publishers/niftygateway_curated/107317/127031/SUNG-0I5A5274.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "40"
+      },
+      {
+        "id": 132526,
+        "niftyType": 41,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "RACHEL-#0I5A6861",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700615901/publishers/niftygateway_curated/107317/127021/RACHEL-0I5A6861.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "41"
+      },
+      {
+        "id": 132527,
+        "niftyType": 42,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "REBECCA-#0I5A2920",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616001/publishers/niftygateway_curated/107317/127022/REBECCA-0I5A2920.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "42"
+      },
+      {
+        "id": 132528,
+        "niftyType": 43,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "TEDDY-#0I5A4632",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616472/publishers/niftygateway_curated/107317/127033/TEDDY-0I5A4632.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "43"
+      },
+      {
+        "id": 132529,
+        "niftyType": 44,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SARAH-#0I5A3049",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616053/publishers/niftygateway_curated/107317/127023/SARAH-0I5A3049.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "44"
+      },
+      {
+        "id": 132530,
+        "niftyType": 45,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUA-#0I5A2480",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616253/publishers/niftygateway_curated/107317/127027/SUA-0I5A2480.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": false,
+        "tokenId": "45"
+      },
+      {
+        "id": 132531,
+        "niftyType": 46,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUA-#0I5A2559",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616290/publishers/niftygateway_curated/107317/127028/SUA-0I5A2559.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "46"
+      },
+      {
+        "id": 132532,
+        "niftyType": 47,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUA-#0I5A2647",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616324/publishers/niftygateway_curated/107317/127029/SUA-0I5A2647.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": false,
+        "tokenId": "47"
+      },
+      {
+        "id": 132533,
+        "niftyType": 48,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUNG-#0I5A5184",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616355/publishers/niftygateway_curated/107317/127030/SUNG-0I5A5184.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "48"
+      },
+      {
+        "id": 132534,
+        "niftyType": 49,
+        "niftyTotalNumOfEditions": 1,
+        "niftyTitle": "SUNG-#0I5A5294",
+        "niftyContractAddress": "0x8217a0f4a11e76dcfb53259b5c173deda9ed840e",
+        "niftyDisplayImage": "https://media.niftygateway.com/image/upload/v1700616438/publishers/niftygateway_curated/107317/127032/SUNG-0I5A5294.png",
+        "floorPrice": null,
+        "lowestSalePrice": 0,
+        "staticThumbnailUrl": "",
+        "creatorName": "DarkMarkArt",
+        "creators": [
+          {
+            "id": 1156550,
+            "name": "DarkMarkArt",
+            "profile_pic_url": "https://res.cloudinary.com/nifty-gateway/image/upload/v1670354018/fzeduvm6nkslwrnnl6nn.jpg",
+            "profile_url": "darkmarkart"
+          }
+        ],
+        "listingType": null,
+        "likes": 0,
+        "baseChain": "ethereum",
+        "publisher": "Nifty Gateway Curated",
+        "is_live": true,
+        "tokenId": "49"
+      }
+    ]
+  }
 }

@@ -9,39 +9,39 @@ import repository.implement.BlogNFTicallyRepositoryImp;
 import service.BlogNFTicallyService;
 
 public class BlogNFTicallyServiceImp implements BlogNFTicallyService {
-    private BlogNFTicallyRepository blogNFTicallyRepository = BlogNFTicallyRepositoryImp.getInstance();
+  private BlogNFTicallyRepository blogNFTicallyRepository = BlogNFTicallyRepositoryImp.getInstance();
 
-    public static BlogNFTicallyServiceImp instance;
+  public static BlogNFTicallyServiceImp instance;
 
-    public static BlogNFTicallyServiceImp getInstance() {
-        if (instance == null)
-            instance = new BlogNFTicallyServiceImp();
-        return instance;
-    }
+  public static BlogNFTicallyServiceImp getInstance() {
+    if (instance == null)
+      instance = new BlogNFTicallyServiceImp();
+    return instance;
+  }
 
-    private BlogNFTicallyServiceImp() {
-        blogNFTicallyRepository.loadData();
-    }
+  private BlogNFTicallyServiceImp() {
+    blogNFTicallyRepository.loadData(); // Gọi loadData ở đây
+  }
 
-    @Override
-    public List<BlogNFTicallyModel> getAllModels() {
-        return blogNFTicallyRepository.getAllModels();
-    }
+  @Override
+  public List<BlogNFTicallyModel> getAllModels() {
+    return blogNFTicallyRepository.getAllModels();
+  }
 
-    @Override
-    public List<BlogNFTicallyModel> getArticlesByTag(String tag) {
-        return blogNFTicallyRepository.getArticleByTags(tag);
-    }
+  @Override
+  public List<BlogNFTicallyModel> getArticlesByTag(String tag) {
+    return blogNFTicallyRepository.getArticleByTags(tag);
+  }
 
-    @Override
-    public Map<String, Integer> getTagFrequencyByDay(String day) {
-        return blogNFTicallyRepository.getTagFrequencyByDay(day);
-    }
+  @Override
+  public Map<String, Integer> getTagFrequencyByDay(String day) {
+    return blogNFTicallyRepository.getTagFrequencyByDay(day);
+  }
 
-    public Map<String, Integer> getTagFrequencyByMonth(String month) {
-        return blogNFTicallyRepository.getTagFrequencyByMonth(month);
-    }
+  public Map<String, Integer> getTagFrequencyByMonth(String month) {
+    return blogNFTicallyRepository.getTagFrequencyByMonth(month);
+  }
 
-    public static void main(String[] args) {
-    }
+  public static void main(String[] args) {
+  }
 }

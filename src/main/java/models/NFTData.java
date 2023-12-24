@@ -1,38 +1,42 @@
 package models;
 
-public class NFTData  {
-    private String name;
-    private String floorPrice;
-    private int tagCount;
+public class NFTData {
+  private String name;
+  private String floorPrice;
+  private int tagCount;
 
-    public String getName() {
-        return name;
-    }
+  public NFTData() {
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  }
 
-    public String getFloorPrice() {
-        return floorPrice;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setFloorPrice(String floorPrice) {
-        this.floorPrice = floorPrice;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public int getTagCount() {
-        return tagCount;
-    }
+  public String getFloorPrice() {
+    return floorPrice;
+  }
 
-    public void setTagCount(int tagCount) {
-        this.tagCount = tagCount;
-    }
+  public void setFloorPrice(String floorPrice) {
+    this.floorPrice = floorPrice;
+  }
 
-    public NFTData(String name, String floorPrice, int tagCount) {
-        this.name = name;
-        this.floorPrice = floorPrice;
-        this.tagCount = tagCount;
-    }
+  public int getTagCount() {
+    return tagCount;
+  }
+
+  public void setTagCount(int tagCount) {
+    this.tagCount = tagCount;
+  }
+
+  public NFTData(String name, String floorPrice, int tagCount) {
+    this.name = name;
+    this.floorPrice = floorPrice;
+    this.tagCount = tagCount;
+  }
 
 }

@@ -6,14 +6,14 @@ import java.util.Map;
 import models.BlogNFTicallyModel;
 
 public interface BlogNFTicallyRepository {
-    void loadData();
+  void loadData();
 
-    List<BlogNFTicallyModel> getAllModels();
+  List<BlogNFTicallyModel> getAllModels();
 
-    List<BlogNFTicallyModel> getArticleByTags(String tag);
+  List<BlogNFTicallyModel> getArticleByTags(String tag);
 
-    Map<String, Integer> getTagFrequencyByMonth(String month);
+  Map<String, Integer> getTagFrequencyByMonth(String month);
 
-    Map<String, Integer> getTagFrequencyByDay(String day);
+  Map<String, Integer> getTagFrequencyByDay(String day);
 
 }

@@ -5,10 +5,10 @@ import java.util.List;
 import models.ImmutableCollectionModel;
 
 public interface ImmutableCollectionRepository {
-    void loadData();
+  void loadData();
 
-    List<ImmutableCollectionModel> getAllModels();
+  List<ImmutableCollectionModel> getAllModels();
 
-    List<ImmutableCollectionModel> findModelsByName(String name);
+  List<ImmutableCollectionModel> findModelsByName(String name);
 
 }
