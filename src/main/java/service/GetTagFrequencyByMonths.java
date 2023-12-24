@@ -13,13 +13,15 @@ import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 
 public class GetTagFrequencyByMonths {
+
+    private static BlogNFTicallyService blogService = BlogNFTicallyServiceImp.getInstance();
+    private static CoinDeskService coinDeskService = CoinDeskServiceImp.getInstance();
+    private static CrytoNewsBlogService cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
+    private static TheartNewsPaperService artNewsService = TheartNewsPaperServiceImp.getInstance();
+    private static PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
+    private static TwitterService twitterService = TwitterServiceImp.getInstance();
+
     public static Map<String, Integer> getTagFrequencyByMonth(String date) {
-        BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
-        CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
-        CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
-        TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-        PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
-        TwitterServiceImp  twitterService = TwitterServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByMonth(date));
         mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByMonth(date));
@@ -27,7 +29,7 @@ public class GetTagFrequencyByMonths {
         mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByMonth(date));
         mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByMonth(date));
         mergeTagFrequency(overallTagFrequency, twitterService.getTagFrequencyByMonth(date));
-        return getTopTags(overallTagFrequency); 
+        return getTopTags(overallTagFrequency);
     }
 
     private static void mergeTagFrequency(Map<String, Integer> overallTagFrequency, Map<String, Integer> tagFrequency) {

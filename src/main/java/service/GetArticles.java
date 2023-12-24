@@ -9,30 +9,32 @@ import service.implement.PlazaNFTServiceImp;
 import service.implement.TheartNewsPaperServiceImp;
 import service.implement.TwitterServiceImp;
 import models.BlogModel;
+
 public class GetArticles {
-    
+
+    private static BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
+    private static CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
+    private static CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
+    private static TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
+    private static PlazaNFTServiceImp plazaNFTService = PlazaNFTServiceImp.getInstance();
+    private static TwitterServiceImp twitterService = TwitterServiceImp.getInstance();
+
     public static List<BlogModel> allArticles() {
         List<BlogModel> allArticles = new ArrayList<>();
-        
-        BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
-        CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
-        CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
-        TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-        PlazaNFTServiceImp plazaNFTService = PlazaNFTServiceImp.getInstance();
-        TwitterServiceImp twitterService  = TwitterServiceImp.getInstance();
+
         allArticles.addAll(blogService.getAllModels());
         allArticles.addAll(coinDeskService.getAllCoin());
         allArticles.addAll(cryptoNewsService.getAllModels());
         allArticles.addAll(artNewsService.getAllModels());
-        allArticles.addAll( plazaNFTService.getAllModels());
+        allArticles.addAll(plazaNFTService.getAllModels());
         allArticles.addAll(twitterService.getAllModels());
         return allArticles;
     }
-    
+
     public static void main(String[] args) {
-        List<BlogModel> allArticles=allArticles();
-        for (BlogModel article:allArticles){
+        List<BlogModel> allArticles = allArticles();
+        for (BlogModel article : allArticles) {
             System.out.println(article);
         }
-}
+    }
 }

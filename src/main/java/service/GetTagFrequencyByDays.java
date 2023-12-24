@@ -14,13 +14,14 @@ import service.implement.TwitterServiceImp;
 
 public class GetTagFrequencyByDays {
 
+    private static BlogNFTicallyService blogService = BlogNFTicallyServiceImp.getInstance();
+    private static CoinDeskService coinDeskService = CoinDeskServiceImp.getInstance();
+    private static CrytoNewsBlogService cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
+    private static TheartNewsPaperService artNewsService = TheartNewsPaperServiceImp.getInstance();
+    private static TwitterService twitterService = TwitterServiceImp.getInstance();
+    private static PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
+
     public static Map<String, Integer> getTagFrequencyByDay(String date) {
-        BlogNFTicallyServiceImp blogService = BlogNFTicallyServiceImp.getInstance();
-        CoinDeskServiceImp coinDeskService = CoinDeskServiceImp.getInstance();
-        CrytoNewsBlogServiceImp cryptoNewsService = CrytoNewsBlogServiceImp.getInstance();
-        TheartNewsPaperServiceImp artNewsService = TheartNewsPaperServiceImp.getInstance();
-        TwitterServiceImp twitterService = TwitterServiceImp.getInstance();
-        PlazaNFTService plazaNFTService = PlazaNFTServiceImp.getInstance();
         Map<String, Integer> overallTagFrequency = new HashMap<>();
         mergeTagFrequency(overallTagFrequency, blogService.getTagFrequencyByDay(date));
         mergeTagFrequency(overallTagFrequency, coinDeskService.getTagFrequencyByDay(date));
@@ -28,7 +29,7 @@ public class GetTagFrequencyByDays {
         mergeTagFrequency(overallTagFrequency, artNewsService.getTagFrequencyByDay(date));
         mergeTagFrequency(overallTagFrequency, plazaNFTService.getTagFrequencyByDay(date));
         mergeTagFrequency(overallTagFrequency, twitterService.getTagFrequencyByDay(date));
-        return getTopTags(overallTagFrequency); 
+        return getTopTags(overallTagFrequency);
     }
 
     private static void mergeTagFrequency(Map<String, Integer> overallTagFrequency, Map<String, Integer> tagFrequency) {

@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 
 import models.CtytoNewsBlogModel;
-public interface CtytoNewsBlogService {
+public interface CrytoNewsBlogService {
     List<CtytoNewsBlogModel> getAllModels();
     List<CtytoNewsBlogModel> getArticlesByTag(String tag);
     Map<String, Integer> getTagFrequencyByDay(String day);

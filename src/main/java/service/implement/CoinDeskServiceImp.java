@@ -20,7 +20,7 @@ public class CoinDeskServiceImp implements CoinDeskService {
     }
 
     private CoinDeskServiceImp() {
-        coinDeskRepository.loadData(); // Gọi loadData ở đây
+        coinDeskRepository.loadData(); 
     }
 
     @Override

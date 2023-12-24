@@ -6,9 +6,9 @@ import java.util.Map;
 import models.CtytoNewsBlogModel;
 import repository.CrytoNewsBlogRepository;
 import repository.implement.CrytoNewsBlogRepositoryImp;
-import service.CtytoNewsBlogService;
+import service.CrytoNewsBlogService;
 
-public class CrytoNewsBlogServiceImp implements CtytoNewsBlogService {
+public class CrytoNewsBlogServiceImp implements CrytoNewsBlogService {
     private CrytoNewsBlogRepository crytoNewsBlogRepository = CrytoNewsBlogRepositoryImp.getInstance();
 
     public static CrytoNewsBlogServiceImp instance;
