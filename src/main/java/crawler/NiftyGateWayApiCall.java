@@ -59,9 +59,4 @@ public class NiftyGateWayApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    NiftyGateWayApiCall model = new NiftyGateWayApiCall();
-    model.fetchData();
-  }
 }

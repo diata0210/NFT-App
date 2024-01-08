@@ -54,9 +54,4 @@ public class ImmutableApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    ImmutableApiCall model = new ImmutableApiCall();
-    model.fetchData();
-  }
 }

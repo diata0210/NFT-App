@@ -61,9 +61,4 @@ public class MooarApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    MooarApiCall model = new MooarApiCall();
-    model.crawlData();
-  }
 }
