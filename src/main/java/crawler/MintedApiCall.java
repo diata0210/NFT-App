@@ -58,9 +58,4 @@ public class MintedApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    MintedApiCall model = new MintedApiCall();
-    model.fetchData();
-  }
 }

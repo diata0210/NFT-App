@@ -60,9 +60,4 @@ public class RaribleApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    RaribleApiCall model = new RaribleApiCall();
-    model.fetchData();
-  }
 }

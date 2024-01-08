@@ -57,9 +57,4 @@ public class EbisuBayApiCall implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    EbisuBayApiCall model = new EbisuBayApiCall();
-    model.fetchData();
-  }
 }

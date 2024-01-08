@@ -95,9 +95,4 @@ public class CoinDeskBlogCrawler implements BaseCrawler {
       e.printStackTrace();
     }
   }
-
-  public static void main(String[] args) {
-    CoinDeskBlogCrawler crawler = new CoinDeskBlogCrawler();
-    crawler.crawlData();
-  }
 }
